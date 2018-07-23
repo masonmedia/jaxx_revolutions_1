@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^index.html$ https://jaxx.io [R=301,L]
+Options -Indexes
+
+# Redirects people from https://jaxx.io/support to the Zendesk URL for quicker referencing
+RewriteRule ^support$ https://decentral.zendesk.com/hc/en-us [R,L]
+# Redirects from https://jaxx.io/betaslack to the jaxx slack channel URL
+
+# Redirects people from https://jaxx.io/betaslack to jaxx slack channel
+RewriteRule ^betaslack$ https://join.slack.com/t/libertybeta/shared_invite/enQtMzg0NDQwNDA2NjkwLTA5OTIxMWY3Yzk4NzYwMWEwMzUzMzIzYWNkY2Y0NGJlODYyOTQ1M2I1NjI3MzFmNDY4ODIyMTM5ODViZmVlMTM [R,L]
+
+#remove .html from url
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
