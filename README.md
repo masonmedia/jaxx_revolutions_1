@@ -1,92 +1,43 @@
-# [HTML5 Boilerplate](https://html5boilerplate.com/)
+## Jaxx Revolutions
 
-[![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
-[![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
+The official website of Jaxx Liberty, the leading Multi-Platform Cryptocurrent Wallet created by Anthony Di Iorio, Co-Founder of Ethereum and Founder and CEO of Decentral and Jaxx.
 
-HTML5 Boilerplate is a professional front-end template for building
-fast, robust, and adaptable web apps or sites.
+For more information see jaxx.io and decentral.ca.
 
-This project is the product of years of iterative development and
-community knowledge. It does not impose a specific development
-philosophy or framework, so you're free to architect your code in the
-way that you want.
+##Layout and Frameworks
 
-* Homepage: [https://html5boilerplate.com/](https://html5boilerplate.com/)
-* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* Twitter: [@h5bp](https://twitter.com/h5bp)
+The site uses Bootstrap 4.1.
+
+Layout uses native Bootstrap classes, flexbox, and 'functional' css.
 
 
-## Quick start
+##CSS
 
-Choose one of the following options:
+1. Functional [Atomic] css: the site employs the atomic css approach where small, single purpose classes are used based on visual function. Classes are referenced once in the CSS then used repeatedly in the HTML so as to avoid class repetition in the stylesheet.
 
-1. Download the latest stable release from
-   [html5boilerplate.com](https://html5boilerplate.com/).
-2. Clone the git repo — `git clone
-   https://github.com/h5bp/html5-boilerplate.git` - and checkout the
-   [tagged release](https://github.com/h5bp/html5-boilerplate/releases)
-   you'd like to use.
-3. Run `npm install html5-boilerplate` and pull in what you need from the resulting `node_modules/html5-boilerplate/dist`
+*Note: the HTML can get heavy with classes specifically when it comes to spacing (padding and margin styles). Effort has been made to keep styles 'functional' as much as possible, with added stylesheet classes only when necessary.
 
+2. 1 Stylesheet is used with an effort at organizing structure vertically based on relationship to HTML and page order.  Starts with resets and global elements, proceeding to more specific styles.
 
-## Features
+3. Animate.css is used throughout the site, largely for carousel animations and page transition effects.
 
-* HTML5 ready. Use the new elements with confidence.
-* Designed with progressive enhancement in mind.
-* Includes:
-  * [`Normalize.css`](https://necolas.github.com/normalize.css/)
-    for CSS normalizations and common bug fixes
-  * [`jQuery`](https://jquery.com/) via CDN with [SRI Hash](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) and a local fallback
-  * A custom build of [`Modernizr`](https://modernizr.com/) for feature
-    detection
-  * [`Apache Server Configs`](https://github.com/h5bp/server-configs-apache)
-    that, among other, improve the web site's performance and security
-* Placeholder CSS Media Queries.
-* Useful CSS helper classes.
-* Default print styles, performance optimized.
-* An optimized version of the Google Universal Analytics snippet.
-* Protection against any stray `console` statements causing JavaScript
-  errors in older browsers.
-* "Delete-key friendly." Easy to strip out parts you don't need.
-* Extensive inline and accompanying documentation.
+4. Naming conventions: 
+
+titles and headings: site-title | page-title | section-title | section-sub-title
+fonts: custom hosted font is used (UniNeue): individual styles are made into classes (text-light | text-reg | text-book (not used) text-heavy | text-bold)
+background images: bg-img-...
+background colors: bg-...
+logos and icons: jaxx-logo / jaxx-icon
 
 
-## Browser support
+##JS
 
-* Chrome *(latest 2)*
-* Edge *(latest 2)*
-* Firefox *(latest 2)*
-* Internet Explorer 9+
-* Opera *(latest 2)*
-* Safari *(latest 2)*
+Multiple JS plugins are used on the site.
 
-*This doesn't mean that HTML5 Boilerplate cannot be used in older browsers,
-just that we'll ensure compatibility with the ones mentioned above.*
+1. Animisation: a jquery plugin that adds css transition effects on page changes/reload. Data-attrributes are embedded in HTML with css effects (largely based on animate.css).
 
-If you need legacy browser support you
-can use [HTML5 Boilerplate v4](https://github.com/h5bp/html5-boilerplate/tree/v4) (IE 6+, Firefox 3.6+, Safari 4+),
-or [HTML5 Boilerplate v5](https://github.com/h5bp/html5-boilerplate/tree/v5.0.0) (IE8+). They are no longer actively developed.
+2. Scroll Magic: adds effects that are activated based on scroll position.
 
+3. GSAP (Greensock): Tweening and timeline animation in combination with Scroll Magic.
 
-## Documentation
-
-Take a look at the [documentation table of contents](dist/doc/TOC.md).
-This documentation is bundled with the project which makes it 
-available for offline reading and provides a useful starting point for
-any documentation you want to write about your project.
-
-
-## Contributing
-
-Hundreds of developers have helped to make the HTML5 Boilerplate. Anyone is welcome to [contribute](.github/CONTRIBUTING.md),
-however, if you decide to get involved, please take a moment to review
-the [guidelines](.github/CONTRIBUTING.md):
-
-* [Bug reports](.github/CONTRIBUTING.md#bugs)
-* [Feature requests](.github/CONTRIBUTING.md#features)
-* [Pull requests](.github/CONTRIBUTING.md#pull-requests)
-
-
-## License
-
-The code is available under the [MIT license](LICENSE.txt).
+4. Rellax.js: A Parallax plugin allowing for muliple layering of parallax elements.
