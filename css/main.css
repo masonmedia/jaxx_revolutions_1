@@ -644,6 +644,7 @@ div[class*="bg-img"] {
 .bg-img-iphone-white {
     background: url(/img/jaxx-iphone-white.jpeg) center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .bg-img-android {
     background: url(http://www.innjoo.com/Public/images/max3/max3_c_4-1.png) center top;
