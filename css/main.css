@@ -312,6 +312,10 @@ a:hover {
     -webkit-clip-path: polygon(0 14%, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0 14%, 100% 0%, 100% 100%, 0% 100%);
 }
+.angle-bottom {
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 86%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 86%, 0% 100%);
+}
 .angle-rtl {
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -614,6 +618,10 @@ div[class*="bg-img"] {
 }
 .bg-img-iphone-5 {
     background: url(/img/jaxx-iphone-5.jpg) center;
+    background-size: cover;
+}
+.bg-img-iphone-white {
+    background: url(/img/jaxx-iphone-white.jpeg) center;
     background-size: cover;
 }
 .bg-img-android {
