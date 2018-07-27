@@ -52,42 +52,6 @@ $(document).scroll(function () {
 //    }
 //});
     
- 
-//    crazy offset timeline 
-    
-//var timelineParameters = anime.timeline({
-//  direction: 'alternate',
-//  loop: true
-//});
-//
-//timelineParameters
-//  .add({
-//    targets: '#timelineParameters .jaxx-logo-text.el',
-//    translateX: [ { value: 80 }, { value: 160 }, { value: 250 } ],
-//    translateY: [ { value: 30 }, { value: 60 }, { value: 60 } ],
-//    duration: 3000
-//  })
-//    .add({
-//    targets: '#timelineParameters .cursive-2.el',
-//    translateX: [ { value: 80 }, { value: 160 }, { value: 250 } ],
-//    translateY: [ { value: 30 }, { value: -100 }, { value: -30 } ],
-//    duration: 3000,
-//    offset: 200
-//  })
-//  .add({
-//    targets: '#timelineParameters .h5.el',
-//    translateX: [ { value: 80 }, { value: 160 }, { value: 250 } ],
-//    translateY: [ { value: 30 }, { value: -30 }, { value: -30 } ],
-//    duration: 3000,
-//    offset: 200
-//  })
-//  .add({
-//    targets: '#timelineParameters .btn.el',
-//    translateX: [ { value: 80 }, { value: 250 } ],
-//    translateY: [ { value: -60 }, { value: -30 }, { value: -30 } ],
-//    duration: 3000,
-//    offset: 400
-//  });
 
 // BS carousel
   
@@ -95,12 +59,85 @@ $('.carousel').carousel({
     interval: false
 })
      
+     
+// Rellax parallax
+
+// Also can pass in optional settings block
+  var rellax = new Rellax('.rellax', {
+    wrapper: '.rellax-wrap',
+    speed: -2,
+    center: false,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+  });
+     
+     
 //GSAP + Scroll Magic
     
 // init
 var controller = new ScrollMagic.Controller();
+     
+//    section pins 
+     
+//    var pin1 = new ScrollMagic.Scene({
+//    triggerElement: '#about', 
+//    triggerHook: 0,
+//    duration: "100%"
+//    })
+//    .setPin("#about")
+//    .setTween(pin1)
+//    .addTo(controller);  
+//     
+//     var pin2 = new ScrollMagic.Scene({
+//    triggerElement: '#features', 
+//    triggerHook: 0,
+//    duration: "100%"
+//    })
+//    .setPin("#features")
+//    .setTween(pin2)
+//    .addTo(controller);
+//
+//
+//      var pin3 = new ScrollMagic.Scene({
+//    triggerElement: '#download', 
+//    triggerHook: 0,
+//    duration: "100%"
+//    })
+//    .setPin("#download")
+//    .setTween(pin3)
+//    .addTo(controller);
+//
+//      var pin4 = new ScrollMagic.Scene({
+//    triggerElement: '#support', 
+//    triggerHook: 0,
+//    duration: "100%"
+//    })
+//    .setPin("#support")
+//    .setTween(pin4)
+//    .addTo(controller);
+
+     
+     
+// pin rows + "wipe" slides under each other
+
+// get all slides
+var slides = document.querySelectorAll("div.pin");
+
+// create scene for every slide
+for (var i=0; i<slides.length; i++) {
+    new ScrollMagic.Scene({
+            triggerElement: slides[i],
+            triggerHook: 'onLeave'
+        })
+        .setPin(slides[i])
+        .addTo(controller);
+}
+ 
+  
    
-//one-off tweens
+//one-off GSAP tweens
      
 TweenMax.from(".jaxx-logo-jumbo", 1, {opacity:0, x:-100});
      
@@ -167,8 +204,6 @@ $(".stagger-tween").each(function() {
 });
       
 
-    
-    
 //content-tweens scene 4
         
 $(".content-tween").each(function() {
@@ -184,6 +219,7 @@ $(".content-tween").each(function() {
 
 	var scene4 = new ScrollMagic.Scene({
 	        triggerElement: this,
+            triggerHook: 'onEnter',
 	        offset: -100,
 	        reverse:true
 	    })
@@ -191,24 +227,6 @@ $(".content-tween").each(function() {
 		.addTo(controller);
 });
       
-    
-    
-    
-  $("#play").click(function(){
-  TweenMax.staggerTo("#about h1", 0.5, {opacity:0, y:-100, ease:Back.easeIn}, 0.1);
-  TweenMax.staggerTo("h2", 0.5, {opacity:0, y:-100, ease:Back.easeIn}, 0.1);
-  TweenMax.staggerTo("p", 0.5, {opacity:0, y:-100, ease:Back.easeIn}, 0.1);
-  TweenMax.staggerTo(".btn", 0.5, {opacity:0, y:-100, ease:Back.easeIn}, 0.1);    
-  TweenMax.staggerTo(".btn", 0.5, {opacity:0, y:-100, ease:Back.easeIn}, 0.1);    
-  TweenMax.to(".text-replace", 1, {autoAlpha:1, x: 0, ease:Back.easeIn});
-
-//      TweenMax.staggerFrom(".text-replace", 1, {opacity:0, y:30, ease:Power4.easeIn}, 0.5, "-=0.5")
-//      TweenMax.fromTo("h1.text-replace", 1, {css: {left: 100, top: 100, opacity:0, visibility: hidden}}, {css:{left:0, top: 0, opacity: 1, visibility: visible}} );
-});  
-
-
-    
-    
     
 
 //smooth scroll

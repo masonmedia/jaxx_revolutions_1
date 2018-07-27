@@ -100,15 +100,51 @@ textarea {
 
 html,
 body {
-/*
-    background-color: #ffffff;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23000000' fill-opacity='0.27' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
-*/
 /*    background: #ff6902;*/
-    font-family: 'Raleway', Avenir, sans-serif;
+    font-family: 'UniNeueRegular', Avenir, sans-serif;
     overflow-x: hidden;
     width: 100%;
 }
+
+@font-face {
+    font-family: 'UniNeueBold', sans-serif;
+    src: url(/fonts/Fontfabric - UniNeueBold.otf)  format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'UniNeueBook', sans-serif;
+    src: url(/fonts/Fontfabric - UniNeueBook.otf)  format('truetype');
+}
+@font-face {
+    font-family: 'UniNeueHeavy', sans-serif;
+    src: url(/fonts/Fontfabric - UniNeueHeavy.otf)  format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'UniNeueLight', sans-serif;   
+    src: url(/fonts/Fontfabric - UniNeueLight.otf)  format('truetype');
+}
+@font-face {
+    font-family: 'UniNeueRegular', sans-serif;   
+    src: url(/fonts/Fontfabric - UniNeueRegular.otf)  format('truetype');
+}
+
+.text-heavy {
+    font-family: 'UniNeueHeavy', Helvetica, sans-serif;=
+}
+.text-bold {
+    font-family: 'UniNeueBold', Helvetica, sans-serif;=
+}
+.text-book {
+    font-family: 'UniNeueBook', Helvetica, sans-serif;=
+}
+.text-reg {
+    font-family: 'UniNeueRegular', Helvetica, sans-serif; 
+}
+.text-li {
+    font-family: 'UniNeueLight', Helvetica, sans-serif; 
+}
+
 
 /* links */
 
@@ -130,6 +166,9 @@ a:hover {
 .min-50 {
     min-height: 50vh;
 }
+.min-70 {
+    min-height: 70vh;
+}
 .min-100 {
     min-height: 100vh;
 }
@@ -147,8 +186,8 @@ a:hover {
 }
 .btn-orange:hover {
     background: #fff;
-    border: 1px solid #fff;
-    color: #000;
+    border: 1px solid #ff6902;
+    color: #ff6902;
 }
 .btn-outline-orange {
     background: transparent;
@@ -183,6 +222,7 @@ a:hover {
     left: 20%;
 }
 
+.z--1 {z-index: -1;}
 .z-0 {z-index: 0;}
 .z-2 {z-index: 2;}
 .z-3 {z-index: 3;}
@@ -192,6 +232,7 @@ a:hover {
 
 .site-title {
     font-size: 6vmin;
+    font-size: 10vmin;
     font-weight: 900;
     margin: 0;
 }
@@ -202,7 +243,10 @@ a:hover {
     font-weight: 900;
 }
 .section-title {
-    font-size: 10vmin;
+    font-size: 8vmin;
+}
+.section-sub-title {
+    font-size: 6vmin;
 }
 
 /* fonts + text effects */
@@ -224,6 +268,9 @@ a:hover {
 .skew {
     transform: skew(0,-4.7deg);
 }
+.skew-l {
+    transform: skew(0,4.7deg);
+}
 
 /* borders */
 
@@ -237,7 +284,25 @@ a:hover {
     border: 10px solid #dee2e6!important;
 }
 
-/*shapes */
+/* shapes ==================*/
+
+.circle {
+    background: #D6D6D6;
+    border-radius: 100%;
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    z-index: 0;
+}
+.rect {
+    background: #D6D6D6;
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    z-index: 0;
+}
+
+/* clip path */
 
 .circle-left {
     -webkit-clip-path: circle(61.0% at 35% 68%);
@@ -272,7 +337,23 @@ a:hover {
     width: 300px; 
 }
 
-/* colors */
+/* patterns */
+
+.bg-dots-o {
+    background-color: #ff6902;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23000000' fill-opacity='0.16' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+.bg-dots-n {
+    background-color: rgb(38, 65, 118);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23000000' fill-opacity='0.16' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+.bg-dots {
+    background-color: transparent;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23000000' fill-opacity='0.16' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+
+/* colors ===================*/
 
 .orange {
     color: #ff6902;
@@ -298,23 +379,32 @@ a:hover {
 .bg-purple {
     background: #fb99f4;
 }
+.bg-white-op {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
 .bg-black {
     background: #000;
 }
 
-/* images */
-
-/* jaxx logo */
+/* images + logos */
 
 .img {
-    height: 100%;
+    height: auto;
     object-fit: cover;
     width: 100%;
 }
+
+/* jaxx logo */
+
 .jaxx-navbar-brand {
     height: auto;
     margin: 10px;
     width: 80px;
+}
+.jaxx-mobile-menu {
+    height: auto;
+    width: 40px;
 }
 .jaxx-logo-jumbo {
     height: auto;
@@ -330,15 +420,38 @@ a:hover {
     margin-top: 30px;
 }
 
+/* partnerships logos */
+
+.partnerships-logo {
+    height: auto;
+    width: 100px;
+}
+
+video {
+    height: 100%;
+/*    object-fit: cover;*/
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
 /* phones */
 
+.phone-1 {
+    height: 50vh;
+    width: auto;
+    max-width: 100%;
+}
+/*
 .phone-1,
 .phone-2,
 .phone-3 {
     width: 100%;
     height: auto;
 }
+*/
 
+/*
 .phone-1 {
     left: 150;
     z-index: 1;
@@ -351,120 +464,160 @@ a:hover {
     left: 250px;
     z-index: -1;
 }
-.jazzy-logo {
-    height: auto;
-    width: auto;
-    position: absolute;
-    z-index: 0;
-}
+*/
+
 
 /* bg images */
 
 
-div[class*="bg-"] {
+div[class*="bg-img"] {
     transition: all 1s ease;
 }
 
-.bg-3 {
+.bg-img-3 {
     background: url(https://images.pexels.com/photos/1093906/pexels-photo-1093906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center; 
+    background: url(/img/jaxx-people-3.jpeg) center; 
     background-size: cover; 
+     background-attachment: fixed;
 }
-.bg-5 {
-    background: linear-gradient(-110deg, transparent 60%, rgba(38, 65, 118, .6) 60%), url(https://thumbs.mic.com/MzRlMTE0ODRlMSMvLTgtVUN5LUJoTzJJbWVGcFV5N3ppWTdsaHljPS9maXQtaW4vNzYweDAvZmlsdGVyczpub191cHNjYWxlKCk6cXVhbGl0eSg4MCk6bm9fdXBzY2FsZSgpOmZvcm1hdChqcGVnKS9odHRwOi8vaW1hZ2VzLm1pYy5jb20vYXF2YXJrenVudGdnZHl2ZXJza2sxYXp3bXl6a2NhcXV6a202dGY5emVlb293OG9pd3RsbzV2bGl3Z2pwZnB4ay5naWY.gif) center;
-    background-size: contain;
-}
-.bg-5 {
+.bg-img-5 {
     background: url(https://thumbs.mic.com/MzRlMTE0ODRlMSMvLTgtVUN5LUJoTzJJbWVGcFV5N3ppWTdsaHljPS9maXQtaW4vNzYweDAvZmlsdGVyczpub191cHNjYWxlKCk6cXVhbGl0eSg4MCk6bm9fdXBzY2FsZSgpOmZvcm1hdChqcGVnKS9odHRwOi8vaW1hZ2VzLm1pYy5jb20vYXF2YXJrenVudGdnZHl2ZXJza2sxYXp3bXl6a2NhcXV6a202dGY5emVlb293OG9pd3RsbzV2bGl3Z2pwZnB4ay5naWY.gif) center;
     background-size: contain;
 }
 
-.bg-6 {
+.bg-img-6 {
     background: url(https://images.pexels.com/photos/1117256/pexels-photo-1117256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
     background-attachment: fixed;
 }
-.bg-7 {
-    background: url(https://images.pexels.com/photos/571143/pexels-photo-571143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background-size: cover;
-}
-.bg-toronto-1 {
+.bg-img-toronto-1 {
     background: url(https://images.pexels.com/photos/137090/pexels-photo-137090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background: url(/img/jaxx-toronto-2.jpeg) center;
     background-size: cover;
 }
 
 /* section images */
 
+/* home page */
 
-/* home */
-
-.bg-banner {
-    background: url(/img/jaxx-jump-2.jpg) center;
+.bg-img-banner-home {
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/jaxx-jump-2.jpg) center;
     background-size: cover;
     background-attachment: fixed;
 }
 .bg-banner-2 {
     background: url(/img/smartmockups_jjymzoi2.jpg) center;
+    background: url(/img/jaxx-jump-2.jpg) center;
     background: url(/img/jaxx-iphone-5.jpg) center;
     background-size: 50%;
     background-attachment: fixed;
 }
-.bg-1 {
+.bg-img-1 {
     background: url(/img/jaxx-people-1.jpeg) center;
     background-size: cover;
     background-attachment: fixed;
 }
-.bg-2 {
+.bg-img-2 {
     background: linear-gradient(110deg, transparent 60%, rgba(255, 105, 2, .6) 60%), url(https://images.pexels.com/photos/877699/pexels-photo-877699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
 ) center;
     background: url(https://images.pexels.com/photos/877699/pexels-photo-877699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
     background-attachment: fixed;
 }
+.downloads-img {
+    position: relative;
+    right: -200px;
+    z-index: -1;
+}
+.bg-img-partnerships {
+    background: url(/img/partner-logos/banner.jpg) center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 /* footer bg gradient */
-.bg-footer-1 {
+.bg-img-footer-1 {
     background: url('/img/jaxx-iphone-5.gif');
     background-attachment: fixed;
 }
-/*    background: linear-gradient(175deg, rgba(0, 0, 0, 0), 60%, #ff6902 60%), url('/img/jaxx-iphone-5.gif');*/
 
-/*  about */
+/*  about page */
 
-.bg-about-1 {
-    background: url(/img/jaxx-people-1.jpeg) center;
+.bg-img-about-1 {
+    background: url(/img/jaxx-people-2.jpeg) center;
     background-size: cover;
 }
-.bg-heart-1 {
-    background: url(/img/jaxx-heart-feet.jpeg) center;
+.bg-img-jump {
+    background: url(/img/jaxx-jump-2.jpg) center;
+    background-size: cover;
+}
+.bg-img-heart {
+    background: url(/img/jaxx-heart-hands.jpeg) center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-img-office {
+    background: url(/img/careers-update.jpg) center;
+    background-size: cover;
 }
 
-/*devices*/
+/*  features page */
 
-.bg-laptop {
+/* features phone slider */
+
+.bg-img-features {
+    background: url(/img/jaxxliberty-phone-hand.jpg) center;
+    background-size: cover;
+}
+.bg-img-park {
+    background: url(https://images.pexels.com/photos/571143/pexels-photo-571143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* devices */
+
+.bg-img-laptop {
     background: url(/img/jaxx-laptop.jpeg) center;
     background-size: cover;
 }
-.bg-devices-1 {
-    background: url(/img/jaxx-multi-device-1.png) center;
+.bg-img-devices-1 {
+    background: url(/img/jaxx-multi-device-1.png) right no-repeat;
+    background-size: contain;
+}
+.bg-img-devices-2 {
+    background: url(/img/jaxx-multi-device.jpeg) center;
     background-size: cover;
 }
-.bg-iphone-1 {
+.bg-img-devices-3 {
+    background: url(/img/jaxx-multi-device-2.jpeg) center;
+    background-size: cover;
+}
+.bg-img-devices-4 {
+    background: url(/img/jaxx-two-devices.png) center no-repeat;
+    background-size: 100%;
+}
+.bg-img-iphone-1 {
     background: url(/img/jaxx-iphone-1.gif) center;
     background-size: contain;
 }
-.bg-iphone-2 {
+.bg-img-iphone-2 {
     background: url(/img/iphone-black.gif) center;
     background-size: 50%;
 }
-.bg-iphone-3 {
+.bg-img-iphone-3 {
     background: url(/img/jaxx-iphone-3.gif) center;
     background-size: cover;
 }
-.bg-iphone-4 {
+.bg-img-iphone-4 {
     background: url(/img/jaxx-iphone-4.gif) center;
     background-size: cover;
 }
-.bg-iphone-5 {
+.bg-img-iphone-5 {
     background: url(/img/jaxx-iphone-5.jpg) center;
+    background-size: cover;
+}
+.bg-img-android {
+    background: url(http://www.innjoo.com/Public/images/max3/max3_c_4-1.png) center top;
     background-size: cover;
 }
 
@@ -472,7 +625,12 @@ div[class*="bg-"] {
 
 
 /* nav */
-    
+
+nav,
+.navbar {
+    transition: all .3s ease-in-out;    
+}
+
 .nav-link,
 .nav-item {
     color: #fff;
@@ -487,20 +645,124 @@ div[class*="bg-"] {
   transition: all 200ms ease-in-out;
 }
 
-/*  home */
+/*  icons */
 
 i {
     font-size: 7vmin;
     padding: 20px 30px;
 }
 
+#socialProof i {
+    color: transparent;
+    font-size: 10vmin;
+    -webkit-text-stroke: 2px grey;
+}
+
+/* home */
+
+/* features iphone carousel */
+
+.marvel-device .screen {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    z-index: 3;
+    background: white; 
+    overflow: hidden;
+    display: flex;
+    border-radius: 1px;
+    -webkit-box-shadow: 0 0 0 3px #111;
+    box-shadow: 0 0 0 3px #111;
+}
+
+.features-slide {
+    min-height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.marvel-device.iphone-x {
+    width: 375px;
+    height: 812px;
+    padding: 26px;
+    background: #fdfdfd;
+    -webkit-box-shadow: inset 0 0 11px 0 black;
+    box-shadow: inset 0 0 11px 0 black;
+    border-radius: 66px;
+}
+
+/* features */
+
+/* bs carousel */
+
+/*stop slides from changing size w text*/
+.item .active {
+    margin: auto;
+}
+/* make carousel full screen */
+/*
+.carousel,.item {height:100%;}
+.carousel-inner{height:100%;}
+*/
+
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,.5);
+}
+.carousel-indicators > li.active {
+    background: black;
+}
+
+/* stock styles */
+.carousel-indicators-2 {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;    
+}
+
+.carousel-indicators-2 > li,
+.carousel-indicators-2 > li.active{
+    width: 100px;
+    height: 25px;
+    border-radius: 0;
+    border: solid 1px grey;
+    border: 0;
+    background: lightgrey;
+/*    background: transparent;*/
+    text-indent: 0;
+}
+.carousel-indicators-2 > li.active {
+    background: white;
+/*    background: transparent;*/
+}
+
 /* legal */
 
-.bg-banner-legal {
+.bg-img-banner-legal {
     background: url(https://images.pexels.com/photos/877699/pexels-photo-877699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
     background-attachment: fixed;
 }
+
+/* careers */
 
 
 /*  footer */
@@ -520,18 +782,45 @@ footer li a {
 
 
 /* media queries -----------------------*/
-
-@media (max-width: 992px) {
-    div[class*="bg-"] {
-        background-attachment: scroll;
+@media (max-width: 1200px) {
+    /*    md width class */
+    .downloads-img {
+        height: auto;
+        width: 100%;  
     }
 }
+
+@media (max-width: 992px) {
+    div[class*="bg-img"] {
+        background-attachment: scroll;
+    }
+/*    flex order */
+    .o-1 {
+        order: 1;
+    }
+    .o-12 {
+        order: 12;
+    }
+/*front page downloads img*/
+    .downloads-img {
+        height: auto;
+        left: 0;
+        width: 100%;  
+    }
+    
+}
 @media (max-width: 768px) {
-    div[class*="bg-"] {
+    div[class*="bg-img"] {
         min-height: 50vh;
     }
     div[class*="min-100"] {
         min-height: 50vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .p-5-sm {
+      padding: 3rem;  
     }
 }
 
