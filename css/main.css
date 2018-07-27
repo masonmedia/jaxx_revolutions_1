@@ -175,6 +175,11 @@ a:hover {
 
 /*  buttons */
 
+.btn, 
+.btn-default,
+.btn-lg {
+    transition: all .3s ease-in-out;    
+}
 .btn-orange,
 .btn-orange:active,
 .btn-orange:focus,
@@ -189,10 +194,18 @@ a:hover {
     border: 1px solid #ff6902;
     color: #ff6902;
 }
-.btn-outline-orange {
+.btn-outline-orange,
+.btn-outline-orange:active,
+.btn-outline-orange:focus,
+.btn-outline-orange:visited {
     background: transparent;
     border: 1px solid #ff6902;
     color: #ff6902;
+}
+.btn-outline-orange:hover {
+    background: #ff6902;
+    border: 1px solid #ff6902;
+    color: #fff;
 }
 
 /* animation */
@@ -317,12 +330,20 @@ a:hover {
     clip-path: polygon(0 0, 100% 0%, 100% 86%, 0% 100%);
 }
 .angle-rtl {
-    -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
-    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0% 100%);
 }
 .angle-lrt {
-    -webkit-clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
-    clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+.arrow-left {
+    -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}
+.arrow-right {
+    -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 .square-o {
     background: #ff6902; 
@@ -627,6 +648,19 @@ div[class*="bg-img"] {
 .bg-img-android {
     background: url(http://www.innjoo.com/Public/images/max3/max3_c_4-1.png) center top;
     background-size: cover;
+}
+.bg-img-dashboard {
+    background: url(https://images.pexels.com/photos/1124066/pexels-photo-1124066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background: url(https://images.pexels.com/photos/1253646/pexels-photo-1253646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-img-data {
+    background: url(https://images.pexels.com/photos/241544/pexels-photo-241544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background-size: cover;
+    background-attachment: fixed;
+/*    pexels*/
 }
 
 /* section styles */
