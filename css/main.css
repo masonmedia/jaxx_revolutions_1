@@ -257,14 +257,26 @@ a:hover {
      color: white;
      -webkit-text-fill-color: transparent;
      background: -webkit-linear-gradient(transparent, transparent),
-             url(/img/jaxx-jump.jpeg) repeat;
+             url(/img/jaxx-jump-2.jpg) center bottom;
      background: -o-linear-gradient(transparent, transparent);
      background-size: cover;
      -webkit-background-clip: text;
 }
 
-.m {
-    background: url(/img/jaxx-jump.jpeg);
+.knockout-2 {
+    background: -webkit-linear-gradient(transparent, transparent),
+             url(/img/jaxx-jump-2.jpg) center center;
+    background-blend-mode: overlay;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.site-title-2 {
+    font-size: 30vw;
+    font-weight: 900;
+    letter-spacing: -60px;
+    padding: 0 60px 0 0;
 }
 
 /* fonts + text effects */
@@ -602,6 +614,8 @@ div[class*="bg-img"] {
     background-size: cover;
     background-attachment: fixed;
 }
+
+
 .bg-banner-2 {
     background: url(/img/smartmockups_jjymzoi2.jpg) center;
     background: url(/img/jaxx-jump-2.jpg) center;

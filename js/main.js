@@ -31,34 +31,7 @@ $(".animsition").animsition({
 $(document).scroll(function () {
     $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
   });
-          
-// anime js text animation    
-    
-// Wrap every letter in a span
-//$('.text-animate').each(function(){
-//  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-//});
-//
-//anime.timeline({loop:false})
-//  .add({
-//    targets: '.text-animate .letter',
-//    translateX: [50,0],
-//    translateZ: 0,
-//    opacity: [0,1],
-//    easing: "easeOutCubic",
-//    duration: 2000,
-//    delay: function(el, i) {
-//      return 500 + 30 * i;
-//    }
-//});
-    
-
-// BS carousel
-  
-//$('.carousel').carousel({
-//    interval: false
-//})
-     
+           
      
 // Rellax parallax
  $(document).ready(function() {
@@ -78,6 +51,7 @@ $(document).scroll(function () {
 //GSAP + Scroll Magic
     
 // init
+    
 var controller = new ScrollMagic.Controller();
      
 //    section pins 
@@ -140,23 +114,41 @@ for (var i=0; i<slides.length; i++) {
     new ScrollMagic.Scene({
             triggerElement: slides[i],
             triggerHook: 'onLeave',
-			duration: "120%",
+//			duration: "120%",
 			reverse: true
         })
         .setPin(slides[i])
         .addTo(controller);
 }
  
-  
    
-//one-off GSAP tweens
+//GSAP tweens
+      
+//     banner timelinen 
      
-//Banner
+     var tl = new TimelineLite();
+
+//add a from() tween at the beginning of the timline
+tl.from("#banner", 1, {opacity:0});
+
+//add another tween immediately after
+tl.from(".site-title-2", 1, {opacity:0});
+
+//use position parameter "+=0.5" to schedule next tween 0.5 seconds after previous tweens end
+tl.from(".site-title", 1, {autoAlpha:0}, "+=0.5");
+
+//use position parameter "-=0.5" to schedule next tween 0.25 seconds before previous tweens end.
+//great for overlapping
+tl.from(".site-sub-title", 1, {left:100, autoAlpha:0});
+
+//add a label 0.5 seconds later to mark the placement of the next tween
+tl.from(".btn", 0.5, {autoAlpha:0});
+//to jump to this label use: tl.play("stagger");
+
+//stagger the animation of all icons with 0.1s between each tween's start time
+//this tween is added
+//tl.staggerFrom(icons, 0.2, {scale:0, autoAlpha:0}, 0.1, "stagger");
      
-TweenMax.from(".jumbotron", 1, {opacity:0})
-TweenMax.from(".jumbotron h1", 1, {opacity:0, x:-100})
-TweenMax.from(".jumbotron h3", 1, {opacity:0, y:-100})
-TweenMax.from(".jumbotron .btn", 1, {opacity:0, y:100, scale:0});
      
 //fade in
 
@@ -168,7 +160,7 @@ $(".fade-in").each(function() {
 	        ease: Power2.easeOut
 	    }, .1);
 
-	var scene1 = new ScrollMagic.Scene({
+	var scene0 = new ScrollMagic.Scene({
 	        triggerElement: this,
 	        offset: -100,
 	        reverse:true
@@ -265,32 +257,31 @@ $(".content-tween").each(function() {
 });
       
     
-
 //smooth scroll
 
 
 //  // Add smooth scrolling to all links
-//  $("a").on('click', function(event) {
-//
-//    // Make sure this.hash has a value before overriding default behavior
-//    if (this.hash !== "") {
-//      // Prevent default anchor click behavior
-//      event.preventDefault();
-//
-//      // Store hash
-//      var hash = this.hash;
-//
-//      // Using jQuery's animate() method to add smooth page scroll
-//      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-//      $('html, body').animate({
-//        scrollTop: $(hash).offset().top
-//      }, 1500, function(){
-//   
-//        // Add hash (#) to URL when done scrolling (default click behavior)
-////        window.location.hash = hash;
-//      });
-//    } // End if
-//  });
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1500, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+//        window.location.hash = hash;
+      });
+    } // End if
+  });
     
     
     
