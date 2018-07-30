@@ -61,17 +61,18 @@ $('.carousel').carousel({
      
      
 // Rellax parallax
-
+ $(document).ready(function() {
 // Also can pass in optional settings block
   var rellax = new Rellax('.rellax', {
     wrapper: '.rellax-wrap',
     speed: -2,
-    center: false,
+    center: true,
     wrapper: null,
     round: true,
     vertical: true,
     horizontal: false
   });
+ });
      
      
 //GSAP + Scroll Magic
@@ -129,7 +130,9 @@ var slides = document.querySelectorAll("div.pin");
 for (var i=0; i<slides.length; i++) {
     new ScrollMagic.Scene({
             triggerElement: slides[i],
-            triggerHook: 'onLeave'
+            triggerHook: 'onLeave',
+//			duration: "120%",
+			reverse: true
         })
         .setPin(slides[i])
         .addTo(controller);
@@ -221,7 +224,7 @@ $(".content-tween").each(function() {
 	        triggerElement: this,
             triggerHook: 'onEnter',
 	        offset: -100,
-	        reverse:true
+			reverse:true
 	    })
 		.setTween(contentTween)
 		.addTo(controller);

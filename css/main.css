@@ -333,7 +333,7 @@ a:hover {
     -webkit-clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0% 100%);
 }
-.angle-lrt {
+.angle-ltr {
     -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
     clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
 }
@@ -345,6 +345,12 @@ a:hover {
     -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
 clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
+.arrow-down {
+	-webkit-clip-path: polygon(50% 100%, 100% 75%, 100% 0, 0 0, 0 75%);
+	clip-path: polygon(50% 100%, 100% 75%, 100% 0, 0 0, 0 75%);
+}
+
+
 .square-o {
     background: #ff6902; 
     height: 300px;
@@ -450,6 +456,18 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
 .partnerships-logo {
     height: auto;
     width: 100px;
+}
+
+/* downloads --> itunes and google play logos */
+.store-logo,
+.store-logo-2 {
+	height: auto;	
+}
+.store-logo {
+	width: 150px;	
+}
+.store-logo-2 {
+	width: 175px;
 }
 
 video {

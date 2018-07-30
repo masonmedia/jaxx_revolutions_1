@@ -1,4 +1,8 @@
 <!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
 <html class="no-js" lang="">
 
 <head>
@@ -92,18 +96,18 @@
         <div class="container-fluid p-0">
            
             <!--download desktop-->
-            <div class="row pin d-flex">
+            <div class="row d-flex bg-white">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange min-100 arrow-left">
-                    <img class="img" src="/img/jaxx-multiple-macbook.png" alt="">
+                    <img class="img rellax" src="/img/jaxx-multiple-macbook.png" alt="Jaxx Liberty Desktop">
                 </div>
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
-                    <h2 class="section-title x-bold">Download desktop</h2>
-                    <p class="border-top border-bottom py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ab, esse, labore minus odio dolor reiciendis, corrupti pariatur adipisci numquam ex! Quos ab, aperiam assumenda vitae aspernatur quas odit rem!</p>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5 content-tween">
+                    <h2 class="section-title x-bold content-stagger-up">Download desktop</h2>
+                    <p class="border-top border-bottom py-4 content-stagger-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ab, esse, labore minus odio dolor reiciendis, corrupti pariatur adipisci numquam ex! Quos ab, aperiam assumenda vitae aspernatur quas odit rem!</p>
                     <!--nest row-->
                     <div class="row px-3">
-                        <div class="col-xs-6 mr-3">
+                        <div class="col-xs-6 mr-3 content-stagger-up">
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-lg btn-outline-orange d-inline my-2" data-toggle="modal" data-target="#downloadDesktop">Mac OSX</button>
+                            <button type="button" class="btn btn-lg btn-outline-orange my-2" data-toggle="modal" data-target="#downloadDesktop">Mac OSX</button>
                             <!-- Modal -->
                             <div class="modal animated fade" id="downloadDesktop" tabindex="-1" role="dialog" aria-labelledby="downloadDesktop" aria-hidden="true">
                               <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
@@ -119,11 +123,13 @@
                                       <p class="border-top pt-3">The checksum below is a simple way for you to double-check the copy of Jaxx you are installing is genuine. You can match the checksum in your instance of Jaxx with the data below.</p>
                                       <h4 class="text-heavy">Jaxx requires OS X 10.9 (or later)</h4>
                                       <p class="border-top pt-3">Note: Depending on your system settings, the system might warn you that "Jaxx can't be opened because it comes from an unidentified developer." You can either change your system settings to allow apps from unknown developers in your "Security & Privacy" settings, or simply right click Jaxx -> Open (as administrator), which will prompt you with a warning.</p>
+									  <!--mac checksum-->
                                       <h4 class="text-heavy">$ sha1sum LibertyBeta-2.0.7.dmg</h4>
-                                      <p class="border-top pt-3">7df6eecd26c5992b969550b33faa88ed4080e798</p>                              
+                                      <p class="border-top pt-3">7df6eecd26c5992b969550b33faa88ed4080e798</p>
                                   </div>
                                   <div class="modal-footer">
                                     <button type="button" class="btn btn-outline-orange" data-dismiss="modal">Close</button>
+                                    <!--mac desktop download-->
                                     <a type="button" onclick="googleAnalyticsTrigger('OS X - Beta', 'Table')" href="https://download-liberty.jaxx.io/LibertyBeta-2.0.7.dmg">
                                         <button class="btn btn-orange">Download</button>
                                     </a>
@@ -133,9 +139,9 @@
                             </div><!--end mac modal-->
                     </div><!--end nest col-->
                  
-                    <div class="col-xs-6">
+                    <div class="col-xs-6 content-stagger-up">
                         <!-- Button trigger windowns modal -->
-                        <button type="button" class="btn btn-lg btn-outline-orange d-inline-block my-2" data-toggle="modal" data-target="#downloadDesktop">Windows</button>
+                        <button type="button" class="btn btn-lg btn-outline-orange my-2" data-toggle="modal" data-target="#downloadDesktop">Windows</button>
                         <!-- Modal -->
                         <div class="modal animated fade" id="downloadDesktop" tabindex="-1" role="dialog" aria-labelledby="downloadDesktop" aria-hidden="true">
                           <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
@@ -150,7 +156,7 @@
                                   <h4 class="text-heavy">Checksums</h4>
                                   <p class="border-top pt-3">The checksum below is a simple way for you to double-check the copy of Jaxx you are installing is genuine. You can match the checksum in your instance of Jaxx with the data below.</p>
                                   <h4 class="text-heavy">Jaxx requires Windows 7 (or later)</h4>
-
+                                  <!--windows checksum-->
                                   <h4 class="text-heavy">$ sha1sum LibertyBeta-setup-2.0.7.exe (edited)</h4>
                                   <p class="border-top pt-3">907699130bbb64d5137d21a9a27f83ee66c91adb</p>                              
                               </div>
@@ -169,16 +175,37 @@
             </div><!--end row-->
             
             <!--download mobile-->
-            <div class="row pin d-flex">
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
+            <div class="row d-flex bg-white content-tween">
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5 content-stagger-up">
                     <h2 class="section-title x-bold">Download mobile</h2>
                     <p class="border-top border-bottom py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ab, esse, labore minus odio dolor reiciendis, corrupti pariatur adipisci numquam ex! Quos ab, aperiam assumenda vitae aspernatur quas odit rem!</p>
-                    <button class="btn btn-lg btn-outline-orange my-2">Download</button>
+					<!--button nest row-->
+					<div class="row">
+						<div class="col-xs-6 mr-2">
+							<a onclick="googleAnalyticsTrigger('iOS', 'Banner')" href="https://itunes.apple.com/us/app/jaxx-bitcoin-ethereum-wallet/id1084514516?mt=8" target="_blank"><img title="iTunes Store Button" class="store-logo" src="img/appleStoreButton.png" alt="iTunes Store Button"/></a>
+						</div>
+						<div class="col-xs-6">
+							<a onclick="googleAnalyticsTrigger('Android', 'Banner')" href="https://play.google.com/store/apps/details?id=com.kryptokit.jaxx&hl=en" target="_blank"><img title="Play Store Button" class="store-logo" src="img/googleStoreButton.png" alt="Google Store Button"/></a>
+						</div>
+					</div><!--end button nest row-->                  
                 </div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange min-100 arrow-right">
-                    <img class="img" src="http://storage0.dms.mpinteractiv.ro/media/2/84/2012/14807920/1/allview-v2-viper.png" alt="">
+                    <img class="img rellax" src="http://storage0.dms.mpinteractiv.ro/media/2/84/2012/14807920/1/allview-v2-viper.png" alt="">
                 </div>
-            </div><!--end row-->
+            </div><!--end mobile row-->
+            
+             <!--download google chrome ext-->
+            <div class="row d-flex bg-orange content-tween">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-center min-100">
+                    <img class="img rellax" src="/img/jaxx-chrome-store-2.png" alt="Jaxx Google Chrome">
+                </div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
+                    <h2 class="section-title x-bold border-bottom pb-3 content-stagger-up">Download Google Chrome Extension</h2>
+                    <a onclick="googleAnalyticsTrigger('Chrome Extension', 'Banner')" href="https://chrome.google.com/webstore/detail/jaxx-blockchain-wallet/ancbofgphhmhcchnaognahmjfajaecmo" target="_blank">
+                		<img class="store-logo-2 mt-3 content-stagger-up" src="/img/jaxx-chrome.png" alt="">
+	                </a>
+				</div>
+            </div><!--end chrome ext row-->
             
             
         </div><!--end container-->
