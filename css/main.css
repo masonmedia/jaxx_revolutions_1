@@ -100,34 +100,57 @@ textarea {
 
 html,
 body {
-/*    background: #ff6902;*/
     font-family: 'UniNeueRegular', Avenir, sans-serif;
     overflow-x: hidden;
     width: 100%;
 }
 
 @font-face {
-    font-family: 'UniNeueBold', sans-serif;
-    src: url(/fonts/Fontfabric - UniNeueBold.otf)  format('truetype');
-    font-weight: bold;
+    font-family: 'uni_neuebold';
+    src: url('/fonts/fontfabric_-_unineuebold-webfont.woff2') format('woff2'),
+         url('/fonts/fontfabric_-_unineuebold-webfont.woff') format('woff'),
+         url(/fonts/Fontfabric - UniNeueBold.otf)  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'uni_neuebook';
+    src: url('/fonts/fontfabric_-_unineuebook-webfont.woff2') format('woff2'),
+         url('/fonts/fontfabric_-_unineuebook-webfont.woff') format('woff'),
+         url(/fonts/Fontfabric - UniNeueBook.otf)  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
 @font-face {
-    font-family: 'UniNeueBook', sans-serif;
-    src: url(/fonts/Fontfabric - UniNeueBook.otf)  format('truetype');
+    font-family: 'uni_neueheavy';
+    src: url('/fonts/fontfabric_-_unineueheavy-webfont.woff2') format('woff2'),
+         url('/fonts/fontfabric_-_unineueheavy-webfont.woff') format('woff'),
+         url(/fonts/Fontfabric - UniNeueHeavy.otf)  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
 @font-face {
-    font-family: 'UniNeueHeavy', sans-serif;
-    src: url(/fonts/Fontfabric - UniNeueHeavy.otf)  format('truetype');
-    font-weight: bold;
+    font-family: 'uni_neuelight';
+    src: url('fontfabric_-_unineuelight-webfont.woff2') format('woff2'),
+         url('fontfabric_-_unineuelight-webfont.woff') format('woff'),
+         url(/fonts/Fontfabric - UniNeueLight.otf)  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
 @font-face {
-    font-family: 'UniNeueLight', sans-serif;   
-    src: url(/fonts/Fontfabric - UniNeueLight.otf)  format('truetype');
+    font-family: 'uni_neueregular';
+    src: url('fontfabric_-_unineueregular-webfont.woff2') format('woff2'),
+         url('fontfabric_-_unineueregular-webfont.woff') format('woff'),
+         url(/fonts/Fontfabric - UniNeueRegular.otf)  format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
-@font-face {
-    font-family: 'UniNeueRegular', sans-serif;   
-    src: url(/fonts/Fontfabric - UniNeueRegular.otf)  format('truetype');
-}
+
+/* custom font sytles */
 
 .text-heavy {
     font-family: 'UniNeueHeavy', Helvetica, sans-serif;=
@@ -208,38 +231,6 @@ a:hover {
     color: #fff;
 }
 
-/* animation */
-
-.text-animate .letter,
-.text-animate-2 .letter {
-  display: inline-block;
-  line-height: 1em;
-}
-
-.text-replace {
-    opacity: 0;
-}
-
-/* position */
-
-.relative {
-    position: relative;
-}
-.absolute {
-    position: absolute;
-}
-.text-box-right {
-    right: 20%;
-}
-.text-box-left {
-    left: 20%;
-}
-
-.z--1 {z-index: -1;}
-.z-0 {z-index: 0;}
-.z-2 {z-index: 2;}
-.z-3 {z-index: 3;}
-
 
 /* text */
 
@@ -257,9 +248,23 @@ a:hover {
 }
 .section-title {
     font-size: 8vmin;
+    font-size: 6vmin;
 }
 .section-sub-title {
     font-size: 6vmin;
+}
+.knockout {
+     color: white;
+     -webkit-text-fill-color: transparent;
+     background: -webkit-linear-gradient(transparent, transparent),
+             url(/img/jaxx-jump.jpeg) repeat;
+     background: -o-linear-gradient(transparent, transparent);
+     background-size: cover;
+     -webkit-background-clip: text;
+}
+
+.m {
+    background: url(/img/jaxx-jump.jpeg);
 }
 
 /* fonts + text effects */
@@ -285,6 +290,27 @@ a:hover {
     transform: skew(0,4.7deg);
 }
 
+/* position */
+
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.text-box-right {
+    right: 20%;
+}
+.text-box-left {
+    left: 20%;
+}
+
+.z--1 {z-index: -1;}
+.z-0 {z-index: 0;}
+.z-2 {z-index: 2;}
+.z-3 {z-index: 3;}
+
+
 /* borders */
 
 .border-thick-white {
@@ -295,6 +321,18 @@ a:hover {
 }
 .border-thick {
     border: 10px solid #dee2e6!important;
+}
+
+/* animation */
+
+.text-animate .letter,
+.text-animate-2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.text-replace {
+    opacity: 0;
 }
 
 /* shapes ==================*/
@@ -313,6 +351,10 @@ a:hover {
     position: absolute;
     width: 50%;
     z-index: 0;
+}
+.parallelo {
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);    
 }
 
 /* clip path */
@@ -417,6 +459,12 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
 .bg-black {
     background: #000;
 }
+.bg-gradient-navy {
+    background: rgb(38, 65, 118);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(38, 65, 118), #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 /* images + logos */
 
@@ -453,9 +501,13 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
 
 /* partnerships logos */
 
-.partnerships-logo {
+.partner-logo {
     height: auto;
-    width: 100px;
+    margin: 10px 0;
+    max-width: 100%;
+}
+.big-logo {
+    width: 130px;
 }
 
 /* downloads --> itunes and google play logos */
@@ -513,21 +565,23 @@ video {
 /* bg images */
 
 
+/*
+was causing problems with scroll magic pinning
+
 div[class*="bg-img"] {
     transition: all 1s ease;
 }
+*/
 
 .bg-img-3 {
     background: url(https://images.pexels.com/photos/1093906/pexels-photo-1093906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center; 
     background: url(/img/jaxx-people-3.jpeg) center; 
     background-size: cover; 
-     background-attachment: fixed;
 }
 .bg-img-5 {
     background: url(https://thumbs.mic.com/MzRlMTE0ODRlMSMvLTgtVUN5LUJoTzJJbWVGcFV5N3ppWTdsaHljPS9maXQtaW4vNzYweDAvZmlsdGVyczpub191cHNjYWxlKCk6cXVhbGl0eSg4MCk6bm9fdXBzY2FsZSgpOmZvcm1hdChqcGVnKS9odHRwOi8vaW1hZ2VzLm1pYy5jb20vYXF2YXJrenVudGdnZHl2ZXJza2sxYXp3bXl6a2NhcXV6a202dGY5emVlb293OG9pd3RsbzV2bGl3Z2pwZnB4ay5naWY.gif) center;
     background-size: contain;
 }
-
 .bg-img-6 {
     background: url(https://images.pexels.com/photos/1117256/pexels-photo-1117256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
@@ -572,10 +626,9 @@ div[class*="bg-img"] {
     right: -200px;
     z-index: -1;
 }
-.bg-img-partnerships {
+.bg-img-partners {
     background: url(/img/partner-logos/banner.jpg) center;
     background-size: cover;
-    background-attachment: fixed;
 }
 /* footer bg gradient */
 .bg-img-footer-1 {
@@ -596,9 +649,9 @@ div[class*="bg-img"] {
 .bg-img-heart {
     background: url(/img/jaxx-heart-hands.jpeg) center;
     background-size: cover;
-    background-attachment: fixed;
 }
 .bg-img-office {
+    background: url(/img/careers-update.jpg) center;
     background: url(/img/careers-update.jpg) center;
     background-size: cover;
 }
@@ -614,7 +667,6 @@ div[class*="bg-img"] {
 .bg-img-park {
     background: url(https://images.pexels.com/photos/571143/pexels-photo-571143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 /* devices */
@@ -871,11 +923,18 @@ footer li a {
     
 }
 @media (max-width: 768px) {
+    p {
+        font-size: 20px;
+    }
     div[class*="bg-img"] {
         min-height: 50vh;
     }
     div[class*="min-100"] {
         min-height: 50vh;
+    }
+    /*    partnerships logo resize for mobile*/
+    .partner-logo-sm {
+        width: 300px;
     }
 }
 

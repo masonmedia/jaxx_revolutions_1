@@ -55,9 +55,9 @@ $(document).scroll(function () {
 
 // BS carousel
   
-$('.carousel').carousel({
-    interval: false
-})
+//$('.carousel').carousel({
+//    interval: false
+//})
      
      
 // Rellax parallax
@@ -111,11 +111,20 @@ var controller = new ScrollMagic.Controller();
 //    .addTo(controller);
 //
 //      var pin4 = new ScrollMagic.Scene({
-//    triggerElement: '#support', 
+//    triggerElement: '#socialProof', 
 //    triggerHook: 0,
 //    duration: "100%"
 //    })
-//    .setPin("#support")
+//    .setPin("#socialProof")
+//    .setTween(pin4)
+//    .addTo(controller);
+//     
+//     var pin4 = new ScrollMagic.Scene({
+//    triggerElement: '#partners', 
+//    triggerHook: 0,
+//    duration: "100%"
+//    })
+//    .setPin("#partners")
 //    .setTween(pin4)
 //    .addTo(controller);
 
@@ -131,7 +140,7 @@ for (var i=0; i<slides.length; i++) {
     new ScrollMagic.Scene({
             triggerElement: slides[i],
             triggerHook: 'onLeave',
-//			duration: "120%",
+			duration: "120%",
 			reverse: true
         })
         .setPin(slides[i])
@@ -142,7 +151,31 @@ for (var i=0; i<slides.length; i++) {
    
 //one-off GSAP tweens
      
-TweenMax.from(".jaxx-logo-jumbo", 1, {opacity:0, x:-100});
+//Banner
+     
+TweenMax.from(".jumbotron", 1, {opacity:0})
+TweenMax.from(".jumbotron h1", 1, {opacity:0, x:-100})
+TweenMax.from(".jumbotron h3", 1, {opacity:0, y:-100})
+TweenMax.from(".jumbotron .btn", 1, {opacity:0, y:100, scale:0});
+     
+//fade in
+
+$(".fade-in").each(function() {
+
+ 	var fadeIn = TweenMax.from(this, 1, {
+	        autoAlpha: 0,
+	        delay: 0,
+	        ease: Power2.easeOut
+	    }, .1);
+
+	var scene1 = new ScrollMagic.Scene({
+	        triggerElement: this,
+	        offset: -100,
+	        reverse:true
+	    })
+		.setTween(fadeIn)
+		.addTo(controller);
+});     
      
 //fade + enter left - scene 1
 
@@ -218,6 +251,7 @@ $(".content-tween").each(function() {
   var contentTween = contentTweenTL.from($(this).find(".content-tween-left"), 1, {x: -200, autoAlpha: 0, delay: 0, ease: Power2.easeOut}, .1)
   .from($(this).find(".content-tween-right"), 1, {x: 200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1)
   .from($(this).find(".content-tween-up"), 1, {y: 200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1)
+  .from($(this).find(".content-tween-down"), 1, {y: -200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1)
   .staggerFrom($(this).find(".content-stagger-up"), 1, {y: 200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1);
 
 	var scene4 = new ScrollMagic.Scene({
