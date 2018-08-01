@@ -46,6 +46,29 @@
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/normalize.css">
 <link rel="stylesheet" href="/css/main.css">
+
+<!--cookies banner-->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#ff6902",
+      "text": "#264176"
+    },
+    "button": {
+      "background": "transparent",
+      "text": "#264176",
+      "border": "#264176"
+    }
+  },
+  "content": {
+    "dismiss": "Okay!"
+  }
+})});
+</script>
 </head>
 
 <body>
@@ -157,10 +180,10 @@
             <!--row 5 Download-->
             <div id="download" class="row pin d-flex bg-white content-tween">
                <!--download img col-->
-                <div class="col-xl-6 d-flex justify-content-center align-items-center bg-img-devices-1 content-tween-left">
+                <div class="col-lg-6 d-flex justify-content-center align-items-center bg-img-devices-1 min-100 content-tween-left">
                     <!--<img class="downloads-img" src="/img/jaxx-multi-device-1.png" alt="">-->
                 </div>
-                <div class="col-xl-6 d-flex flex-column justify-content-center align-items-start min-100 p-5">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start min-100 p-5">
                     <h2 class="section-title font-weight-bold m-0 content-stagger-up">Use on any device.</h2>
                     <p class="py-3 content-stagger-up">The Jaxx Liberty beta is a free service available on Mac, Windows, and Linux desktop, iPad and Tablet, iPhone and Android, and as and extension for Google Chrome.</p>
                     <!--icons next-->
@@ -278,14 +301,14 @@
 
            <!-- row 7 download reminder CTA-->
            <div class="row pin bg-orange text-white min-100 content-tween">
-<!--               <div class="col-sm-4"></div>-->
-               <div class="col-sm-12 w-75 d-flex flex-column justify-content-center align-items-center text-center bg-gradient-navy p-4 circle-left">
-                   <img class="jaxx-logo-text content-stagger-up" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="">
-                   <h2 class="text-heavy content-stagger-up">Don't have Jaxx Liberty yet?</h2>
-                   <p class="text-reg content-stagger-up">Take control of your digital life.</p>
-                   <a href="downloads.html" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Download</a>
+               <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center text-center bg-gradient-navy p-4 circle-left">
+                  <div class="wrap w-75">
+                       <img class="jaxx-logo-text content-stagger-up" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="">
+                       <h2 class="font-weight-bold content-stagger-up">Don't have Jaxx Liberty yet?</h2>
+                       <p class="h5 pb-3 content-stagger-up">Take control of your digital life.</p>
+                       <a href="downloads.html" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Download</a>
+                   </div>
                </div>
-<!--               <div class="col-sm-4"></div>-->
            </div><!--end row-->
        
         </div><!--end main container-->
@@ -298,7 +321,7 @@
                    <img class="jaxx-logo-text content-stagger-up" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty">
                </div>
                 <div class="row d-flex d-flex justify-content-center align-items-end text-white bg-orange px-3 pt-5">
-                    <div class="col-lg-3 col-md-6 px-5 pt-5 skew stagger-tween-item">
+                    <div class="col-lg-3 col-md-6 px-5 py-3 skew stagger-tween-item">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold border-bottom pb-3">Jaxx Liberty</li>
                             <li> <a href="/features.html" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Features</a></li>
@@ -307,7 +330,7 @@
                             <li> <a href="/thirdparties-current.html">Third-Party Agreements</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 col-md-6 px-5 pt-5 skew stagger-tween-item">
+                    <div class="col-lg-3 col-md-6 px-5 py-3 skew stagger-tween-item">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold border-bottom pb-3">Company</li>
                             <li> <a href="/about.html" class="animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">About</a></li>
@@ -316,7 +339,7 @@
                             <li><br></li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 col-md-6 px-5 pt-5 skew stagger-tween-item">
+                    <div class="col-lg-3 col-md-6 px-5 py-3 skew stagger-tween-item">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold border-bottom pb-3">Download</li>
                             <li><a href="/downloads.html" class="animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">Desktop</a></li>
@@ -327,7 +350,7 @@
                             <!--<li><a href="https://chrome.google.com/webstore/detail/jaxx-blockchain-wallet/ancbofgphhmhcchnaognahmjfajaecmo" target="_blank">Chrome Extension</a></li>-->
                         </ul>
                     </div>
-                    <div class="col-lg-3 col-md-6 px-5 pt-5 skew stagger-tween-item">
+                    <div class="col-lg-3 col-md-6 px-5 py-3 skew stagger-tween-item">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold border-bottom pb-3">Help</li>
                             <li> <a href="https://decentral.zendesk.com/hc/en-us" target="_blank">Support</a></li>

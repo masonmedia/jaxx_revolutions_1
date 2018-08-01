@@ -332,6 +332,7 @@ a:hover {
 
 .z--1 {z-index: -1;}
 .z-0 {z-index: 0;}
+.z-1 {z-index: 1;}
 .z-2 {z-index: 2;}
 .z-3 {z-index: 3;}
 
@@ -532,7 +533,7 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
     max-width: 100%;
 }
 .big-logo {
-    width: 130px;
+    width: 110px;
 }
 
 /* downloads --> itunes and google play logos */
@@ -588,15 +589,6 @@ video {
 
 
 /* bg images */
-
-
-/*
-was causing problems with scroll magic pinning
-
-div[class*="bg-img"] {
-    transition: all 1s ease;
-}
-*/
 
 .bg-img-3 {
     background: url(https://images.pexels.com/photos/1093906/pexels-photo-1093906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center; 
@@ -720,10 +712,20 @@ div[class*="bg-img"] {
     background: url(/img/partner-logos/banner.jpg) center;
     background-size: cover;
 }
-/* footer bg gradient */
-.bg-img-footer-1 {
-    background: url('/img/jaxx-iphone-5.gif');
-    background-attachment: fixed;
+
+/* cookies consent banner */
+/*
+.cc-window {
+    border-radius: 5px;
+    box-shadow: 0 0 3px #000;
+}
+*/
+.cc-message {
+    font-weight: bold;
+}
+.cc-message a, 
+.cc-link {
+    color: #ff6902;
 }
 
 /*  about page */
@@ -742,7 +744,7 @@ div[class*="bg-img"] {
 }
 .bg-img-office {
     background: url(/img/careers-update.jpg) center;
-    background: url(/img/careers-update.jpg) center;
+/*    background: url(/img/office-70.jpg) center;*/
     background-size: cover;
 }
 
@@ -751,10 +753,19 @@ div[class*="bg-img"] {
 /* security */
 
 .bg-img-banner-security {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/333837/pexels-photo-333837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background: url(https://c1.staticflickr.com/4/3822/12460407583_b66750cdf1_b.jpg) center;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(http://careercity.co.za/wp-content/uploads/2016/08/5-sec-face-collage.jpg) center;
+/*    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(http://careercity.co.za/wp-content/uploads/2016/08/5-sec-face-collage.jpg) center;*/
     background-size: 20%;
     background-attachment: fixed;
+}
+.img-shield {
+    filter: grayscale(100);
+    opacity: 0.4;
+    height: auto;
+    position: absolute;
+    width: 300px;
+    z-index: 0;
 }
 .bg-img-people-1 {
     background: url(/img/jaxx-four-people.jpeg) center;
@@ -922,10 +933,13 @@ i {
 /*  footer */
 
 footer li a {
-    font-size: 18px;
+/*    font-size: 18px;*/
+}
+footer p {
+    font-size: 16px;
 }
 .footer-leaf {
-    height: 50px;    
+    height: 40px;    
 }
 .copyright {
     background: #ff6902;
@@ -945,17 +959,34 @@ footer li a {
 }
 
 @media (max-width: 992px) {
+    /*  mobile menu */
+    .navbar-toggler {
+        padding: 0; 
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0; 
+    }
+    .nav-link {
+        border-top: 1px solid lightgrey;
+        padding: 1rem 1rem;
+    }
+    .nav-link:hover {
+        color: #ff6902;
+    }
+    /*  make all bg images scroll */
     div[class*="bg-img"] {
         background-attachment: scroll;
     }
-/*    flex order */
+    /* flex order */
     .o-1 {
         order: 1;
     }
     .o-12 {
         order: 12;
     }
-/*front page downloads img*/
+    /*front page downloads img*/
     .downloads-img {
         height: auto;
         left: 0;
@@ -964,6 +995,7 @@ footer li a {
     
 }
 @media (max-width: 768px) {
+    
     p {
         font-size: 20px;
     }

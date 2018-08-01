@@ -23,11 +23,11 @@ Layout uses native Bootstrap classes, flexbox, and 'functional' css.
 
 4. Naming conventions: 
 
-titles and headings: site-title | page-title | section-title | section-sub-title
-fonts: custom hosted font is used (UniNeue): individual styles are made into classes (text-light | text-reg | text-book (not used) text-heavy | text-bold)
-background images: bg-img-...
-background colors: bg-...
-logos and icons: jaxx-logo / jaxx-icon
+    > titles and headings: site-title | page-title | section-title | section-sub-title
+    > fonts: custom hosted font is used (UniNeue): individual styles are made into classes (text-light | text-reg | text-book (not used) text-heavy | text-bold)
+    > background images: bg-img-...
+    > background colors: bg-...
+    > logos and icons: jaxx-logo / jaxx-icon
 
 
 ##JS
@@ -35,9 +35,11 @@ logos and icons: jaxx-logo / jaxx-icon
 Multiple JS plugins are used on the site.
 
 1. Animisation: a jquery plugin that adds css transition effects on page changes/reload. Data-attrributes are embedded in HTML with css effects (largely based on animate.css).
+    > atrributes are added to <a> links, as well as a main content tag. These allow the addition of transition effects to be applied whenever a link is clicked, and additionally when a page loads. Different effects are added on each menu (and footer) link.
 
 2. Scroll Magic: adds effects that are activated based on scroll position.
 
 3. GSAP (Greensock): Tweening and timeline animation in combination with Scroll Magic.
 
 4. Rellax.js: A Parallax plugin allowing for muliple layering of parallax elements.
+    > a "rellax" class is added to hmtl tags in addition to js init and options
