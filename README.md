@@ -14,13 +14,13 @@ The site uses Bootstrap 4.1. Layout uses native Bootstrap classes, flexbox, and 
 
 *Note: the HTML can get heavy with classes specifically when it comes to spacing (padding and margin styles). Effort has been made to keep styles 'functional' as much as possible, with added stylesheet classes only when necessary.*
 
-2. 1 Stylesheet is used with an effort at organizing structure vertically based on relationship to HTML and page order.  Starts with resets and global elements, proceeding to more specific styles.
+2. One stylesheet is used with an effort at organizing structure vertically based on relationship to HTML and page order. Starts with resets and global elements, proceeding to more specific styles.
 
 3. Animate.css is used throughout the site, largely for carousel animations and page transition effects.
 
 4. Naming conventions: 
 
-    - titles and headings: `site-title` | `page-title` | `section-title` | `section-sub-title`
+    - titles and headings: `site-title`, `page-title`, `section-title`, `section-sub-title`
     - fonts: custom hosted font is used (UniNeue): individual styles are made into classes (text-light | text-reg | text-book (not used) text-heavy | text-bold)
     - background images: `bg-img-...`
     - background colors: `bg-...`

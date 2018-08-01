@@ -180,6 +180,11 @@ a:visited {
     transition: all .3s ease-in-out;
 }
 a:hover {
+    color: #ff6902;
+    text-decoration: none;
+}
+
+footer a:hover {
     color: rgb(38, 65, 118);
     text-decoration: none;
 }
@@ -213,7 +218,7 @@ a:hover {
     font-weight: bold;
 }
 .btn-orange:hover {
-    background: #fff;
+    background: transparent;
     border: 1px solid #ff6902;
     color: #ff6902;
 }
@@ -485,11 +490,12 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
 .bg-black {
     background: #000;
 }
-.bg-gradient-navy {
+.bg-download-gradient {
     background: rgb(38, 65, 118);  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgb(38, 65, 118), #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: linear-gradient(to right, rgb(38, 65, 118, 0.8), rgb(5, 117, 230, 0.8)
+), url(/img/jaxx-people-1.jpeg) center; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
 }
 
 /* images + logos */
@@ -750,13 +756,21 @@ video {
 
 /*  features page */
 
+/* downloads */
+
+.bg-img-banner-downloads {
+    background: url(https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f34d31b7b293d187d4b134d6afcabba9&auto=format&fit=crop&w=1051&q=80) center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background-size: cover;
+}
+
 /* security */
 
 .bg-img-banner-security {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/333837/pexels-photo-333837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background: url(https://c1.staticflickr.com/4/3822/12460407583_b66750cdf1_b.jpg) center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/333837/pexels-photo-333837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://c1.staticflickr.com/4/3822/12460407583_b66750cdf1_b.jpg) center;
 /*    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(http://careercity.co.za/wp-content/uploads/2016/08/5-sec-face-collage.jpg) center;*/
-    background-size: 20%;
+    background-size: 30%;
     background-attachment: fixed;
 }
 .img-shield {
@@ -769,6 +783,13 @@ video {
 }
 .bg-img-people-1 {
     background: url(/img/jaxx-four-people.jpeg) center;
+    background-size: cover;
+}
+
+/* support */
+
+.bg-img-banner-support {
+    background: url(/img/jaxx-heart-hands-2.jpeg) center;
     background-size: cover;
 }
 
