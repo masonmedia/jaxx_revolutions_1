@@ -114,7 +114,7 @@ for (var i=0; i<slides.length; i++) {
     new ScrollMagic.Scene({
             triggerElement: slides[i],
             triggerHook: 'onLeave',
-//			duration: "120%",
+			duration: "120%",
 			reverse: true
         })
         .setPin(slides[i])
@@ -124,26 +124,42 @@ for (var i=0; i<slides.length; i++) {
    
 //GSAP tweens
       
-//     banner timelinen 
+//     banner timeline 
      
      var tl = new TimelineLite();
 
 //add a from() tween at the beginning of the timline
 tl.from("#banner", 1, {opacity:0});
 
-//add another tween immediately after
-tl.from(".site-title-2", 1, {opacity:0});
+//fade in Jaxx
+tl.from("#banner .site-title-2", 2, {autoAlpha:0});
+     
+//fade out Jaxx
+tl.to("#banner .site-title-2", 3, {autoAlpha:0, display: "none"});
+     
+//fade in liberty
+tl.from("#banner .site-title-3", 1, {autoAlpha:0});
+     
 
 //use position parameter "+=0.5" to schedule next tween 0.5 seconds after previous tweens end
-tl.from(".site-title", 1, {autoAlpha:0}, "+=0.5");
+tl.from("#banner .site-title", 1, {y:-100, autoAlpha:0}, "+=0.5");
 
 //use position parameter "-=0.5" to schedule next tween 0.25 seconds before previous tweens end.
 //great for overlapping
-tl.from(".site-sub-title", 1, {left:100, autoAlpha:0});
+tl.from("#banner .site-sub-title", 1, {left:100, autoAlpha:0});
 
 //add a label 0.5 seconds later to mark the placement of the next tween
-tl.from(".btn", 0.5, {autoAlpha:0});
+tl.from("#banner .btn", 0.5, {autoAlpha:0});
 //to jump to this label use: tl.play("stagger");
+     
+//fade out liberty to make overlay text legible
+tl.to("#banner .site-title-3", 1, {autoAlpha:0.4}, "+=0.5");
+  
+//     fade in jaxx liberty logo
+tl.from("#banner .jaxx-logo-text", 1, {y:-100, autoAlpha:0});     
+
+//fade in nav
+tl.from("#banner nav", 1, {autoAlpha:0});
 
 //stagger the animation of all icons with 0.1s between each tween's start time
 //this tween is added

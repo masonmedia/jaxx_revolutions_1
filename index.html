@@ -36,7 +36,8 @@
 <meta name="twitter:image" content="">
 
 <!--google fonts-->
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900|Mr+Dafoe" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:500,700,900|Raleway:500,700" rel="stylesheet">
 
 <!--styles-->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
@@ -52,16 +53,15 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
-<!--nav-->
+    <!--nav-->
     <nav class="navbar fixed-top navbar-expand-lg">
-        <a class="navbar-brand animsition-link" href="index.html" data-animsition-out-class="fade-out" data-animsition-out-duration="800">
-          <img class="jaxx-navbar-brand" src="/img/JaxxLiberty_Logo_RGB_Screen.png" alt="Jaxx Liberty">
+        <a class="navbar-brand animsition-link" href="/index.html" data-animsition-out-class="fade-out" data-animsition-out-duration="800">
+          <img class="jaxx-navbar-brand" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="Jaxx Liberty">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-<!--        <span class="navbar-toggler-icon"></span>-->
             <img class="jaxx-mobile-menu" src="/img/jaxx-menu-orange.png" alt="">
         </button>
-
+        
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
@@ -71,7 +71,10 @@
             <a class="nav-link animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800" href="/downloads.html">Download</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800" href="about.html">Security</a>
+            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800" href="/security.html">Security</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800" href="/careers.html">Careers</a>
           </li>
           <li class="nav-item">
             <a class="nav-link animsition-link" data-animsition-out-class="flip-out-y" data-animsition-out-duration="800" href="https://blog.jaxx.io/" target="_blank">Blog</a>
@@ -87,12 +90,23 @@
     <main role="main" class="animsition" data-animsition-in-class="fade-in" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="1000">
 
         <!--jumbotron-->
-        <div id="banner2" role="banner" class="pin jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center bg-black text-white min-100 p-5 m-0">
+        <div id="banner" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center bg-black text-white min-100 p-5 m-0">
+            <img class="jaxx-logo-text relative z-2" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="">
             <h1 class="site-title relative z-2 pb-2">A Digital Wallet for Everyone.</h1>
             <h3 class="site-sub-title relative z-2 pb-3">No registration required. Use on any device. Download for free.</h3>
             <h4 class="site-title-2 knockout-2 absolute z-0">JAXX</h4>
+            <h5 class="site-title-3 knockout-2 absolute z-0">liberty</h5>
             <button class="btn btn-lg btn-orange z-0">Start Your Journey</button>
         </div>
+        
+        <!--jumbotron deux-->
+<!--
+        <div id="banner2" role="banner" class="pin jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center bg-black text-white min-100 p-5 m-0">
+            <h1 class="site-title pb-2">A Digital Wallet for Everyone.</h1>
+            <h3 class="site-sub-title pb-3">No registration required. Use on any device. Download for free.</h3>
+            <button class="btn btn-lg btn-orange">Start Your Journey</button>
+        </div>
+-->
         
         <!--container-->
         <div class="container-fluid p-0">
@@ -102,47 +116,55 @@
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-img-iphone-1 min-100 circle-left">
                 </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
-                    <h1 class="section-title text-heavy border border-bottom-0 px-5 py-4 m-0 content-stagger-up">Jaxx Liberty Is Here.</h1>
-                    <p class="border px-5 py-4 m-0 content-stagger-up">We’ve spent the last year redesigning and re-engineering Jaxx from the ground up. We’re excited to finally share it with you.</p>
-                    <div class="border border-top-0 px-5 py-4 m-0 content-stagger-up">
-                        <a href="/about.html" class="btn btn-lg btn-outline-dark animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1000">Read More</a>
+                    <h1 class="section-title font-weight-bold m-0 content-stagger-up">Jaxx Liberty Is Here.</h1>
+                    <p class="py-3 content-stagger-up">We’ve spent the last year redesigning and re-engineering Jaxx from the ground up. We’re excited to finally share it with you.</p>
+                    <div class="content-stagger-up">
+                        <a href="/about.html" class="btn btn-lg btn-dark text-white animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1000">Learn More</a>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
 
            <!--row 2 img-->
+<!--
             <div class="row pin d-flex bg-img-heart">
                 <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center min-100">
                     <h2 class="page-title text-white single-tween-item">Features</h2>
                 </div>
-            </div><!--end row-->
+            </div>end row
+-->
             
            <!--row 3 Features-->
             <div id="features" class="row pin d-flex bg-white content-tween">
-               
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
-                    <h2 class="section-title text-heavy border border-bottom-0 py-4 px-5 mb-0 content-stagger-up">Brand New Features.</h2>
-                    <p class="border py-4 px-5 m-0 content-stagger-up">Jaxx Liberty builds on the success of Jaxx, one of the most popular blockchain and cryptocurrency wallets, downloaded by millions. With this release we've made major updates we think you'll love.</p>
-                    <div class="border border-top-0 px-5 py-4 m-0 content-stagger-up">
-                        <a href="/features.html" class="btn btn-lg btn-outline-dark animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1000">Find Out</a>
+                    <h2 class="section-title font-weight-bold m-0 content-stagger-up">Brand New Features.</h2>
+                    <p class="py-3 content-stagger-up">Jaxx Liberty builds on the success of Jaxx, one of the most popular blockchain and cryptocurrency wallets, downloaded by millions. With this release we've made major updates we think you'll love.</p>
+                    <div class="m-0 content-stagger-up">
+                        <a href="/features.html" class="btn btn-lg btn-dark text-white animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1000">Learn More</a>
                     </div>
                 </div><!--end col-->
-                <div class="col-lg-7 bg-img-android"></div>
+                <div class="col-lg-7 bg-img-android content-stagger-up"></div>
             </div><!--end row-->
 
             <!--row 4 img-->
+<!--
             <div class="row pin d-flex">
                 <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center bg-img-3 min-100">
                     <h2 class="page-title text-white single-tween-item">Download</h2>
                 </div>
-            </div><!--end row-->
+            </div>end row
+-->
             
             <!--row 5 Download-->
             <div id="download" class="row pin d-flex bg-white content-tween">
+               <!--download img col-->
+                <div class="col-xl-6 d-flex justify-content-center align-items-center bg-img-devices-1 content-tween-left">
+                    <!--<img class="downloads-img" src="/img/jaxx-multi-device-1.png" alt="">-->
+                </div>
                 <div class="col-xl-6 d-flex flex-column justify-content-center align-items-start min-100 p-5">
-                    <h2 class="section-title text-heavy border border-bottom-0 py-4 px-5 mb-0 content-stagger-up">Use on any device.</h2>
-                    <p class="border py-4 px-5 m-0 content-stagger-up">The Jaxx Liberty beta is a free service available on Mac, Windows, and Linux desktop, iPad and Tablet, iPhone and Android, and as and extension for Google Chrome.</p>
-                    <!--icons-->
+                    <h2 class="section-title font-weight-bold m-0 content-stagger-up">Use on any device.</h2>
+                    <p class="py-3 content-stagger-up">The Jaxx Liberty beta is a free service available on Mac, Windows, and Linux desktop, iPad and Tablet, iPhone and Android, and as and extension for Google Chrome.</p>
+                    <!--icons next-->
+<!--
                     <div class="container-fluid">
                         <div class="row border border-top-0 py-3 px-5">
                             <div class="col-xs-3">
@@ -158,41 +180,39 @@
                                 <i class="fab fa-android content-stagger-up"></i>
                             </div>	
                         </div>
-                    </div><!--end icon container-->
-                    <div class="border border-top-0 px-5 py-4 m-0 content-stagger-up">
-                        <a href="/downloads.html" class="btn btn-lg btn-outline-dark animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Download</a>
+                    </div>end icon container
+-->
+                    <div class="m-0 content-stagger-up">
+                        <a href="/downloads.html" class="btn btn-lg btn-dark text-white animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Download</a>
                     </div>
                 </div>
-                <!--download img col-->
-                <div class="col-xl-6 d-flex justify-content-center align-items-center bg-img-devices-1 content-tween-left">
-<!--                    <img class="downloads-img" src="/img/jaxx-multi-device-1.png" alt="">-->
-                </div>
+                
             </div><!---end row-->   
             
             <!--row 6 Testimonials carousel-->
             <div id="socialProof" class="row pin bg-img-park content-tween">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center min-100 p-5">
-                   <h2 class="section-title bg-white-op text-li p-3 content-stagger-up">What people are saying about Jaxx Liberty</h2>
+                   <h2 class="section-title bg-white-op font-weight-bold p-3 content-stagger-up">What people are saying about Jaxx Liberty</h2>
                     <!--carousel-->
                     <div id="testimonials" class="carousel slide carousel-fade content-stagger-up" data-ride="carousel">
                       <div class="carousel-inner bg-white-op rounded">
-                        <div class="carousel-item active text-reg py-5 px-3">
+                        <div class="carousel-item active py-5 px-3">
                             <i class="fas fa-quote-right"></i>
                             <p class="p-3 m-0">“As a totally decentralized blockchain, I personally welcome any additional ways that users can look after their DigiByte. The more choices we give to our users in how they can send / receive their funds, the better for the security and decentralization of the DigiByte blockchain, and I think it's quite clear our community is keen to see DigiByte on Jaxx. I look forward to seeing the new Jaxx wallet, and look forward to the broader DigiByte community using it!”</p>
-                           <p class="font-weight-bold text-heavy animated flipInX">- Josiah Spackman, DigiByte Foundation Ambassador</p>
+                           <p class="font-weight-bold animated flipInX">- Josiah Spackman, DigiByte Foundation Ambassador</p>
                             <div class="px-5 py-4 m-0">
                                 <button class="btn btn-lg btn-outline-dark" href="#testimonials" role="button" data-slide="next">Read More</button>
                             </div>
                         </div><!--end carousel item-->
-                        <div class="carousel-item border text-reg py-5 px-3">
+                        <div class="carousel-item border py-5 px-3">
                             <i class="fas fa-quote-right animated slideInLeft"></i>
                             <p class="p-3 m-0 animated zoomInRight">“We’re very happy to partner with Jaxx, a highly-secure and a very easy-to-use wallet that is the first to support RSK. We’ve been working with them since the early days and are confident their large user base will help bring the dapps and more value to the Bitcoin Network, while RSK brings smart contract capabilities, higher scalability with 100 transactions per second and near instant payments.”</p>
-                            <p class="font-weight-bold text-heavy animated slideInUp">- Diego Gutierrez Zaldivar, CEO & Co-Founder</p>
+                            <p class="font-weight-bold animated slideInUp">- Diego Gutierrez Zaldivar, CEO & Co-Founder</p>
                             <div class="px-5 py-4 m-0 animated slideInUpBig">
                                 <button class="btn btn-lg btn-outline-dark" href="#testimonials" role="button" data-slide="next">Read More</button>
                             </div>
                         </div><!--end carousel item-->
-                        <div class="carousel-item border text-reg py-5 px-3">
+                        <div class="carousel-item border py-5 px-3">
                             <i class="fas fa-quote-right animated fadeInLeft"></i>
                             <p class="p-3 m-0 animated fadeIn">“As the creators of the Worldwide Asset eXchange (WAX) and OPSkins, we serve the 400+ million online players who collect, buy, and sell in-game digital items. Revolutionizing a $50 billion market means changing player buying behaviors and that requires partners who emphasize safety and security. Jaxx has been with us from the beginning and is partner we rely on. We can be sure Jaxx will be there every step of the way to serve and support our expanding ecosystem.”</p>
                             <p class="font-weight-bold text-heavy animated flipInX">- Malcolm CasSelle, President, WAX / CIO, OPSkins</p>
@@ -208,8 +228,8 @@
             <!--row 6 partners-->
             <div id="partners" class="row pin d-flex content-tween">
               <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left bg-white p-5">
-                    <h2 class="section-title text-heavy border border-bottom-0 py-4 px-5 mb-0">Our Partners.</h2>
-                    <p class="border py-4 px-5 m-0">Jaxx has close to a million active monthly users, millions of downloads, 70+ digital assets/cryptocurrencies, and over 200 partners.</p>
+                    <h2 class="section-title font-weight-bold m-0">Our Partners.</h2>
+                    <p class="py-3">Jaxx has close to a million active monthly users, millions of downloads, 70+ digital assets/cryptocurrencies, and over 200 partners.</p>
                 </div><!--end col-->
                <div class="col-lg-7 d-flex justify-content-center align-items-center min-100 bg-img-partners p-5">
                    <div class="container-fluid bg-light bg-dots rounded p-4">
@@ -263,7 +283,7 @@
                    <img class="jaxx-logo-text content-stagger-up" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="">
                    <h2 class="text-heavy content-stagger-up">Don't have Jaxx Liberty yet?</h2>
                    <p class="text-reg content-stagger-up">Take control of your digital life.</p>
-                   <a href="downloads.html" class="btn btn-lg btn-orange content-stagger-up animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Download</a>
+                   <a href="downloads.html" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Download</a>
                </div>
 <!--               <div class="col-sm-4"></div>-->
            </div><!--end row-->
@@ -273,11 +293,11 @@
         <!--footer-->
         
         <footer>
-            <div class="container-fluid stagger-tween">
-               <div class="row pin d-flex justify-content-center align-items-center bg-img-toronto-1 min-50">
-                   <img class="jaxx-logo-text stagger-tween-item" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty">
+            <div class="container-fluid content-tween">
+               <div class="row d-flex justify-content-center align-items-center bg-img-toronto-1 min-50">
+                   <img class="jaxx-logo-text content-stagger-up" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty">
                </div>
-                <div class="row pin d-flex d-flex justify-content-center align-items-end text-white bg-orange px-3 pt-5">
+                <div class="row d-flex d-flex justify-content-center align-items-end text-white bg-orange px-3 pt-5">
                     <div class="col-lg-3 col-md-6 px-5 pt-5 skew stagger-tween-item">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold border-bottom pb-3">Jaxx Liberty</li>
@@ -319,7 +339,7 @@
                 </div><!--end nest container-->
             </div><!--end row-->
             <!-- copyright + branding-->
-            <div class="row pin d-flex copyright">
+            <div class="row d-flex copyright">
                 <div class="col-sm-12 d-flex justify-content-center py-3 pt-4 navy">
                     <p class="font-weight-bold">&copy; Decentral Inc. <img class="footer-leaf" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made in Canada</p>
                 </div>

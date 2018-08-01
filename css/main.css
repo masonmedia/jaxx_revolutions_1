@@ -100,7 +100,7 @@ textarea {
 
 html,
 body {
-    font-family: 'UniNeueRegular', Avenir, sans-serif;
+    font-family: "Montserrat", 'UniNeueRegular', Avenir, sans-serif;
     overflow-x: hidden;
     width: 100%;
 }
@@ -241,9 +241,9 @@ a:hover {
     margin: 0;
 }
 .page-title {
-    font-family: 'Mr Dafoe', cursive, sans-serif;
-    font-size: 25vmin;
-    opacity: 0.8;
+/*    font-family: 'Mr Dafoe', cursive, sans-serif;*/
+    font-size: 15vmin;
+    letter-spacing: -10px;
     font-weight: 900;
 }
 .section-title {
@@ -265,7 +265,8 @@ a:hover {
 
 .knockout-2 {
     background: -webkit-linear-gradient(transparent, transparent),
-             url(/img/jaxx-jump-2.jpg) center center;
+             url(/img/jaxx-jump-2.jpg) center 60%;
+    background-size: 100%;
     background-blend-mode: overlay;
     -webkit-background-clip: text;
     background-clip: text;
@@ -274,13 +275,25 @@ a:hover {
 
 .site-title-2 {
     font-size: 30vw;
+    font-size: 35vw;
     font-weight: 900;
     letter-spacing: -60px;
     padding: 0 60px 0 0;
 }
+.site-title-3 {
+    font-size: 25vw;
+    font-weight: 900;
+    letter-spacing: -40px;
+    padding: 0 40px 0 0;
+/*    top: 400px;*/
+    text-transform: uppercase;
+}
 
 /* fonts + text effects */
 
+.opacity {
+    opacity: 0.8;
+}
 .cursive {
     font-family: 'Mr Dafoe', cursive;
 }
@@ -605,84 +618,6 @@ div[class*="bg-img"] {
     background-size: cover;
 }
 
-/* section images */
-
-/* home page */
-
-.bg-img-banner-home {
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/jaxx-jump-2.jpg) center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-
-.bg-banner-2 {
-    background: url(/img/smartmockups_jjymzoi2.jpg) center;
-    background: url(/img/jaxx-jump-2.jpg) center;
-    background: url(/img/jaxx-iphone-5.jpg) center;
-    background-size: 50%;
-    background-attachment: fixed;
-}
-.bg-img-1 {
-    background: url(/img/jaxx-people-1.jpeg) center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.bg-img-2 {
-    background: linear-gradient(110deg, transparent 60%, rgba(255, 105, 2, .6) 60%), url(https://images.pexels.com/photos/877699/pexels-photo-877699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
-) center;
-    background: url(https://images.pexels.com/photos/877699/pexels-photo-877699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.downloads-img {
-    position: relative;
-    right: -200px;
-    z-index: -1;
-}
-.bg-img-partners {
-    background: url(/img/partner-logos/banner.jpg) center;
-    background-size: cover;
-}
-/* footer bg gradient */
-.bg-img-footer-1 {
-    background: url('/img/jaxx-iphone-5.gif');
-    background-attachment: fixed;
-}
-
-/*  about page */
-
-.bg-img-about-1 {
-    background: url(/img/jaxx-people-2.jpeg) center;
-    background-size: cover;
-}
-.bg-img-jump {
-    background: url(/img/jaxx-jump-2.jpg) center;
-    background-size: cover;
-}
-.bg-img-heart {
-    background: url(/img/jaxx-heart-hands.jpeg) center;
-    background-size: cover;
-}
-.bg-img-office {
-    background: url(/img/careers-update.jpg) center;
-    background: url(/img/careers-update.jpg) center;
-    background-size: cover;
-}
-
-/*  features page */
-
-/* features phone slider */
-
-.bg-img-features {
-    background: url(/img/jaxxliberty-phone-hand.jpg) center;
-    background-size: cover;
-}
-.bg-img-park {
-    background: url(https://images.pexels.com/photos/571143/pexels-photo-571143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background-size: cover;
-}
-
 /* devices */
 
 .bg-img-laptop {
@@ -747,6 +682,105 @@ div[class*="bg-img"] {
     background-attachment: fixed;
 /*    pexels*/
 }
+
+/* page/section images */
+
+/* home page */
+
+.bg-img-banner-home {
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/jaxx-jump-2.jpg) center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-banner-2 {
+    background: url(/img/smartmockups_jjymzoi2.jpg) center;
+    background: url(/img/jaxx-jump-2.jpg) center;
+    background: url(/img/jaxx-iphone-5.jpg) center;
+    background-size: 50%;
+    background-attachment: fixed;
+}
+.bg-img-1 {
+    background: url(/img/jaxx-people-1.jpeg) center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-img-2 {
+    background: linear-gradient(110deg, transparent 60%, rgba(255, 105, 2, .6) 60%), url(https://images.pexels.com/photos/877699/pexels-photo-877699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+) center;
+    background: url(https://images.pexels.com/photos/877699/pexels-photo-877699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.downloads-img {
+    position: relative;
+    right: -200px;
+    z-index: -1;
+}
+.bg-img-partners {
+    background: url(/img/partner-logos/banner.jpg) center;
+    background-size: cover;
+}
+/* footer bg gradient */
+.bg-img-footer-1 {
+    background: url('/img/jaxx-iphone-5.gif');
+    background-attachment: fixed;
+}
+
+/*  about page */
+
+.bg-img-about-1 {
+    background: url(/img/jaxx-people-2.jpeg) center;
+    background-size: cover;
+}
+.bg-img-jump {
+    background: url(/img/jaxx-jump-2.jpg) center;
+    background-size: cover;
+}
+.bg-img-heart {
+    background: url(/img/jaxx-heart-hands.jpeg) center;
+    background-size: cover;
+}
+.bg-img-office {
+    background: url(/img/careers-update.jpg) center;
+    background: url(/img/careers-update.jpg) center;
+    background-size: cover;
+}
+
+/*  features page */
+
+/* security */
+
+.bg-img-banner-security {
+    background: url(https://c1.staticflickr.com/4/3822/12460407583_b66750cdf1_b.jpg) center;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(http://careercity.co.za/wp-content/uploads/2016/08/5-sec-face-collage.jpg) center;
+    background-size: 20%;
+    background-attachment: fixed;
+}
+.bg-img-people-1 {
+    background: url(/img/jaxx-four-people.jpeg) center;
+    background-size: cover;
+}
+
+/* legal */
+
+.bg-img-banner-legal {
+    background: url(https://images.pexels.com/photos/877699/pexels-photo-877699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* features phone slider */
+
+.bg-img-features {
+    background: url(/img/jaxxliberty-phone-hand.jpg) center;
+    background-size: cover;
+}
+.bg-img-park {
+    background: url(https://images.pexels.com/photos/571143/pexels-photo-571143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background-size: cover;
+}
+
+
 
 /* section styles */
 
@@ -881,13 +915,6 @@ i {
 /*    background: transparent;*/
 }
 
-/* legal */
-
-.bg-img-banner-legal {
-    background: url(https://images.pexels.com/photos/877699/pexels-photo-877699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 /* careers */
 
