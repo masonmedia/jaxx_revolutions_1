@@ -20,11 +20,11 @@ The site uses Bootstrap 4.1. Layout uses native Bootstrap classes, flexbox, and 
 
 4. Naming conventions: 
 
-    - titles and headings: 'site-title' | 'page-title' | 'section-title' | 'section-sub-title'
+    - titles and headings: `site-title` | `page-title` | `section-title` | `section-sub-title`
     - fonts: custom hosted font is used (UniNeue): individual styles are made into classes (text-light | text-reg | text-book (not used) text-heavy | text-bold)
-    - background images: 'bg-img-...'
-    - background colors: 'bg-...'
-    - logos and icons: 'jaxx-logo / jaxx-icon'
+    - background images: `bg-img-...`
+    - background colors: `bg-...`
+    - logos and icons: `jaxx-logo` and `jaxx-icon`
 
 
 ## **JS**
@@ -39,4 +39,4 @@ The site uses Bootstrap 4.1. Layout uses native Bootstrap classes, flexbox, and 
 3. GSAP (Greensock): Tweening and timeline animation in combination with Scroll Magic.
 
 4. Rellax.js: A Parallax plugin allowing for muliple layering of parallax elements.
-    - a 'rellax' class is added to hmtl tags in addition to js init and options
+    - a `rellax` class is added to hmtl tags in addition to js init and options
