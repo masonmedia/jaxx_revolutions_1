@@ -2,11 +2,11 @@
 
 The official website of Jaxx Liberty, the leading Multi-Platform Cryptocurrent Wallet created by Anthony Di Iorio, Co-Founder of Ethereum and Founder and CEO of Decentral and Jaxx.
 
-For more information see jaxx.io and decentral.ca.
+For more information see [jaxx.io](https://jaxx.io) and [decentral.ca](https://decentral.ca).
 
 ## **Layout and Frameworks**
 
-**The site uses Bootstrap 4.1. Layout uses native Bootstrap classes, flexbox, and 'functional' css.**
+The site uses Bootstrap 4.1. Layout uses native Bootstrap classes, flexbox, and 'functional' css.
 
 ## **CSS**
 
