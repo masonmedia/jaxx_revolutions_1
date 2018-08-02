@@ -270,13 +270,21 @@ footer a:hover {
 
 .knockout-2 {
     background: -webkit-linear-gradient(transparent, transparent),
-             url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background-size: 100%;
+             url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center center;
+    background-size: 110%;
     background-blend-mode: multiply;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    animation: slide 13s ease-in-out;
 }
+
+/* knockout animation */
+@keyframes slide {
+   0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+
 
 .site-title-2 {
     font-size: 30vw;
@@ -696,10 +704,12 @@ video {
     background: url(/img/smartmockups_jjymzoi2.jpg) center;
     background: url(/img/jaxx-jump-2.jpg) center;
     background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
     background-attachment: fixed;
 }
+
+
 .bg-img-1 {
     background: url(/img/jaxx-people-1.jpeg) center;
     background-size: cover;
@@ -793,6 +803,7 @@ video {
 
 .bg-img-banner-support {
     background: url(/img/jaxx-heart-hands-2.jpeg) center;
+    background: linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/6552/nature-person-red-woman.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
 }
 
@@ -810,7 +821,7 @@ video {
     background: url(/img/jaxxliberty-phone-hand.jpg) center;
     background: url(https://images.unsplash.com/photo-1525772113380-aa8ed1acf3b7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a21ce135ec3c8d74846902fdfccbe32d&auto=format&fit=crop&w=800&q=80) center;
     background: linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/955450/pexels-photo-955450.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background: url(https://images.pexels.com/photos/955450/pexels-photo-955450.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+/*    background: url(https://images.pexels.com/photos/955450/pexels-photo-955450.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;*/
     background-size: cover;
     background-attachment: fixed;
 }

@@ -129,36 +129,36 @@ for (var i=0; i<slides.length; i++) {
      var tl = new TimelineLite();
 
 //add a from() tween at the beginning of the timline
-tl.from(".bg-img-banner-2", 2, {autoAlpha:0});
+tl.from(".bg-img-banner-2", 1, {autoAlpha:0, ease: SlowMo.easeIn});
 
 //fade in Jaxx
-tl.from("#banner .site-title-2", 2, {autoAlpha:0});
+tl.from("#banner .site-title-2", 3, {autoAlpha:0, ease: SlowMo.easeInOut});
      
 //fade out Jaxx
-tl.to("#banner .site-title-2", 2, {autoAlpha:0, display: "none"});
+tl.to("#banner .site-title-2", 2, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
      
 //fade in liberty
-tl.from("#banner .site-title-3", 1, {autoAlpha:0});
-
-//use position parameter "+=0.5" to schedule next tween 0.5 seconds after previous tweens end
-tl.from("#banner .site-title", 1, {y:-100, autoAlpha:0}, "+=0.5");
+tl.from("#banner .site-title-3", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
      
-     //fade out liberty to make overlay text legible
-tl.to("#banner .site-title-3", 1, {autoAlpha:0}, "+=0.5");
+//use position parameter "+=0.5" to schedule next tween 0.5 seconds after previous tweens end
+tl.from("#banner .site-title", 1, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut}, "+=0.5");
+     
+ //fade out liberty to make overlay text legible
+tl.to("#banner .site-title-3", 1, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
 
 //use position parameter "-=0.5" to schedule next tween 0.25 seconds before previous tweens end.
 //great for overlapping
-tl.from("#banner .site-sub-title", 1, {left:100, autoAlpha:0});
+tl.from("#banner .site-sub-title", 1, {left:100, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
 
 //add a label 0.5 seconds later to mark the placement of the next tween
-tl.from("#banner .btn", 0.5, {autoAlpha:0});
+tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: Back.easeInOut});
 //to jump to this label use: tl.play("stagger");
   
 //fade in jaxx liberty logo
-tl.from("#banner .jaxx-logo-jumbo", 1, {y:-100, autoAlpha:0});     
+tl.from("#banner .jaxx-logo-jumbo", 1, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut});     
 
 //fade in nav
-tl.from("#home nav", 1, {autoAlpha:0});
+tl.from("#home nav", 1, {autoAlpha:0, ease: Back.easeInOut});
      
      //fade in bg image
 //tl.to("#banner .jumbotron .jumbotron-fluid", 1, {css:{backgroundImage:'url(img/jaxx-jump-2.jpg)'}});
