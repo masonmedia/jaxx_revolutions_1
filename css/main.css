@@ -514,6 +514,12 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
     width: 100%;
 }
 
+.img-full {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
 /* jaxx logo */
 
 .jaxx-navbar-brand {
@@ -675,6 +681,7 @@ video {
 }
 .bg-img-android {
     background: url(http://www.innjoo.com/Public/images/max3/max3_c_4-1.png) center top;
+    background: url(/img/jaxx-android%20copy.png) center top;
     background-size: cover;
 }
 .bg-img-dashboard {
