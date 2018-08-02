@@ -270,9 +270,9 @@ footer a:hover {
 
 .knockout-2 {
     background: -webkit-linear-gradient(transparent, transparent),
-             url(/img/jaxx-jump-2.jpg) center 60%;
+             url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: 100%;
-    background-blend-mode: overlay;
+    background-blend-mode: multiply;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -519,7 +519,9 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 .jaxx-logo-jumbo {
     height: auto;
+    margin-bottom: -20px;
     width: 20vw;
+    
 }
 .jaxx-logo {
     height: auto;
@@ -690,11 +692,12 @@ video {
     background-size: cover;
     background-attachment: fixed;
 }
-.bg-banner-2 {
+.bg-img-banner-2 {
     background: url(/img/smartmockups_jjymzoi2.jpg) center;
     background: url(/img/jaxx-jump-2.jpg) center;
-    background: url(/img/jaxx-iphone-5.jpg) center;
-    background-size: 50%;
+    background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background-size: cover;
     background-attachment: fixed;
 }
 .bg-img-1 {
@@ -768,14 +771,14 @@ video {
 
 .bg-img-banner-security {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/333837/pexels-photo-333837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://c1.staticflickr.com/4/3822/12460407583_b66750cdf1_b.jpg) center;
+    background: linear-gradient(rgb(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://thumb9.shutterstock.com/display_pic_with_logo/257323/286532618/stock-photo-collection-of-different-caucasian-women-and-men-ranging-from-to-years-286532618.jpg) center; /* ivan */
 /*    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(http://careercity.co.za/wp-content/uploads/2016/08/5-sec-face-collage.jpg) center;*/
-    background-size: 30%;
+    background-size: 50%;
     background-attachment: fixed;
 }
 .img-shield {
     filter: grayscale(100);
-    opacity: 0.4;
+    opacity: 0.2;
     height: auto;
     position: absolute;
     width: 300px;
@@ -806,8 +809,10 @@ video {
 .bg-img-banner-features {
     background: url(/img/jaxxliberty-phone-hand.jpg) center;
     background: url(https://images.unsplash.com/photo-1525772113380-aa8ed1acf3b7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a21ce135ec3c8d74846902fdfccbe32d&auto=format&fit=crop&w=800&q=80) center;
+    background: linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/955450/pexels-photo-955450.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background: url(https://images.pexels.com/photos/955450/pexels-photo-955450.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .bg-img-park {
     background: url(https://images.pexels.com/photos/571143/pexels-photo-571143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
@@ -823,6 +828,7 @@ video {
 
 nav,
 .navbar {
+/*    background: rgb(38, 65, 118);*/
     transition: all .3s ease-in-out;    
 }
 
@@ -837,6 +843,7 @@ nav,
 /* for navbar change color on scroll */
 .navbar.fixed-top.scrolled {
   background-color: rgba(38, 65, 118, 0.5); !important;
+  background-color: rgba(38, 65, 118); !important;
   transition: all 200ms ease-in-out;
 }
 
