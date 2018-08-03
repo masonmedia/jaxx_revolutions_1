@@ -24,8 +24,8 @@ $(".animsition").animsition({
     overlayParentElement : 'body',
     transition: function(url){ window.location.href = url; }
   });
-
-
+     
+     
 //nav change color on scroll 
      
 $(document).scroll(function () {
@@ -54,56 +54,6 @@ $(document).scroll(function () {
     
 var controller = new ScrollMagic.Controller();
      
-//    section pins 
-     
-//    var pin1 = new ScrollMagic.Scene({
-//    triggerElement: '#about', 
-//    triggerHook: 0,
-//    duration: "100%"
-//    })
-//    .setPin("#about")
-//    .setTween(pin1)
-//    .addTo(controller);  
-//     
-//     var pin2 = new ScrollMagic.Scene({
-//    triggerElement: '#features', 
-//    triggerHook: 0,
-//    duration: "100%"
-//    })
-//    .setPin("#features")
-//    .setTween(pin2)
-//    .addTo(controller);
-//
-//
-//      var pin3 = new ScrollMagic.Scene({
-//    triggerElement: '#download', 
-//    triggerHook: 0,
-//    duration: "100%"
-//    })
-//    .setPin("#download")
-//    .setTween(pin3)
-//    .addTo(controller);
-//
-//      var pin4 = new ScrollMagic.Scene({
-//    triggerElement: '#socialProof', 
-//    triggerHook: 0,
-//    duration: "100%"
-//    })
-//    .setPin("#socialProof")
-//    .setTween(pin4)
-//    .addTo(controller);
-//     
-//     var pin4 = new ScrollMagic.Scene({
-//    triggerElement: '#partners', 
-//    triggerHook: 0,
-//    duration: "100%"
-//    })
-//    .setPin("#partners")
-//    .setTween(pin4)
-//    .addTo(controller);
-
-     
-     
 // pin rows + "wipe" slides under each other
 
 // get all slides
@@ -124,9 +74,9 @@ for (var i=0; i<slides.length; i++) {
    
 //GSAP tweens
       
-//     banner timeline 
+//home pager banner timeline 
      
-     var tl = new TimelineLite();
+var tl = new TimelineLite();
 
 //add a from() tween at the beginning of the timline
 tl.from(".bg-img-banner-2", 1, {autoAlpha:0, ease: SlowMo.easeIn});
@@ -135,10 +85,10 @@ tl.from(".bg-img-banner-2", 1, {autoAlpha:0, ease: SlowMo.easeIn});
 tl.from("#banner .site-title-2", 3, {autoAlpha:0, ease: SlowMo.easeInOut});
      
 //fade out Jaxx
-tl.to("#banner .site-title-2", 2, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
+tl.to("#banner .site-title-2", 1.5, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
      
 //fade in liberty
-tl.from("#banner .site-title-3", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
+tl.from("#banner .site-title-3", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25");
      
 //use position parameter "+=0.5" to schedule next tween 0.5 seconds after previous tweens end
 tl.from("#banner .site-title", 1, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut}, "+=0.5");
@@ -155,10 +105,10 @@ tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: Back.easeInOut});
 //to jump to this label use: tl.play("stagger");
   
 //fade in jaxx liberty logo
-tl.from("#banner .jaxx-logo-jumbo", 1, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut});     
+tl.from("#banner .jaxx-logo-jumbo", 2, {y:-100, autoAlpha:0, ease: Power4.easeInOut}, "-=0.5");     
 
 //fade in nav
-tl.from("#home nav", 1, {autoAlpha:0, ease: Back.easeInOut});
+tl.from("#home nav", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
      
      //fade in bg image
 //tl.to("#banner .jumbotron .jumbotron-fluid", 1, {css:{backgroundImage:'url(img/jaxx-jump-2.jpg)'}});
@@ -193,6 +143,26 @@ $(".fade-in-left").each(function() {
 
  	var fadeLeft = TweenMax.from(this, 1, {
 	        x: -100,
+	        autoAlpha: 0,
+	        delay: 0,
+	        ease: Power2.easeOut
+	    }, .1);
+
+	var scene1 = new ScrollMagic.Scene({
+	        triggerElement: this,
+	        offset: -100,
+	        reverse:true
+	    })
+		.setTween(fadeLeft)
+		.addTo(controller);
+});
+     
+//fade in up 
+     
+$(".fade-in-up").each(function() {
+
+ 	var fadeLeft = TweenMax.from(this, 1, {
+	        y: 100,
 	        autoAlpha: 0,
 	        delay: 0,
 	        ease: Power2.easeOut
@@ -243,6 +213,7 @@ $(".stagger-tween").each(function() {
 
 	var scene3 = new ScrollMagic.Scene({
 	        triggerElement: this,
+            triggerHook: 'onEnter',
 	        reverse:true
 	    })
 		.setTween(stagger)
@@ -302,8 +273,6 @@ $(".content-tween").each(function() {
   });
     
     
-    
-
     
 //end doc ready
 });

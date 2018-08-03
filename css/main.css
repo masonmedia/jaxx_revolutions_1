@@ -242,14 +242,15 @@ footer a:hover {
 .site-title {
     font-size: 6vmin;
     font-size: 10vmin;
+    font-size: 5vw;
     font-weight: 900;
-    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 .page-title {
-/*    font-family: 'Mr Dafoe', cursive, sans-serif;*/
     font-size: 15vmin;
-    letter-spacing: -10px;
     font-weight: 900;
+    letter-spacing: -10px;
 }
 .section-title {
     font-size: 8vmin;
@@ -269,8 +270,51 @@ footer a:hover {
 }
 
 .knockout-2 {
+    color: white;
+     -webkit-text-fill-color: transparent;
+    
+/*    knockout people*/
     background: -webkit-linear-gradient(transparent, transparent),
-             url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center center;
+             url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+/*
+    background: -webkit-linear-gradient(transparent, transparent),
+             url(https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+*/
+    
+/*    knockout sunset */
+/*
+    background: -webkit-linear-gradient(transparent, transparent),
+             url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05cc20d5b0bde7ae0d12f916c11aa18e&auto=format&fit=crop&w=1078&q=80) center;
+*/
+
+    background-size: 110%;
+    background-blend-mode: multiply;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: slide 13s ease-in-out;
+}
+
+.knockout-3 {
+    color: white;
+     -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+             url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background: -webkit-linear-gradient(transparent, transparent),
+             url(https://images.unsplash.com/photo-1529307145738-af20ddbc9255?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=93fc4dea9a9d47dc5cebfc6ae4b3eb63&auto=format&fit=crop&w=925&q=80) center;
+    background-size: 110%;
+    background-blend-mode: multiply;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: slide 13s ease-in-out;
+}
+
+.knockout-4 {
+    color: white;
+     -webkit-text-fill-color: transparent;
+     background: -webkit-linear-gradient(transparent, transparent),
+             url(/img/jaxx-jump-2.jpg) center center;
     background-size: 110%;
     background-blend-mode: multiply;
     -webkit-background-clip: text;
@@ -303,6 +347,10 @@ footer a:hover {
 }
 
 /* fonts + text effects */
+
+.line-height {
+    line-height: 80%;
+}
 
 .opacity {
     opacity: 0.8;
@@ -638,8 +686,8 @@ video {
     background: url(/img/jaxx-laptop.jpeg) center;
     background-size: cover;
 }
-.bg-img-devices-1 {
-    background: url(/img/jaxx-multi-device-1.png) right no-repeat;
+.bg-img-multi-platform {
+    background: url(/img/jaxx-multi-platform.png) right no-repeat;
     background-size: contain;
 }
 .bg-img-devices-2 {
@@ -707,11 +755,26 @@ video {
     background-size: cover;
     background-attachment: fixed;
 }
+
 .bg-img-banner-2 {
     background: url(/img/smartmockups_jjymzoi2.jpg) center;
     background: url(/img/jaxx-jump-2.jpg) center;
     background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    
+/*    people*/
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    
+/*    confetti*/
+/*    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;*/
+    
+/*    mountains*/
+/*    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05cc20d5b0bde7ae0d12f916c11aa18e&auto=format&fit=crop&w=1078&q=80) center;*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-img-banner-home-3 {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1529307145738-af20ddbc9255?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=93fc4dea9a9d47dc5cebfc6ae4b3eb63&auto=format&fit=crop&w=925&q=80) center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -722,13 +785,7 @@ video {
     background-size: cover;
     background-attachment: fixed;
 }
-.bg-img-2 {
-    background: linear-gradient(110deg, transparent 60%, rgba(255, 105, 2, .6) 60%), url(https://images.pexels.com/photos/877699/pexels-photo-877699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
-) center;
-    background: url(https://images.pexels.com/photos/877699/pexels-photo-877699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 .downloads-img {
     position: relative;
     right: -200px;
@@ -756,8 +813,8 @@ video {
 
 /*  about page */
 
-.bg-img-about-1 {
-    background: url(/img/jaxx-people-2.jpeg) center;
+.bg-img-about {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-people-2.jpeg) center;
     background-size: cover;
 }
 .bg-img-jump {
@@ -776,11 +833,30 @@ video {
 
 /*  features page */
 
+/* swiper */
+
+span.swiper-pagination-bullet {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #d6d6d6;
+    opacity: .5;
+}
+
+.swiper-pagination-white .swiper-pagination-bullet-active {
+    background: #fff;
+    color: #fff;
+    opacity: .9;
+}
+
+
 /* downloads */
 
 .bg-img-banner-downloads {
     background: url(https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f34d31b7b293d187d4b134d6afcabba9&auto=format&fit=crop&w=1051&q=80) center;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-dancing.jpeg) center;
     background-size: cover;
 }
 
@@ -789,8 +865,9 @@ video {
 .bg-img-banner-security {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/333837/pexels-photo-333837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background: linear-gradient(rgb(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://thumb9.shutterstock.com/display_pic_with_logo/257323/286532618/stock-photo-collection-of-different-caucasian-women-and-men-ranging-from-to-years-286532618.jpg) center; /* ivan */
-/*    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(http://careercity.co.za/wp-content/uploads/2016/08/5-sec-face-collage.jpg) center;*/
-    background-size: 50%;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(http://careercity.co.za/wp-content/uploads/2016/08/5-sec-face-collage.jpg) center; /*black and white smiling*/
+/*    background: linear-gradient(rgb(0,0,0,0.6), rgba(0,0,0,0.6)), url(/img/jaxx-security-faces.jpg) center;*/
+    background-size: 20%;
     background-attachment: fixed;
 }
 .img-shield {
@@ -810,14 +887,22 @@ video {
 
 .bg-img-banner-support {
     background: url(/img/jaxx-heart-hands-2.jpeg) center;
-    background: linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/6552/nature-person-red-woman.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background: linear-gradient(rgb(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/6552/nature-person-red-woman.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
+}
+
+/* changelog */
+
+.bg-img-banner-changelog {
+    background: linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/877699/pexels-photo-877699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /* legal */
 
 .bg-img-banner-legal {
-    background: url(https://images.pexels.com/photos/877699/pexels-photo-877699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background: linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/877699/pexels-photo-877699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -847,6 +932,7 @@ video {
 nav,
 .navbar {
 /*    background: rgb(38, 65, 118);*/
+/*    border-bottom: 1px solid lightgrey;*/
     transition: all .3s ease-in-out;    
 }
 
@@ -860,9 +946,10 @@ nav,
 
 /* for navbar change color on scroll */
 .navbar.fixed-top.scrolled {
-  background-color: rgba(38, 65, 118, 0.5); !important;
-  background-color: rgba(38, 65, 118); !important;
-  transition: all 200ms ease-in-out;
+    border-bottom: 0;
+    background-color: rgba(38, 65, 118, 0.5); !important;
+    background-color: rgba(38, 65, 118); !important;
+    transition: all 200ms ease-in-out;
 }
 
 /*  icons */
@@ -924,6 +1011,7 @@ i {
 .carousel,.item {height:100%;}
 .carousel-inner{height:100%;}
 */
+
 
 .carousel-indicators li {
     position: relative;

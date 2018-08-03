@@ -86,12 +86,13 @@
     }
       .bg-1 {
           background: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/607de731234507.564a1d2420e5f.gif) center no-repeat;
-          background-size: contain;
+          background: url(/img/jaxx-multi-platform.png) center no-repeat;
+          background-size: 70%;
       }
       .bg-2 {
           background: url(https://s.aolcdn.com/hss/storage/midas/af0ce559ac23bed7ce65042d294e3659/205509947/share_location_english_ios_blog.gif) center no-repeat;
           background: url(/img/jaxx-two-devices.png) center no-repeat;
-          background-size: contain;
+          background-size: 60%;
       }
       .bg-3 {
           background: url(http://thecollective.ca/wp2/wp-content/uploads/2016/02/Groupquest-macbook2.gif) center no-repeat;
@@ -99,11 +100,11 @@
       }
       .bg-4 {
           background: url(https://media1.tenor.com/images/2ffb9c5c3c1d570761b81828fde87c21/tenor.gif?itemid=3419040) center no-repeat;
-          background-size: contain;
+          background-size: 30%;
       }
       .bg-5 {
           background: url(https://bornmkg.com/wp-content/uploads/2015/07/ezgif.com-resize.gif) center no-repeat;
-          background-size: contain;
+          background-size: 60%;
       }
       .bg-6 {
           background: url(http://78.media.tumblr.com/1b0cf14a3c5fe3de19fe69d162d74f7a/tumblr_msyxgubnuu1s9ye2lo1_400.gif) center no-repeat;
@@ -119,7 +120,7 @@
 <![endif]-->
 
  <!--nav-->
-    <nav class="navbar fixed-top navbar-expand-lg">
+    <nav class="navbar fixed-top navbar-expand-lg border-bottom">
         <a class="navbar-brand animsition-link" href="/index.html" data-animsition-out-class="fade-out" data-animsition-out-duration="800">
           <img class="jaxx-navbar-brand" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="Jaxx Liberty">
         </a>
@@ -164,16 +165,16 @@
 -->
 
   <!-- Swiper -->
-  <div class="swiper-container">
+  <div class="swiper-container pin">
    
     <div class="parallax-bg" data-swiper-parallax="-23%"></div>
     <div class="swiper-wrapper">
     
     <!--slide 1 -->
-     <div class="swiper-slide d-flex flex-column justify-content-end align-items-start p-5">
-        <div class="text" data-swiper-parallax="-400">
+     <div class="swiper-slide d-flex flex-column justify-content-center align-items-center text-center p-5 content-tween">
+        <div class="text">
             <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-hub-white.png" alt="Jaxx Liberty Unified Dashboard" data-swiper-parallax="-300">
-            <h2 class="section-sub-title x-bold w-100 content-stagger-up" data-swiper-parallax="-200">Jaxx Liberty Features</h2>
+            <h2 class="page-title x-bold line-height py-2 content-stagger-up" data-swiper-parallax="-200">Jaxx Liberty Features</h2>
             <p class="border-top pt-2 content-stagger-up">Jaxx Liberty has been redesigned and reengineered from the ground up. Scroll to explore check out our extensive range of new features.</p>
             <button class="btn btn-lg swiper-notification">Learn More</button>
         </div>
@@ -181,53 +182,56 @@
         
       <!--slide 2-->
       <div class="swiper-slide d-flex flex-column justify-content-end align-items-start bg-1 p-5">
-        <div class="text" data-swiper-parallax="-400">
-            <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-hub-white.png" alt="Jaxx Liberty Unified Dashboard" data-swiper-parallax="-300">
-            <h2 class="section-sub-title x-bold w-100 content-stagger-up" data-swiper-parallax="-200">Unified Dashboard</h2>
-            <p class="border-top pt-2 content-stagger-up">Enjoy a unified view of your cryptocurrencies in a simple, streamlined, easy-to-use visual design.</p>
+        <div class="text">
+            <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-hub-white.png" alt="Jaxx Liberty Unified Dashboard">
+            <h2 class="section-sub-title x-bold content-stagger-up" data-swiper-parallax="-300">Unified Dashboard</h2>
+            <p class="border-top pt-2 content-stagger-up" data-swiper-parallax="-200">Enjoy a unified view of your cryptocurrencies in a simple, streamlined, easy-to-use visual design.</p>
+            
         </div>
       </div>
       
       <!--slide 3-->
       <div class="swiper-slide d-flex flex-column justify-content-end align-items-end text-right bg-2 p-5">
         <div class="text" data-swiper-parallax="-100">
-            <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-hub-white.png" alt="Jaxx Liberty Module Based Approach" data-swiper-parallax="-400">
-            <h2 class="section-sub-title x-bold w-100 content-stagger-up" data-swiper-parallax="-300" data-swiper-parallax-opacity="0">Module-Based Approach</h2>
-            <p class="border-top pt-2 content-stagger-up" data-swiper-parallax="-200">Provides information that people need to navigate the cryptocurrency ecosystem, which is part of the new digital age of value.</p>
+            <img class="mb-2" src="/img/icons/jaxx-hub-white.png" alt="Jaxx Liberty Module Based Approach" data-swiper-parallax="-400">
+            <h2 class="section-sub-title x-bold" data-swiper-parallax="-300" data-swiper-parallax-opacity="0">Module-Based Approach</h2>
+            <p class="border-top pt-2" data-swiper-parallax="-200">Provides information that people need to navigate the cryptocurrency ecosystem, which is part of the new digital age of value.</p>
         </div>
       </div>
       
       <!--slide 4-->
       <div class="swiper-slide d-flex flex-column justify-content-end align-items-start bg-3 p-5">
-        <div class="text" data-swiper-parallax="-100">
-            <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-hub-white.png" alt="Jaxx Liberty Portfolio" data-swiper-parallax="-400">
-            <h2 class="section-sub-title x-bold w-100 content-stagger-up" data-swiper-parallax="-300">Portfolio</h2>
-            <p class="border-top pt-2 content-stagger-up" data-swiper-parallax="-300">A single interface to help you create, track and manage your digital assets.</p>
+        <div class="text">
+            <img class="mb-2" src="/img/icons/jaxx-hub-white.png" alt="Jaxx Liberty Portfolio" data-swiper-parallax="-400">
+            <h2 class="section-sub-title x-bold content-stagger-up" data-swiper-parallax="-300">Portfolio</h2>
+            <p class="border-top pt-2 content-stagger-up" data-swiper-parallax="-200">A single interface to help you create, track and manage your digital assets.</p>
         </div>
       </div>
       
       <!--slide 5-->
       <div class="swiper-slide d-flex flex-column justify-content-end align-items-start bg-4 p-5">
-        <div class="text" data-swiper-parallax="-100">
-            <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-hub-white.png" alt="Jaxx Liberty Aggregated Headline News">
-            <h2 class="section-sub-title x-bold w-100 content-stagger-up">Aggregated Headline News</h2>
-            <p class="border-top pt-2 content-stagger-up">Stay up-to-date with the latest news.</p>
+        <div class="text">
+            <img class="mb-2" src="/img/icons/jaxx-hub-white.png" alt="Jaxx Liberty Aggregated Headline News" data-swiper-parallax="-400">
+            <h2 class="section-sub-title x-bold" data-swiper-parallax="-300">Aggregated Headline News</h2>
+            <p class="border-top pt-2" data-swiper-parallax="-200">Stay up-to-date with the latest news.</p>
         </div>
       </div>
       
       <!--slide 6-->
-      <div class="swiper-slide bg-5">
-        <div class="title" data-swiper-parallax="-300">Slide 5</div>
-        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
-        <div class="text" data-swiper-parallax="-100">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+      <div class="swiper-slide d-flex flex-column justify-content-end align-items-start bg-5 p-5">
+        <div class="text">
+            <img class="mb-2" src="/img/icons/jaxx-hub-white.png" alt="Jaxx Liberty Market Data" data-swiper-parallax="-400">
+            <h2 class="section-sub-title x-bold" data-swiper-parallax="-300">Market Data</h2>
+            <p class="border-top pt-2" data-swiper-parallax="-200">Quick and easy access to cryptocurrency price moves, market caps, and trends -- at your fingertips.</p>
         </div>
       </div>
-      <div class="swiper-slide bg-6">
-        <div class="title" data-swiper-parallax="-300">Slide 6</div>
-        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
-        <div class="text" data-swiper-parallax="-100">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+      
+      <!--slide 7-->
+      <div class="swiper-slide d-flex flex-column justify-content-end align-items-start bg-6 p-5" data-swiper-parallax="-600">
+        <div class="text">
+            <img class="mb-2" src="/img/icons/jaxx-hub-white.png" alt="Jaxx Liberty Integrated Multi-Chain Block Explorer" data-swiper-parallax="-400">
+            <h2 class="section-sub-title x-bold" data-swiper-parallax="-300">Integrated multi-chain Block Explorer</h2>
+            <p class="border-top pt-2" data-swiper-parallax="-200">A convenient, powerful, and simple interface that allows you to track balance and transaction data without leaving Jaxx Liberty.</p>
         </div>
       </div>
       
@@ -236,11 +240,65 @@
     <!-- Add Pagination -->
     <div class="swiper-pagination swiper-pagination-white"></div>
     <!-- Add Navigation -->
-    <div class="swiper-button-prev swiper-button-white"></div>
-    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white ml-3"></div>
+    <div class="swiper-button-next swiper-button-white mr-3"></div>
   </div><!--end swiper container-->
-
     
+    <!--footer-->
+        
+        <footer>
+            <div class="container-fluid content-tween">
+               <div class="row d-flex justify-content-center align-items-center bg-img-toronto-1 min-50">
+                   <img class="jaxx-logo-text content-stagger-up" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty">
+               </div>
+                <div class="row d-flex d-flex justify-content-center align-items-end text-white bg-orange px-3 pt-5">
+                    <div class="col-lg-3 col-md-6 px-5 py-3 skew stagger-tween-item">
+                        <ul class="list-unstyled w-100">
+                            <li class="h4 font-weight-bold border-bottom pb-3">Jaxx Liberty</li>
+                            <li> <a href="/features.html" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Features</a></li>
+                            <li> <a href="/changeLog.html" class="animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Changelog</a></li>
+                            <li> <a href="/legal.html">Terms of Service</a></li>
+                            <li> <a href="/thirdparties-current.html">Third-Party Agreements</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 px-5 py-3 skew stagger-tween-item">
+                        <ul class="list-unstyled w-100">
+                            <li class="h4 font-weight-bold border-bottom pb-3">Company</li>
+                            <li> <a href="/about.html" class="animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">About</a></li>
+                            <li> <a href="/community.html" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Community</a></li>
+                            <li> <a href="/careers.html" class="animsition-link" data-animsition-out-class="zoom-out-sm" data-animsition-out-duration="800">Careers</a></li>
+                            <li> <a href="https://blog.jaxx.io/">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 px-5 py-3 skew stagger-tween-item">
+                        <ul class="list-unstyled w-100">
+                            <li class="h4 font-weight-bold border-bottom pb-3">Download</li>
+                            <li><a href="/downloads.html" class="animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">Desktop</a></li>
+                            <li><a href="https://play.google.com/store/apps/details?id=com.kryptokit.jaxx&hl=en" target="_blank">Android</a></li>
+                            <li><a href="https://itunes.apple.com/us/app/jaxx-bitcoin-ethereum-wallet/id1084514516?mt=8" target="_blank">iPhone</a></li>
+                            <!--add chrome extension when ready-->
+                            <li><a href="https://chrome.google.com/webstore/detail/jaxx-blockchain-wallet/ancbofgphhmhcchnaognahmjfajaecmo" target="_blank">Chrome Extension</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 px-5 py-3 skew stagger-tween-item">
+                        <ul class="list-unstyled w-100">
+                            <li class="h4 font-weight-bold border-bottom pb-3">Help</li>
+                            <li> <a href="https://decentral.zendesk.com/hc/en-us" target="_blank">Support</a></li>
+                            <li> <a href="https://ca.linkedin.com/company/jaxx-blockchain-interface?trk=extra_biz_viewers_viewed" target="_blank">LinkedIn</a></li>
+                            <li> <a href="https://twitter.com/jaxx_io?lang=en" target="_blank">Twitter</a></li>
+                            <li> <a href="https://www.reddit.com/r/jaxx/" target="_blank">Reddit</a></li>
+                        </ul>
+                    </div>
+                </div><!--end nest container-->
+            </div><!--end row-->
+            <!-- copyright + branding-->
+            <div class="row d-flex copyright">
+                <div class="col-sm-12 d-flex justify-content-center py-3 pt-4 navy">
+                    <p class="font-weight-bold">&copy; Decentral Inc. <img class="footer-leaf" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made in Canada</p>
+                </div>
+            </div>
+        </footer>
+
 </main>
 
 <script src="js/vendor/modernizr-3.6.0.min.js"></script>
@@ -269,7 +327,7 @@
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.swiper-container', {
-      speed: 1000,
+      speed: 1200,
       parallax: true,
       pagination: {
         el: '.swiper-pagination',
