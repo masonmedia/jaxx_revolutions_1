@@ -212,16 +212,16 @@ footer a:hover {
 /*    knockout people*/
     background: -webkit-linear-gradient(transparent, transparent),
              url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    
+/*    crowd throwing*/
 /*
     background: -webkit-linear-gradient(transparent, transparent),
              url(https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-*/
     
+*/
 /*    knockout sunset */
-/*
     background: -webkit-linear-gradient(transparent, transparent),
              url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05cc20d5b0bde7ae0d12f916c11aa18e&auto=format&fit=crop&w=1078&q=80) center;
-*/
 
     background-size: 110%;
     background-blend-mode: multiply;
