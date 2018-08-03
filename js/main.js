@@ -79,7 +79,7 @@ for (var i=0; i<slides.length; i++) {
 var tl = new TimelineLite();
 
 //add a from() tween at the beginning of the timline
-tl.from(".bg-img-banner-2", 1, {autoAlpha:0, ease: SlowMo.easeIn});
+tl.from(".bg-img-banner-2", 1.5, {autoAlpha:0, ease: SlowMo.easeIn});
 
 //fade in Jaxx
 tl.from("#banner .site-title-2", 3, {autoAlpha:0, ease: SlowMo.easeInOut});

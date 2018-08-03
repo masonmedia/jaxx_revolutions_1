@@ -220,8 +220,10 @@ footer a:hover {
     
 */
 /*    knockout sunset */
+/*
     background: -webkit-linear-gradient(transparent, transparent),
              url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05cc20d5b0bde7ae0d12f916c11aa18e&auto=format&fit=crop&w=1078&q=80) center;
+*/
 
     background-size: 110%;
     background-blend-mode: multiply;
