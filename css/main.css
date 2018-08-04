@@ -699,6 +699,12 @@ video {
     
 /*    mountains*/
 /*    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05cc20d5b0bde7ae0d12f916c11aa18e&auto=format&fit=crop&w=1078&q=80) center;*/
+	
+/*	jumper */
+/*	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1529307145738-af20ddbc9255?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=93fc4dea9a9d47dc5cebfc6ae4b3eb63&auto=format&fit=crop&w=925&q=80) center;*/
+	
+/*	rocks jump */
+	background: linear-gradient(rgba(0,0,0,0.), rgba(0,0,0,0.2)), url(/img/jaxx-jump-2.jpg) center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -1070,9 +1076,6 @@ footer p {
 }
 @media (max-width: 768px) {
     
-    p {
-        font-size: 20px;
-    }
     div[class*="bg-img"] {
         min-height: 50vh;
     }
