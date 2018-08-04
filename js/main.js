@@ -81,6 +81,9 @@ var tl = new TimelineLite();
 //add a from() tween at the beginning of the timline
 tl.from(".bg-img-banner-2", 1.5, {autoAlpha:0, ease: SlowMo.easeIn});
 
+	 //fade in nav
+tl.from("#home nav", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
+     
 //fade in Jaxx
 tl.from("#banner .site-title-2", 3, {autoAlpha:0, ease: SlowMo.easeInOut});
      
@@ -108,7 +111,7 @@ tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: Back.easeInOut});
 tl.from("#banner .jaxx-logo-jumbo", 2, {y:-100, autoAlpha:0, ease: Power4.easeInOut}, "-=0.5");     
 
 //fade in nav
-tl.from("#home nav", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
+//tl.from("#home nav", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
      
      //fade in bg image
 //tl.to("#banner .jumbotron .jumbotron-fluid", 1, {css:{backgroundImage:'url(img/jaxx-jump-2.jpg)'}});
