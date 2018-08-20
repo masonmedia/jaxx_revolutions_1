@@ -79,16 +79,18 @@ for (var i=0; i<slides.length; i++) {
 var tl = new TimelineLite();
 
 //add a from() tween at the beginning of the timline
-tl.from(".bg-img-banner-2", 1.5, {autoAlpha:0, ease: SlowMo.easeIn});
+tl.from(".bg-img-banner-2", 0.5, {autoAlpha:0, ease: SlowMo.easeIn});
 
-	 //fade in nav
-tl.from("#home nav", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
+//fade in nav
+//tl.from("#home nav", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
+     
+tl.staggerFromTo("#home .nav-item, #home .navbar-brand", 0.5, {opacity:0, y:-10}, {opacity:1, y:0}, 0.2);
      
 //fade in Jaxx
-tl.from("#banner .site-title-2", 3, {autoAlpha:0, ease: SlowMo.easeInOut});
+tl.from("#banner .site-title-2", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
      
 //fade out Jaxx
-tl.to("#banner .site-title-2", 1.5, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
+tl.to("#banner .site-title-2", 1, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
      
 //fade in liberty
 tl.from("#banner .site-title-3", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25");
@@ -98,20 +100,17 @@ tl.from("#banner .site-title", 1, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut},
      
  //fade out liberty to make overlay text legible
 tl.to("#banner .site-title-3", 1, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
-
+    
 //use position parameter "-=0.5" to schedule next tween 0.25 seconds before previous tweens end.
 //great for overlapping
 tl.from("#banner .site-sub-title", 1, {left:100, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
 
 //add a label 0.5 seconds later to mark the placement of the next tween
-tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: Back.easeInOut});
+tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
 //to jump to this label use: tl.play("stagger");
   
-//fade in jaxx liberty logo
-tl.from("#banner .jaxx-logo-jumbo", 2, {y:-100, autoAlpha:0, ease: Power4.easeInOut}, "-=0.5");     
-
-//fade in nav
-//tl.from("#home nav", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
+//fade in arrow down
+tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
      
      //fade in bg image
 //tl.to("#banner .jumbotron .jumbotron-fluid", 1, {css:{backgroundImage:'url(img/jaxx-jump-2.jpg)'}});
@@ -120,6 +119,76 @@ tl.from("#banner .jaxx-logo-jumbo", 2, {y:-100, autoAlpha:0, ease: Power4.easeIn
 //this tween is added
 //tl.staggerFrom(icons, 0.2, {scale:0, autoAlpha:0}, 0.1, "stagger");
      
+    
+     
+//anime js svg amination
+     
+     var lineDrawing = anime({
+      targets: '#jaxx_liberty .lines path',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'easeInOutSine',
+      duration: 2500,
+//      delay: function(el, i) { return i * 250 },
+      delay: 6000,
+    //  delay: function(el, i) { return 1000 + (i * 100); },
+      direction: 'alternate',
+             fill: [
+        {value: 'rgb(255, 0, 0, 0.4)'}, // Or #FFFFFF
+        {value: 'rgb(255, 0, 0)'},
+        {value: '#ff6902'}
+      ],
+        fill: '#ff6902',
+      loop: false
+      });
+     
+//     multidevice animation 
+     
+     var multiDevice = anime({
+      targets: '#Laptop path, circle',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'easeInOutSine',
+      duration: 1000,
+      delay: function(el, i) { return i * 100 },
+      direction: 'alternate',
+      loop: true
+      });
+     
+     var multiDevice2 = anime({
+      targets: '#IPAD path, rect',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'easeInOutQuart',
+      duration: 1500,
+      delay: function(el, i) { return i * 250 },
+      direction: 'alternate',
+      loop: true
+      });
+     
+     var multiDevice3 = anime({
+      targets: '#iphone path, ellipse',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'easeInOutCubic',
+      duration: 3500,
+      delay: function(el, i) { return i * 250 },
+      direction: 'alternate',
+      loop: true
+      });
+     
+//bg colors
+//     var multiDevice4 = anime({
+//      targets: '#download .colors',
+//      backgroundColor: [
+//        {value: '#fff'},
+//        {value: '#fff'},
+//        {value: '#ff6902'},
+//        {value: 'rgb(38, 65, 118)'},
+//        {value: 'rgb(64, 224, 208)'}
+//      ],
+//      easing: 'easeInOutSine',
+//      elasticity: 300,
+//      direction: 'alternate',
+//      duration: 6000,
+//      loop: true
+//    });
      
 //fade in
 
@@ -249,6 +318,84 @@ $(".content-tween").each(function() {
 });
       
     
+// button explode 
+// https://codepen.io/ethanryan/pen/GjLdyJ
+
+    const colors = [ '#ffc000', '#ff3b3b', '#ff8400', 'blue', 'indigo', 'palegreen'];
+    const bubbles = 25;
+
+    const explode = (x, y) => {
+        let particles = [];
+        let ratio = window.devicePixelRatio;
+        let c = document.createElement('canvas');
+        let ctx = c.getContext('2d');
+
+        c.style.position = 'absolute';
+        c.style.left = (x - 100) + 'px';
+        c.style.top = (y - 100) + 'px';
+        c.style.pointerEvents = 'none';
+        c.style.width = 200 + 'px';
+        c.style.height = 200 + 'px';
+        c.style.zIndex = 100;
+        c.width = 200 * ratio;
+        c.height = 200 * ratio;
+        document.body.appendChild(c);
+
+        for(var i = 0; i < bubbles; i++) {
+            particles.push({
+                x: c.width / 2,
+                y: c.height / 2,
+                radius: r(20, 30),
+                color: colors[Math.floor(Math.random() * colors.length)],
+                rotation: r(0, 360, true),
+                speed: r(8, 12),
+                friction: 0.9,
+                opacity: r(0, 0.5, true),
+                yVel: 0,
+                gravity: 0.1
+            });
+        }
+
+        render(particles, ctx, c.width, c.height);
+        setTimeout(() => document.body.removeChild(c), 1000);
+    }
+
+    const render = (particles, ctx, width, height) => {
+        requestAnimationFrame(() => render(particles, ctx, width, height));
+        ctx.clearRect(0, 0, width, height);
+
+        particles.forEach((p, i) => {
+            p.x += p.speed * Math.cos(p.rotation * Math.PI / 180);
+            p.y += p.speed * Math.sin(p.rotation * Math.PI / 180);
+
+            p.opacity -= 0.01;
+            p.speed *= p.friction;
+            p.radius *= p.friction;
+            p.yVel += p.gravity;
+            p.y += p.yVel;
+
+            if(p.opacity < 0 || p.radius < 0) return;
+
+            ctx.beginPath();
+            ctx.globalAlpha = p.opacity;
+            ctx.fillStyle = p.color;
+            ctx.arc(p.x, p.y, p.radius, 0, 2 * Math.PI, false);
+            ctx.fill();
+        });
+
+        return ctx;
+    }
+
+    const r = (a, b, c) => parseFloat((Math.random() * ((a ? a : 1) - (b ? b : 0)) + (b ? b : 0)).toFixed(c ? c : 0));
+
+    document.querySelector('.btn').addEventListener('click', e => explode(e.pageX, e.pageY));
+    document.querySelector('.btn').addEventListener('mouseover', e => explode(e.pageX, e.pageY));
+    document.querySelector('#features .btn').addEventListener('click', e => explode(e.pageX, e.pageY));
+    document.querySelector('#features .btn').addEventListener('mouseover', e => explode(e.pageX, e.pageY));
+    document.querySelector('#download .btn').addEventListener('click', e => explode(e.pageX, e.pageY));
+    document.querySelector('#download .btn').addEventListener('mouseover', e => explode(e.pageX, e.pageY));
+     
+     
 //smooth scroll
 
 
