@@ -81,10 +81,10 @@ var tl = new TimelineLite();
 //add a from() tween at the beginning of the timline
 tl.from(".bg-img-banner-2", 0.5, {autoAlpha:0, ease: SlowMo.easeIn});
 
-//fade in nav
-//tl.from("#home nav", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
+//tl.staggerFromTo("#home .navbar-brand, #home .nav-item", 0.5, {opacity:0, y:-10}, {opacity:1, y:0}, 0.1);
      
-tl.staggerFromTo("#home .nav-item, #home .navbar-brand", 0.5, {opacity:0, y:-10}, {opacity:1, y:0}, 0.2);
+//fade in nav + nav links
+tl.staggerFrom("#home .navbar-brand, #home .nav-item", 0.2, {y:-10, autoAlpha:0}, 0.1);
      
 //fade in Jaxx
 tl.from("#banner .site-title-2", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
@@ -114,11 +114,6 @@ tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
      
      //fade in bg image
 //tl.to("#banner .jumbotron .jumbotron-fluid", 1, {css:{backgroundImage:'url(img/jaxx-jump-2.jpg)'}});
-
-//stagger the animation of all icons with 0.1s between each tween's start time
-//this tween is added
-//tl.staggerFrom(icons, 0.2, {scale:0, autoAlpha:0}, 0.1, "stagger");
-     
     
      
 //anime js svg amination

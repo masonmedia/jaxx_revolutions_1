@@ -488,6 +488,7 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
     background: linear-gradient(to right, rgb(38, 65, 118, 0.8), rgb(5, 117, 230, 0.8)
 ), url(https://images.unsplash.com/photo-1527153907022-465ee4752fdc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ed05c707f6cb2dd027a718a8797d02f6&auto=format&fit=crop&w=1000&q=80) center; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
+    background-attachment: fixed;
 }
 
 /* images + logos */
@@ -869,6 +870,7 @@ span.swiper-pagination-bullet {
     background: url(https://images.unsplash.com/photo-1527153907022-465ee4752fdc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ed05c707f6cb2dd027a718a8797d02f6&auto=format&fit=crop&w=1000&q=80) center;
     background: url(https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80) center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .bg-img-community {
     background: url(https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
