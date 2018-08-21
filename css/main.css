@@ -536,7 +536,8 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
     margin-bottom: -20px;
     width: 20vw;  
 }
-.jaxx-logo {
+.jaxx-logo,
+.jaxx-heart-logo {
     height: auto;
     width: 500px;
 }

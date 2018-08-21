@@ -88,17 +88,17 @@ tl.staggerFrom("#home .navbar-brand, #home .nav-item", 0.2, {y:-10, autoAlpha:0}
      
 //fade in Jaxx Liberty Logo
 //tl.from("#banner .site-title-2", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
-tl.from("#banner .jaxx-logo-jumbo", 1, {autoAlpha:0, ease: SlowMo.easeInOut});
+tl.from("#banner .jaxx-logo", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
      
 //fade out Jaxx
 //tl.to("#banner .site-title-2", 1, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
-tl.to("#banner .jaxx-logo-jumbo", 2, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut}, "+=0.5");
+tl.to("#banner .jaxx-logo", 3, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
      
 //fade in liberty
 //tl.from("#banner .site-title-3", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25");
      
 //use position parameter "+=0.5" to schedule next tween 0.5 seconds after previous tweens end
-tl.from("#banner .site-title", 1, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut}, "+=0.5");
+tl.from("#banner .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25");
      
  //fade out liberty to make overlay text legible
 //tl.to("#banner .site-title-3", 1, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
@@ -107,7 +107,7 @@ tl.from("#banner .site-title", 1, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut},
 //great for overlapping
 tl.from("#banner .site-sub-title", 1, {left:100, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
      
-//     fade in heart logo
+// fade in heart logo
 tl.from("#banner .jaxx-icon", 1, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
 
 //add a label 0.5 seconds later to mark the placement of the next tween
