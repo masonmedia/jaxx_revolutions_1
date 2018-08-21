@@ -136,6 +136,12 @@ footer a:hover {
 .min-100 {
     min-height: 100vh;
 }
+.fs {
+    min-height: 100vh;
+}
+.w-50-sm {
+        width: 50%;
+    }
 
 /*  buttons */
 
@@ -176,12 +182,18 @@ footer a:hover {
 /* text */
 
 .site-title {
-    font-size: 6vmin;
+    font-size: 7vmin;
+/*
     font-size: 10vmin;
     font-size: 5vw;
+*/
     font-weight: 900;
     margin-top: 10px;
     margin-bottom: 0;
+}
+.site-sub-title,
+.page-sub-title {
+    font-size: 4vmin;
 }
 .page-title {
     font-size: 15vmin;
@@ -359,9 +371,6 @@ footer a:hover {
   line-height: 1em;
 }
 
-.text-replace {
-    opacity: 0;
-}
 
 /* shapes ==================*/
 
@@ -519,8 +528,7 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
 .jaxx-logo-jumbo {
     height: auto;
     margin-bottom: -20px;
-    width: 20vw;
-    
+    width: 20vw;  
 }
 .jaxx-logo {
     height: auto;
@@ -666,7 +674,7 @@ video {
 }
 .bg-img-android {
     background: url(http://www.innjoo.com/Public/images/max3/max3_c_4-1.png) center top;
-    background: url(/img/jaxx-android%20copy.png) center top;
+    background: url(/img/jaxx-android.png) left bottom no-repeat;
     background-size: cover;
 }
 .bg-img-dashboard {
@@ -693,7 +701,7 @@ video {
     background-attachment: fixed;
 }
 
-.bg-img-banner-2 {
+.bg-fs-img-banner-2 {
     background: url(/img/smartmockups_jjymzoi2.jpg) center;
     background: url(/img/jaxx-jump-2.jpg) center;
     background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
@@ -711,7 +719,7 @@ video {
 /*	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1529307145738-af20ddbc9255?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=93fc4dea9a9d47dc5cebfc6ae4b3eb63&auto=format&fit=crop&w=925&q=80) center;*/
 	
 /*	rocks jump */
-	background: linear-gradient(rgba(0,0,0,0.), rgba(0,0,0,0.2)), url(/img/jaxx-jump-2.jpg) center;
+/*	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/jaxx-jump-2.jpg) center;*/
     background-size: cover;
     background-attachment: fixed;
 }
@@ -740,7 +748,9 @@ video {
 }
 .bg-img-partners {
     background: url(/img/partner-logos/banner.jpg) center;
+    background: url(https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d3a9ac2b411e58b72bc6170216bccad2&auto=format&fit=crop&w=1050&q=80) center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 /* cookies consent banner */
@@ -797,6 +807,65 @@ span.swiper-pagination-bullet {
     opacity: .9;
 }
 
+    .swiper-container {
+      width: 100%;
+      height: 100vh;
+      background: #000;
+    }
+    .swiper-slide {
+      font-size: 18px;
+      color:#fff;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 40px 60px;
+    }
+    .parallax-bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 130%;
+      height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1476611317561-60117649dd94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8618fb66616c1d53a41705312c034068&auto=format&fit=crop&w=1050&q=80);
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+    }
+    .swiper-slide .title {
+/*      font-size: 41px;*/
+      font-weight: 300;
+    }
+    .swiper-slide .subtitle {
+      font-size: 21px;
+    }
+    .swiper-slide .text {
+        width: 50%;
+    }
+      .bg-slide-1 {
+          background: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/607de731234507.564a1d2420e5f.gif) center no-repeat;
+          background: url(/img/jaxx-multi-platform.png) center no-repeat;
+          background-size: 70%;
+      }
+      .bg-slide-2 {
+          background: url(https://s.aolcdn.com/hss/storage/midas/af0ce559ac23bed7ce65042d294e3659/205509947/share_location_english_ios_blog.gif) center no-repeat;
+          background: url(/img/jaxx-two-devices.png) center no-repeat;
+          background-size: 60%;
+      }
+      .bg-slide-3 {
+          background: url(http://thecollective.ca/wp2/wp-content/uploads/2016/02/Groupquest-macbook2.gif) center no-repeat;
+          background-size: 60%;
+      }
+      .bg-slide-4 {
+          background: url(https://media1.tenor.com/images/2ffb9c5c3c1d570761b81828fde87c21/tenor.gif?itemid=3419040) center no-repeat;
+          background-size: 30%;
+      }
+      .bg-slide-5 {
+          background: url(https://bornmkg.com/wp-content/uploads/2015/07/ezgif.com-resize.gif) center no-repeat;
+          background-size: 60%;
+      }
+      .bg-slide-6 {
+          background: url(http://78.media.tumblr.com/1b0cf14a3c5fe3de19fe69d162d74f7a/tumblr_msyxgubnuu1s9ye2lo1_400.gif) center no-repeat;
+          background-size: contain;
+      }
 
 /* downloads */
 
@@ -930,38 +999,6 @@ i {
 
 /* home */
 
-/* features iphone carousel */
-
-.marvel-device .screen {
-    width: 100%;
-    position: relative;
-    height: 100%;
-    z-index: 3;
-    background: white; 
-    overflow: hidden;
-    display: flex;
-    border-radius: 1px;
-    -webkit-box-shadow: 0 0 0 3px #111;
-    box-shadow: 0 0 0 3px #111;
-}
-
-.features-slide {
-    min-height: 100vh;
-    width: 100%;
-    object-fit: cover;
-}
-
-.marvel-device.iphone-x {
-    width: 375px;
-    height: 812px;
-    padding: 26px;
-    background: #fdfdfd;
-    -webkit-box-shadow: inset 0 0 11px 0 black;
-    box-shadow: inset 0 0 11px 0 black;
-    border-radius: 66px;
-}
-
-/* features */
 
 /* bs carousel */
 
@@ -1049,6 +1086,7 @@ footer p {
 
 
 /* media queries -----------------------*/
+
 @media (max-width: 1200px) {
     /*    md width class */
     .downloads-img {
@@ -1074,9 +1112,19 @@ footer p {
     .nav-link:hover {
         color: #ff6902;
     }
+     div[class*="bg-img"] {
+        min-height: 50vh;
+    }
+    div[class*="min-100"] {
+        min-height: 50vh;
+    }
     /*  make all bg images scroll */
     div[class*="bg-img"] {
         background-attachment: scroll;
+    }
+    .page-title {
+        font-size: 12vmin;
+        letter-spacing: -5px;
     }
     /* flex order */
     .o-1 {
@@ -1091,19 +1139,37 @@ footer p {
         left: 0;
         width: 100%;  
     }
+     /* download buttons */
+/*
+    #download .btn-lg {
+        font-size: 18px;
+        padding: .375rem .75rem;
+        padding: 5px 10px;
+    }
+*/
     
 }
 @media (max-width: 768px) {
+    .jaxx-logo-jumbo {
+        height: auto;
+        margin-bottom: -10;
+        width: 200px;  
+    }
     
-    div[class*="bg-img"] {
-        min-height: 50vh;
+    .site-title {
+    font-size: 8vw;
     }
-    div[class*="min-100"] {
-        min-height: 50vh;
+    .site-sub-title {
+    font-size: 5vmin;
     }
-    /*    partnerships logo resize for mobile*/
+    
+    /* partnerships logo resize for mobile*/
     .partner-logo-sm {
         width: 300px;
+    }
+/*    features page */
+    .swiper-slide .text {
+        width: 100%;
     }
 }
 

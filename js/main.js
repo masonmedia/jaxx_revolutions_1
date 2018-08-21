@@ -86,24 +86,29 @@ tl.from(".bg-img-banner-2", 0.5, {autoAlpha:0, ease: SlowMo.easeIn});
 //fade in nav + nav links
 tl.staggerFrom("#home .navbar-brand, #home .nav-item", 0.2, {y:-10, autoAlpha:0}, 0.1);
      
-//fade in Jaxx
-tl.from("#banner .site-title-2", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
+//fade in Jaxx Liberty Logo
+//tl.from("#banner .site-title-2", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
+tl.from("#banner .jaxx-logo-jumbo", 1, {autoAlpha:0, ease: SlowMo.easeInOut});
      
 //fade out Jaxx
-tl.to("#banner .site-title-2", 1, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
+//tl.to("#banner .site-title-2", 1, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
+tl.to("#banner .jaxx-logo-jumbo", 2, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut}, "+=0.5");
      
 //fade in liberty
-tl.from("#banner .site-title-3", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25");
+//tl.from("#banner .site-title-3", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25");
      
 //use position parameter "+=0.5" to schedule next tween 0.5 seconds after previous tweens end
 tl.from("#banner .site-title", 1, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut}, "+=0.5");
      
  //fade out liberty to make overlay text legible
-tl.to("#banner .site-title-3", 1, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
+//tl.to("#banner .site-title-3", 1, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
     
 //use position parameter "-=0.5" to schedule next tween 0.25 seconds before previous tweens end.
 //great for overlapping
 tl.from("#banner .site-sub-title", 1, {left:100, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
+     
+//     fade in heart logo
+tl.from("#banner .jaxx-icon", 1, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
 
 //add a label 0.5 seconds later to mark the placement of the next tween
 tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
@@ -112,27 +117,21 @@ tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
 //fade in arrow down
 tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
      
-     //fade in bg image
-//tl.to("#banner .jumbotron .jumbotron-fluid", 1, {css:{backgroundImage:'url(img/jaxx-jump-2.jpg)'}});
-    
+//fade in bg image
+tl.from("#banner .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5");    
      
 //anime js svg amination
      
      var lineDrawing = anime({
       targets: '#jaxx_liberty .lines path',
       strokeDashoffset: [anime.setDashoffset, 0],
-      easing: 'easeInOutSine',
-      duration: 2500,
-//      delay: function(el, i) { return i * 250 },
-      delay: 6000,
+      easing: 'easeInOutCubic',
+      duration: 3500,
+      delay: function(el, i) { return i * 250 },
+//      delay: 6000,
     //  delay: function(el, i) { return 1000 + (i * 100); },
       direction: 'alternate',
-             fill: [
-        {value: 'rgb(255, 0, 0, 0.4)'}, // Or #FFFFFF
-        {value: 'rgb(255, 0, 0)'},
-        {value: '#ff6902'}
-      ],
-        fill: '#ff6902',
+      fillOpacity: [0, 1],
       loop: false
       });
      
@@ -168,9 +167,24 @@ tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
       loop: true
       });
      
+//     jaxx heart animation
+
+     var lineDrawing = anime({
+      targets: '#jaxx_heart .lines path',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'easeInOutSine',
+      duration: 3500,
+      delay: function(el, i) { return i * 250 },
+      delay: 6000,
+      direction: 'alternate',
+      fillOpacity: [0, 1],
+      loop: false
+      });
+     
+     
 //bg colors
 //     var multiDevice4 = anime({
-//      targets: '#download .colors',
+//      targets: '.colors',
 //      backgroundColor: [
 //        {value: '#fff'},
 //        {value: '#fff'},
