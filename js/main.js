@@ -167,14 +167,14 @@ tl.from("#banner .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5");
       loop: true
       });
      
-//     jaxx heart animation
+//jaxx heart animation
 
      var lineDrawing = anime({
       targets: '#jaxx_heart .lines path',
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: 'easeInOutSine',
-      duration: 3500,
-      delay: function(el, i) { return i * 250 },
+      duration: 1500,
+      delay: function(el, i) { return i * 150 },
       delay: 6000,
       direction: 'alternate',
       fillOpacity: [0, 1],

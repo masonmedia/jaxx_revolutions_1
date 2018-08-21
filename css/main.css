@@ -334,7 +334,13 @@ footer a:hover {
 .absolute {
     position: absolute;
 }
-.bottom {
+.top-0 {
+    top: 0;
+}
+.left-0 {
+    left: 0;
+}
+.bottom-0 {
     bottom: 0;
 }
 .text-box-right {
@@ -974,6 +980,10 @@ nav,
     padding-right: 15px;
 }
 
+nav .active {
+    color: #ff6902;
+}
+
 /* for navbar change color on scroll */
 #home nav.scrolled,
 .navbar.fixed-top.scrolled {
@@ -995,6 +1005,7 @@ i {
     color: transparent;
     font-size: 10vmin;
     -webkit-text-stroke: 2px grey;
+    -webkit-text-stroke: 2px #ff6902;
 }
 
 /* home */
