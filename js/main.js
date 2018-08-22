@@ -37,16 +37,15 @@ $(document).scroll(function () {
  $(document).ready(function() {
 // Also can pass in optional settings block
   var rellax = new Rellax('.rellax', {
-    wrapper: '.rellax-wrap',
-    speed: -2,
+//    wrapper: '.rellax-wrap',
+    speed: -1,
     center: true,
+    wrapper: null,
     round: true,
     vertical: true,
     horizontal: false
   });
  });
-     
-//     data-rellax-zindex="5"
      
      
 //GSAP + Scroll Magic
@@ -93,7 +92,7 @@ tl.from("#banner .jaxx-logo", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
      
 //fade out Jaxx
 //tl.to("#banner .site-title-2", 1, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
-tl.to("#banner .jaxx-logo", 3, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
+tl.to("#banner .jaxx-logo", 2, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
      
 //fade in liberty
 //tl.from("#banner .site-title-3", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25");
@@ -108,6 +107,9 @@ tl.from("#banner .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut
 //great for overlapping
 tl.from("#banner .site-sub-title", 1, {left:100, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
      
+// fade in heart svg bg
+tl.from("#banner .jaxx-heart-logo", 1, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
+
 // fade in heart logo
 tl.from("#banner .jaxx-icon", 1, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
 
@@ -126,6 +128,26 @@ tl.from("#banner .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5");
 //vivus svg animation
      
 new Vivus('multiDevice', {
+        start: 'inViewport',
+        type: 'async',
+        duration: 100,
+        animTimingFunction: Vivus.EASE_IN
+        },
+          function (obj) {
+          obj.el.classList.add('finished');
+        });
+     
+new Vivus('jaxx-multi-device', {
+        start: 'autostart',
+        type: 'async',
+        duration: 100,
+        animTimingFunction: Vivus.EASE_IN
+        },
+          function (obj) {
+          obj.el.classList.add('finished');
+        });
+     
+new Vivus('jaxx-heart', {
         start: 'inViewport',
         type: 'async',
         duration: 100,
@@ -186,14 +208,14 @@ new Vivus('multiDevice', {
 //jaxx heart animation
 
      var lineDrawing = anime({
-      targets: '#jaxx_heart .lines path',
+      targets: '.jaxx-heart-logo .lines path',
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: 'easeInOutSine',
-      duration: 1500,
-      delay: function(el, i) { return i * 150 },
+      duration: 2500,
+      delay: function(el, i) { return i * 250 },
       delay: 6000,
       direction: 'alternate',
-      fillOpacity: [0, 1],
+         fillOpacity: [0],
       loop: false
       });
      
