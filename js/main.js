@@ -84,26 +84,40 @@ tl.from(".bg-img-banner-2", 0.5, {autoAlpha:0, ease: SlowMo.easeIn});
      
 //fade in nav + nav links
 tl.staggerFrom("#home .navbar-brand, #home .nav-item", 0.2, {y:-10, autoAlpha:0}, 0.1);
-     
+      
 //fade in Jaxx Liberty Logo
 //tl.from("#banner .site-title-2", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
-tl.from("#banner .jaxx-logo", 2, {autoAlpha:0, ease: SlowMo.easeInOut});
-     
-//fade out Jaxx
-//tl.to("#banner .site-title-2", 1, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
-tl.to("#banner .jaxx-logo", 2, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
-     
+tl.from("#banner .jaxx-logo", 2, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
+         
+//fade out Jaxx Logo
+//tl.to("#banner .jaxx-logo", 2, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
+
+// fade in logo fill 
+tl.to("#banner .jaxx-logo .st0", 1, {fill:"#fff", ease: SlowMo.easeIn});
+ 
+// fade in logo fill 
+tl.to("#banner .jaxx-logo .st1", 1, {fill:"#ff6902", ease: SlowMo.easeIn});
+
+// explode out 
+tl.to("#banner .jaxx-logo .st0", 0.5, {x:1000, scale:0, ease: Power4.easeIn}, "-=0.25");
+
+// explode out 
+tl.to("#banner .jaxx-logo .st1", 0.5, {x:-1000, scale:0, ease: Power4.easeIn}, "-=0.25");
+
+//fade out Jaxx Logo
+tl.to("#banner .jaxx-logo", 1, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
+
 //fade in liberty
 //tl.from("#banner .site-title-3", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25");
      
-//use position parameter "+=0.5" to schedule next tween 0.5 seconds after previous tweens end
-tl.from("#banner .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25");
-     
+//fade in tag line
+tl.from("#banner .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
+ 
  //fade out liberty to make overlay text legible
 //tl.to("#banner .site-title-3", 1, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
     
 //use position parameter "-=0.5" to schedule next tween 0.25 seconds before previous tweens end.
-//great for overlapping
+//fade in tag line sub title
 tl.from("#banner .site-sub-title", 1, {left:100, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
      
 // fade in heart svg bg
