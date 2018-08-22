@@ -34,7 +34,6 @@ $(document).scroll(function () {
            
      
 // Rellax parallax
- $(document).ready(function() {
 // Also can pass in optional settings block
   var rellax = new Rellax('.rellax', {
 //    wrapper: '.rellax-wrap',
@@ -45,7 +44,7 @@ $(document).scroll(function () {
     vertical: true,
     horizontal: false
   });
- });
+
      
      
 //GSAP + Scroll Magic
@@ -88,7 +87,7 @@ tl.staggerFrom("#home .navbar-brand, #home .nav-item", 0.2, {y:-10, autoAlpha:0}
      
 //fade in Jaxx Liberty Logo
 //tl.from("#banner .site-title-2", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
-tl.from("#banner .jaxx-logo", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
+tl.from("#banner .jaxx-logo", 2, {autoAlpha:0, ease: SlowMo.easeInOut});
      
 //fade out Jaxx
 //tl.to("#banner .site-title-2", 1, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
@@ -127,6 +126,30 @@ tl.from("#banner .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5");
      
 //vivus svg animation
      
+//banner jaxx liberty logo
+     
+new Vivus('jaxx_liberty', {
+        start: 'autostart',
+        type: 'scenario',
+        duration: 200,
+        animTimingFunction: Vivus.EASE_IN
+        },
+          function (obj) {
+          obj.el.classList.add('finished');
+        });
+    
+//banner multi device
+new Vivus('jaxx-multi-device', {
+        start: 'autostart',
+        type: 'async',
+        duration: 300,
+        animTimingFunction: Vivus.EASE_IN
+        },
+          function (obj) {
+          obj.el.classList.add('finished');
+        });
+     
+//download section multi device    
 new Vivus('multiDevice', {
         start: 'inViewport',
         type: 'async',
@@ -137,7 +160,7 @@ new Vivus('multiDevice', {
           obj.el.classList.add('finished');
         });
      
-new Vivus('jaxx-multi-device', {
+new Vivus('jaxx-heart', {
         start: 'autostart',
         type: 'async',
         duration: 100,
@@ -147,31 +170,30 @@ new Vivus('jaxx-multi-device', {
           obj.el.classList.add('finished');
         });
      
-new Vivus('jaxx-heart', {
-        start: 'inViewport',
-        type: 'async',
-        duration: 100,
-        animTimingFunction: Vivus.EASE_IN
-        },
-          function (obj) {
-          obj.el.classList.add('finished');
-        });
+//new Vivus('jaxx_heart_banner', {
+//        type: 'scenario',
+//        duration: 300,
+//        animTimingFunction: Vivus.EASE_IN
+//        },
+//          function (obj) {
+//          obj.el.classList.add('finished');
+//        });
               
      
 //anime js svg amination
      
-     var lineDrawing = anime({
-      targets: '#jaxx_liberty .lines path',
-      strokeDashoffset: [anime.setDashoffset, 0],
-      easing: 'easeInOutCubic',
-      duration: 3500,
-      delay: function(el, i) { return i * 250 },
-//      delay: 6000,
-    //  delay: function(el, i) { return 1000 + (i * 100); },
-      direction: 'alternate',
-      fillOpacity: [0, 1],
-      loop: false
-      });
+//     var lineDrawing = anime({
+//      targets: '#jaxx_liberty .lines path',
+//      strokeDashoffset: [anime.setDashoffset, 0],
+//      easing: 'easeInOutCubic',
+//      duration: 3500,
+//      delay: function(el, i) { return i * 250 },
+////      delay: 6000,
+//    //  delay: function(el, i) { return 1000 + (i * 100); },
+//      direction: 'alternate',
+//      fillOpacity: [0, 1],
+//      loop: false
+//      });
      
 //     multidevice animation 
      
@@ -212,8 +234,8 @@ new Vivus('jaxx-heart', {
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: 'easeInOutSine',
       duration: 2500,
-      delay: function(el, i) { return i * 250 },
-      delay: 6000,
+//      delay: function(el, i) { return i * 250 },
+      delay: 5000,
       direction: 'alternate',
          fillOpacity: [0],
       loop: false

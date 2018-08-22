@@ -639,6 +639,7 @@ video {
 
 .bg-img-laptop {
     background: url(/img/jaxx-laptop.jpeg) center;
+    background-attachment: fixed;
     background-size: cover;
 }
 .bg-img-multi-platform {
@@ -780,6 +781,7 @@ video {
 
 /* multidevice downloads section */
 
+#jaxx_liberty,
 #multiDevice,
 #jaxx-heart,
 #jaxx_heart_banner,
@@ -788,6 +790,7 @@ video {
   transition: fill-opacity 1s;
 }
 
+#jaxx_liberty.finished,
 #multiDevice.finished,
 #jaxx-heart.finished,
 #jaxx_heart_banner.finished,
