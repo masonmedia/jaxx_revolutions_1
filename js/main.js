@@ -40,12 +40,13 @@ $(document).scroll(function () {
     wrapper: '.rellax-wrap',
     speed: -2,
     center: true,
-    wrapper: null,
     round: true,
     vertical: true,
     horizontal: false
   });
  });
+     
+//     data-rellax-zindex="5"
      
      
 //GSAP + Scroll Magic
@@ -120,6 +121,21 @@ tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
 //fade in bg image
 tl.from("#banner .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5");    
      
+     
+     
+//vivus svg animation
+     
+new Vivus('multiDevice', {
+        start: 'inViewport',
+        type: 'async',
+        duration: 100,
+        animTimingFunction: Vivus.EASE_IN
+        },
+          function (obj) {
+          obj.el.classList.add('finished');
+        });
+              
+     
 //anime js svg amination
      
      var lineDrawing = anime({
@@ -137,35 +153,35 @@ tl.from("#banner .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5");
      
 //     multidevice animation 
      
-     var multiDevice = anime({
-      targets: '#Laptop path, circle',
-      strokeDashoffset: [anime.setDashoffset, 0],
-      easing: 'easeInOutSine',
-      duration: 1000,
-      delay: function(el, i) { return i * 100 },
-      direction: 'alternate',
-      loop: true
-      });
-     
-     var multiDevice2 = anime({
-      targets: '#IPAD path, rect',
-      strokeDashoffset: [anime.setDashoffset, 0],
-      easing: 'easeInOutQuart',
-      duration: 1500,
-      delay: function(el, i) { return i * 250 },
-      direction: 'alternate',
-      loop: true
-      });
-     
-     var multiDevice3 = anime({
-      targets: '#iphone path, ellipse',
-      strokeDashoffset: [anime.setDashoffset, 0],
-      easing: 'easeInOutCubic',
-      duration: 3500,
-      delay: function(el, i) { return i * 250 },
-      direction: 'alternate',
-      loop: true
-      });
+//     var multiDevice = anime({
+//      targets: '#Laptop path, circle',
+//      strokeDashoffset: [anime.setDashoffset, 0],
+//      easing: 'easeInOutSine',
+//      duration: 1000,
+//      delay: function(el, i) { return i * 100 },
+//      direction: 'alternate',
+//      loop: true
+//      });
+//     
+//     var multiDevice2 = anime({
+//      targets: '#IPAD path, rect',
+//      strokeDashoffset: [anime.setDashoffset, 0],
+//      easing: 'easeInOutQuart',
+//      duration: 1500,
+//      delay: function(el, i) { return i * 250 },
+//      direction: 'alternate',
+//      loop: true
+//      });
+//     
+//     var multiDevice3 = anime({
+//      targets: '#iphone path, ellipse',
+//      strokeDashoffset: [anime.setDashoffset, 0],
+//      easing: 'easeInOutCubic',
+//      duration: 3500,
+//      delay: function(el, i) { return i * 250 },
+//      direction: 'alternate',
+//      loop: true
+//      });
      
 //jaxx heart animation
 
@@ -180,24 +196,6 @@ tl.from("#banner .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5");
       fillOpacity: [0, 1],
       loop: false
       });
-     
-     
-//bg colors
-//     var multiDevice4 = anime({
-//      targets: '.colors',
-//      backgroundColor: [
-//        {value: '#fff'},
-//        {value: '#fff'},
-//        {value: '#ff6902'},
-//        {value: 'rgb(38, 65, 118)'},
-//        {value: 'rgb(64, 224, 208)'}
-//      ],
-//      easing: 'easeInOutSine',
-//      elasticity: 300,
-//      direction: 'alternate',
-//      duration: 6000,
-//      loop: true
-//    });
      
 //fade in
 

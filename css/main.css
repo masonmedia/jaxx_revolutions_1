@@ -198,7 +198,7 @@ footer a:hover {
 .page-title {
     font-size: 15vmin;
     font-weight: 900;
-    letter-spacing: -10px;
+    letter-spacing: -8px;
 }
 .section-title {
     font-size: 8vmin;
@@ -775,6 +775,20 @@ video {
     color: #ff6902;
 }
 
+/*svg animations ================*/
+
+/* multidevice downloads section */
+
+#multiDevice * {
+  fill-opacity: 0;
+  transition: fill-opacity 1s;
+}
+
+#multiDevice.finished * {
+  fill-opacity: 1;
+}
+
+
 /*  about page */
 
 .bg-img-about {
@@ -877,9 +891,12 @@ span.swiper-pagination-bullet {
 /* downloads */
 
 .bg-img-banner-downloads {
-    background: url(https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f34d31b7b293d187d4b134d6afcabba9&auto=format&fit=crop&w=1051&q=80) center;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+/*    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/708440/pexels-photo-708440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;*/
+/*
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-dancing.jpeg) center;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+*/
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/jaxx-jump-2.jpg) center;
     background-size: cover;
 }
 
