@@ -108,10 +108,10 @@ tl.to("#banner .jaxx-logo .st1", 1, {fill:"#ff6902", ease: SlowMo.easeIn});
 tl.to("#banner .jaxx-logo .st0", 1, {fill:"#fff", ease: SlowMo.easeIn}, "-=0.5");
  
 // explode out 
-tl.to("#banner .jaxx-logo .st0", 0.5, {y:1000, scale:0, ease: Power4.easeIn}, "-=0.25");
+tl.to("#banner .jaxx-logo .st0", 0.5, {y:1000, ease: Power4.easeInOut}, "-=0.25");
 
 // explode out 
-tl.to("#banner .jaxx-logo .st1", 0.5, {y:-1000, scale:0, ease: Power4.easeIn}, "-=0.25");
+tl.to("#banner .jaxx-logo .st1", 0.5, {y:-1000, ease: Power4.easeInOut}, "-=0.25");
 
 //fade in orange-bg 
 tl.from("#banner .orange-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeInOut});
@@ -130,7 +130,7 @@ tl.from("#banner .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut
 //tl.from("#banner .site-sub-title", 1, {left:100, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
     
 //fade in tag line sub titles
-tl.staggerFrom(".sub-tagline-1, .sub-tagline-2, .sub-tagline-3", 0.2, {y:-10, autoAlpha:0, ease: SlowMo.easeInOut}, 0.5);
+tl.staggerFrom(".sub-tagline-1, .sub-tagline-2, .sub-tagline-3", 0.2, {y:-20, autoAlpha:0, ease: SlowMo.easeInOut}, 0.5);
    
 //fade in bg image
 tl.from("#banner .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5");    
@@ -142,10 +142,10 @@ tl.from("#banner .jaxx-heart-logo", 0.5, {y:-10, autoAlpha:0, ease: Back.easeInO
 tl.from("#banner .jaxx-icon", 0.5, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.25");
 
 //add a label 0.5 seconds later to mark the placement of the next tween
-tl.from("#banner .btn", 1, {autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
+tl.from("#banner .btn", 1, {autoAlpha:0, ease: Bounce.easeIn}, "-=0.5");
   
 //fade in arrow down
-tl.from("#banner i", 1, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
+tl.from("#banner i", 1, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.5");
      
      
 //vivus svg animation
