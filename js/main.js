@@ -127,8 +127,11 @@ tl.from("#banner .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut
     
 //use position parameter "-=0.5" to schedule next tween 0.25 seconds before previous tweens end.
 //fade in tag line sub title
-tl.from("#banner .site-sub-title", 1, {left:100, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
-     
+//tl.from("#banner .site-sub-title", 1, {left:100, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
+    
+//fade in tag line sub titles
+tl.staggerFrom(".sub-tagline-1, .sub-tagline-2, .sub-tagline-3", 0.2, {y:-10, autoAlpha:0, ease: SlowMo.easeInOut}, 0.5);
+   
 //fade in bg image
 tl.from("#banner .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5");    
  
@@ -139,10 +142,10 @@ tl.from("#banner .jaxx-heart-logo", 0.5, {y:-10, autoAlpha:0, ease: Back.easeInO
 tl.from("#banner .jaxx-icon", 0.5, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.25");
 
 //add a label 0.5 seconds later to mark the placement of the next tween
-tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
+tl.from("#banner .btn", 1, {autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
   
 //fade in arrow down
-tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
+tl.from("#banner i", 1, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
      
      
 //vivus svg animation
