@@ -31,10 +31,16 @@ $(".animsition").animsition({
 $(document).scroll(function () {
     $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
   });
-           
+ 
+//close mobile menu on li click and body click
+     
+$('.navbar-nav>li>a, body').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+     
      
 // Rellax parallax
-// Also can pass in optional settings block
+     
   var rellax = new Rellax('.rellax', {
 //    wrapper: '.rellax-wrap',
     speed: -1,
@@ -168,7 +174,7 @@ new Vivus('jaxx-multi-device', {
 new Vivus('multiDevice', {
         start: 'inViewport',
         type: 'async',
-        duration: 100,
+        duration: 75,
         animTimingFunction: Vivus.EASE_IN
         },
           function (obj) {
