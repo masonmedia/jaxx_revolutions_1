@@ -78,7 +78,7 @@ for (var i=0; i<slides.length; i++) {
 var tl = new TimelineLite();
 
 //add a from() tween at the beginning of the timline
-tl.from(".bg-img-banner-2", 0.5, {autoAlpha:0, ease: SlowMo.easeIn});
+tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn});
 
 //tl.staggerFromTo("#home .navbar-brand, #home .nav-item", 0.5, {opacity:0, y:-10}, {opacity:1, y:0}, 0.1);
      
@@ -92,20 +92,26 @@ tl.from("#banner .jaxx-logo", 2, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5")
 //fade out Jaxx Logo
 //tl.to("#banner .jaxx-logo", 2, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
 
-// fade in logo fill 
-tl.to("#banner .jaxx-logo .st0", 1, {fill:"#fff", ease: SlowMo.easeIn});
- 
+//fade out multi device bg
+tl.to("#banner #jaxx-multi-device", 1, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
+
 // fade in logo fill 
 tl.to("#banner .jaxx-logo .st1", 1, {fill:"#ff6902", ease: SlowMo.easeIn});
+     
+// fade in logo fill 
+tl.to("#banner .jaxx-logo .st0", 1, {fill:"#fff", ease: SlowMo.easeIn}, "-=0.5");
+ 
+// explode out 
+tl.to("#banner .jaxx-logo .st0", 0.5, {y:1000, scale:0, ease: Power4.easeIn}, "-=0.25");
 
 // explode out 
-tl.to("#banner .jaxx-logo .st0", 0.5, {x:1000, scale:0, ease: Power4.easeIn}, "-=0.25");
+tl.to("#banner .jaxx-logo .st1", 0.5, {y:-1000, scale:0, ease: Power4.easeIn}, "-=0.25");
 
-// explode out 
-tl.to("#banner .jaxx-logo .st1", 0.5, {x:-1000, scale:0, ease: Power4.easeIn}, "-=0.25");
+//fade in orange-bg 
+tl.from("#banner .orange-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeInOut});
 
 //fade out Jaxx Logo
-tl.to("#banner .jaxx-logo", 1, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
+tl.to("#banner .jaxx-logo", 0.5, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
 
 //fade in liberty
 //tl.from("#banner .site-title-3", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25");
@@ -120,11 +126,14 @@ tl.from("#banner .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut
 //fade in tag line sub title
 tl.from("#banner .site-sub-title", 1, {left:100, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
      
+//fade in bg image
+tl.from("#banner .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5");    
+ 
 // fade in heart svg bg
-tl.from("#banner .jaxx-heart-logo", 1, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
+tl.from("#banner .jaxx-heart-logo", 0.5, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.25");
 
 // fade in heart logo
-tl.from("#banner .jaxx-icon", 1, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
+tl.from("#banner .jaxx-icon", 0.5, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.25");
 
 //add a label 0.5 seconds later to mark the placement of the next tween
 tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
@@ -132,10 +141,6 @@ tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
   
 //fade in arrow down
 tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
-     
-//fade in bg image
-tl.from("#banner .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5");    
-     
      
      
 //vivus svg animation
@@ -176,6 +181,17 @@ new Vivus('multiDevice', {
      
 new Vivus('jaxx-heart', {
         start: 'autostart',
+        type: 'async',
+        duration: 100,
+        animTimingFunction: Vivus.EASE_IN
+        },
+          function (obj) {
+          obj.el.classList.add('finished');
+        });
+     
+// download CTA logo animation
+new Vivus('jaxx-logo-cta', {
+        start: 'inViewport',
         type: 'async',
         duration: 100,
         animTimingFunction: Vivus.EASE_IN
