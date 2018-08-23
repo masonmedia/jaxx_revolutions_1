@@ -46,7 +46,7 @@
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/normalize.css">
 <link rel="stylesheet" href="/css/main.css">
-
+  
 <!--cookies banner-->
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
@@ -116,8 +116,7 @@ window.cookieconsent.initialise({
     <main role="main">
 
         <!--jumbotron 1 group-->
-        <div id="banner" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white fs p-5 m-0">
-            <!--<img class="jaxx-logo-jumbo relative z-2" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="Jaxx Liberty">-->
+        <div id="banner" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white fs p-5 m-0 rellax">
             <div class="navy-bg bg-navy min-100 w-100 h-100 absolute z-0"></div>
     
             <!--multi device svg img-->
@@ -135,7 +134,7 @@ window.cookieconsent.initialise({
             </svg>
                     
             <!--jaxx liberty main logo-->
-            <svg version="1.1" id="jaxx_liberty" class="jaxx-logo absolute z-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 274.7 136.7" style="enable-background:new 0 0 274.7 136.7;" xml:space="preserve">
+            <svg version="1.1" id="jaxx_liberty" class="jaxx-logo m-100 absolute z-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 274.7 136.7" style="enable-background:new 0 0 274.7 136.7;" xml:space="preserve">
             <style type="text/css">
                 .st0{fill:#fff; stroke: #fff; stroke-width: 1; stroke-miterlimit: 10;}
                 .st1{fill:#ff6902; stroke: #ff6902; stroke-width: 1; stroke-miterlimit: 10;}
@@ -197,7 +196,7 @@ window.cookieconsent.initialise({
                     C266,110.4,265.8,110.3,265.4,110.3z M235.2,123.1c-0.1-1.4,1.1-2.9,2.7-4.2c2.1-1.7,5.4-3.1,9.6-4.2
                     C242.8,120.6,238.8,123.1,235.2,123.1z"/>
             </svg>           
-            <img class="jaxx-icon jaxx-logo-text relative z-2 mb-3 rellax" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="">
+            <img class="jaxx-icon jaxx-logo-text relative z-2 mb-4 rellax" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="">
             <div class="orange-bg bg-orange min-100 w-100 h-100 absolute z-0"></div>
             <h1 class="site-title relative z-2 pb-2">A Digital Wallet for Everyone</h1>
             <h3 class="site-sub-title relative z-2 pb-3">No registration. Use on any device. Download for free.</h3>
@@ -218,7 +217,7 @@ window.cookieconsent.initialise({
             <a href="/downloads.html" class="animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">
                 <button class="btn btn-lg btn-orange relative z-1">Start Your Journey</button>
             </a>
-            <i class="fas fa-angle-down"></i>
+            <i class="fas fa-angle-down relative z-1"></i>
             <div class="img-full bg-fs-img-banner-2 min-100 absolute z-0"></div>
         </div>
        
@@ -281,18 +280,16 @@ window.cookieconsent.initialise({
             <!--row 3 Use on any device + Download-->
             
             <div id="download" class="row d-flex bg-white relative z-1 bg-img-downloads content-tween rellax">
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start min-100 p-5">
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start min-100 px-5 pt-5 pb-0">
                     <h2 class="section-title font-weight-bold m-0 content-stagger-up">Use on any device.</h2>
                     <hr class="w-25 border-0 bg-dark content-stagger-up">
                     <p class="pb-3 pt-2 content-stagger-up"><span class="orange font-weight-bold"><a class="font-weight-bold animsition-link" href="/downloads.html" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800">Jaxx Liberty</a></span> is available on Mac, Windows, and Linux desktop, iPad and Tablet, iPhone and Android, and as an extension for Google Chrome. <a class="font-weight-bold animsition-link" href="/downloads.html" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800">Download</a> it for free.</p>
                     <div class="content-stagger-up">
-                        
-                        <!-- Example single warning button -->
+                        <!--download dropdown menus-->
                         <div class="btn-group">
-                          <button type="button" class="btn btn-outline-orange dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Desktop
-                          </button>
-                          <div class="dropdown-menu fade">
+                          <button type="button" class="btn btn-outline-orange dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Desktop</button>
+                          <!--dropdown menu-->
+                          <div class="dropdown-menu">
                             <!--mac desktop download-->
                             <div class="dropdown-item">
                                 <a role="button" onclick="googleAnalyticsTrigger('OS X - Beta', 'Table')" href="https://download-liberty.jaxx.io/LibertyBeta-2.0.7.dmg">Mac</a>
@@ -316,9 +313,8 @@ window.cookieconsent.initialise({
                         
                         <!-- Tablet dropdown -->
                         <div class="btn-group">
-                          <button type="button" class="btn btn-outline-orange dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Tablet
-                          </button>
+                          <button type="button" class="btn btn-outline-orange dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tablet</button>
+                          <!--dropdown menu-->
                           <div class="dropdown-menu">
                             <!--itunes store-->
                             <div class="dropdown-item">
@@ -334,9 +330,8 @@ window.cookieconsent.initialise({
                         
                         <!-- Mobile Dropdown -->
                         <div class="btn-group">
-                          <button type="button" class="btn btn-outline-orange dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Mobile
-                          </button>
+                          <button type="button" class="btn btn-outline-orange dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mobile</button>
+                          <!--dropdown menu-->
                           <div class="dropdown-menu">
                             <!--itunes store-->
                             <div class="dropdown-item">
@@ -353,7 +348,7 @@ window.cookieconsent.initialise({
                 </div><!--end col-->
                 
                 <!--multidevice col-->
-                <div class="col-lg-7 d-flex justify-content-center align-items-center min-100 p-4 relative z--1 content-tween-down">
+                <div class="col-lg-8 d-flex justify-content-center align-items-center min-100 p-4 relative z--1 content-tween-down">
                     <!--<img class="img" src="/img/jaxx-multi-platform.png" alt="">-->
                     <!--multi device svg-->
                     <svg id="multiDevice" viewBox="0 0 897 452" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
@@ -420,7 +415,7 @@ window.cookieconsent.initialise({
                         </div><!--end carousel item-->
                         <div class="carousel-item px-3">
                             <i class="fas fa-quote-right animated slideInLeft"></i>
-                            <p class="p-3 m-0 animated zoomInRight">“We’re very happy to partner with Jaxx, a highly-secure and a very easy-to-use wallet that is the first to support RSK.”</p>
+                            <p class="p-3 m-0 animated zoomInRight">“We’re very happy to partner with Jaxx, a highly-secure and easy-to-use wallet that is the first to support RSK.”</p>
 <!--                            We’ve been working with them since the early days and are confident their large user base will help bring the dapps and more value to the Bitcoin Network, while RSK brings smart contract capabilities, higher scalability with 100 transactions per second and near instant payments.-->
                             <p class="h5 font-weight-bold animated slideInUp">Diego Gutierrez Zaldivar</p>
                             <footer class="blockquote-footer orange">RSK CEO & Co-Founder</footer>
@@ -445,7 +440,7 @@ window.cookieconsent.initialise({
            
             <!--row 6 community-->
             
-            <div id="partners" class="row d-flex content-tween">
+            <div id="partners" class="row d-flex content-tween rellax">
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left bg-white p-5">
                     <h2 class="section-title font-weight-bold m-0 content-tween-up">Our Community.</h2>
                     <hr class="w-25 content-tween-left">

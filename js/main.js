@@ -83,7 +83,7 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn});
 //tl.staggerFromTo("#home .navbar-brand, #home .nav-item", 0.5, {opacity:0, y:-10}, {opacity:1, y:0}, 0.1);
      
 //fade in nav + nav links
-tl.staggerFrom("#home .navbar-brand, #home .nav-item", 0.2, {y:-10, autoAlpha:0}, 0.1);
+tl.staggerFrom("#home .navbar-brand, #home .nav-item, #home .navbar-toggler", 0.2, {y:-10, autoAlpha:0}, 0.1);
       
 //fade in Jaxx Liberty Logo
 //tl.from("#banner .site-title-2", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
@@ -112,10 +112,7 @@ tl.from("#banner .orange-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeInOut});
 
 //fade out Jaxx Logo
 tl.to("#banner .jaxx-logo", 0.5, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
-
-//fade in liberty
-//tl.from("#banner .site-title-3", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25");
-     
+    
 //fade in tag line
 tl.from("#banner .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
  
@@ -137,7 +134,6 @@ tl.from("#banner .jaxx-icon", 0.5, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "
 
 //add a label 0.5 seconds later to mark the placement of the next tween
 tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
-//to jump to this label use: tl.play("stagger");
   
 //fade in arrow down
 tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: Power1.easeIn}, "-=0.5");
@@ -189,16 +185,6 @@ new Vivus('jaxx-heart', {
           obj.el.classList.add('finished');
         });
      
-// download CTA logo animation
-new Vivus('jaxx-logo-cta', {
-        start: 'inViewport',
-        type: 'async',
-        duration: 100,
-        animTimingFunction: Vivus.EASE_IN
-        },
-          function (obj) {
-          obj.el.classList.add('finished');
-        });
      
 //new Vivus('jaxx_heart_banner', {
 //        type: 'scenario',
@@ -211,52 +197,7 @@ new Vivus('jaxx-logo-cta', {
               
      
 //anime js svg amination
-     
-//     var lineDrawing = anime({
-//      targets: '#jaxx_liberty .lines path',
-//      strokeDashoffset: [anime.setDashoffset, 0],
-//      easing: 'easeInOutCubic',
-//      duration: 3500,
-//      delay: function(el, i) { return i * 250 },
-////      delay: 6000,
-//    //  delay: function(el, i) { return 1000 + (i * 100); },
-//      direction: 'alternate',
-//      fillOpacity: [0, 1],
-//      loop: false
-//      });
-     
-//     multidevice animation 
-     
-//     var multiDevice = anime({
-//      targets: '#Laptop path, circle',
-//      strokeDashoffset: [anime.setDashoffset, 0],
-//      easing: 'easeInOutSine',
-//      duration: 1000,
-//      delay: function(el, i) { return i * 100 },
-//      direction: 'alternate',
-//      loop: true
-//      });
-//     
-//     var multiDevice2 = anime({
-//      targets: '#IPAD path, rect',
-//      strokeDashoffset: [anime.setDashoffset, 0],
-//      easing: 'easeInOutQuart',
-//      duration: 1500,
-//      delay: function(el, i) { return i * 250 },
-//      direction: 'alternate',
-//      loop: true
-//      });
-//     
-//     var multiDevice3 = anime({
-//      targets: '#iphone path, ellipse',
-//      strokeDashoffset: [anime.setDashoffset, 0],
-//      easing: 'easeInOutCubic',
-//      duration: 3500,
-//      delay: function(el, i) { return i * 250 },
-//      direction: 'alternate',
-//      loop: true
-//      });
-     
+          
 //jaxx heart animation
 
      var lineDrawing = anime({
@@ -480,7 +421,7 @@ $(".content-tween").each(function() {
 //smooth scroll
 
 
-//  // Add smooth scrolling to all links
+// Add smooth scrolling to all links
   $("a").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
