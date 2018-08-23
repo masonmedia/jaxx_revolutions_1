@@ -757,7 +757,7 @@ video {
 .jaxx-multi-device,
 #jaxx-logo-cta {
   fill-opacity: 0;
-  transition: fill-opacity .7s;
+  transition: fill-opacity 1.5s;
 }
 
 #jaxx_liberty.finished,

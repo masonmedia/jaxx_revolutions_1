@@ -139,13 +139,13 @@ tl.from("#banner .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5");
 tl.from("#banner .jaxx-heart-logo", 0.5, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.25");
 
 // fade in heart logo
-tl.from("#banner .jaxx-icon", 0.5, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.25");
+tl.from("#banner .jaxx-icon", 0.7, {y:-20, autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25");
 
 //add a label 0.5 seconds later to mark the placement of the next tween
-tl.from("#banner .btn", 1, {autoAlpha:0, ease: Bounce.easeIn}, "-=0.5");
+tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: SlowMo.easeIn}, "-=0.25");
   
 //fade in arrow down
-tl.from("#banner i", 1, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.5");
+tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
      
      
 //vivus svg animation
