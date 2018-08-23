@@ -874,7 +874,7 @@ span.swiper-pagination-bullet {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-dancing.jpeg) center;
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
 */
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/jaxx-jump-2.jpg) center top;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/jaxx-jump-2.jpg) center;
     background-size: cover;
 }
 
