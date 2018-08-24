@@ -69,7 +69,7 @@ for (var i=0; i<slides.length; i++) {
     new ScrollMagic.Scene({
             triggerElement: slides[i],
             triggerHook: 'onLeave',
-			duration: "120%",
+//			duration: "120%",
 			reverse: true
         })
         .setPin(slides[i])
@@ -89,7 +89,7 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn});
 //tl.staggerFromTo("#home .navbar-brand, #home .nav-item", 0.5, {opacity:0, y:-10}, {opacity:1, y:0}, 0.1);
      
 //fade in nav + nav links
-tl.staggerFrom("#home .navbar-brand, #home .nav-item, #home .navbar-toggler", 0.2, {y:-10, autoAlpha:0}, 0.1);
+tl.staggerFrom("#home .navbar-brand, #home .nav-item, #home .navbar-toggler", 0.2, {y:-10, autoAlpha:0, rotation:-20}, 0.1);
       
 //fade in Jaxx Liberty Logo
 //tl.from("#banner .site-title-2", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
@@ -153,62 +153,73 @@ tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
      
 //vivus svg animation
      
+//download section multi device --> for some reason won't work in ext svg.js file
+//new Vivus('multiDevice', {
+//        start: 'inViewport',
+//        type: 'async',
+//        duration: 75,
+//        animTimingFunction: Vivus.EASE_IN
+//        },
+//          function (obj) {
+//          obj.el.classList.add('finished');
+//        });
+     
 //banner jaxx liberty logo
-     
-new Vivus('jaxx_liberty', {
-        start: 'autostart',
-        type: 'scenario',
-        duration: 200,
-        animTimingFunction: Vivus.EASE_IN
-        },
-          function (obj) {
-          obj.el.classList.add('finished');
-        });
-    
-//banner multi device
-new Vivus('jaxx-multi-device', {
-        start: 'autostart',
-        type: 'async',
-        duration: 300,
-        animTimingFunction: Vivus.EASE_IN
-        },
-          function (obj) {
-          obj.el.classList.add('finished');
-        });
-     
-//homepage section headings --> for some reason order is impacting functioning
-new Vivus('jl-section-heading-1', {
-        start: 'inViewport',
-        type: 'oneByOne',
-        duration: 75,
-        animTimingFunction: Vivus.EASE_IN
-        },
-          function (obj) {
-          obj.el.classList.add('finished');
-        });
-     
-//download section multi device    
-new Vivus('multiDevice', {
-        start: 'inViewport',
-        type: 'async',
-        duration: 75,
-        animTimingFunction: Vivus.EASE_IN
-        },
-          function (obj) {
-          obj.el.classList.add('finished');
-        });
-     
-new Vivus('jaxx-heart', {
-        start: 'autostart',
-        type: 'async',
-        duration: 100,
-        animTimingFunction: Vivus.EASE_IN
-        },
-          function (obj) {
-          obj.el.classList.add('finished');
-        });
-
-     
+//     
+//new Vivus('jaxx_liberty', {
+//        start: 'autostart',
+//        type: 'scenario',
+//        duration: 200,
+//        animTimingFunction: Vivus.EASE_IN
+//        },
+//          function (obj) {
+//          obj.el.classList.add('finished');
+//        });
+//    
+////banner multi device
+//new Vivus('jaxx-multi-device', {
+//        start: 'autostart',
+//        type: 'async',
+//        duration: 300,
+//        animTimingFunction: Vivus.EASE_IN
+//        },
+//          function (obj) {
+//          obj.el.classList.add('finished');
+//        });
+//     
+////homepage section headings --> for some reason order is impacting functioning
+//new Vivus('jl-section-heading-1', {
+//        start: 'inViewport',
+//        type: 'oneByOne',
+//        duration: 75,
+//        animTimingFunction: Vivus.EASE_IN
+//        },
+//          function (obj) {
+//          obj.el.classList.add('finished');
+//        });
+//     
+////download section multi device    
+//new Vivus('multiDevice', {
+//        start: 'inViewport',
+//        type: 'async',
+//        duration: 75,
+//        animTimingFunction: Vivus.EASE_IN
+//        },
+//          function (obj) {
+//          obj.el.classList.add('finished');
+//        });
+//     
+//new Vivus('jaxx-heart', {
+//        start: 'autostart',
+//        type: 'async',
+//        duration: 100,
+//        animTimingFunction: Vivus.EASE_IN
+//        },
+//          function (obj) {
+//          obj.el.classList.add('finished');
+//        });
+//
+//     
 //fade in
 
 $(".fade-in").each(function() {

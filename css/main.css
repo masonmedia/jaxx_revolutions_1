@@ -897,6 +897,10 @@ span.swiper-pagination-bullet {
     width: 300px;
     z-index: 0;
 }
+.bg-img-jaxx-hand {
+    background: url(/img/jaxx-hand-device.jpg) center;
+    background-size: cover;
+}
 .bg-img-people-1 {
     background: url(/img/jaxx-four-people.jpeg) center;
     background-size: cover;
@@ -1193,6 +1197,12 @@ footer p {
 }
 
 @media (max-width: 600px) {
+    /* nav*/
+    nav,
+    .navbar {
+        background-color: rgba(38, 65, 118) !important;
+        border-bottom: 1px solid transparent;
+    }
     
     .jaxx-logo {
         width: 300px;
