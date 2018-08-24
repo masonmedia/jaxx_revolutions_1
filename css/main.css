@@ -1188,7 +1188,7 @@ footer p {
     .partner-logo-sm {
         width: 300px;
     }
-/*    features page */
+    /* features page */
     .swiper-slide .text {
         width: 100%;
     }
@@ -1199,10 +1199,16 @@ footer p {
     .jaxx-logo {
         width: 300px;
     }
+    .jaxx-logo-text {
+        width: 120px;
+    }
     /*homepage front title */
     .site-title {
         font-size: 11vw;
         margin-bottom: 10px;
+    }
+    #cta h2 {
+        font-size: 22px;
     }
     .p-5-sm {
       padding: 3rem;  
