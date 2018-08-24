@@ -107,11 +107,14 @@ tl.to("#banner .jaxx-logo .st1", 1, {fill:"#ff6902", ease: SlowMo.easeIn});
 // fade in logo fill 
 tl.to("#banner .jaxx-logo .st0", 1, {fill:"#fff", ease: SlowMo.easeIn}, "-=0.5");
  
-// explode out 
+// explode out left JAX
 tl.to("#banner .jaxx-logo .st0", 0.5, {y:1000, ease: Power4.easeInOut}, "-=0.25");
 
-// explode out 
-tl.to("#banner .jaxx-logo .st1", 0.5, {y:-1000, ease: Power4.easeInOut}, "-=0.25");
+// explode out down X
+tl.to("#banner .jaxx-logo .st1", 0.5, {x:-1000, ease: Power4.easeInOut}, "-=0.25");
+
+// explode out down Liberty
+tl.staggerTo("#banner .jaxx-logo .st2", 0.5, {y:-1000, ease: Power4.easeInOut}, 0.1);
 
 //fade in orange-bg 
 tl.from("#banner .orange-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeInOut});
@@ -149,6 +152,7 @@ tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
      
      
 //vivus svg animation
+   
      
 //banner jaxx liberty logo
      
@@ -167,6 +171,17 @@ new Vivus('jaxx-multi-device', {
         start: 'autostart',
         type: 'async',
         duration: 300,
+        animTimingFunction: Vivus.EASE_IN
+        },
+          function (obj) {
+          obj.el.classList.add('finished');
+        });
+     
+//homepage section headings --> for some reason order is impacting functioning
+new Vivus('jl-section-heading-1', {
+        start: 'inViewport',
+        type: 'oneByOne',
+        duration: 75,
         animTimingFunction: Vivus.EASE_IN
         },
           function (obj) {
@@ -220,6 +235,7 @@ new Vivus('jaxx-heart', {
          fillOpacity: [0],
       loop: false
       });
+
      
 //fade in
 

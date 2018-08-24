@@ -754,7 +754,8 @@ video {
 #jaxx-heart,
 #jaxx_heart_banner,
 .jaxx-multi-device,
-#jaxx-logo-cta {
+#jl-section-heading-1,
+#downloads-header {
   fill-opacity: 0;
   transition: fill-opacity 1.5s;
 }
@@ -764,7 +765,8 @@ video {
 #jaxx-heart.finished,
 #jaxx_heart_banner.finished,
 .jaxx-multi-device.finished,
-#jaxx-logo-cta.finished {
+#jl-section-heading-1.finished,
+#downloads-header.finished {
   fill-opacity: 1;
 }
 
@@ -907,6 +909,7 @@ span.swiper-pagination-bullet {
     background: url(/img/jaxx-heart-hands-2.jpeg) center;
     background: linear-gradient(rgb(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/6552/nature-person-red-woman.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 /* changelog ======================*/
@@ -1164,7 +1167,10 @@ footer p {
         margin-bottom: -10;
         width: 200px;  
     }
-    /*homepage front title */
+    .bg-fs-img-banner-2 {
+        background-attachment: scroll;
+    }
+    /* homepage front title */
     .site-title {
         font-size: 8vw;
     }
