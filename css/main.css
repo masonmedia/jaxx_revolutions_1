@@ -888,7 +888,6 @@ span.swiper-pagination-bullet {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-security-tvs.jpg) center;
 /*    background: url(/img/jaxx-security-hands.png);*/
     background-size: cover;
-    background-attachment: fixed;
 }
 .img-shield {
     filter: grayscale(100);
