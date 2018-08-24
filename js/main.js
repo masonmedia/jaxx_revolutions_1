@@ -152,7 +152,6 @@ tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
      
      
 //vivus svg animation
-   
      
 //banner jaxx liberty logo
      
@@ -208,33 +207,6 @@ new Vivus('jaxx-heart', {
           function (obj) {
           obj.el.classList.add('finished');
         });
-     
-     
-//new Vivus('jaxx_heart_banner', {
-//        type: 'scenario',
-//        duration: 300,
-//        animTimingFunction: Vivus.EASE_IN
-//        },
-//          function (obj) {
-//          obj.el.classList.add('finished');
-//        });
-              
-     
-//anime js svg amination
-          
-//jaxx heart animation
-
-     var lineDrawing = anime({
-      targets: '.jaxx-heart-logo .lines path',
-      strokeDashoffset: [anime.setDashoffset, 0],
-      easing: 'easeInOutSine',
-      duration: 2500,
-//      delay: function(el, i) { return i * 250 },
-      delay: 5000,
-      direction: 'alternate',
-         fillOpacity: [0],
-      loop: false
-      });
 
      
 //fade in
