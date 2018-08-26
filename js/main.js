@@ -151,8 +151,15 @@ tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: SlowMo.easeIn}, "-=0.25");
 tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
      
      
-//vivus svg animation
+//vivus svg animation timelines
      
+var downloadstl = new TimelineLite();
+     
+     downloadstl.from("#downloads svg", 0.5, {autoAlpha:0, y:-30, ease: SlowMo.easeIn});
+     downloadstl.from("#downloads .site-sub-title", 1, {autoAlpha:0, x:40, rotation:100, ease: SlowMo.easeIn});
+     downloadstl.from("#downloads .btn", 1, {autoAlpha:0, x:-40, ease: SlowMo.easeIn});
+     downloadstl.from("#downloads img", 0.5, {autoAlpha:0, y:-100, ease: SlowMo.easeIn});
+         
 //download section multi device --> for some reason won't work in ext svg.js file
 //new Vivus('multiDevice', {
 //        start: 'inViewport',
@@ -315,7 +322,7 @@ $(".stagger-tween").each(function() {
 
 	var scene3 = new ScrollMagic.Scene({
 	        triggerElement: this,
-            triggerHook: 'onEnter',
+            triggerHook: 'this',
 	        reverse:true
 	    })
 		.setTween(stagger)
@@ -338,7 +345,7 @@ $(".content-tween").each(function() {
   .staggerFrom($(this).find(".content-stagger-up"), 1, {y: 200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1);
 
 	var scene4 = new ScrollMagic.Scene({
-	        triggerElement: this,
+//	        triggerElement: this,
             triggerHook: 'onEnter',
 	        offset: -100,
 			reverse:true
@@ -428,9 +435,10 @@ $(".content-tween").each(function() {
      
 //smooth scroll
 
+// Add smooth scrolling to all links
 
 // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+  $("#btn a").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
@@ -444,15 +452,14 @@ $(".content-tween").each(function() {
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 1500, function(){
+      }, 800, function(){
    
         // Add hash (#) to URL when done scrolling (default click behavior)
-//        window.location.hash = hash;
+        window.location.hash = hash;
       });
     } // End if
   });
-    
-    
+
     
 //end doc ready
 });

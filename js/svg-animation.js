@@ -22,7 +22,7 @@ new Vivus('jaxx-multi-device', {
           obj.el.classList.add('finished');
         });
      
-////download section multi device    
+//download section multi device    
 //new Vivus('multiDevice', {
 //        start: 'inViewport',
 //        type: 'async',
@@ -45,7 +45,7 @@ new Vivus('jl-section-heading-1', {
         });
 
      
-new Vivus('jaxx-heart', {
+new Vivus('banner-svg', {
         start: 'autostart',
         type: 'async',
         duration: 100,
@@ -55,7 +55,6 @@ new Vivus('jaxx-heart', {
           obj.el.classList.add('finished');
         });
 
-     
 //downloads page banner animation
      
 //new Vivus('downloads-slanted-gradient', {
@@ -67,7 +66,8 @@ new Vivus('jaxx-heart', {
 //      function (obj) {
 //      obj.el.classList.add('finished');
 //    });
-//     
+//  
+     
 //banner multi device
 new Vivus('jaxx-multi-device', {
         start: 'autostart',

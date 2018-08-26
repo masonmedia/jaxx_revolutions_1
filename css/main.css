@@ -880,6 +880,26 @@ span.swiper-pagination-bullet {
     background-size: cover;
 }
 
+#banner-svg text {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  -webkit-animation: draw 3s forwards;
+  -moz-animation: draw 3s forwards;
+  -o-animation: draw 3s forwards;
+  -ms-animation: draw 3s forwards;
+  animation: draw 3s forwards ease-in-out;
+}
+
+@keyframes draw {
+	0% {fill:rgba(255,255,255,0);}
+	50% {fill:rgba(255,255,255,0);}
+	75% {fill:rgba(255,255,255,1);}
+    100% {
+	  fill: rgba(255,255,255,1);
+      stroke-dashoffset: 0;
+  }
+}
+
 /* security ======================*/
 
 .bg-img-banner-security {
