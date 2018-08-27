@@ -195,7 +195,7 @@ footer a:hover {
 .page-title {
     font-size: 15vmin;
     font-weight: 900;
-    letter-spacing: -8px;
+    letter-spacing: -6px;
     line-height: 90%;
 }
 .section-title {
@@ -872,22 +872,31 @@ span.swiper-pagination-bullet {
 /* downloads ======================*/
 
 .bg-img-banner-downloads {
-/*
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-dancing.jpeg) center;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-*/
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/jaxx-jump-2.jpg) center;
     background-size: cover;
 }
 
+/* svg page banner animation */
+
+.downloads-svg {
+    margin-top: 50px;
+}
+#banner-svg {
+    width: 100%; 
+    overflow: visible;
+}
 #banner-svg text {
-  stroke-dasharray: 500;
-  stroke-dashoffset: 500;
-  -webkit-animation: draw 3s forwards;
-  -moz-animation: draw 3s forwards;
-  -o-animation: draw 3s forwards;
-  -ms-animation: draw 3s forwards;
-  animation: draw 3s forwards ease-in-out;
+    font-weight: 900;
+    fill: #fff; 
+    stroke: white; 
+    stroke-width: 1px;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    -webkit-animation: draw 3s forwards;
+    -moz-animation: draw 3s forwards;
+    -o-animation: draw 3s forwards;
+    -ms-animation: draw 3s forwards;
+    animation: draw 3s forwards ease-in-out;
 }
 
 @keyframes draw {
@@ -926,13 +935,33 @@ span.swiper-pagination-bullet {
     background-size: cover;
 }
 
+
+/* community ======================*/
+    
+.community-svg {
+    font-size: 13vmin;
+    letter-spacing: -4px;
+    margin-bottom: -20px;
+}
+
 /* support ======================*/
 
+.support-svg text {
+    font-size: 4.5vmin; 
+}
+
 .bg-img-banner-support {
-    background: url(/img/jaxx-heart-hands-2.jpeg) center;
     background: linear-gradient(rgb(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/6552/nature-person-red-woman.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
     background-attachment: fixed;
+}
+.bg-img-support-welcome {
+    background: url(https://images.unsplash.com/photo-1496626868305-15f52fa605b7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3d5a2671d16f1761bdcd0df22f790db4&auto=format&fit=crop&w=1050&q=80) center;
+    background: url(https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b5ecaef0464fc50a866e74a6176c3fdc&auto=format&fit=crop&w=1050&q=80) center;
+    background-size: cover;
+}
+.bg-orange-angle {
+    background: linear-gradient(140deg, #fff 60%, #ff6902 60%);
 }
 
 /* changelog ======================*/
@@ -970,7 +999,7 @@ span.swiper-pagination-bullet {
     background-attachment: fixed;
 }
 .bg-img-community {
-    background: linear-gradient(rgb(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background: linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
 }
 
@@ -1205,7 +1234,7 @@ footer p {
         letter-spacing: -4px;
         line-height: 80%;
     }
-    
+
     /* partnerships logo resize for mobile*/
     .partner-logo-sm {
         width: 300px;
@@ -1230,16 +1259,30 @@ footer p {
     .jaxx-logo-text {
         width: 120px;
     }
-    /*homepage front title */
+    /*homepage site title */
     .site-title {
         font-size: 11vw;
         margin-bottom: 10px;
     }
+    
     #cta h2 {
         font-size: 22px;
     }
     .p-5-sm {
       padding: 3rem;  
+    }
+/*     downloads banner title */
+    .downloads-svg {
+        margin-top: 25px;
+    }
+/*    downloads biutton group */
+    .btn-group-lg>.btn, .btn-lg {
+        padding: .25rem 0.75rem;
+        font-size: 1.1rem;
+    }
+    /* support banner title */
+    .support-svg text {
+        font-size: 32px; 
     }
 }
 

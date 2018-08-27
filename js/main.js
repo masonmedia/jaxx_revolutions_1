@@ -171,62 +171,11 @@ var downloadstl = new TimelineLite();
 //          obj.el.classList.add('finished');
 //        });
      
-//banner jaxx liberty logo
-//     
-//new Vivus('jaxx_liberty', {
-//        start: 'autostart',
-//        type: 'scenario',
-//        duration: 200,
-//        animTimingFunction: Vivus.EASE_IN
-//        },
-//          function (obj) {
-//          obj.el.classList.add('finished');
+    
+//var jaxxHeart = new Vivus('jaxx-heart', {start: 'autostart', type: 'async', duration: 100, animTimingFunction: Vivus.EASE_IN}, function (obj) {obj.el.classList.add('finished');
 //        });
-//    
-////banner multi device
-//new Vivus('jaxx-multi-device', {
-//        start: 'autostart',
-//        type: 'async',
-//        duration: 300,
-//        animTimingFunction: Vivus.EASE_IN
-//        },
-//          function (obj) {
-//          obj.el.classList.add('finished');
-//        });
-//     
-////homepage section headings --> for some reason order is impacting functioning
-//new Vivus('jl-section-heading-1', {
-//        start: 'inViewport',
-//        type: 'oneByOne',
-//        duration: 75,
-//        animTimingFunction: Vivus.EASE_IN
-//        },
-//          function (obj) {
-//          obj.el.classList.add('finished');
-//        });
-//     
-////download section multi device    
-//new Vivus('multiDevice', {
-//        start: 'inViewport',
-//        type: 'async',
-//        duration: 75,
-//        animTimingFunction: Vivus.EASE_IN
-//        },
-//          function (obj) {
-//          obj.el.classList.add('finished');
-//        });
-//     
-//new Vivus('jaxx-heart', {
-//        start: 'autostart',
-//        type: 'async',
-//        duration: 100,
-//        animTimingFunction: Vivus.EASE_IN
-//        },
-//          function (obj) {
-//          obj.el.classList.add('finished');
-//        });
-//
-//     
+
+     
 //fade in
 
 $(".fade-in").each(function() {
@@ -426,39 +375,11 @@ $(".content-tween").each(function() {
     const r = (a, b, c) => parseFloat((Math.random() * ((a ? a : 1) - (b ? b : 0)) + (b ? b : 0)).toFixed(c ? c : 0));
 
     document.querySelector('.btn').addEventListener('click', e => explode(e.pageX, e.pageY));
-    document.querySelector('.btn').addEventListener('mouseover', e => explode(e.pageX, e.pageY));
     document.querySelector('#features .btn').addEventListener('click', e => explode(e.pageX, e.pageY));
-    document.querySelector('#features .btn').addEventListener('mouseover', e => explode(e.pageX, e.pageY));
     document.querySelector('#download .btn').addEventListener('click', e => explode(e.pageX, e.pageY));
-    document.querySelector('#download .btn').addEventListener('mouseover', e => explode(e.pageX, e.pageY));
+    document.querySelector('#community .btn').addEventListener('click', e => explode(e.pageX, e.pageY));
+//    document.querySelector('#download .btn').addEventListener('mouseover', e => explode(e.pageX, e.pageY));
      
-     
-//smooth scroll
-
-// Add smooth scrolling to all links
-
-// Add smooth scrolling to all links
-  $("#btn a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
 
     
 //end doc ready
