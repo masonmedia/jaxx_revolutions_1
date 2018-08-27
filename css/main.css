@@ -205,15 +205,6 @@ footer a:hover {
 .section-sub-title {
     font-size: 6vmin;
 }
-.knockout {
-     color: white;
-     -webkit-text-fill-color: transparent;
-     background: -webkit-linear-gradient(transparent, transparent),
-             url(/img/jaxx-jump-2.jpg) center bottom;
-     background: -o-linear-gradient(transparent, transparent);
-     background-size: cover;
-     -webkit-background-clip: text;
-}
 
 .knockout-2 {
     color: white;
@@ -243,39 +234,7 @@ footer a:hover {
     animation: slide 13s ease-in-out;
 }
 
-.knockout-3 {
-    color: white;
-     -webkit-text-fill-color: transparent;
-    background: -webkit-linear-gradient(transparent, transparent),
-             url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background: -webkit-linear-gradient(transparent, transparent),
-             url(https://images.unsplash.com/photo-1529307145738-af20ddbc9255?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=93fc4dea9a9d47dc5cebfc6ae4b3eb63&auto=format&fit=crop&w=925&q=80) center;
-    background-size: 110%;
-    background-blend-mode: multiply;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: slide 13s ease-in-out;
-}
 
-.knockout-4 {
-    color: white;
-     -webkit-text-fill-color: transparent;
-     background: -webkit-linear-gradient(transparent, transparent),
-             url(/img/jaxx-jump-2.jpg) center center;
-    background-size: 110%;
-    background-blend-mode: multiply;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: slide 13s ease-in-out;
-}
-
-/* knockout animation */
-@keyframes slide {
-   0% { background-position: 0 0; }
-    100% { background-position: -300px 0; }
-}
 .site-title-2 {
     font-size: 30vw;
     font-size: 35vw;
@@ -343,12 +302,6 @@ footer a:hover {
 .bottom-0 {
     bottom: 0;
 }
-.text-box-right {
-    right: 20%;
-}
-.text-box-left {
-    left: 20%;
-}
 
 .z--1 {z-index: -1;}
 .z-0 {z-index: 0;}
@@ -356,26 +309,8 @@ footer a:hover {
 .z-2 {z-index: 2;}
 .z-3 {z-index: 3;}
 
-
-/* borders */
-
-.border-thick-white {
-    border: 10px solid #fff!important;
-}
-.border-thick-black {
-    border: 10px solid #000!important;
-}
-.border-thick {
-    border: 10px solid #dee2e6!important;
-}
-
 /* animation */
 
-.text-animate .letter,
-.text-animate-2 .letter {
-  display: inline-block;
-  line-height: 1em;
-}
 
 /* shapes ==================*/
 
@@ -578,9 +513,8 @@ video {
 
 /* bg images ======================*/
 
-.bg-img-3 {
-    background: url(https://images.pexels.com/photos/1093906/pexels-photo-1093906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center; 
-    background: url(/img/jaxx-people-3.jpeg) center; 
+.bg-img-body {
+    background: url(/img/jaxx-slanted-gradient.svg) center; 
     background-size: cover; 
 }
 .bg-img-5 {
@@ -773,10 +707,15 @@ video {
 /*  about page ======================*/
 
 .bg-img-about {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-people-2.jpeg) center 20%;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/jaxx-people-2.jpeg) center 20%;
+    background-size: cover;
+}
+.bg-img-about-2 {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-people-3.jpeg) center 20%;
     background-size: cover;
 }
 .bg-img-jump {
+    background: url(/img/jaxx-people-1.jpeg) center;
     background: url(/img/jaxx-jump-2.jpg) center;
     background-size: cover;
 }
@@ -962,6 +901,18 @@ span.swiper-pagination-bullet {
 }
 .bg-orange-angle {
     background: linear-gradient(140deg, #fff 60%, #ff6902 60%);
+}
+
+
+/* about ======================*/
+
+.about-svg {
+    font-size: 8vmin;
+    letter-spacing: -4px;
+    margin-bottom: -20px;
+}
+#about .jaxx-navbar-brand {
+    margin: 60px 0 40px;
 }
 
 /* changelog ======================*/
@@ -1241,10 +1192,18 @@ footer p {
     .swiper-slide .text {
         width: 100%;
     }
+    .about-svg {
+    font-size: 70px;
+    letter-spacing: -4px;
+    margin-bottom: -20px;
+    }
+    #about .jaxx-navbar-brand {
+        margin: 60px 0 40px;
+    }
 }
 
 @media (max-width: 600px) {
-    /* nav*/
+    /* nav */
     nav,
     .navbar {
         background-color: rgba(38, 65, 118) !important;
@@ -1262,18 +1221,18 @@ footer p {
         font-size: 11vw;
         margin-bottom: 10px;
     }
-    
+    /* download call to action heading text */
     #cta h2 {
         font-size: 22px;
     }
     .p-5-sm {
       padding: 3rem;  
     }
-/*     downloads banner title */
+    /* downloads banner title */
     .downloads-svg {
         margin-top: 25px;
     }
-/*    downloads biutton group */
+    /* downloads button group */
     .btn-group-lg>.btn, .btn-lg {
         padding: .25rem 0.75rem;
         font-size: 1.1rem;
@@ -1281,6 +1240,15 @@ footer p {
     /* support banner title */
     .support-svg text {
         font-size: 32px; 
+    }
+    /* about svg banner */
+    .about-svg {
+        font-size: 80px;
+        letter-spacing: -4px;
+        margin-bottom: -30px;
+    }
+    #about .jaxx-navbar-brand {
+        margin: 60px 0 10px;
     }
 }
 

@@ -59,17 +59,19 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <img class="jaxx-mobile-menu" src="/img/jaxx-menu-orange.png" alt="">
         </button>
-        
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800" href="/features-3.html">Features</a>
+            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800" href="/features.html">Features</a>
           </li>
           <li class="nav-item">
             <a class="nav-link animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800" href="/downloads.html">Download</a>
           </li>
           <li class="nav-item">
             <a class="nav-link animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800" href="/security.html">Security</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link animsition-link" data-animsition-out-class="flip-out-y" data-animsition-out-duration="800" href="/community.html">Community</a>
           </li>
           <li class="nav-item">
             <a class="nav-link animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800" href="/careers.html">Careers</a>
@@ -88,12 +90,19 @@
     <main role="main">
     
        <!--jumbotron-->
-        <div class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white bg-img-about min-70 p-5 mb-0">
-           <div class="row">
-               <div class="col-lg-12 p-4">
-                    <h1 class="page-title m-0 mt-5">About</h1>
+        <div id="about" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white bg-img-about min-70 p-5 mb-0 content-tween">
+            <div class="row">
+                <div class="col-lg-12 p-4">
+                    <!--<h1 class="page-title m-0 mt-5">About</h1>-->
+                    <img class="jaxx-navbar-brand content-tween-down" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
+                    <!--svg banner-->
+                    <h1>
+                        <svg id="banner-svg" class="about-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 20">     
+                            <title>About</title>
+                            <text x="50%" y="60%" text-anchor="middle" alignmentbaseline="middle">About</text>
+                        </svg>
+                    </h1>
                     <h2 class="site-sub-title content-stagger-up">Find out more about Jaxx Liberty and Decentral.</h2>
-                    <img class="content-stagger-up" src="/img/icons/jaxx-about-white.png" alt="About Jaxx Liberty and Decentral">
                 </div>
             </div>
         </div>
@@ -104,8 +113,8 @@
             <!--row 1-->
             <div class="row d-flex bg-navy content-tween rellax">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center
-                 min-50 bg-img-3 o-12"></div>
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-50 p-0 o-1">
+                 min-50 bg-img-about-2 o-12 content-stagger-up" data-rellax-speed="0"></div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-50 p-0 o-1 rellax">
                    <div class="wrap bg-white-op rounded-left p-5 content-stagger-up">
                         <div class="border-wrap border border-dark p-4">
                             <h2 class="section-title x-bold pt-4 pb-3 px-5 m-0 navy bg-orange skew content-stagger-up">Redefining</h2>
@@ -160,57 +169,57 @@
             <!--footer-->
         
             <footer>
-            <div class="container-fluid content-tween">
-               <div class="row d-flex justify-content-center align-items-center bg-img-toronto-1 min-50">
-                   <img class="jaxx-logo-text content-stagger-up" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty">
-               </div>
-                <div class="row d-flex d-flex justify-content-center align-items-end text-white bg-orange px-3 pt-5">
-                    <div class="col-lg-3 col-md-6 px-4 py-3 skew stagger-tween-item">
-                        <ul class="list-unstyled w-100">
-                            <li class="h4 font-weight-bold border-bottom pb-3">Jaxx Liberty</li>
-                            <li> <a href="/features-3.html" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Features</a></li>
-                            <li> <a href="/changeLog.html" class="animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Changelog</a></li>
-                            <li> <a href="/legal.html">Terms of Service</a></li>
-                            <li> <a href="/thirdparties-current.html">Third-Party Agreements</a></li>
-                        </ul>
+                <div class="container-fluid bg-orange content-tween">
+                   <div class="row d-flex justify-content-center align-items-center bg-img-toronto-1 min-50 rellax">
+                       <img class="jaxx-logo-text rellax" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty">
+                   </div>
+                    <div class="row d-flex d-flex justify-content-center align-items-end text-white bg-orange px-3 pt-5">
+                        <div class="col-lg-3 col-md-6 px-4 py-3 skew stagger-tween-item">
+                            <ul class="list-unstyled w-100">
+                                <li class="h4 font-weight-bold border-bottom pb-3">Jaxx Liberty</li>
+                                <li> <a href="/features-3.html" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Features</a></li>
+                                <li> <a href="/changeLog.html" class="animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Changelog</a></li>
+                                <li> <a href="/legal.html">Terms of Service</a></li>
+                                <li> <a href="/thirdparties-current.html">Third-Party Agreements</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 px-4 py-3 skew stagger-tween-item">
+                            <ul class="list-unstyled w-100">
+                                <li class="h4 font-weight-bold border-bottom pb-3">Company</li>
+                                <li> <a href="/about.html" class="animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">About</a></li>
+                                <li> <a href="/community.html" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Community</a></li>
+                                <li> <a href="/careers.html" class="animsition-link" data-animsition-out-class="zoom-out-sm" data-animsition-out-duration="800">Careers</a></li>
+                                <li> <a href="https://blog.jaxx.io/">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 px-4 py-3 skew stagger-tween-item">
+                            <ul class="list-unstyled w-100">
+                                <li class="h4 font-weight-bold border-bottom pb-3">Download</li>
+                                <li><a href="/downloads.html" class="animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">Desktop</a></li>
+                                <li><a href="https://play.google.com/store/apps/details?id=com.kryptokit.jaxx&hl=en" target="_blank">Android</a></li>
+                                <li><a href="https://itunes.apple.com/us/app/jaxx-bitcoin-ethereum-wallet/id1084514516?mt=8" target="_blank">iPhone</a></li>
+                                <!--add chrome extension when ready-->
+                                <li><a href="https://chrome.google.com/webstore/detail/jaxx-blockchain-wallet/ancbofgphhmhcchnaognahmjfajaecmo" target="_blank">Chrome Extension</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 px-4 py-3 skew stagger-tween-item">
+                            <ul class="list-unstyled w-100">
+                                <li class="h4 font-weight-bold border-bottom pb-3">Contact</li>
+                                <li> <a href="https://decentral.zendesk.com/hc/en-us" target="_blank">Support</a></li>
+                                <li> <a href="https://www.facebook.com/JaxxWallet" target="_blank">Facebook</a></li>
+                                <li> <a href="twitter.com/jaxx_io" target="_blank">Twitter</a> / <a href="https://twitter.com/Jaxx_Support" target="_blank">Twitter Support</a> </li>
+                                <li> <a href="https://www.reddit.com/r/jaxx/" target="_blank">Reddit</a></li>
+                            </ul>
+                        </div>
+                    </div><!--end nest container-->
+                </div><!--end row-->
+                <!-- copyright + branding-->
+                <div class="row d-flex copyright">
+                    <div class="col-sm-12 d-flex justify-content-center py-3 pt-4 navy">
+                        <p class="font-weight-bold">&copy; Decentral Inc. <img class="footer-leaf" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made in Canada</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 px-4 py-3 skew stagger-tween-item">
-                        <ul class="list-unstyled w-100">
-                            <li class="h4 font-weight-bold border-bottom pb-3">Company</li>
-                            <li> <a href="/about.html" class="animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">About</a></li>
-                            <li> <a href="/community.html" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Community</a></li>
-                            <li> <a href="/careers.html" class="animsition-link" data-animsition-out-class="zoom-out-sm" data-animsition-out-duration="800">Careers</a></li>
-                            <li> <a href="https://blog.jaxx.io/">Blog</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 px-4 py-3 skew stagger-tween-item">
-                        <ul class="list-unstyled w-100">
-                            <li class="h4 font-weight-bold border-bottom pb-3">Download</li>
-                            <li><a href="/downloads.html" class="animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">Desktop</a></li>
-                            <li><a href="https://play.google.com/store/apps/details?id=com.kryptokit.jaxx&hl=en" target="_blank">Android</a></li>
-                            <li><a href="https://itunes.apple.com/us/app/jaxx-bitcoin-ethereum-wallet/id1084514516?mt=8" target="_blank">iPhone</a></li>
-                            <!--add chrome extension when ready-->
-                            <li><a href="https://chrome.google.com/webstore/detail/jaxx-blockchain-wallet/ancbofgphhmhcchnaognahmjfajaecmo" target="_blank">Chrome Extension</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 px-4 py-3 skew stagger-tween-item">
-                        <ul class="list-unstyled w-100">
-                            <li class="h4 font-weight-bold border-bottom pb-3">Contact</li>
-                            <li> <a href="https://decentral.zendesk.com/hc/en-us" target="_blank">Support</a></li>
-                            <li> <a href="https://www.facebook.com/JaxxWallet" target="_blank">Facebook</a></li>
-                            <li> <a href="twitter.com/jaxx_io" target="_blank">Twitter</a> / <a href="https://twitter.com/Jaxx_Support" target="_blank">Twitter Support</a> </li>
-                            <li> <a href="https://www.reddit.com/r/jaxx/" target="_blank">Reddit</a></li>
-                        </ul>
-                    </div>
-                </div><!--end nest container-->
-            </div><!--end row-->
-            <!-- copyright + branding-->
-            <div class="row d-flex copyright">
-                <div class="col-sm-12 d-flex justify-content-center py-3 pt-4 navy">
-                    <p class="font-weight-bold">&copy; Decentral Inc. <img class="footer-leaf" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made in Canada</p>
                 </div>
-            </div>
-        </footer>
+            </footer>
         
         </div><!--end main container-->
     </main>
