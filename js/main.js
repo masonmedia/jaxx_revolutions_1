@@ -68,7 +68,7 @@ for (var i=0; i<slides.length; i++) {
     new ScrollMagic.Scene({
             triggerElement: slides[i],
             triggerHook: 'onLeave',
-//			duration: "120%",
+			duration: "120%",
 			reverse: true
         })
         .setPin(slides[i])
@@ -365,8 +365,8 @@ $(".content-tween").each(function() {
     document.querySelector('#community .btn').addEventListener('click', e => explode(e.pageX, e.pageY));
 //    document.querySelector('#download .btn').addEventListener('mouseover', e => explode(e.pageX, e.pageY));
      
-
-    
+     
+     
 //end doc ready
 });
 
