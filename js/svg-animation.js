@@ -21,26 +21,16 @@ new Vivus('jaxx-multi-device', {
           obj.el.classList.add('finished');
         });
      
-//download section multi device    
-//new Vivus('multiDevice', {
-//        start: 'inViewport',
+        
+//new Vivus('jaxx_heart_banner', {
+//        start: 'autostart',
 //        type: 'async',
-//        duration: 75,
+//        duration: 100,
 //        animTimingFunction: Vivus.EASE_IN
 //        },
 //          function (obj) {
 //          obj.el.classList.add('finished');
 //        });
-        
-new Vivus('banner-svg', {
-        start: 'autostart',
-        type: 'async',
-        duration: 100,
-        animTimingFunction: Vivus.EASE_IN
-        },
-          function (obj) {
-          obj.el.classList.add('finished');
-        });
 
 //downloads page banner animation
      

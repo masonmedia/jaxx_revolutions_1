@@ -50,8 +50,7 @@ $('.navbar-nav>li>a, body').on('click', function(){
     vertical: true,
     horizontal: false
   });
-
-     
+  
      
 //GSAP + Scroll Magic
     
@@ -75,7 +74,7 @@ for (var i=0; i<slides.length; i++) {
         .setPin(slides[i])
         .addTo(controller);
 }
- 
+
    
 //GSAP tweens
      
@@ -151,13 +150,13 @@ tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: SlowMo.easeIn}, "-=0.25");
 tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
      
      
-//vivus svg animation timelines
+// downloads page entrance timelines
      
 var downloadstl = new TimelineLite();
      
-     downloadstl.from("#downloads svg", 0.5, {autoAlpha:0, y:-30, ease: SlowMo.easeIn});
-     downloadstl.from("#downloads .site-sub-title", 0.5, {autoAlpha:0, x:40, ease: SlowMo.easeIn});
-     downloadstl.from("#downloads img", 0.5, {autoAlpha:0, y:-100, ease: SlowMo.easeIn});
+downloadstl.from("#downloads svg", 0.5, {autoAlpha:0, y:-30, ease: SlowMo.easeIn})
+     .from("#downloads .site-sub-title", 0.5, {autoAlpha:0, x:40, ease: SlowMo.easeIn})
+     .from("#downloads img", 0.5, {autoAlpha:0, y:-100, ease: SlowMo.easeIn});
         
 // individual tweens
       
