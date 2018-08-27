@@ -156,26 +156,11 @@ tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
 var downloadstl = new TimelineLite();
      
      downloadstl.from("#downloads svg", 0.5, {autoAlpha:0, y:-30, ease: SlowMo.easeIn});
-     downloadstl.from("#downloads .site-sub-title", 1, {autoAlpha:0, x:40, rotation:100, ease: SlowMo.easeIn});
-     downloadstl.from("#downloads .btn", 1, {autoAlpha:0, x:-40, ease: SlowMo.easeIn});
+     downloadstl.from("#downloads .site-sub-title", 0.5, {autoAlpha:0, x:40, ease: SlowMo.easeIn});
      downloadstl.from("#downloads img", 0.5, {autoAlpha:0, y:-100, ease: SlowMo.easeIn});
-         
-//download section multi device --> for some reason won't work in ext svg.js file
-//new Vivus('multiDevice', {
-//        start: 'inViewport',
-//        type: 'async',
-//        duration: 75,
-//        animTimingFunction: Vivus.EASE_IN
-//        },
-//          function (obj) {
-//          obj.el.classList.add('finished');
-//        });
-     
-    
-//var jaxxHeart = new Vivus('jaxx-heart', {start: 'autostart', type: 'async', duration: 100, animTimingFunction: Vivus.EASE_IN}, function (obj) {obj.el.classList.add('finished');
-//        });
-
-     
+        
+// individual tweens
+      
 //fade in
 
 $(".fade-in").each(function() {
@@ -294,8 +279,8 @@ $(".content-tween").each(function() {
   .staggerFrom($(this).find(".content-stagger-up"), 1, {y: 200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1);
 
 	var scene4 = new ScrollMagic.Scene({
-//	        triggerElement: this,
-            triggerHook: 'onEnter',
+	        triggerElement: this,
+            triggerHook: '0.8',
 	        offset: -100,
 			reverse:true
 	    })

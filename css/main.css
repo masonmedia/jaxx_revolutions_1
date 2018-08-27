@@ -913,9 +913,9 @@ span.swiper-pagination-bullet {
 
 .bg-img-banner-security {
     background: linear-gradient(rgb(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://thumb9.shutterstock.com/display_pic_with_logo/257323/286532618/stock-photo-collection-of-different-caucasian-women-and-men-ranging-from-to-years-286532618.jpg) center; /* ivan */
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-security-gallery-bw.jpg) center; /*gallery b&w */
+    /*gallery b&w */
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-security-gallery-bw.jpg) center; /*tvs b&w */
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-security-tvs.jpg) center;
-/*    background: url(/img/jaxx-security-hands.png);*/
     background-size: cover;
 }
 .img-shield {
@@ -1002,8 +1002,6 @@ span.swiper-pagination-bullet {
     background: linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
 }
-
-
 
 /* section styles ======================*/
 
