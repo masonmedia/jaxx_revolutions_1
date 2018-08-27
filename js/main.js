@@ -157,7 +157,7 @@ var downloadstl = new TimelineLite();
 downloadstl.from("#downloads svg", 0.5, {autoAlpha:0, y:-30, ease: SlowMo.easeIn})
      .from("#downloads .site-sub-title", 0.5, {autoAlpha:0, x:40, ease: SlowMo.easeIn})
      .from("#downloads img", 0.5, {autoAlpha:0, y:-100, ease: SlowMo.easeIn});
-        
+           
 // individual tweens
       
 //fade in

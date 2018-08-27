@@ -40,6 +40,7 @@
 
 <!--styles-->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/animate.min.css">
 <link rel="stylesheet" href="/css/animsition.min.css">
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/normalize.css">
@@ -95,23 +96,21 @@
 
 
   <!-- Swiper -->
-  <div class="swiper-container">
+  <div id="features" class="swiper-container">
    
     <div class="parallax-bg" data-swiper-parallax="-23%"></div>
     <div class="swiper-wrapper">
     
     <!--slide 1 -->
      <div class="swiper-slide d-flex flex-column justify-content-end align-items-center text-center p-5 content-tween">
-        <div class="text mb-5">
-            <img class="jaxx-navbar-brand content-stagger-up" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
-            <h1 class="page-title x-bold line-height py-2 m-0 mb-3" data-swiper-parallax="-200">Jaxx Liberty Features</h1> 
-<!--
-              <h3>
-                <span class="content-stagger-up">J</span><span class="content-stagger-up">a</span><span class="content-stagger-up">x</span><span class="content-stagger-up">x</span>
-                <span class="content-stagger-up">L</span><span class="content-stagger-up">i</span><span class="content-stagger-up">b</span><span class="content-stagger-up">e</span><span class="content-stagger-up">r</span><span class="content-stagger-up">t</span><span class="content-stagger-up">y</span>
+        <div class="text w-75 mb-5">
+            <img class="jaxx-navbar-brand animated fadeInDown" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
+<!--            <h1 class="page-title x-bold line-height py-2 m-0 mb-3 animated rollIn" data-swiper-parallax="-200">Jaxx Liberty Features</h1>-->
+            <h1 class="page-title x-bold line-height py-2 m-0 mb-3" data-swiper-parallax="-200">
+                <span class="d-inline-block animated rollIn">J</span><span class="d-inline-block animated rollIn content-stagger-up">a</span><span class="d-inline-block animated rollIn content-stagger-up">x</span><span class="d-inline-block animated rollIn content-stagger-up">x</span>
+                <span class="d-inline-block animated fadeInLeft">L</span><span class="d-inline-block animated fadeInLeft">i</span><span class="d-inline-block animated fadeInLeft">b</span><span class="d-inline-block animated fadeInLeft">e</span><span class="d-inline-block animated fadeInLeft">r</span><span class="d-inline-block animated fadeInLeft">t</span><span class="d-inline-block animated fadeInLeft">y</span>
                 <span class="content-stagger-up">Features</span>
-        </h3>    
--->
+            </h1>
             <p class="border-top pt-2 content-stagger-up">Jaxx Liberty has been redesigned and reengineered from the ground up. Check out our extensive range of new features.</p>
             <button class="btn btn-orange swiper-btn content-stagger-up">Find Out</button>
         </div>
@@ -265,13 +264,12 @@
 <script src="/js/rellax.min.js"></script>
 <!--animisation-->
 <script src="/js/animsition.min.js"></script>
+<!-- Swiper JS -->
+<script src="/js/swiper.min.js"></script>
 <!--bootstrap-->
 <script src="/js/bootstrap.bundle.min.js"></script>
 <script src="/js/plugins.js"></script>
 <script src="/js/main.js"></script>
-
-  <!-- Swiper JS -->
-  <script src="/js/swiper.min.js"></script>
 
   <!-- Initialize Swiper -->
   <script>
