@@ -92,37 +92,37 @@ tl.staggerFrom("#home .navbar-brand, #home .nav-item, #home .navbar-toggler", 0.
       
 //fade in Jaxx Liberty Logo
 //tl.from("#banner .site-title-2", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
-tl.from("#banner .jaxx-logo", 2, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
+tl.from("#home .jaxx-logo", 2, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
          
 //fade out Jaxx Logo
 //tl.to("#banner .jaxx-logo", 2, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
 
 //fade out multi device bg
-tl.to("#banner #jaxx-multi-device", 1, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
+tl.to("#home #jaxx-multi-device", 1, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
 
 // fade in logo fill 
-tl.to("#banner .jaxx-logo .st1", 1, {fill:"#ff6902", ease: SlowMo.easeIn});
+tl.to("#home .jaxx-logo .st1", 1, {fill:"#ff6902", ease: SlowMo.easeIn});
      
 // fade in logo fill 
-tl.to("#banner .jaxx-logo .st0", 1, {fill:"#fff", ease: SlowMo.easeIn}, "-=0.5");
+tl.to("#home .jaxx-logo .st0", 1, {fill:"#fff", ease: SlowMo.easeIn}, "-=0.5");
  
 // explode out left JAX
-tl.to("#banner .jaxx-logo .st0", 0.5, {y:1000, ease: Power4.easeInOut}, "-=0.25");
+tl.to("#home .jaxx-logo .st0", 0.5, {y:1000, ease: Power4.easeInOut}, "-=0.25");
 
 // explode out down X
-tl.to("#banner .jaxx-logo .st1", 0.5, {x:-1000, ease: Power4.easeInOut}, "-=0.25");
+tl.to("#home .jaxx-logo .st1", 0.5, {x:-1000, ease: Power4.easeInOut}, "-=0.25");
 
 // explode out down Liberty
-tl.staggerTo("#banner .jaxx-logo .st2", 0.5, {y:-1000, ease: Power4.easeInOut}, 0.1);
+tl.staggerTo("#home .jaxx-logo .st2", 0.5, {y:-1000, ease: Power4.easeInOut}, 0.1);
 
 //fade in orange-bg 
-tl.from("#banner .orange-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeInOut});
+tl.from("#home .orange-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeInOut});
 
 //fade out Jaxx Logo
-tl.to("#banner .jaxx-logo", 0.5, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
+tl.to("#home .jaxx-logo", 0.5, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
     
 //fade in tag line
-tl.from("#banner .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
+tl.from("#home .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
  
  //fade out liberty to make overlay text legible
 //tl.to("#banner .site-title-3", 1, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
@@ -135,26 +135,27 @@ tl.from("#banner .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut
 tl.staggerFrom(".sub-tagline-1, .sub-tagline-2, .sub-tagline-3", 0.2, {y:-20, autoAlpha:0, ease: SlowMo.easeInOut}, 0.5);
    
 //fade in bg image
-tl.from("#banner .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5");    
+tl.from("#home .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5");    
  
 // fade in heart svg bg
-tl.from("#banner .jaxx-heart-logo", 0.5, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.25");
+tl.from("#home .jaxx-heart-logo", 0.5, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.25");
 
 // fade in heart logo
-tl.from("#banner .jaxx-icon", 0.7, {y:-20, autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25");
+tl.from("#home .jaxx-icon", 0.7, {y:-20, autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25");
 
 //add a label 0.5 seconds later to mark the placement of the next tween
-tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: SlowMo.easeIn}, "-=0.25");
+tl.from("#home .btn", 0.5, {autoAlpha:0, ease: SlowMo.easeIn}, "-=0.25");
   
 //fade in arrow down
-tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
+tl.from("#home i", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
      
      
 //downloads banner animation timeline
 var tl2 = new TimelineLite();
-     tl2.staggerFrom("#banner h1 span", 0.5, {autoAlpha:0, x:-500, rotation: -100, ease: SlowMo.easeIn}, 0.2)
-        .from("#banner .jaxx-navbar-brand", 0.5, {autoAlpha:0, y: -20, ease: SlowMo.easeIn})
-        .staggerFrom("#banner h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, 0.1);
+    tl2.staggerFrom("#banner h1 span", 0.5, {autoAlpha:0, x:-500, rotation: -100, ease: SlowMo.easeIn}, 0.1)
+       .from("#banner .jaxx-navbar-brand", 0.5, {autoAlpha:0, y: -20, ease: SlowMo.easeIn})
+       .staggerFrom("#banner h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, 0.1)
+       .from("#banner .btn", 0.1, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, "-=0.25");
                  
 // individual tweens
       
@@ -360,6 +361,7 @@ $(".content-tween").each(function() {
     document.querySelector('.btn').addEventListener('click', e => explode(e.pageX, e.pageY));
     document.querySelector('#features .btn').addEventListener('click', e => explode(e.pageX, e.pageY));
     document.querySelector('#download .btn').addEventListener('click', e => explode(e.pageX, e.pageY));
+    document.querySelector('button').addEventListener('click', e => explode(e.pageX, e.pageY));
     document.querySelector('#community .btn').addEventListener('click', e => explode(e.pageX, e.pageY));
 //    document.querySelector('#download .btn').addEventListener('mouseover', e => explode(e.pageX, e.pageY));
      

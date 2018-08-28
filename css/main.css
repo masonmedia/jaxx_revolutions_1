@@ -889,8 +889,8 @@ span.swiper-pagination-bullet {
 
 /* support ======================*/
 
-.support-svg text {
-    font-size: 4.5vmin; 
+#support h1 {
+    font-size: 8vmin; 
 }
 
 .bg-img-banner-support {
@@ -1232,27 +1232,16 @@ footer p {
     .p-5-sm {
       padding: 3rem;  
     }
-    /* downloads banner title */
-    .downloads-svg {
-        margin-top: 25px;
-    }
-    /* downloads button group */
-    .btn-group-lg>.btn, .btn-lg {
-        padding: .25rem 0.75rem;
-        font-size: 1.1rem;
-    }
     /* support banner title */
-    .support-svg text {
-        font-size: 32px; 
+    #support h1 {
+        font-size: 9vmin;
+        padding-top: 15px;
     }
     /* about svg banner */
     .about-svg {
         font-size: 80px;
         letter-spacing: -4px;
         margin-bottom: -30px;
-    }
-    #about .jaxx-navbar-brand {
-        margin: 60px 0 10px;
     }
 }
 

@@ -3,7 +3,7 @@
     <main id="home" role="main">
 
         <!--jumbotron 1 group-->
-        <div id="banner" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white fs p-5 m-0 rellax">
+        <div role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white fs p-5 m-0 rellax">
             <div class="navy-bg bg-navy min-100 w-100 h-100 absolute z-0"></div>
     
             <!--multi device svg img-->
