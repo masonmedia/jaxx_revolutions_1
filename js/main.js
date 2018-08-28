@@ -149,15 +149,7 @@ tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: SlowMo.easeIn}, "-=0.25");
 //fade in arrow down
 tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
      
-     
-// downloads page entrance timelines
-     
-var downloadstl = new TimelineLite();
-     
-downloadstl.from("#downloads svg", 0.5, {autoAlpha:0, y:-30, ease: SlowMo.easeIn})
-     .from("#downloads .site-sub-title", 0.5, {autoAlpha:0, x:40, ease: SlowMo.easeIn})
-     .from("#downloads img", 0.5, {autoAlpha:0, y:-100, ease: SlowMo.easeIn});
-           
+                 
 // individual tweens
       
 //fade in
@@ -279,8 +271,8 @@ $(".content-tween").each(function() {
 
 	var scene4 = new ScrollMagic.Scene({
 	        triggerElement: this,
-//            triggerHook: '0.8',
-            triggerHook: 'onEnter',
+            triggerHook: '0.8',
+//            triggerHook: 'onEnter',
 	        offset: -100,
 			reverse:true
 	    })

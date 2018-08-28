@@ -311,7 +311,11 @@ footer a:hover {
 
 /* animation */
 
-
+.animated-slow {
+   -webkit-animation-duration: 2s;
+   animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
 /* shapes ==================*/
 
 .circle {
