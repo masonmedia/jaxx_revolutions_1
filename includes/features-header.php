@@ -44,7 +44,6 @@ else {
 <meta name="twitter:image" content="">
 
 <!--google fonts-->
-<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700,900" rel="stylesheet">
 
 <!--styles-->

@@ -10,25 +10,25 @@
                     <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold border-bottom pb-3">Jaxx Liberty</li>
-                            <li> <a href="/features-3.html" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Features</a></li>
-                            <li> <a href="/changeLog.html" class="animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Changelog</a></li>
-                            <li> <a href="/legal.html">Terms of Service</a></li>
-                            <li> <a href="/thirdparties-current.html">Third-Party Agreements</a></li>
+                            <li> <a href="/features.php" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Features</a></li>
+                            <li> <a href="/changeLog.php" class="animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Changelog</a></li>
+                            <li> <a href="/legal.php">Terms of Service</a></li>
+                            <li> <a href="/thirdparties-current.php">Third-Party Agreements</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold border-bottom pb-3">Company</li>
-                            <li> <a href="/about.html" class="animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">About</a></li>
-                            <li> <a href="/community.html" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Community</a></li>
-                            <li> <a href="/careers.html" class="animsition-link" data-animsition-out-class="zoom-out-sm" data-animsition-out-duration="800">Careers</a></li>
+                            <li> <a href="/about.php" class="animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">About</a></li>
+                            <li> <a href="/community.php" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Community</a></li>
+                            <li> <a href="/careers.php" class="animsition-link" data-animsition-out-class="zoom-out-sm" data-animsition-out-duration="800">Careers</a></li>
                             <li> <a href="https://blog.jaxx.io/">Blog</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold border-bottom pb-3">Download</li>
-                            <li><a href="/downloads.html" class="animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">Desktop</a></li>
+                            <li><a href="/downloads.php" class="animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">Desktop</a></li>
                             <li><a href="https://play.google.com/store/apps/details?id=com.kryptokit.jaxx&hl=en" target="_blank">Android</a></li>
                             <li><a href="https://itunes.apple.com/us/app/jaxx-bitcoin-ethereum-wallet/id1084514516?mt=8" target="_blank">iPhone</a></li>
                             <!--add chrome extension when ready-->

@@ -12,15 +12,15 @@
                             <li> <a href="/features.php" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Features</a></li>
                             <li> <a href="/changeLog.php" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Changelog</a></li>
                             <li> <a href="/legal.php" class="animsition-link" data-animsition-out-class="zoom-out-sm" data-animsition-out-duration="800">Terms of Service</a></li>
-                            <li> <a href="/thirdparties-current.php">Third-Party Agreements</a></li>
+                            <li> <a href="/thirdparties-current.php" class="animsition-link" data-animsition-out-class="fade-out-right-sm" data-animsition-out-duration="800">Third-Party Agreements</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold border-bottom pb-3">Company</li>
-                            <li> <a href="/about.php" class="animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">About</a></li>
+                            <li> <a href="/about.php" class="animsition-link" data-animsition-out-class="rotate-out-sm" data-animsition-out-duration="800">About</a></li>
                             <li> <a href="/community.php" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Community</a></li>
-                            <li> <a href="/careers.php" class="animsition-link" data-animsition-out-class="zoom-out-sm" data-animsition-out-duration="800">Careers</a></li>
+                            <li> <a href="/careers.php" class="animsition-link" data-animsition-out-class="fade-out-up-lg" data-animsition-out-duration="800">Careers</a></li>
                             <li> <a href="https://blog.jaxx.io/">Blog</a></li>
                         </ul>
                     </div>
