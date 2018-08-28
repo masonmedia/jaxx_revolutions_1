@@ -156,6 +156,12 @@ var tl2 = new TimelineLite();
        .from("#banner .jaxx-navbar-brand", 0.5, {autoAlpha:0, y: -20, ease: SlowMo.easeIn})
        .staggerFrom("#banner h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, 0.1)
        .from("#banner .btn", 0.1, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, "-=0.25");
+     
+//scurity banner animation timeline
+var tl3 = new TimelineLite();
+    tl3.staggerFrom("#security-banner h1 span", 0.5, {autoAlpha:0, y:-50, ease: Back.easeInOut.config(2)}, 0.1)
+       .from("#security-banner .jaxx-shield", 0.5, {autoAlpha:0, y: -20, ease: SlowMo.easeIn})
+       .staggerFrom("#security-banner h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, 0.1)
                  
 // individual tweens
       
