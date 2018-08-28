@@ -610,6 +610,16 @@ video {
 
 /* home page ======================*/
 
+/* banner jaxx logo svg fill animation */
+
+#jaxx_liberty {
+    fill-opacity: 0;
+}
+#jaxx_liberty.finished {
+    fill-opacity: 1;
+    transition: all 1s ease-in-out;
+}
+
 .bg-img-banner-home {
     background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/jaxx-jump-2.jpg) center;
     background-size: cover;
@@ -1131,14 +1141,6 @@ footer p {
     /* features page */
     .swiper-slide .text {
         width: 100%;
-    }
-    .about-svg {
-    font-size: 70px;
-    letter-spacing: -4px;
-    margin-bottom: -20px;
-    }
-    #about .jaxx-navbar-brand {
-        margin: 60px 0 40px;
     }
 }
 
