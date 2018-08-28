@@ -52,7 +52,7 @@ include 'includes/header.php';
             </div>
 
            <!--row 2-->
-            <div id="row2" class="row d-flex bg-orange content-tween rellax-wrap">
+            <div id="row2" class="row d-flex bg-orange content-tween">
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-end min-50 text-right p-0 rellax">
                    <div class="wrap bg-white-op p-5 content-stagger-up">
                        <div class="border-wrap border border-dark p-4">

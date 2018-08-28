@@ -10,9 +10,9 @@
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold border-bottom pb-3">Jaxx Liberty</li>
                             <li> <a href="/features.php" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Features</a></li>
-                            <li> <a href="/changeLog.html" class="animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Changelog</a></li>
-                            <li> <a href="/legal.html">Terms of Service</a></li>
-                            <li> <a href="/thirdparties-current.html">Third-Party Agreements</a></li>
+                            <li> <a href="/changeLog.php" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Changelog</a></li>
+                            <li> <a href="/legal.php">Terms of Service</a></li>
+                            <li> <a href="/thirdparties-current.php">Third-Party Agreements</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 px-4 py-3 skew">

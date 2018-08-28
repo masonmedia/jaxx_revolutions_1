@@ -37,7 +37,7 @@ include 'includes/header.php';
             
         </div>
 
-        <div id="careers" class="container-fluid p-0">
+        <div id="careers" class="container-fluid bg-white p-0">
             <div class="row d-flex px-5 content-tween">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left min-50 py-5 px-3">
                     <h2 class="section-title font-weight-bold content-stagger-up">Join Canada's Next Unicorn</h2>
@@ -47,14 +47,14 @@ include 'includes/header.php';
             </div>
 
            <!--divider-->
-            <div class="row d-flex rellax">
-                <div class="col-sm-12 p-5 bg-img-office bg-dots-n"></div>
+            <div class="row d-flex p-0">
+                <div class="col-sm-12 p-5 bg-img-office rellax" data-rellax-speed="-2"></div>
             </div>
             
             <!--position 1-->
-            <div class="row d-flex px-5 content-tween">
-                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-end text-right min-50 bg-dots py-5 px-3">
-                    <h3 class="site-sub-title font-weight-bold bg-navy orange shadow-lg rounded p-3 content-stagger-up">Angular Developer</h3>
+            <div class="row d-flex py-4 bg-dots content-tween">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-end text-right min-50 p-5">
+                    <h3 class="site-sub-title font-weight-bold bg-navy orange shadow-lg rounded p-3 mb-3 content-stagger-up">Angular Developer</h3>
                     <h5 class="content-stagger-up">Full Time - Toronto, Ontario</h5>
                     <p class="pt-3 border-top content-stagger-up">We seek a Angular Developer to take us through the second phase of our journey. You will be pivotal in developing, implementing, and optimizing a new product Decentral is bringing to market. This product will be used by millions around the globe and we will be counting on you to launch brand new features, create really cool visual elements, work with backend APIs, all while keeping customer security top of mind.</p>
                     <p class="content-stagger-up">To be successful, you will write great code and develop innovative solutions. We are looking for a Javascript expert for a new product launch later this year. You will work alongside our UX designers to turn vision into code. You will take pride in writing beautiful, commented Angular 5 and TypeScript. You know how to write tests and debug Javascript. As well, you will work with RESTful APIs and provide input to backend programmers about requirements for new APIs.</p>
@@ -64,14 +64,14 @@ include 'includes/header.php';
             </div>          
             
             <!--divider-->
-            <div class="row d-flex rellax">
-                <div class="col-sm-12 p-5 bg-img-office"></div>
+            <div class="row d-flex">
+                <div class="col-sm-12 p-5 bg-img-office rellax" data-rellax-speed="-2"></div>
             </div>
 
             <!--position 2-->
-            <div class="row d-flex px-5 content-tween">
-                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left bg-dots py-5 px-3">
-                    <h3 class="site-sub-title font-weight-bold bg-navy orange shadow-lg rounded p-3 content-stagger-up">SEO Specialist</h3>
+            <div class="row d-flex py-4 bg-dots content-tween">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left p-5">
+                    <h3 class="site-sub-title font-weight-bold bg-navy orange shadow-lg rounded p-3 mb-3 content-stagger-up">SEO Specialist</h3>
                     <h5 class="content-stagger-up">Full Time - Toronto, Ontario</h5>
                     <p class="pt-3 border-top content-stagger-up">Our mission includes providing world-class content and education in an unbiased and easily-understood fashion. The goal is to become the most trustworthy source in the blockchain, cryptocurrency and financial technology space. The challenge is to build out SEO strategy in a meaningful, purposeful way that is true to our brand and values--including a pro-privacy, low-friction experience that respects our users and our readers. Are you interested in creating a new path for SEO? If so, this role is for you.</p>
                     <p class="pb-3 border-bottom content-stagger-up">The ideal candidate would build SEO capabilities and work with our marketing, social media, content and legal teams. You will develop a plan for SEO internationally, testing new strategies, monitoring performance, and identifying opportunities.</p>
@@ -97,14 +97,14 @@ include 'includes/header.php';
                 </div>
             </div><!--end row-->
             
-            <div class="row d-flex rellax">
-                <div class="col-sm-12 p-5 bg-img-office bg-dots-n"></div>
+            <div class="row d-flex">
+                <div class="col-sm-12 p-5 bg-img-office rellax" data-rellax-speed="-2"></div>
             </div>
 
             <!--about decentral-->
-           <div class="row d-flex px-5 content-tween">
-                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-end text-right bg-dots py-5 px-3">
-                    <h2 class="site-sub-title font-weight-bold bg-navy orange shadow-lg rounded p-3 content-stagger-up">About Decentral</h2>
+           <div class="row d-flex py-4 bg-dots content-tween">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-end text-right bg-dots p-5">
+                    <h2 class="site-sub-title font-weight-bold bg-navy orange shadow-lg rounded p-3 mb-3 content-stagger-up">About Decentral</h2>
                     <p class="pt-3 border-top content-stagger-up">Located in the heart of downtown Toronto and home to hundreds of blockchain community events, Decentral spawned Ethereum. Decentral’s strategic approach means Jaxx Liberty neither holds nor has access to customer funds. Driven by design and user experience and built with simplicity in mind, Jaxx’s mission is to become the interface to the blockchain world. Learn more about Decentral Project at <a href="https://decentralproject.org/" target="_blank">decentralproject.org</a>.</p>
                     <p class="content-stagger-up">We engage in inclusive hiring. We encourage people from all backgrounds, cultures, life experiences, etc., to apply. Decentral serves catered food, which includes vegan options, at company lunches, our team embraces its members’  deep diversity as a strength and we encourage everyone to bring their whole selves to the workplace. Our dress code is that there is no dress code. Decentral hires based on technical talent and will happily accommodate candidates taking part in any aspect of the selection process: just let us know what you need.</p>                   
                     <p class="pb-3 border-bottom content-stagger-up">Our company makes software that millions of people depend on, so at time of offer, all applicants are asked to undergo a criminal background check.  If we don’t make an offer, we will keep your application on file for future opportunities - let us know if you’d prefer we delete it.</p>
