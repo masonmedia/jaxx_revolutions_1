@@ -11,7 +11,7 @@
                             <li class="h4 font-weight-bold border-bottom pb-3">Jaxx Liberty</li>
                             <li> <a href="/features.php" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Features</a></li>
                             <li> <a href="/changeLog.php" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Changelog</a></li>
-                            <li> <a href="/legal.php">Terms of Service</a></li>
+                            <li> <a href="/legal.php" class="animsition-link" data-animsition-out-class="zoom-out-sm" data-animsition-out-duration="800">Terms of Service</a></li>
                             <li> <a href="/thirdparties-current.php">Third-Party Agreements</a></li>
                         </ul>
                     </div>

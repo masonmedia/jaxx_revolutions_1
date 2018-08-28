@@ -387,4 +387,6 @@ include 'includes/header.php';
         </div><!--end main container-->
     </main>
 
+<!--footer-->
+
 <?php include 'includes/footer.php';?>
