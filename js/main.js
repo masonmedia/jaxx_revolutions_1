@@ -84,9 +84,14 @@ var tl = new TimelineLite();
 
 //add a from() tween at the beginning of the timline
 tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
-     
-//.to("nav", 0.2, {backgroundColor: "transparent"})
-       
+ 
+     //slide down navbar     
+.from("nav", 0.3, {autoAlpha:0, y:-100})
+//fade in navbar logo + nav links
+.staggerFrom(".navbar-brand, .nav-item", 0.3, {autoAlpha:0, y:-10, rotation:-20}, 0.1)
+//fade in toggler
+.from(".navbar-toggler", 0.3, {autoAlpha:0, y:-10, rotation:-30}, "-=0.25")
+   
 //fade in Jaxx Liberty Logo
 //tl.from("#banner .site-title-2", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
 .from("#home .jaxx-logo", 2, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.75")
@@ -111,12 +116,7 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
 
 // explode out down Liberty
 .staggerTo("#home .jaxx-logo .st2", 0.5, {y:-1000, ease: Power4.easeInOut}, 0.1)
-
-//slide down navbar
-.from("nav", 0.3, {autoAlpha:0, y:-100})
-//fade in nav + nav links
-.staggerFrom(".navbar-brand, .nav-item, .navbar-toggler", 0.2, {autoAlpha:0, y:-10, rotation:-20}, 0.1)
-   
+  
 //fade in orange-bg 
 .from("#home .orange-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeInOut})
 
@@ -153,6 +153,7 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
      
      
 //page banner animation timeline
+     
 var tl2 = new TimelineLite();
     tl2.staggerFrom(".navbar-brand, .nav-item, .navbar-toggler", 0.2, {y:-10, autoAlpha:0, rotation:-20}, 0.1)
        .staggerFrom("#banner h1 span", 0.5, {autoAlpha:0, x:-500, rotation: -100, ease: SlowMo.easeIn}, 0.1)
@@ -161,6 +162,7 @@ var tl2 = new TimelineLite();
        .from("#banner .btn", 0.1, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, "-=0.25");
      
 //security banner animation timeline
+     
 var tl3 = new TimelineLite();
     tl3.staggerFrom(".navbar-brand, .nav-item, .navbar-toggler", 0.2, {y:-10, autoAlpha:0, rotation:-20}, 0.1)
        .from("#security-banner .jaxx-shield", 1, {autoAlpha:0, y: -20, ease: SlowMo.easeIn}, "-=0.25")

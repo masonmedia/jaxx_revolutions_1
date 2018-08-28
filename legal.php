@@ -9,11 +9,12 @@ include 'includes/header.php';
     <main id="legal" role="main">           
             
         <!--jumbotron-->
-        <div role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white bg-img-banner-legal min-70 p-5 mb-0 content-tween rellax">
-<!--            <h1 class="page-title mt-5 pt-5">Terms Of Service</h1>-->
-           <img class="jaxx-logo-text mt-5 pt-4 content-stagger-up" src="/img/JaxxLiberty_Logo_RGB_Screen.png" alt="Jaxx Liberty Terms of Service">
-            <h1 class="page-title m-0 content-stagger-up">Terms of service</h1> 
-            <h2 class="site-sub-title pt-3 content-stagger-up">Read all about our terms of service below.</h2>
+        <div role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white bg-img-banner-legal min-70 p-5 mb-0 content-tween">
+            <div class="rellax" data-rellax-speed="-1">
+                <img class="jaxx-logo-text mt-5 pt-4 content-stagger-up" src="/img/JaxxLiberty_Logo_RGB_Screen.png" alt="Jaxx Liberty Terms of Service">
+                <h1 class="page-title m-0 content-stagger-up">Terms of service</h1> 
+                <h2 class="site-sub-title pt-3 content-stagger-up">Read all about our terms of service below.</h2>
+            </div>
         </div>
         
         <!--container-->
