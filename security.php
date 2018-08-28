@@ -6,7 +6,7 @@ include 'includes/header.php';
 
 ?>
 
-    <main id="security" role="main">
+    <main id="security" role="main" class="animsition" data-animsition-in-class="fade-in-left-sm" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
 
         <!--jumbotron-->
         <div id="security-banner" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center bg-img-banner-security text-white min-70 p-5 mb-0 content-tween">
@@ -44,9 +44,9 @@ include 'includes/header.php';
                     <!--<img class="img-shield content-stagger-up" src="/img/jaxx-shield.png" alt="Jaxx Liberty Security">-->
                     </div>
                     <img class="img-shield absolute z-0 content-stagger-up rellax" src="/img/jaxx-shield.png" alt="Jaxx Liberty Security">
-                    </div>
-                </div><!--end col-->
-            </div><!--end row-->
+                </div>
+            </div><!--end col-->
+<!--            </div>end row-->
 
            <!--row 2 security features-->
             <div class="row d-flex bg-img-banner-security relative z-1 content-tween">

@@ -379,7 +379,7 @@ include 'includes/header.php';
                        <img class="jaxx-logo-text content-stagger-up" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="Jaxx Liberty">
                        <h2 class="font-weight-bold pt-2 pb-3 content-stagger-up">Take control of your digital life.</h2>
                        <div class="content-stagger-up">
-                           <a href="downloads.html" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Download</a>
+                           <a href="downloads.php" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Download</a>
                       </div>
                    </div>
                </div>

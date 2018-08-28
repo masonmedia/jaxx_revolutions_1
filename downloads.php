@@ -16,14 +16,6 @@ include 'includes/header.php';
                    <h1 class="page-title mt-0 mb-1">
                         <span class="d-inline-block">D</span><span class="d-inline-block">o</span><span class="d-inline-block">w</span><span class="d-inline-block">n</span><span class="d-inline-block">l</span><span class="d-inline-block">o</span><span class="d-inline-block">a</span><span class="d-inline-block">d</span>
                    </h1>
-                   <!--svg banner-->
-<!--
-                   <svg id="banner-svg" class="page-title downloads-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 40">     
-                      <title>Download Jaxx Liberty</title>
-                       <style>#banner-svg {width: 100%; overflow: visible;} text {font-weight: 900; font-size: 12vmin; fill: #fff; stroke: white; stroke-width: 1px;}</style>      
-                       <text x="50%" y="60%" text-anchor="middle" alignmentbaseline="middle">Download</text>
-                   </svg>
--->
                    <h2 class="site-sub-title">
                        <span class="d-inline-block">Try</span>
                        <span class="d-inline-block">Jaxx</span>

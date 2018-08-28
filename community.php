@@ -6,7 +6,7 @@ include 'includes/header.php';
 
 ?>
 
-    <main id="features" role="main">
+    <main id="features" role="main" class="animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
     
        <!--jumbotron-->
         <div id="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white bg-img-community min-70 py-5 mb-0">

@@ -6,7 +6,7 @@ include 'includes/header.php';
 
 ?>
 
-    <main id="support" role="main" class="content-tween">
+    <main id="support" role="main" class="content-tween animsition" data-animsition-in-class="fade-in-up-lg" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
 
         <!--jumbotron-->
         <div id="banner" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center relative z-1 text-center bg-img-banner-support text-white min-70 p-5 m-0">
