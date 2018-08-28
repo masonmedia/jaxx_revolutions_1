@@ -627,7 +627,7 @@ video {
 /*    mountains*/
 /*    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05cc20d5b0bde7ae0d12f916c11aa18e&auto=format&fit=crop&w=1078&q=80) center;*/
 	
-/*	jumper */
+/*	jumper crotch */
 /*	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1529307145738-af20ddbc9255?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=93fc4dea9a9d47dc5cebfc6ae4b3eb63&auto=format&fit=crop&w=925&q=80) center;*/
 	
 /*	rocks jump */
@@ -684,32 +684,6 @@ video {
     color: #ff6902;
 }
 
-
-/* svg animations ======================*/
-
-/* multidevice downloads section */
-
-#jaxx_liberty,
-#multiDevice,
-#jaxx-heart,
-#jaxx_heart_banner,
-.jaxx-multi-device,
-#jl-section-heading-1,
-#downloads-header {
-  fill-opacity: 0;
-  transition: fill-opacity 1.5s;
-}
-
-#jaxx_liberty.finished,
-#multiDevice.finished,
-#jaxx-heart.finished,
-#jaxx_heart_banner.finished,
-.jaxx-multi-device.finished,
-#jl-section-heading-1.finished,
-#downloads-header.finished {
-  fill-opacity: 1;
-}
-
 /*  about page ======================*/
 
 .bg-img-about {
@@ -739,20 +713,20 @@ video {
 
 /* swiper */
 
-span.swiper-pagination-bullet {
-    width: 18px;
-    height: 18px;
-    display: inline-block;
-    border-radius: 100%;
-    background: #d6d6d6;
-    opacity: .5;
-}
+    span.swiper-pagination-bullet {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        border-radius: 100%;
+        background: #d6d6d6;
+        opacity: .5;
+    }
 
-.swiper-pagination-white .swiper-pagination-bullet-active {
-    background: #fff;
-    color: #fff;
-    opacity: .9;
-}
+    .swiper-pagination-white .swiper-pagination-bullet-active {
+        background: #fff;
+        color: #fff;
+        opacity: .9;
+    }
 
     .swiper-container {
       width: 100%;
@@ -772,7 +746,10 @@ span.swiper-pagination-bullet {
       top: 0;
       width: 130%;
       height: 100%;
+    /*bubbles*/
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1476611317561-60117649dd94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8618fb66616c1d53a41705312c034068&auto=format&fit=crop&w=1050&q=80);
+    /* mountains*/
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05cc20d5b0bde7ae0d12f916c11aa18e&auto=format&fit=crop&w=1078&q=80);
       -webkit-background-size: cover;
       background-size: cover;
       background-position: center;
@@ -821,39 +798,6 @@ span.swiper-pagination-bullet {
     background-size: cover;
 }
 
-/* svg page banner animation */
-
-.downloads-svg {
-    margin-top: 60px;
-}
-#banner-svg {
-    width: 100%; 
-    overflow: visible;
-}
-#banner-svg text {
-    font-weight: 900;
-    fill: #fff; 
-    stroke: white; 
-    stroke-width: 1px;
-    stroke-dasharray: 500;
-    stroke-dashoffset: 500;
-    -webkit-animation: draw 3s forwards;
-    -moz-animation: draw 3s forwards;
-    -o-animation: draw 3s forwards;
-    -ms-animation: draw 3s forwards;
-    animation: draw 3s forwards ease-in-out;
-}
-
-@keyframes draw {
-	0% {fill:rgba(255,255,255,0);}
-	50% {fill:rgba(255,255,255,0);}
-	75% {fill:rgba(255,255,255,1);}
-    100% {
-	  fill: rgba(255,255,255,1);
-      stroke-dashoffset: 0;
-  }
-}
-
 /* security ======================*/
 
 .bg-img-banner-security {
@@ -883,12 +827,10 @@ span.swiper-pagination-bullet {
 
 /* community ======================*/
     
-.community-svg {
-    font-size: 13vmin;
-    letter-spacing: -4px;
-    margin-bottom: -20px;
-}
-
+.bg-img-team {
+    background: url(/img/decentral-team.JPG) center;
+    background-size: cover;
+} 
 /* support ======================*/
 
 #support h1 {

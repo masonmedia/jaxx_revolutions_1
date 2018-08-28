@@ -20,10 +20,7 @@ include 'includes/features-header.php';
             <img class="jaxx-navbar-brand mb-3 animated-slow fadeInDown" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Features" data-swiper-parallax="-500">
             <h1 class="page-title x-bold line-height pb-3 m-0 mb-3" data-swiper-parallax="-400">
                 <span class="d-inline-block animated rollIn">J</span><span class="d-inline-block animated rollIn content-stagger-up">a</span><span class="d-inline-block animated rollIn">x</span><span class="d-inline-block animated rollIn">x</span>
-                <span class="d-inline-block animated-slow flipInX">Liberty</span>
-                
-<!--                <span class="d-inline-block animated fadeInLeft">L</span><span class="d-inline-block animated fadeInLeft">i</span><span class="d-inline-block animated fadeInLeft">b</span><span class="d-inline-block animated fadeInLeft">e</span><span class="d-inline-block animated fadeInLeft">r</span><span class="d-inline-block animated fadeInLeft">t</span><span class="d-inline-block animated fadeInLeft">y</span>-->
-                
+                <span class="d-inline-block animated-slow flipInX">Liberty</span>             
                 <span class="d-inline-block animated fadeInUp">Features</span>
             </h1>
             <hr class="m-0 animated slideInLeft" data-swiper-parallax="-300">

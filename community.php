@@ -12,17 +12,8 @@ include 'includes/header.php';
         <div id="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white bg-img-community min-70 py-5 mb-0">
             <div class="pb-5 rellax" data-rellax-speed="-2">
                 <img class="jaxx-navbar-brand mt-5" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Community">
-                <!--svg heading-->
-<!--
-                <h1>
-                <svg id="banner-svg" class="community-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 30">
-                    <title>Our Community</title>
-                    <text x="50%" y="80%" text-anchor="middle" alignmentbaseline="middle">Community</text>
-                </svg>
-                </h1>
--->
                 <h1 class="page-title m-0 mb-1">
-<!--                    <span class="d-inline-block">O</span><span class="d-inline-block">u</span><span class="d-inline-block">r</span>-->
+                <!--<span class="d-inline-block">O</span><span class="d-inline-block">u</span><span class="d-inline-block">r</span>-->
                     <span class="d-inline-block">C</span><span class="d-inline-block">o</span><span class="d-inline-block">m</span><span class="d-inline-block">m</span><span class="d-inline-block">u</span><span class="d-inline-block">n</span><span class="d-inline-block">i</span><span class="d-inline-block">t</span><span class="d-inline-block">y</span>
                 </h1>
                 <h2 class="h3">
@@ -66,8 +57,8 @@ include 'includes/header.php';
 
             <!--row 3-->
             <div id="row3" class="row d-flex bg-navy content-tween">
-                <div class="col-lg-4 bg-img-heart min-50 o-12 angle-ltr rellax" data-rellax-speed="1"></div>
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left min-50 p-0 o-1 rellax" data-rellax-speed="-1">
+                <div class="col-lg-7 bg-img-team min-50 o-12 angle-ltr rellax" data-rellax-speed="1"></div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-50 p-0 o-1 rellax" data-rellax-speed="-1">
                    <div class="wrap bg-white-op rounded-left p-5 content-stagger-up">
                         <div class="border-wrap border border-dark p-4">
                             <h2 class="section-title x-bold bg-orange navy shadow-lg py-4 px-3 mb-3 skew content-stagger-up">Evolution</h2>
