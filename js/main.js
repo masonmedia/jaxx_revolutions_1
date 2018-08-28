@@ -149,6 +149,12 @@ tl.from("#banner .btn", 0.5, {autoAlpha:0, ease: SlowMo.easeIn}, "-=0.25");
 //fade in arrow down
 tl.from("#banner i", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
      
+     
+//downloads banner animation timeline
+var tl2 = new TimelineLite();
+     tl2.staggerFrom("#banner h1 span", 0.5, {autoAlpha:0, x:-500, rotation: -100, ease: SlowMo.easeIn}, 0.2)
+        .from("#banner .jaxx-navbar-brand", 0.5, {autoAlpha:0, y: -20, ease: SlowMo.easeIn})
+        .staggerFrom("#banner h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, 0.1);
                  
 // individual tweens
       
