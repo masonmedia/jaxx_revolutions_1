@@ -1,11 +1,16 @@
-<?php include 'header.php';?>
+<?php
 
+$title = "Jaxx Liberty | Home";
+
+include 'includes/header.php';
+
+?>   
     <main id="home" role="main">
 
-        <!--jumbotron 1 group-->
+        <!--jumbotron home timeline animation-->
         <div role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white fs p-5 m-0 rellax">
+            <!--fade in navy bg div intro-->
             <div class="navy-bg bg-navy min-100 w-100 h-100 absolute z-0"></div>
-    
             <!--multi device svg img-->
            <svg id="jaxx-multi-device" class="absolute z-0" data-name="Jaxx Liberty Devices" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="908" viewBox="0 0 1200 908">
               <defs>
@@ -101,11 +106,14 @@
                <path class="cls-2" data-start="20" data-duration="10" d="M303.49,319.1h-3.18V299.86h-7.16v-3h17.51v3h-7.16Zm23.59-5h-.43L318.76,302V319.1h-3.18V296.82H319l8,12.23,7.89-12.23h3.33V319.1H335V302Z"/></g></g>
             </svg>
             <!--download button: start your journey-->
-            <a href="/downloads.html" class="animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">
-                <button class="btn btn-lg btn-orange relative z-1">Start Your Journey</button>
-            </a>
+            <div>
+                <a href="/downloads.php" class="animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">
+                    <button class="banner-button btn btn-lg btn-orange relative z-1">Start Your Journey</button>
+                </a>
+            </div>
             <!--chevron down "more"-->
             <i class="fas fa-angle-down relative z-1"></i>
+            <!--fade in bg image-->
             <div class="img-full bg-fs-img-banner-2 min-100 absolute z-0"></div>
         </div>
        
@@ -165,7 +173,7 @@
                     <hr class="w-25 content-stagger-up">
                     <p class="pb-3 pt-2 content-stagger-up"><span class="orange font-weight-bold">Jaxx Liberty</span> builds on the success of Jaxx, one of the most popular blockchain and cryptocurrency wallets, downloaded by millions. With this release we've made major updates we think you'll love.</p>
                     <div class="m-0 content-stagger-up">
-                        <button href="/features-3.html" class="btn btn-lg btn-dark text-white animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="800">Learn More</button>
+                        <button href="/features.php" class="btn btn-lg btn-dark text-white animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="800">Learn More</button>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
@@ -180,7 +188,7 @@
                         <span class="content-stagger-up">a</span><span class="content-stagger-up">n</span><span class="content-stagger-up">y</span> 
                         <span class="content-stagger-up">device.</span></h2>
                     <hr class="w-25 border-0 bg-dark content-stagger-up">
-                    <p class="pb-3 pt-2 content-stagger-up"><span class="orange font-weight-bold"><a class="font-weight-bold animsition-link" href="/downloads.html" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800">Jaxx Liberty</a></span> is available on Mac, Windows, and Linux desktop, iPad and Tablet, iPhone and Android, and as an extension for Google Chrome. <a class="font-weight-bold animsition-link" href="/downloads.html" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800">Download</a> it for free.</p>
+                    <p class="pb-3 pt-2 content-stagger-up"><span class="orange font-weight-bold"><a class="font-weight-bold animsition-link" href="/downloads.php" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800">Jaxx Liberty</a></span> is available on Mac, Windows, and Linux desktop, iPad and Tablet, iPhone and Android, and as an extension for Google Chrome. <a class="font-weight-bold animsition-link" href="/downloads.php" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800">Download</a> it for free.</p>
                     <div class="content-stagger-up">
                         <!--download dropdown menus-->
                         <div class="btn-group">
@@ -316,7 +324,7 @@
                         <hr class="w-25 content-tween-left">
                         <p class="pb-3 pt-2 content-tween-right"><span class="orange font-weight-bold">Jaxx</span> has close to a million active monthly users, millions of downloads, 70+ digital assets/cryptocurrencies, and over 200 partners.</p>
                         <div class="content-stagger-up">
-                            <a href="/community.html" class="btn btn-lg btn-dark text-white animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Learn More</a>
+                            <a href="/community.php" class="btn btn-lg btn-dark text-white animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Learn More</a>
                         </div>
                     </div>
                 </div><!--end col-->
@@ -379,4 +387,4 @@
         </div><!--end main container-->
     </main>
 
-<?php include 'footer.php';?>
+<?php include 'includes/footer.php';?>

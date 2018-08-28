@@ -1,12 +1,13 @@
-<!--footer-->
+   
+  <!--footer-->
         
         <footer>
-            <div class="container-fluid bg-orange content-tween">
+            <div class="container-fluid bg-orange">
                <div class="row d-flex justify-content-center align-items-center bg-img-toronto-1 min-50 rellax">
                    <img class="jaxx-logo-text rellax" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty">
                </div>
                 <div class="row d-flex d-flex justify-content-center align-items-end text-white bg-orange px-3 pt-5">
-                    <div class="col-lg-3 col-md-6 px-4 py-3 skew stagger-tween-item">
+                    <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold border-bottom pb-3">Jaxx Liberty</li>
                             <li> <a href="/features-3.html" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Features</a></li>
@@ -15,7 +16,7 @@
                             <li> <a href="/thirdparties-current.html">Third-Party Agreements</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 col-md-6 px-4 py-3 skew stagger-tween-item">
+                    <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold border-bottom pb-3">Company</li>
                             <li> <a href="/about.html" class="animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">About</a></li>
@@ -24,7 +25,7 @@
                             <li> <a href="https://blog.jaxx.io/">Blog</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 col-md-6 px-4 py-3 skew stagger-tween-item">
+                    <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold border-bottom pb-3">Download</li>
                             <li><a href="/downloads.html" class="animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">Desktop</a></li>
@@ -34,7 +35,7 @@
                             <li><a href="https://chrome.google.com/webstore/detail/jaxx-blockchain-wallet/ancbofgphhmhcchnaognahmjfajaecmo" target="_blank">Chrome Extension</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 col-md-6 px-4 py-3 skew stagger-tween-item">
+                    <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold border-bottom pb-3">Contact</li>
                             <li> <a href="https://decentral.zendesk.com/hc/en-us" target="_blank">Support</a></li>
@@ -65,17 +66,30 @@
 <script src="/js/gsap/TimelineLite.min.js"></script>
 <script src="/js/gsap/plugins/TextPlugin.min.js"></script>
 <script src="/js/gsap/plugins/CSSPlugin.min.js"></script>
-<!--rellax.js-->
-<script src="/js/rellax.min.js"></script>
 <!--animisation-->
 <script src="/js/animsition.min.js"></script>
-<!--vivus js-->
-<script src="/js/vivus.min.js"></script>
+<!--swiper js-->
+<script src="/js/swiper.min.js"></script>
 <!--bootstrap-->
 <script src="/js/bootstrap.bundle.min.js"></script>
 <script src="/js/plugins.js"></script>
 <script src="/js/main.js"></script>
-<script src="/js/svg-animation.js"></script>
+
+<!--initialize swiper + options-->
+    <script type="text/javascript">
+    var swiper = new Swiper('.swiper-container', {
+      speed: 1200,
+      parallax: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next, .swiper-btn',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+    </script>
 
 <!-- Global site tag (gtag.js) -->
     

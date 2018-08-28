@@ -4,7 +4,15 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Jaxx Liberty | Home</title>
+<!--    <title>Jaxx Liberty | Home</title>-->
+    
+    <title><?php 
+if(isset($title) && !empty($title)) { 
+   echo $title; 
+} 
+else { 
+   echo "Jaxx Liberty | Home"; 
+} ?></title>
 
 <!--core meta data-->
 <meta name="description" content="The leading Multi-Platform Wallet created by Anthony Di Iorio, Co-Founder of Ethereum and Founder and CEO of Decentral and Jaxx
@@ -37,16 +45,17 @@
 
 <!--google fonts-->
 <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:300,500,700,900|Raleway:500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700,900" rel="stylesheet">
 
 <!--styles-->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 <link rel="stylesheet" href="/css/animsition.min.css">
 <link rel="stylesheet" href="/css/animate.min.css">
+<link rel="stylesheet" href="/css/swiper.min.css">
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/normalize.css">
 <link rel="stylesheet" href="/css/main.css">
-  
+ 
 <!--cookies banner-->
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
@@ -72,7 +81,7 @@ window.cookieconsent.initialise({
 </head>
 
 
-<body id="home" class="bg-img-downloads animsition" data-animsition-in-class="fade-in" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
+<body id="home" class="bg-navy-gradient animsition" data-animsition-in-class="fade-in" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
 
 <!--[if lte IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -80,7 +89,7 @@ window.cookieconsent.initialise({
 
     <!--nav-->
     <nav class="navbar fixed-top navbar-expand-lg">
-        <a class="navbar-brand animsition-link" href="/index.html" data-animsition-out-class="fade-out" data-animsition-out-duration="800">
+        <a class="navbar-brand animsition-link" href="/index.php" data-animsition-out-class="fade-out" data-animsition-out-duration="800">
           <img class="jaxx-navbar-brand" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="Jaxx Liberty">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,25 +98,25 @@ window.cookieconsent.initialise({
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800" href="/features.html">Features</a>
+            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800" href="/features.php">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800" href="/downloads.html">Download</a>
+            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800" href="/downloads.php">Download</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800" href="/security.html">Security</a>
+            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800" href="/security.php">Security</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link animsition-link" data-animsition-out-class="flip-out-y" data-animsition-out-duration="800" href="/community.html">Community</a>
+            <a class="nav-link animsition-link" data-animsition-out-class="flip-out-y" data-animsition-out-duration="800" href="/community.php">Community</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800" href="/careers.html">Careers</a>
+            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800" href="/careers.php">Careers</a>
           </li>
           <li class="nav-item">
             <a class="nav-link animsition-link" data-animsition-out-class="flip-out-y" data-animsition-out-duration="800" href="https://blog.jaxx.io/" target="_blank">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="800" href="/support.html" target="_blank">Support</a>
+            <a class="nav-link animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="800" href="/support.php">Support</a>
           </li>
         </ul>
         </div>

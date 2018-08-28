@@ -83,46 +83,44 @@ for (var i=0; i<slides.length; i++) {
 var tl = new TimelineLite();
 
 //add a from() tween at the beginning of the timline
-tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn});
-
-//tl.staggerFromTo("#home .navbar-brand, #home .nav-item", 0.5, {opacity:0, y:-10}, {opacity:1, y:0}, 0.1);
+tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
      
 //fade in nav + nav links
-tl.staggerFrom("#home .navbar-brand, #home .nav-item, #home .navbar-toggler", 0.2, {y:-10, autoAlpha:0, rotation:-20}, 0.1);
+.staggerFrom(".navbar-brand, .nav-item, .navbar-toggler", 0.2, {y:-10, autoAlpha:0, rotation:-20}, 0.1)
       
 //fade in Jaxx Liberty Logo
 //tl.from("#banner .site-title-2", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
-tl.from("#home .jaxx-logo", 2, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
+.from("#home .jaxx-logo", 2, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5")
          
 //fade out Jaxx Logo
 //tl.to("#banner .jaxx-logo", 2, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
 
 //fade out multi device bg
-tl.to("#home #jaxx-multi-device", 1, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
+.to("#home #jaxx-multi-device", 1, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut})
 
 // fade in logo fill 
-tl.to("#home .jaxx-logo .st1", 1, {fill:"#ff6902", ease: SlowMo.easeIn});
+.to("#home .jaxx-logo .st1", 1, {fill:"#ff6902", ease: SlowMo.easeIn})
      
 // fade in logo fill 
-tl.to("#home .jaxx-logo .st0", 1, {fill:"#fff", ease: SlowMo.easeIn}, "-=0.5");
+.to("#home .jaxx-logo .st0", 1, {fill:"#fff", ease: SlowMo.easeIn}, "-=0.5")
  
 // explode out left JAX
-tl.to("#home .jaxx-logo .st0", 0.5, {y:1000, ease: Power4.easeInOut}, "-=0.25");
+.to("#home .jaxx-logo .st0", 0.5, {y:1000, ease: Power4.easeInOut}, "-=0.25")
 
 // explode out down X
-tl.to("#home .jaxx-logo .st1", 0.5, {x:-1000, ease: Power4.easeInOut}, "-=0.25");
+.to("#home .jaxx-logo .st1", 0.5, {x:-1000, ease: Power4.easeInOut}, "-=0.25")
 
 // explode out down Liberty
-tl.staggerTo("#home .jaxx-logo .st2", 0.5, {y:-1000, ease: Power4.easeInOut}, 0.1);
+.staggerTo("#home .jaxx-logo .st2", 0.5, {y:-1000, ease: Power4.easeInOut}, 0.1)
 
 //fade in orange-bg 
-tl.from("#home .orange-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeInOut});
+.from("#home .orange-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeInOut})
 
 //fade out Jaxx Logo
-tl.to("#home .jaxx-logo", 0.5, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
+.to("#home .jaxx-logo", 0.5, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut})
     
 //fade in tag line
-tl.from("#home .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
+.from("#home .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5")
  
  //fade out liberty to make overlay text legible
 //tl.to("#banner .site-title-3", 1, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
@@ -132,36 +130,39 @@ tl.from("#home .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut},
 //tl.from("#banner .site-sub-title", 1, {left:100, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
     
 //fade in tag line sub titles
-tl.staggerFrom(".sub-tagline-1, .sub-tagline-2, .sub-tagline-3", 0.2, {y:-20, autoAlpha:0, ease: SlowMo.easeInOut}, 0.5);
+.staggerFrom(".sub-tagline-1, .sub-tagline-2, .sub-tagline-3", 0.2, {y:-20, autoAlpha:0, ease: SlowMo.easeInOut}, 0.5)
    
 //fade in bg image
-tl.from("#home .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5");    
+.from("#home .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5")    
  
 // fade in heart svg bg
-tl.from("#home .jaxx-heart-logo", 0.5, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.25");
+.from("#home .jaxx-heart-logo", 0.5, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.25")
 
 // fade in heart logo
-tl.from("#home .jaxx-icon", 0.7, {y:-20, autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25");
+.from("#home .jaxx-icon", 0.7, {y:-20, autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.25")
 
 //add a label 0.5 seconds later to mark the placement of the next tween
-tl.from("#home .btn", 0.5, {autoAlpha:0, ease: SlowMo.easeIn}, "-=0.25");
+.from("#home .banner-button", 0.5, {autoAlpha:0, ease: SlowMo.easeIn}, "-=0.25")
   
 //fade in arrow down
-tl.from("#home i", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
+.from("#home i", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
      
      
-//downloads banner animation timeline
+//page banner animation timeline
 var tl2 = new TimelineLite();
-    tl2.staggerFrom("#banner h1 span", 0.5, {autoAlpha:0, x:-500, rotation: -100, ease: SlowMo.easeIn}, 0.1)
+    tl2.staggerFrom(".navbar-brand, .nav-item, .navbar-toggler", 0.2, {y:-10, autoAlpha:0, rotation:-20}, 0.1)
+       .staggerFrom("#banner h1 span", 0.5, {autoAlpha:0, x:-500, rotation: -100, ease: SlowMo.easeIn}, 0.1)
        .from("#banner .jaxx-navbar-brand", 0.5, {autoAlpha:0, y: -20, ease: SlowMo.easeIn})
        .staggerFrom("#banner h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, 0.1)
        .from("#banner .btn", 0.1, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, "-=0.25");
      
-//scurity banner animation timeline
+//security banner animation timeline
 var tl3 = new TimelineLite();
-    tl3.staggerFrom("#security-banner h1 span", 0.5, {autoAlpha:0, y:-50, ease: Back.easeInOut.config(2)}, 0.1)
-       .from("#security-banner .jaxx-shield", 0.5, {autoAlpha:0, y: -20, ease: SlowMo.easeIn})
-       .staggerFrom("#security-banner h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, 0.1)
+    tl3.staggerFrom(".navbar-brand, .nav-item, .navbar-toggler", 0.2, {y:-10, autoAlpha:0, rotation:-20}, 0.1)
+       .from("#security-banner .jaxx-shield", 1, {autoAlpha:0, y: -20, ease: SlowMo.easeIn}, "-=0.25")
+       .staggerFrom("#security-banner .site-title span", 0.5, {autoAlpha:0, y:-50, ease: SlowMo.easeInOut}, 0.2)
+//       .staggerFrom("#security-banner h2 span", 0.3, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, 0.1);
+       .from("#security-banner h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, "-=0.25");
                  
 // individual tweens
       
