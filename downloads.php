@@ -35,8 +35,8 @@ include 'includes/header.php';
                     <img class="img rellax" src="/img/jaxx-multiple-macbook.png" alt="Jaxx Liberty Desktop" data-rellax-speed="-2">
                 </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
-                    <h2 class="section-title x-bold p-3 bg-navy orange skew shadow-lg content-stagger-up">Desktop</h2>
-                    <p class="border-top border-bottom py-4 content-stagger-up"><span class="orange font-weight-bold">Lorem ipsum</span> dolor sit amet, consectetur adipisicing elit. Repudiandae ab, esse, labore minus odio dolor reiciendis, corrupti pariatur adipisci numquam ex! Quos ab, aperiam assumenda vitae aspernatur quas odit rem!</p>
+                    <h2 class="section-title x-bold p-3 bg-navy orange skew shadow-lg content-stagger-up">Download for Desktop</h2>
+                    <p class="border-top border-bottom py-4 content-stagger-up"><span class="orange font-weight-bold">Jaxx Liberty</span> will soon be available on desktop for Mac, Windows, and Linux operating systems.</p>
                     <!--nest row-->
                     <div class="row px-3">
                         <div class="col-xs-4 mr-2">
@@ -145,7 +145,7 @@ include 'includes/header.php';
             <!--download mobile-->
             <div id="mobile" class="row d-flex bg-white bg-img-downloads content-tween">
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
-                    <h2 class="section-title x-bold bg-navy orange p-3 skew shadow-lg content-stagger-up">Mobile + Tablet</h2>
+                    <h2 class="section-title x-bold bg-navy orange p-3 skew shadow-lg content-stagger-up">Download for Mobile</h2>
                     <p class="border-top border-bottom py-4 content-stagger-up"><span class="orange font-weight-bold">Lorem ipsum</span> dolor sit amet, consectetur adipisicing elit. Repudiandae ab, esse, labore minus odio dolor reiciendis, corrupti pariatur adipisci numquam ex! Quos ab, aperiam assumenda vitae aspernatur quas odit rem!</p>
 					<!--button nest row-->
 					<div class="row content-stagger-up">
@@ -168,7 +168,7 @@ include 'includes/header.php';
                     <img class="img rellax" src="/img/jaxx-chrome-store-2.png" alt="Jaxx Google Chrome">
                 </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
-                    <h2 class="section-title x-bold pb-3 bg-navy orange p-3 skew shadow-lg content-stagger-up">Chrome Extension</h2>
+                    <h2 class="section-title x-bold pb-3 bg-navy orange p-3 skew shadow-lg content-stagger-up">Add to Chrome</h2>
                     <div class="w-100 p-2">
                        <p class="py-3 border-top border-bottom border-dark content-stagger-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ab, esse, labore minus odio dolor reiciendis, corrupti pariatur adipisci numquam ex! Quos ab, aperiam assumenda vitae aspernatur quas odit rem!</p>
                         <a onclick="googleAnalyticsTrigger('Chrome Extension', 'Banner')" href="https://chrome.google.com/webstore/detail/jaxx-blockchain-wallet/ancbofgphhmhcchnaognahmjfajaecmo" target="_blank">

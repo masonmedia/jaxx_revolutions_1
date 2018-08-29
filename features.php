@@ -58,7 +58,13 @@ include 'includes/features-header.php';
       
       <!--slide 5-->
       <div class="swiper-slide d-flex flex-column justify-content-end align-items-start bg-slide-4 p-5">
+       <video width="100%" height="auto" autoplay loop muted>
+              <source src="/img/jaxx-Block-Exp.mp4" type="video/mp4">
+              <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+            </video>
         <div class="text">
+            
             <img class="mb-2" src="/img/icons/jaxx-hub-white.png" alt="Jaxx Liberty Aggregated Headline News" data-swiper-parallax="-400">
             <h2 class="section-sub-title x-bold" data-swiper-parallax="-300">Aggregated Headline News</h2>
             <p class="border-top pt-2" data-swiper-parallax="-200">Stay up-to-date with the latest news.</p>

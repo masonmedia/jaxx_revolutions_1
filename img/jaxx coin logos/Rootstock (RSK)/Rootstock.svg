@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="104px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Rootstock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rootstock">
+            <g id="master" fill="#019933" fill-rule="nonzero">
+                <path d="M102.2,64.2 C95.4,92 67.3,108.7 39.7,101.8 C11.9,94.9 -4.8,66.9 2.1,39.2 C8.9,11.4 37,-5.3 64.6,1.6 C92.4,8.3 109.2,36.5 102.2,64.2 Z" id="bg"></path>
+            </g>
+            <g transform="translate(32.000000, 7.000000)" id="Root" stroke="#FFFFFF" stroke-width="3">
+                <g>
+                    <ellipse id="Oval_7_" cx="20.2" cy="49.1" rx="3.6" ry="3.5"></ellipse>
+                    <circle id="Oval_1_" cx="20.2" cy="68" r="3.6"></circle>
+                    <ellipse id="Oval_2_" cx="36.7" cy="58.6" rx="3.6" ry="3.5"></ellipse>
+                    <circle id="Oval_3_" cx="36.8" cy="77.4" r="3.6"></circle>
+                    <circle id="Oval_4_" cx="20.1" cy="86.8" r="3.6"></circle>
+                    <circle id="Oval_5_" cx="3.7" cy="77.5" r="3.6"></circle>
+                    <ellipse id="Oval_6_" cx="3.7" cy="58.5" rx="3.6" ry="3.5"></ellipse>
+                    <path d="M20.1,52.3 L20.1,64.2" id="Path-2"></path>
+                    <path d="M3.1,62.3 L3.1,74.2" id="Path-2_1_"></path>
+                    <path d="M20.1,71.3 L20.1,83.2" id="Path-2-Copy-2"></path>
+                    <path d="M20.5,18.9 L20.5,45.3" id="Path-2-Copy"></path>
+                    <path d="M6.8,75.8 L17.3,69.6" id="Path-3"></path>
+                    <path d="M23.2,66.5 L33.3,60.6" id="Path-4"></path>
+                    <path d="M7.1,60.4 L17.4,66.5" id="Path-5"></path>
+                    <path d="M23.6,69.8 L33.5,75.6" id="Path-6"></path>
+                    <path d="M7,79.2 L16.9,84.9" id="Path-9"></path>
+                    <path d="M23.4,85 L33.8,79.2" id="Path-10"></path>
+                    <path d="M7.3,56.6 L17,50.9" id="Path-11"></path>
+                    <path d="M23.7,51.2 L33.3,56.8" id="Path-13"></path>
+                    <path d="M20.6,0.9 C20.6,0.9 30.3,9.1 31.1,15.4 C31.8,21.7 29.8,29.2 20.6,34.4" id="Path-14"></path>
+                    <path d="M21.6,0.4 C21.6,0.4 10.8,9.1 10.1,15.4 C9.4,21.7 11.4,29.2 20.6,34.4" id="Path-14_1_"></path>
+                    <path d="M39.3,56.5 L47.5,48.8" id="Path-15"></path>
+                    <path d="M42.3,53.7 C42.3,53.7 41.4,47.5 44,45.8 C46.7,44.1 51.6,44 52,44.4" id="Path-16"></path>
+                    <path d="M51.8,43.8 C51.8,43.8 52.8,50.5 50.1,52.2 C47.4,53.9 42.5,54 42.1,53.6" id="Path-16_1_"></path>
+                    <path d="M37.1,61.3 L37.1,73.2" id="Path-2_2_"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
