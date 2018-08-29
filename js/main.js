@@ -169,7 +169,14 @@ var tl3 = new TimelineLite();
        .staggerFrom("#security-banner .site-title span", 0.5, {autoAlpha:0, y:-50, ease: SlowMo.easeInOut}, 0.2)
 //       .staggerFrom("#security-banner h2 span", 0.3, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, 0.1);
        .from("#security-banner h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, "-=0.25");
-                 
+        
+     
+//features-list timelines
+     
+
+//TweenLite.set(subhead, {visibility:"visible"})
+
+     
 // individual tweens
       
 //fade in
@@ -230,6 +237,93 @@ $(".fade-in-up").each(function() {
 		.setTween(fadeLeft)
 		.addTo(controller);
 });
+     
+//  fade/slide out left
+     
+     $(".fade-right").each(function() {
+
+ 	var fadeRight = TweenMax.to(this, 2, {
+	        autoAlpha: 0,
+            x:1000,
+	        delay: 0,
+	        ease: Power2.easeOut
+	    });
+
+	var scene = new ScrollMagic.Scene({
+	        triggerElement: this,
+	        triggerHook: 'onLeave',
+	        offset: 0,
+	        reverse:true
+	    })
+		.setTween(fadeRight)
+		.addTo(controller);
+}); 
+     
+//  slide in left
+     
+     $(".slide-in-right").each(function() {
+
+ 	var slideInRight = TweenMax.from(this, 2, {
+	        autoAlpha: 0,
+            x:-1000,
+	        delay: 0,
+	        ease: Power2.easeOut
+	    });
+
+	var scene = new ScrollMagic.Scene({
+	        triggerElement: this,
+	        triggerHook: 'onEnter',
+	        offset: 0,
+	        reverse:true
+	    })
+		.setTween(slideInRight)
+		.addTo(controller);
+}); 
+     
+     
+//     .staggerFrom(".navbar-brand, .nav-item", 0.3, {autoAlpha:0, y:-10, rotation:-20}, 0.1)
+
+     
+     $(".slide-in-left").each(function() {
+
+ 	var slideInLeft = TweenMax.staggerFrom(this, 1, {
+	        autoAlpha: 0,
+            x:1000,
+	        delay: 0,
+	        ease: Power2.easeOut
+	    }, 0.1);
+
+	var scene = new ScrollMagic.Scene({
+	        triggerElement: this,
+	        triggerHook: 'onEnter',
+	        offset: 0,
+	        reverse:true
+	    })
+		.setTween(slideInLeft)
+		.addTo(controller);
+}); 
+     
+     
+     
+//  fade/slide out left
+     $(".fade-left").each(function() {
+
+ 	var fadeLeft = TweenMax.to(this, 2, {
+	        autoAlpha: 0,
+            x:-1000,
+	        delay: 0,
+	        ease: Power2.easeOut
+	    });
+
+	var scene = new ScrollMagic.Scene({
+	        triggerElement: this,
+	        triggerHook: 'onLeave',
+	        offset: 0,
+	        reverse:true
+	    })
+		.setTween(fadeLeft)
+		.addTo(controller);
+}); 
     
     
 // Single tween item fade in and slide up... scene 2 (works)
@@ -301,6 +395,7 @@ $(".content-tween").each(function() {
 });
       
     
+     
 // button explode 
 // https://codepen.io/ethanryan/pen/GjLdyJ
 

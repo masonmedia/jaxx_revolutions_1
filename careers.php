@@ -24,7 +24,7 @@ include 'includes/header.php';
                     <span class="d-inline-block">J</span><span class="d-inline-block">o</span><span class="d-inline-block">i</span><span class="d-inline-block">n</span>
                     <span class="d-inline-block">U</span><span class="d-inline-block">s</span>
                 </h1>
-                <h2 class="h3">
+                <h2 class="h4">
                     <span class="d-inline-block">Become</span>
                     <span class="d-inline-block">a</span>
                     <span class="d-inline-block">part</span>

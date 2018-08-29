@@ -13,7 +13,6 @@ include 'includes/header.php';
             <div class="pb-5 rellax" data-rellax-speed="-2">
                 <img class="jaxx-navbar-brand mt-5" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Community">
                 <h1 class="page-title m-0 mb-1">
-                <!--<span class="d-inline-block">O</span><span class="d-inline-block">u</span><span class="d-inline-block">r</span>-->
                     <span class="d-inline-block">C</span><span class="d-inline-block">o</span><span class="d-inline-block">m</span><span class="d-inline-block">m</span><span class="d-inline-block">u</span><span class="d-inline-block">n</span><span class="d-inline-block">i</span><span class="d-inline-block">t</span><span class="d-inline-block">y</span>
                 </h1>
                 <h2 class="h3">
@@ -35,7 +34,7 @@ include 'includes/header.php';
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left min-50 p-0 o-1">
                    <div class="wrap bg-white-op rounded-left p-5">
                         <div class="border-wrap border border-dark p-4">
-                            <h2 class="section-title x-bold shadow-lg pt-4 pb-3 px-3 mb-3 navy bg-orange skew content-tween-left">Where we started</h2>
+                            <h2 class="section-title x-bold shadow-lg pt-4 pb-3 px-3 mb-3 navy bg-orange skew content-stagger-up">Where we started</h2>
                             <p class="border-top border-dark py-4 px-3 m-0 content-stagger-up">Jaxx Liberty is developed by Decentral Inc., Canada's leading blockchain company. Our founder created Jaxx in 2014 because he saw a change like Netscape for the Internet: that we are moving towards a world of value movement and that people need an easy way to manage their cryptocurrencies and digital lives.</p>
                        </div>
                     </div>
@@ -73,7 +72,7 @@ include 'includes/header.php';
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center min-50 text-center p-5">
                    <div class="wrap bg-white-op rounded-right p-5"> 
                        <div class="border-wrap border border-dark d-flex flex-column justify-content-center align-items-center p-4">                  
-                            <h2 class="section-title x-bold w-100 orange bg-navy shadow-lg px-3 py-4 mb-4 skew content-stagger-up">Our Friends</h2>
+                            <h2 class="section-title x-bold w-100 orange bg-navy shadow-lg px-3 py-4 mb-4 skew content-stagger-up">Integrations and Network</h2>
                             <p class="border-top border-dark pt-4 pb-5 m-0 content-stagger-up">Our office hours are 9am to 5pm EST. You can reach our customer support team 24 hours a day.</p>
                             <!--nest container-->
                             <div class="container-fluid bg-dots rounded p-4 rellax">

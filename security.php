@@ -38,15 +38,14 @@ include 'includes/header.php';
             <!--row 1 security intro-->
             <div id="sec-features" class="row d-flex bg-white bg-dots border rounded m-4 p-4 shadow-lg content-tween">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center min-50 p-3 rellax">
-                    <div class="wrap d-flex flex-column justify-content-center align-items-center p-5 w-100 h-100 border content-stagger-up">
+                    <div class="wrap d-flex flex-column justify-content-center align-items-center px-3 py-5 w-100 h-100 border content-stagger-up">
                         <h2 class="section-title x-bold relative z-1 m-0 content-stagger-up">More than a million users trust Jaxx.</h2>
                         <p class="relative z-1 py-3 content-stagger-up">We take security seriously. From industry-standard encryption to key privacy and rigorous code review, our highest priority is ensuring the safety and privacy of our users. Explore some of the new and improved security features found in Jaxx Liberty below.</p>
                     <!--<img class="img-shield content-stagger-up" src="/img/jaxx-shield.png" alt="Jaxx Liberty Security">-->
                     </div>
                     <img class="img-shield absolute z-0 content-stagger-up" src="/img/jaxx-shield.png" alt="Jaxx Liberty Security">
                 </div>
-            </div><!--end col-->
-<!--            </div>end row-->
+            </div><!--end row-->
 
            <!--row 2 security features-->
             <div class="row d-flex bg-img-banner-security relative z-1 content-tween">
@@ -106,7 +105,7 @@ include 'includes/header.php';
                     <h3 class="font-weight-bold p-3 bg-navy orange skew shadow-lg py-2 content-stagger-up">Jaxx never has access to your funds.</h3>
                     <p class="border-top py-3 content-stagger-up">They remain securely in your control on their respective blockchains. This means that if you back-up your Masterseed you will be easily able to recover your wallets if you lose access to the device they were on.</p>
                 </div><!--end col-->
-                <div class="col-lg-6 bg-img-jaxx-hand p-0"></div>
+                <div class="col-lg-6 bg-img-hand-device p-0"></div>
             </div><!--end row-->
             
             <!--row 4 additional features-->

@@ -37,7 +37,7 @@
                     <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
                             <li class="h4 font-weight-bold border-bottom pb-3">Contact</li>
-                            <li> <a href="https://decentral.zendesk.com/hc/en-us" target="_blank">Support</a></li>
+                            <li> <a href="/support.php" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Support</a></li>
                             <li> <a href="https://www.facebook.com/JaxxWallet" target="_blank">Facebook</a></li>
                             <li> <a href="twitter.com/jaxx_io" target="_blank">Twitter</a> / <a href="https://twitter.com/Jaxx_Support" target="_blank">Twitter Support</a> </li>
                             <li> <a href="https://www.reddit.com/r/jaxx/" target="_blank">Reddit</a></li>
@@ -47,8 +47,8 @@
             </div><!--end row-->
             <!-- copyright + branding-->
             <div class="row d-flex copyright">
-                <div class="col-sm-12 d-flex justify-content-center py-3 pt-4 navy">
-                    <p class="font-weight-bold">&copy; Decentral Inc. <img class="footer-leaf" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made in Canada</p>
+                <div class="col-sm-12 d-flex justify-content-center text-center py-3 pt-4 navy">
+                    <p class="font-weight-bold">&copy; Decentral Inc. <img class="footer-leaf mx-1" src="/img/jaxx-maple-leaf-navy-2.png" alt="Decentral inc."> Made with heart in Canada</p>
                 </div>
             </div>
         </footer>

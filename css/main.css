@@ -127,6 +127,9 @@ footer a:hover {
 
 /* height + width utilities */
 
+.min-25 {
+    min-height: 25vh;
+}
 .min-50 {
     min-height: 50vh;
 }
@@ -410,7 +413,7 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
 /* bg colors ======================*/
 
 .bg-orange {
-    background: #ff6902;
+    background: #ff6902 !important;
 }
 .bg-orange-opaq {
     background: rgba(255, 105, 2, 0.4);
@@ -420,7 +423,7 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 .bg-turq {
     background: rgb(64, 224, 208);
-    background: turquoise;
+    background: turquoise !important;
 }
 .bg-purple {
     background: #fb99f4;
@@ -585,7 +588,6 @@ video {
 .bg-img-iphone-white {
     background: url(/img/jaxx-iphone-white.jpeg) center;
     background-size: cover;
-    background-attachment: fixed;
 }
 .bg-img-android {
     background: url(http://www.innjoo.com/Public/images/max3/max3_c_4-1.png) center top;
@@ -594,15 +596,13 @@ video {
 }
 .bg-img-dashboard {
     background: url(https://images.pexels.com/photos/1124066/pexels-photo-1124066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background: url(https://images.pexels.com/photos/1253646/pexels-photo-1253646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+/*    background: url(https://images.pexels.com/photos/1253646/pexels-photo-1253646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;*/
+    background: url(/img/jaxx-android.png) right;
     background-size: cover;
-    background-attachment: fixed;
 }
 .bg-img-data {
     background: url(https://images.pexels.com/photos/241544/pexels-photo-241544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
-    background-attachment: fixed;
 /*    pexels*/
 }
 
@@ -715,6 +715,42 @@ video {
     background-size: cover;
 }
 
+/*  features og page ======================*/
+
+/* features-og page modals */
+
+.bg-img-androids {
+    background: url(/img/jaxx-multiple-phones.png) center no-repeat;
+    background-size: contain;
+}
+.bg-img-multidevice-outline {
+    background: url(/img/jaxx-multidevice-outline-3.svg) center;
+    background-size: contain;
+}
+
+#features-list .modal-dialog {
+    height: 100%;
+    margin: 0;
+}
+@media (min-width: 576px) {
+#features-list .modal .modal-dialog {
+    border: none;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+}
+#features-list .modal-content { 
+    height: 100%;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+}
+.bg-img-hand-device-2 {
+    background: url(/img/jaxx-hand-device.jpg) center;
+    background-size: cover;
+}
+
+
 /*  features page ======================*/
 
 /* swiper */
@@ -770,6 +806,9 @@ video {
     .swiper-slide .text {
         width: 75%;
     }
+    
+    /*== features slides =====*/
+
       .bg-slide-1 {
           background: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/607de731234507.564a1d2420e5f.gif) center no-repeat;
           background: url(/img/jaxx-multi-platform.png) center no-repeat;
@@ -781,12 +820,12 @@ video {
           background-size: 60%;
       }
       .bg-slide-3 {
-          background: url(http://thecollective.ca/wp2/wp-content/uploads/2016/02/Groupquest-macbook2.gif) center no-repeat;
+          background: url(/img/jaxx-multiple-phones.png) center no-repeat;
           background-size: 60%;
       }
       .bg-slide-4 {
-          background: url(https://media1.tenor.com/images/2ffb9c5c3c1d570761b81828fde87c21/tenor.gif?itemid=3419040) center no-repeat;
-          background-size: 30%;
+          background: url(/img/jaxx-multiple-macbook.png) center no-repeat;
+          background-size: 90%;
       }
       .bg-slide-5 {
           background: url(https://bornmkg.com/wp-content/uploads/2015/07/ezgif.com-resize.gif) center no-repeat;
@@ -825,6 +864,10 @@ video {
     background: url(/img/jaxx-hand-device.jpg) center;
     background-size: cover;
 }
+.bg-img-hand-device {
+    background: url(/img/jaxx-hand-device.jpg) center;
+    background-size: cover;
+}
 .bg-img-people-1 {
     background: url(/img/jaxx-four-people.jpeg) center;
     background-size: cover;
@@ -856,9 +899,6 @@ video {
 .bg-orange-angle {
     background: linear-gradient(140deg, #fff 60%, #ff6902 60%);
 }
-
-
-/* about ======================*/
 
 
 /* changelog ======================*/
@@ -1174,6 +1214,12 @@ footer p {
     #support h1 {
         font-size: 9vmin;
         padding-top: 15px;
+    }
+    footer p {
+    font-size: 14px;
+    }
+    .footer-leaf {
+        height: 35px;
     }
 }
 

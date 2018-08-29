@@ -6,23 +6,12 @@ include 'includes/header.php';
 
 ?>
 
-    <main id="support" role="main" class="content-tween animsition" data-animsition-in-class="fade-in-up-lg" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
+    <main id="support" role="main" class="content-tween animsition" data-animsition-in-class="fade-in-up-sm" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
 
         <!--jumbotron-->
         <div id="banner" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center relative z-1 text-center bg-img-banner-support text-white min-70 p-5 m-0">
            <div class="row">
                <div class="col-sm-12 pb-5">
-<!--
-                    <img class="jaxx-navbar-brand pt-4 mt-5 mb-0 content-tween-right" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
-                    svg heading
-                    <h1 class="mb-0"><svg id="banner-svg" class="support-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 25">
-                        <title>We're Here to Help.</title>
-                        <text x="50%" y="70%" text-anchor="middle" alignmentbaseline="middle">We're Here to Help</text>
-                        </svg>
-                    </h1>
-                    <h1 class="site-title relative z-1 pb-2 mt-0">We're here to help</h1>
-                    <h4 class="site-sub-title relative z-1 pb-3">Welcome to the official Jaxx Liberty support page.</h4>
--->
                    <div class="pb-3 rellax" data-rellax-speed="-2">
                         <img class="jaxx-navbar-brand mt-5" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
                         <h1 class="section-title x-bold m-0 mb-1">
@@ -30,13 +19,6 @@ include 'includes/header.php';
                             <span class="d-inline-block">Here</span>
                             <span class="d-inline-block">to</span>
                             <span class="d-inline-block">Help</span>
-                            
-<!--
-                            <span class="d-inline-block">e</span>
-                            <span class="d-inline-block">H</span><span class="d-inline-block">e</span><span class="d-inline-block">r</span><span class="d-inline-block">e</span>
-                            <span class="d-inline-block">T</span><span class="d-inline-block">o</span>
-                            <span class="d-inline-block">H</span><span class="d-inline-block">e</span><span class="d-inline-block">l</span><span class="d-inline-block">p</span>
--->
                         </h1>
                         <h2 class="h4">
                             <span class="d-inline-block">Welcome</span>

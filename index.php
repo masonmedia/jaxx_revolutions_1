@@ -328,44 +328,60 @@ include 'includes/home-header.php';
                         </div>
                     </div>
                 </div><!--end col-->
+                
+<!--                logos col-->
+<!--
+               Bitcoin
+Ethereum
+Bitcoin Cash
+Litecoin
+Ethereum Classic
+Dash
+Dogecoin
+Digibyte
+Bitcore
+Zcash
+Shapeshift Y
+Changelly Y
+-->
                 <div class="col-lg-7 d-flex justify-content-center align-items-center bg-img-partners min-100 p-5">
                    <div class="container-fluid bg-light bg-dots rounded p-4">
                        <div class="row d-flex">
                            <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
-                                <img class="partner-logo" src="/img/partner-logos/partners-rootstock.png" alt="Jaxx Liberty Partner RSK">
+<!--                                <img class="partner-logo" src="/img/partner-logos/partners-rootstock.png" alt="Jaxx Liberty Partner RSK">-->
                            </div>
                            <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
                                <img class="partner-logo" src="/img/partner-logos/partners-shapeshift.png" alt="Jaxx Liberty Partner Shapeshift">
                            </div>
                            <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
-                               <img class="partner-logo" src="/img/partner-logos/partners-ledger.png" alt="Jaxx Liberty Partner Ledger">
+<!--                               <img class="partner-logo" src="/img/partner-logos/partners-ledger.png" alt="Jaxx Liberty Partner Ledger">-->
                            </div>
                            <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
                                <img class="partner-logo" src="/img/partner-logos/partners-changelly.png" alt="Jaxx Liberty Partner Changelly">
                            </div>
                            <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
-                               <img class="partner-logo" src="/img/partner-logos/partners-bittrex.png" alt="Jaxx Liberty Partner Bittrex">
+<!--                               <img class="partner-logo" src="/img/partner-logos/partners-bittrex.png" alt="Jaxx Liberty Partner Bittrex">-->
                            </div>
                            <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
-                               <img class="partner-logo" src="/img/partner-logos/partners-coinbase.png" alt="Jaxx Liberty Partner Coinbase">
+<!--                               <img class="partner-logo" src="/img/partner-logos/partners-coinbase.png" alt="Jaxx Liberty Partner Coinbase">-->
                            </div>
                            <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
-                               <img class="partner-logo partner-logo-sm" src="/img/partner-logos/partners-kraken-trans.png" alt="Jaxx Liberty Partner Kraken">
+<!--                               <img class="partner-logo partner-logo-sm" src="/img/partner-logos/partners-kraken-trans.png" alt="Jaxx Liberty Partner Kraken">-->
                            </div>
                            <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
-                               <img class="partner-logo" src="/img/partner-logos/partners-trezor.png" alt="Jaxx Liberty Partner Trezor">
+<!--                               <img class="partner-logo" src="/img/partner-logos/partners-trezor.png" alt="Jaxx Liberty Partner Trezor">-->
                            </div>
                            <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
-                               <img class="partner-logo big-logo" src="/img/partner-logos/partners-atari.png" alt="Jaxx Liberty Partner Atari">
+<!--                               <img class="partner-logo big-logo" src="/img/partner-logos/partners-atari.png" alt="Jaxx Liberty Partner Atari">-->
                            </div>
                            <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
-                               <img class="partner-logo" src="/img/partner-logos/partners-blockchain-capital.png" alt="Jaxx Liberty Partner Blockchain Capital">
+<!--                               <img class="partner-logo" src="/img/partner-logos/partners-blockchain-capital.png" alt="Jaxx Liberty Partner Blockchain Capital">-->
                            </div>
                            <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
-                               <img class="partner-logo" src="/img/partner-logos/partners-fenbushi.png" alt="Jaxx Liberty Partner Fenbushi Capital">
+<!--                               <img class="partner-logo" src="/img/partner-logos/partners-fenbushi.png" alt="Jaxx Liberty Partner Fenbushi Capital">-->
                            </div>
                            <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
-                               <img class="partner-logo big-logo" src="/img/partner-logos/partners-bloq.png" alt="Jaxx Liberty Partner Bloq">
+<!--                               <img class="partner-logo big-logo" src="/img/partner-logos/partners-bloq.png" alt="Jaxx Liberty Partner Bloq">-->
                            </div>
                        </div><!--end row-->
                        </div><!--end nest container-->
