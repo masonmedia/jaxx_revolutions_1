@@ -2,10 +2,10 @@
 
 $title = "Jaxx Liberty | Home";
 
-include 'includes/header.php';
+include 'includes/home-header.php';
 
 ?>   
-    <main id="home" role="main">
+    <main role="main">
 
         <!--jumbotron home timeline animation-->
         <div role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white fs p-5 m-0 rellax">

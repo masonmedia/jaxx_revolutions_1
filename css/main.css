@@ -680,14 +680,10 @@ video {
 }
 
 /* cookies consent banner ======================*/
-/*
-.cc-window {
-    border-radius: 5px;
-    box-shadow: 0 0 3px #000;
-}
-*/
+
 .cc-message {
-    font-weight: bold;
+    font-family: Montserrat, Avenir, Helvetica, sans-serif;
+    font-size: 15px;
 }
 .cc-message a, 
 .cc-link {
@@ -1161,6 +1157,11 @@ footer p {
     .site-title {
         font-size: 11vw;
         margin-bottom: 10px;
+    }
+    /* cookies banner button */
+    .cc-btn {
+        border-width: 1px;
+        width: 100%;
     }
     /* download call to action heading text */
     #cta h2 {

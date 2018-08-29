@@ -85,7 +85,7 @@ var tl = new TimelineLite();
 //add a from() tween at the beginning of the timline
 tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
  
-     //slide down navbar     
+//slide down navbar     
 .from("nav", 0.3, {autoAlpha:0, y:-100})
 //fade in navbar logo + nav links
 .staggerFrom(".navbar-brand, .nav-item", 0.3, {autoAlpha:0, y:-10, rotation:-20}, 0.1)
@@ -109,14 +109,14 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
 .to("#home .jaxx-logo .st0", 1, {fill:"#fff", ease: SlowMo.easeIn}, "-=0.5")
  
 // explode out left JAX
-.to("#home .jaxx-logo .st0", 0.5, {y:1000, ease: Power4.easeInOut}, "-=0.25")
+.to("#home .jaxx-logo .st0", 0.5, {y:1000, ease: Power4.easeInOut})
 
 // explode out down X
-.to("#home .jaxx-logo .st1", 0.5, {x:-1000, ease: Power4.easeInOut}, "-=0.25")
+.to("#home .jaxx-logo .st1", 0.5, {x:-1000, ease: Power4.easeInOut})
 
 // explode out down Liberty
 .staggerTo("#home .jaxx-logo .st2", 0.5, {y:-1000, ease: Power4.easeInOut}, 0.1)
-  
+     
 //fade in orange-bg 
 .from("#home .orange-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeInOut})
 
@@ -150,7 +150,7 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
   
 //fade in arrow down
 .from("#home i", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
-     
+         
      
 //page banner animation timeline
      

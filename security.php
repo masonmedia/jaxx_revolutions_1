@@ -43,7 +43,7 @@ include 'includes/header.php';
                         <p class="relative z-1 py-3 content-stagger-up">We take security seriously. From industry-standard encryption to key privacy and rigorous code review, our highest priority is ensuring the safety and privacy of our users. Explore some of the new and improved security features found in Jaxx Liberty below.</p>
                     <!--<img class="img-shield content-stagger-up" src="/img/jaxx-shield.png" alt="Jaxx Liberty Security">-->
                     </div>
-                    <img class="img-shield absolute z-0 content-stagger-up rellax" src="/img/jaxx-shield.png" alt="Jaxx Liberty Security">
+                    <img class="img-shield absolute z-0 content-stagger-up" src="/img/jaxx-shield.png" alt="Jaxx Liberty Security">
                 </div>
             </div><!--end col-->
 <!--            </div>end row-->
@@ -53,48 +53,48 @@ include 'includes/header.php';
                 <div class="col-xl-4 col-md-6 d-flex flex-column justify-content-start align-items-start min-50 bg-orange text-light p-5 rellax">
                     <div class="wrap p-4 border border-light min-50 content-stagger-up">
                         <img class="jaxx-navbar-brand content-stagger-up" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty Security">
-                        <h2 class="font-weight-bold p-3 bg-navy orange skew shadow-lg py-2">Private Keys</h2>
-                        <p class="border-top border-light py-3">Like the legacy version of Jaxx wallet, the user’s secrets (mnemonic/private keys) are stored on the client side instead of the server side, therefore they are not exposed to anyone, even Decentral employees.</p>
+                        <h2 class="font-weight-bold p-3 bg-navy orange skew shadow-lg py-2 content-stagger-up">Private Keys</h2>
+                        <p class="border-top border-light py-3 content-stagger-up">Like the legacy version of Jaxx wallet, the user’s secrets (mnemonic/private keys) are stored on the client side instead of the server side, therefore they are not exposed to anyone, even Decentral employees.</p>
                     </div>
                 </div>
                                 
                 <div class="col-xl-4 col-md-6 d-flex flex-column justify-content-start align-items-start min-50 bg-white-op p-5">
                     <div class="wrap p-4 border border-dark min-50 content-stagger-up">
                         <img class="jaxx-navbar-brand content-stagger-up" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty Security">
-                        <h2 class="font-weight-bold p-3 bg-navy orange skew shadow-lg py-2">Encryption</h2>
-                        <p class="border-top border-dark py-3">Once a password is set it is encrypted and stored securely using industry-standard encryption procedure. They can only be decrypted with the password known by the user.  Liberty does not store the user-password in the system.</p>
+                        <h2 class="font-weight-bold p-3 bg-navy orange skew shadow-lg py-2 content-stagger-up">Encryption</h2>
+                        <p class="border-top border-dark py-3 content-stagger-up">Once a password is set it is encrypted and stored securely using industry-standard encryption procedure. They can only be decrypted with the password known by the user.  Liberty does not store the user-password in the system.</p>
                     </div>
                 </div>
                              
                 <div class="col-xl-4 col-md-6 d-flex flex-column justify-content-start align-items-start min-50 bg-orange text-light p-5 rellax">
                     <div class="wrap p-4 border border-light min-50 content-stagger-up">
                         <img class="jaxx-navbar-brand content-stagger-up" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty Security">
-                        <h2 class="font-weight-bold p-3 bg-navy orange skew shadow-lg py-2">Address Integrity</h2>
-                        <p class="border-top border-light py-3">Wallet generated addresses are periodically checked in terms of integrity to reduce risk of malicious modification of addresses.</p>
+                        <h2 class="font-weight-bold p-3 bg-navy orange skew shadow-lg py-2 content-stagger-up">Address Integrity</h2>
+                        <p class="border-top border-light py-3 content-stagger-up">Wallet generated addresses are periodically checked in terms of integrity to reduce risk of malicious modification of addresses.</p>
                     </div>
                 </div>
                 
                <div class="col-xl-4 col-md-6 d-flex flex-column justify-content-start align-items-start min-50 bg-white-op p-5">
                     <div class="wrap p-4 border border-dark min-50 content-stagger-up">
                         <img class="jaxx-navbar-brand content-stagger-up" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty Security">
-                        <h2 class="font-weight-bold p-3 bg-navy orange skew shadow-lg py-2">Ownership & Control</h2>
-                        <p class="border-top border-dark py-3">Jaxx uses a 12-word “Masterseed” to help you manage the private keys to your Bitcoin, Ethereum, and other blockchain assets.</p>
+                        <h2 class="font-weight-bold p-3 bg-navy orange skew shadow-lg py-2 content-stagger-up">Ownership & Control</h2>
+                        <p class="border-top border-dark py-3 content-stagger-up">Jaxx uses a 12-word “Masterseed” to help you manage the private keys to your Bitcoin, Ethereum, and other blockchain assets.</p>
                    </div>
                 </div>
                                
                 <div class="col-xl-4 col-md-6 d-flex flex-column justify-content-start align-items-start text-light bg-orange p-5 rellax">
                     <div class="wrap p-4 border border-light min-50 content-stagger-up">
                         <img class="jaxx-navbar-brand content-stagger-up" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty Security">
-                        <h2 class="font-weight-bold p-3 bg-navy orange skew shadow-lg py-2">Code Review</h2>
-                        <p class="border-top border-light py-3">Rigid code review processes minimizes security vulnerabilities.</p>
+                        <h2 class="font-weight-bold p-3 bg-navy orange skew shadow-lg py-2 content-stagger-up">Code Review</h2>
+                        <p class="border-top border-light py-3 content-stagger-up">Rigid code review processes minimizes security vulnerabilities.</p>
                     </div>
                 </div>
                                 
                 <div class="col-xl-4 col-md-6 d-flex flex-column justify-content-start align-items-start bg-white-op p-5">
                     <div class="wrap p-4 border border-dark min-50 content-stagger-up">
                         <img class="jaxx-navbar-brand content-stagger-up" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty Security">
-                        <h2 class="font-weight-bold p-3 bg-navy orange skew shadow-lg py-2">Secure across platforms</h2>
-                        <p class="border-top border-dark py-3">Use your Masterseed to view your wallet on iOS, Android, Chrome Extension, Windows, Mac and Linux desktops.</p>
+                        <h2 class="font-weight-bold p-3 bg-navy orange skew shadow-lg py-2 content-stagger-up">Secure across platforms</h2>
+                        <p class="border-top border-dark py-3 content-stagger-up">Use your Masterseed to view your wallet on iOS, Android, Chrome Extension, Windows, Mac and Linux desktops.</p>
                     </div>
                 </div>
             </div><!--end row-->

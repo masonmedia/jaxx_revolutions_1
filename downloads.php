@@ -32,7 +32,7 @@ include 'includes/header.php';
             <!--download desktop-->
             <div id="desktop" class="row d-flex bg-white bg-img-downloads content-tween">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange min-100 arrow-left o-12">
-                    <img class="img rellax" src="/img/jaxx-multiple-macbook.png" alt="Jaxx Liberty Desktop">
+                    <img class="img rellax" src="/img/jaxx-multiple-macbook.png" alt="Jaxx Liberty Desktop" data-rellax-speed="-2">
                 </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
                     <h2 class="section-title x-bold p-3 bg-navy orange skew shadow-lg content-stagger-up">Desktop</h2>
@@ -143,8 +143,8 @@ include 'includes/header.php';
             </div><!--end row-->
             
             <!--download mobile-->
-            <div id="mobile" class="row d-flex bg-img-downloads content-tween">
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left text-white min-100 p-5">
+            <div id="mobile" class="row d-flex bg-white bg-img-downloads content-tween">
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
                     <h2 class="section-title x-bold bg-navy orange p-3 skew shadow-lg content-stagger-up">Mobile + Tablet</h2>
                     <p class="border-top border-bottom py-4 content-stagger-up"><span class="orange font-weight-bold">Lorem ipsum</span> dolor sit amet, consectetur adipisicing elit. Repudiandae ab, esse, labore minus odio dolor reiciendis, corrupti pariatur adipisci numquam ex! Quos ab, aperiam assumenda vitae aspernatur quas odit rem!</p>
 					<!--button nest row-->
@@ -158,7 +158,7 @@ include 'includes/header.php';
 					</div><!--end button nest row-->                  
                 </div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange min-100 arrow-right">
-                    <img class="img rellax" src="/img/jaxx-multiple-phones.png" alt="Jaxx Liberty Mobile">
+                    <img class="img rellax" src="/img/jaxx-multiple-phones.png" alt="Jaxx Liberty Mobile" data-rellax-speed="-2">
                 </div>
             </div><!--end mobile row-->
             

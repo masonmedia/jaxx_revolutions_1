@@ -15,7 +15,7 @@ include 'includes/features-header.php';
     <div id="banner" class="swiper-wrapper">
     
     <!--slide 1 -->
-     <div class="swiper-slide d-flex flex-column justify-content-end align-items-center text-center p-5 content-tween">
+     <div class="swiper-slide d-flex flex-column justify-content-center align-items-center text-center p-5 content-tween">
         <div class="text mb-5">
             <img class="jaxx-navbar-brand mb-3 animated-slow fadeInDown" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Features" data-swiper-parallax="-500">
             <h1 class="page-title x-bold line-height pb-3 m-0 mb-3" data-swiper-parallax="-400">
