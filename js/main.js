@@ -137,7 +137,7 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
 .staggerFrom(".sub-tagline-1, .sub-tagline-2, .sub-tagline-3", 0.2, {y:-20, autoAlpha:0, ease: SlowMo.easeInOut}, 0.5)
    
 //fade in bg image
-.from("#home .img-full", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5")    
+.from("#home .banner-img", 1, {autoAlpha:0, ease: Power1.easeIn}, "-=0.5")    
  
 // fade in heart svg bg
 .from("#home .jaxx-heart-logo", 0.5, {y:-10, autoAlpha:0, ease: Back.easeInOut}, "-=0.25")
@@ -149,7 +149,7 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
 .from("#home .banner-button", 0.5, {autoAlpha:0, ease: SlowMo.easeIn}, "-=0.25")
   
 //fade in arrow down
-.from("#home i", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
+.from("#home .icon", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
          
      
 //page banner animation timeline
@@ -259,7 +259,7 @@ $(".fade-in-up").each(function() {
 		.addTo(controller);
 }); 
      
-//  slide in left
+//  slide in from right
      
      $(".slide-in-right").each(function() {
 
@@ -280,13 +280,11 @@ $(".fade-in-up").each(function() {
 		.addTo(controller);
 }); 
      
-     
-//     .staggerFrom(".navbar-brand, .nav-item", 0.3, {autoAlpha:0, y:-10, rotation:-20}, 0.1)
-
+//slide in from right
      
      $(".slide-in-left").each(function() {
 
- 	var slideInLeft = TweenMax.staggerFrom(this, 1, {
+ 	var slideInLeft = TweenMax.from(this, 1, {
 	        autoAlpha: 0,
             x:1000,
 	        delay: 0,
@@ -324,6 +322,7 @@ $(".fade-in-up").each(function() {
 		.setTween(fadeLeft)
 		.addTo(controller);
 }); 
+    
     
     
 // Single tween item fade in and slide up... scene 2 (works)

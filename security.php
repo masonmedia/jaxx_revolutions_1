@@ -10,7 +10,7 @@ include 'includes/header.php';
 
         <!--jumbotron-->
         <div id="security-banner" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center bg-img-banner-security text-white min-70 p-5 mb-0 content-tween">
-            <img class="img jaxx-shield mt-5 rellax" style="top:0px; width: 500px; filter: greyscale(80%);" src="/img/jaxx-shield-3.png" alt="Jaxx Liberty Security">
+            <img class="img jaxx-shield mt-5 rellax" style="top:0px; width: 500px;" src="/img/Sheild_Orange_Straight_Light_Blue.png" alt="Jaxx Liberty Security">
             <!--<h1 class="site-title relative z-1 pb-2">Your Security is Our Mission.</h1>-->
             <h1 class="site-title relative z-1 x-bold m-0 mb-1">
                 <span class="d-inline-block">Your</span>

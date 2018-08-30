@@ -44,7 +44,8 @@ else {
 <meta name="twitter:image" content="">
 
 <!--google fonts-->
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700,900" rel="stylesheet">
+<!--<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700,900" rel="stylesheet">-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700,900|Oswald:300,500,700" rel="stylesheet">
 
 <!--styles-->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
