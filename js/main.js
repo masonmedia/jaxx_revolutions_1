@@ -123,9 +123,12 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
 //fade out Jaxx Logo
 .to("#home .jaxx-logo", 0.5, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut})
     
-//fade in tag line
+//fade in site tag line
 .from("#home .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5")
  
+// stagger in site tag line individual words
+//.staggerFrom("#home .banner-span", 0.5, {y:-100, rotation: -10, autoAlpha:0, ease: SlowMo.easeInOut}, 0.3, "-=0.5")
+
  //fade out liberty to make overlay text legible
 //tl.to("#banner .site-title-3", 1, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
     
@@ -181,13 +184,13 @@ var tl3 = new TimelineLite();
       
 //fade in
 
-$(".fade-in").each(function() {
+$(".fade-in-slow").each(function() {
 
- 	var fadeIn = TweenMax.from(this, 1, {
+ 	var fadeIn = TweenMax.from(this, 3, {
 	        autoAlpha: 0,
 	        delay: 0,
 	        ease: Power2.easeOut
-	    }, .1);
+	    }, .5);
 
 	var scene0 = new ScrollMagic.Scene({
 	        triggerElement: this,

@@ -418,8 +418,8 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
 .bg-orange {
     background: #ff6902 !important;
 }
-.bg-orange-opaq {
-    background: rgba(255, 105, 2, 0.4);
+.bg-orange-op {
+    background: rgba(255, 105, 2, 0.5);
 }
 .bg-navy {
     background: rgb(38, 65, 118);
@@ -613,6 +613,10 @@ video {
 /* page/section images */
 
 /* home page ======================*/
+
+#home .jumbotron {
+    font-family: 'Montserrat', Oswald, Avenir, Helvetica, sans-serif;
+}
 
 /* banner jaxx logo svg fill animation */
 

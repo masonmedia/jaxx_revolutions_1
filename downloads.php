@@ -38,11 +38,12 @@ include 'includes/header.php';
                     <h2 class="section-title x-bold p-3 bg-navy orange skew shadow-lg content-stagger-up">Download for Desktop</h2>
                     <p class="border-top border-bottom py-4 content-stagger-up"><span class="orange font-weight-bold">Jaxx Liberty</span> will soon be available on desktop for Mac, Windows, and Linux operating systems.</p>
                     <!--nest row-->
+<!--
                     <div class="row px-3">
                         <div class="col-xs-4 mr-2">
-                            <!-- Button trigger modal -->
+                             Button trigger modal 
                             <button type="button" class="btn btn-lg btn-orange my-2" data-toggle="modal" data-target="#downloadMac">Mac OSX</button>
-                            <!-- Modal -->
+                             Modal 
                             <div class="modal animated fade" id="downloadMac" tabindex="-1" role="dialog" aria-labelledby="downloadMac" aria-hidden="true">
                               <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                                 <div class="modal-content">
@@ -57,27 +58,27 @@ include 'includes/header.php';
                                       <p class="border-top pt-3">The checksum below is a simple way for you to double-check the copy of Jaxx you are installing is genuine. You can match the checksum in your instance of Jaxx with the data below.</p>
                                       <h4 class="font-weight-bold">Jaxx requires OS X 10.9 (or later)</h4>
                                       <p class="border-top pt-3">Note: Depending on your system settings, the system might warn you that "Jaxx can't be opened because it comes from an unidentified developer." You can either change your system settings to allow apps from unknown developers in your "Security & Privacy" settings, or simply right click Jaxx -> Open (as administrator), which will prompt you with a warning.</p>
-									  <!--mac checksum-->
+									  mac checksum
                                       <h4 class="font-weight-bold">$ sha1sum LibertyBeta-2.0.7.dmg</h4>
                                       <p class="word-break border-top pt-3">7df6eecd26c5992b969550b33faa88ed4080e798</p>
                                   </div>
                                   <div class="modal-footer">
                                     <button type="button" class="btn btn-outline-orange" data-dismiss="modal">Close</button>
-                                    <!--mac desktop download-->
+                                    mac desktop download
                                     <a type="button" onclick="googleAnalyticsTrigger('OS X - Beta', 'Table')" href="https://download-liberty.jaxx.io/LibertyBeta-2.0.7.dmg">
                                         <button class="btn btn-orange">Download</button>
                                     </a>
                                   </div>
                                 </div>
                               </div>
-                            </div><!--end mac modal-->
-                    </div><!--end nest col-->
+                            </div>end mac modal
+                    </div>end nest col
                     
-                    <!--windows desktop-->
+                    windows desktop
                     <div class="col-xs-4 mr-2">
-                        <!-- Button trigger windowns modal -->
+                         Button trigger windowns modal 
                         <button type="button" class="btn btn-lg btn-orange my-2" data-toggle="modal" data-target="#downloadWindows">Windows</button>
-                        <!-- Modal -->
+                         Modal 
                         <div class="modal animated fade" id="downloadWindows" tabindex="-1" role="dialog" aria-labelledby="downloadWindows" aria-hidden="true">
                           <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                             <div class="modal-content">
@@ -91,7 +92,7 @@ include 'includes/header.php';
                                   <h4 class="font-weight-bold">Checksums</h4>
                                   <p class="border-top pt-3">The checksum below is a simple way for you to double-check the copy of Jaxx you are installing is genuine. You can match the checksum in your instance of Jaxx with the data below.</p>
                                   <h4 class="font-weight-bold">Jaxx requires Windows 7 (or later)</h4>
-                                  <!--windows checksum-->
+                                  windows checksum
                                   <h4 class="font-weight-bold">$ sha1sum LibertyBeta-setup-2.0.7.exe (edited)</h4>
                                   <p class="word-break border-top pt-3">907699130bbb64d5137d21a9a27f83ee66c91adb</p>
                               </div>
@@ -103,14 +104,14 @@ include 'includes/header.php';
                               </div>
                             </div>
                           </div>
-                        </div><!--end windows modal-->
-                    </div><!--end nest col-->
+                        </div>end windows modal
+                    </div>end nest col
                  
-                    <!--linux desktop-->
+                    linux desktop
                     <div class="col-xs-4 mr-3">
-                        <!-- Button trigger linux modal -->
+                         Button trigger linux modal 
                         <button type="button" class="btn btn-lg btn-orange my-2" data-toggle="modal" data-target="#downloadLinux">Linux</button>
-                        <!-- Modal -->
+                         Modal 
                         <div class="modal animated fade" id="downloadLinux" tabindex="-1" role="dialog" aria-labelledby="downloadWindows" aria-hidden="true">
                           <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                             <div class="modal-content">
@@ -124,7 +125,7 @@ include 'includes/header.php';
                                   <h4 class="font-weight-bold">Checksums</h4>
                                   <p class="border-top pt-3">The checksum below is a simple way for you to double-check the copy of Jaxx you are installing is genuine. You can match the checksum in your instance of Jaxx with the data below.</p>
                                   <h4 class="font-weight-bold">Jaxx requires Windows 7 (or later)</h4>
-                                  <!--windows checksum-->
+                                  windows checksum
                                   <h4 class="font-weight-bold">$ sha1sum LibertyBeta-setup-2.0.7.exe (edited)</h4>
                                   <p class="word-break border-top pt-3">907699130bbb64d5137d21a9a27f83ee66c91adb</p>            
                               </div>
@@ -136,8 +137,9 @@ include 'includes/header.php';
                               </div>
                             </div>
                           </div>
-                        </div><!--end linux modal-->
-                    </div><!--end nest cols-->
+                        </div>end linux modal
+                    </div>end button group nest cols
+-->
                 </div><!--end nest row-->
             </div><!--end col-->
             </div><!--end row-->
