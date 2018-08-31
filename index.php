@@ -95,11 +95,11 @@ include 'includes/home-header.php';
             <div class="orange-bg bg-orange min-100 w-100 h-100 absolute z-0"></div>
 <!--            <h1 class="site-title relative z-2 pb-2">A Digital Wallet for Everyone</h1>-->
             <h1 class="site-title relative z-2 pb-2">
-                <span class="banner-span d-inline-block rellax">A</span>
+                <span class="banner-span d-inline-block rellax" data-rellax-speed="-1">A</span>
                 <span class="banner-span d-inline-block rellax" data-rellax-speed="-1">Digital</span>
-                <span class="banner-span d-inline-block rellax" data-rellax-speed="0">Wallet</span>
-                <span class="banner-span d-inline-block rellax" data-rellax-speed="0">for</span>
-                <span class="banner-span d-inline-block rellax" data-rellax-speed="1">Everyone.</span>
+                <span class="banner-span d-inline-block rellax" data-rellax-speed="-1">Wallet</span>
+                <span class="banner-span d-inline-block rellax" data-rellax-speed="-1">for</span>
+                <span class="banner-span d-inline-block rellax" data-rellax-speed="0">Everyone.</span>
             </h1>
             <h3 class="site-sub-title relative z-2 pb-3"><span class="sub-tagline-1">No registration.</span> <span class="sub-tagline-2">Use on any device.</span> <span class="sub-tagline-3">Download for free.</span></h3>
             <!--jaxx heart logo-->
@@ -283,8 +283,11 @@ include 'includes/home-header.php';
             
             <!--row 4 Testimonials carousel-->
             
-            <div id="socialProof" class="row d-flex content-tween">
-               <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left bg-img-park min-100 slide-in-right">
+            <div id="socialProof" class="row d-flex bg-light content-tween">
+               <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left min-100">
+                    <!--orange bg angle div-->
+                    <div class="bg-turq img-full w-75 min-50 absolute z-0 shadow-lg fade-in-slow rellax" data-rellax-speed="2"></div>
+                    <img class="img absolute z-0 shadow-lg slide-in-right" src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80" alt="Jaxx Liberty Testimonials" data-rellax-speed="1">
                     <h2 class="section-title bg-white-op font-weight-bold p-3 rellax" data-rellax-speed="-2">
                         <span class="content-stagger-up">What</span>
                         <span class="content-stagger-up">blockchain</span>
