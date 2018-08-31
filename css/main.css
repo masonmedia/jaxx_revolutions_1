@@ -298,6 +298,10 @@ footer a:hover {
 .skew-l {
     transform: skew(0,4.7deg);
 }
+.bg-yellow {
+    background-color: yellow;
+    height: 50px;
+}
 
 /* position */
 
@@ -1143,10 +1147,12 @@ footer p {
     div[class*="bg-img"] {
         min-height: 50vh;
     }
-    /*  make all 100vh divs 70vh */
+/*
+      make all 100vh divs 70vh 
     div[class*="min-100"] {
         min-height: 70vh;
     }
+*/
     /*  make all bg images scroll */
     div[class*="bg-img"] {
         background-attachment: scroll;

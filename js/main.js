@@ -343,10 +343,10 @@ $(".fade-in-up").each(function() {
 		.setTween(fadeLeft)
 		.addTo(controller);
 }); 
+     
+  
     
-    
-    
-// Single tween item fade in and slide up... scene 2 (works)
+// stagger + content tweens
 
 $(".single-tween-item").each(function() {
 
