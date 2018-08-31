@@ -93,7 +93,7 @@ include 'includes/home-header.php';
             </svg>
             <img class="jaxx-icon jaxx-logo-text relative z-2 mb-4 rellax" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Heart">
             <div class="orange-bg bg-orange min-100 w-100 h-100 absolute z-0"></div>
-<!--            <h1 class="site-title relative z-2 pb-2">A Digital Wallet for Everyone</h1>-->
+            <!--<h1 class="site-title relative z-2 pb-2">A Digital Wallet for Everyone</h1>-->
             <h1 class="site-title relative z-2 pb-2">
                 <span class="banner-span d-inline-block rellax" data-rellax-speed="-1">A</span>
                 <span class="banner-span d-inline-block rellax" data-rellax-speed="-1">Digital</span>
@@ -102,20 +102,10 @@ include 'includes/home-header.php';
                 <span class="banner-span d-inline-block rellax" data-rellax-speed="0">Everyone.</span>
             </h1>
             <h3 class="site-sub-title relative z-2 pb-3"><span class="sub-tagline-1">No registration.</span> <span class="sub-tagline-2">Use on any device.</span> <span class="sub-tagline-3">Download for free.</span></h3>
-            <!--jaxx heart logo-->
-            <svg id="jaxx_heart_banner" class="jaxx-heart-logo absolute z-0" role="img" aria-labelledby="Jaxx Liberty Heart Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 396 319.1">
-                <defs><style>.cls-1{fill:none;stroke: #ff6902;stroke-width: 1;stroke-miterlimit: 10;}.cls-2{fill:none;stroke:#264176;stroke-width: 1;stroke-miterlimit: 10;}</style>
-                </defs>
-              <title>Jaxx Heart Icon</title>
-              <g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1" class="lines">
-               <path class="cls-1" data-start="20" data-duration="10" d="M33.78,22.27C-6.12,56.17-11.43,116.55,21.9,157.13L125.77,283.56a93,93,0,0,0,132.59,12.08c39.89-33.9,45.21-94.28,11.88-134.85L166.36,34.35A93,93,0,0,0,33.78,22.27Z"/>
-               <path class="cls-2" data-start="40" data-duration="10" d="M271.11,282.5h0a97,97,0,0,0-.88-121.72L198,72.87l31.63-38.5A93,93,0,0,1,362.22,22.28c39.89,33.9,45.21,94.28,11.88,134.85Z"/>
-               <path class="cls-2" data-start="20" data-duration="10" d="M303.49,319.1h-3.18V299.86h-7.16v-3h17.51v3h-7.16Zm23.59-5h-.43L318.76,302V319.1h-3.18V296.82H319l8,12.23,7.89-12.23h3.33V319.1H335V302Z"/></g></g>
-            </svg>
             <!--download button: start your journey-->
             <div>
                 <a href="/downloads.php" class="animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">
-                    <button class="banner-button btn btn-lg btn-orange relative z-1">Start Your Journey</button>
+                    <button role="button" class="banner-button btn btn-lg btn-orange relative z-1">Start Your Journey</button>
                 </a>
             </div>
             <!--chevron down "more"-->
@@ -123,18 +113,6 @@ include 'includes/home-header.php';
             <!--fade in bg image-->
             <div class="banner-img img-full bg-fs-img-banner-2 min-100 absolute z-0"></div>
         </div>
-       
-       <!--jumbotron trois jump-->
-<!--
-        <div id="banner" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white bg-img-banner-home-3 min-100 p-5 m-0">
-            <img class="jaxx-logo-jumbo relative z-2" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="Jaxx Liberty">
-            <h1 class="site-title relative z-2 pb-2">A Digital Wallet for Everyone.</h1>
-            <h3 class="site-sub-title relative z-2 pb-3">No registration required. Use on any device. Download for free.</h3>
-            <h4 class="site-title-2 knockout-3 absolute z-0">JAXX</h4>
-            <h5 class="site-title-3 knockout-3 absolute z-0">liberty</h5>
-            <button class="btn btn-lg btn-orange z-0">Start Your Journey</button>
-        </div>
--->
         
         <!--container-->
         <div class="container-fluid p-0">
@@ -144,7 +122,8 @@ include 'includes/home-header.php';
             <div id="features" class="row d-flex bg-light relative z-1 content-tween">
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5 rellax" data-rellax-speed="-2">
                     <!--bg text heading-->
-                   <div class="page-title display-1 absolute z-0 text-op rellax" data-rellax-speed="1">Jaxx Liberty is Here.</div>
+                   <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">Jaxx Liberty is Here.</div>
+                   <!--section title-->
                     <h2 class="section-title font-weight-bold m-0 rellax">
                         <span class="content-stagger-up">J</span><span class="content-stagger-up">a</span><span class="content-stagger-up">x</span><span class="content-stagger-up">x</span>
                         <span class="content-stagger-up">L</span><span class="content-stagger-up">i</span><span class="content-stagger-up">b</span><span class="content-stagger-up">e</span><span class="content-stagger-up">r</span><span class="content-stagger-up">t</span><span class="content-stagger-up">y</span>
@@ -157,24 +136,24 @@ include 'includes/home-header.php';
                         <button href="/features.php" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="800">Learn More</button>
                     </div>
                 </div><!--end col-->
-                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center min-100 p-5 o-12">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center min-100 p-5 o-12">
+                    <!--navy bg div-->
                     <div class="bg-navy angle-rtl img-full w-75 min-50 absolute z-0 shadow-lg fade-in-slow rellax" data-rellax-speed="3"></div>
                     <img class="img absolute right-0 z-0 shadow-lg slide-in-right" src="/img/jaxx-app-homescreen.jpg" alt="Jaxx Liberty is Here">
                </div>
-            <!--bg-img-app-homepage-->
             </div><!--end row-->
 
             <!--row 3 Use on any device + Download-->
             
             <div id="download" class="row d-flex bg-white relative bg-img-downloads content-tween p-0">
                 <div class="col-lg-8 d-flex justify-content-center align-items-center min-100 p-5 o-12 rellax" data-rellax-speed="-2">
-                    <!--<img class="img content-tween-up" src="/img/jaxx-multi-platform.png" alt="Use Jaxx Liberty on any Device">-->
                     <!--orange bg angle div-->
                     <div class="bg-orange parallelo img-full w-75 min-50 absolute z-0 shadow-lg fade-in-slow rellax"></div>
+                    <!--android img-->
                     <img class="jaxx-3-screens slide-in-left" src="/img/jaxx-3phone-light-orange.png" alt="Use Jaxx Liberty on any Device">
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start min-100 px-5 pt-5 pb-0 rellax" data-rellax-speed="2">
-                    <div class="page-title display-1 absolute z-0 text-op rellax" data-rellax-speed="1">Use on multiple devices.</div>
+                    <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">Use on multiple devices.</div>
                     <h2 class="section-title font-weight-bold m-0 rellax">
                         <span class="content-stagger-up">U</span><span class="content-stagger-up m-0">s</span><span class="content-stagger-up">e</span> 
                         <span class="content-stagger-up">o</span><span class="content-stagger-up">n</span>
@@ -261,7 +240,7 @@ include 'includes/home-header.php';
             
             <div class="row bg-light content-tween">
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 px-5 pt-5 pb-0 rellax">
-                   <div class="page-title display-1 absolute z-0 text-op rellax" data-rellax-speed="1">You're in charge of your keys.</div>
+                   <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">You're in charge of your keys.</div>
                     <h2 class="section-title font-weight-bold relative z-1 m-0 rellax">
                         <span class="content-stagger-up">You're</span>
                         <span class="content-stagger-up">in</span>
@@ -301,7 +280,8 @@ include 'includes/home-header.php';
                 </div><!--end col-->
                 <!--carousel col-->
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center text-center min-100 bg-white bg-dots p-5 slide-in-left">
-                   <div class="page-title display-1 absolute z-0 text-op rellax" data-rellax-speed="1">What blockchain leaders are saying about Jaxx Liberty.</div>
+                    <!--bg section-title -->
+                   <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">What blockchain leaders are saying about Jaxx Liberty.</div>
                     <!--carousel-->
                     <div id="testimonials" class="carousel slide carousel-fade" data-ride="carousel">
                       <div class="carousel-inner">
@@ -344,7 +324,8 @@ include 'includes/home-header.php';
             
             <div id="community" class="row d-flex bg-light content-tween"> 
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
-                    <div class="page-title display-1 absolute z-0 text-op rellax" data-rellax-speed="1">Our Commun<span class="d-table">ity.</span></div>
+                    <!--bg section-title text-->
+                    <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">Our Commun<span class="d-table">ity.</span></div>
                     <h2 class="section-title font-weight-bold m-0 rellax">
                         <span class="content-stagger-up">O</span><span class="content-stagger-up">u</span><span class="content-stagger-up">r</span>
                         <span class="content-stagger-up">C</span><span class="content-stagger-up">o</span><span class="content-stagger-up">m</span><span class="content-stagger-up">m</span><span class="content-stagger-up">u</span><span class="content-stagger-up">n</span><span class="content-stagger-up">i</span><span class="content-stagger-up">t</span><span class="content-stagger-up">y.</span>

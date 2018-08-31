@@ -199,7 +199,25 @@ $(".fade-in-slow").each(function() {
 	    })
 		.setTween(fadeIn)
 		.addTo(controller);
-});     
+}); 
+     
+$(".fade-out").each(function() {
+
+ 	var fadeOut = TweenMax.to(this, 1, {
+	        autoAlpha: 0,
+	        delay: 0,
+	        ease: Power2.easeOut
+	    }, .5);
+
+	var scene0 = new ScrollMagic.Scene({
+	        triggerElement: this,
+	        triggerHook: 'onLeave',
+	        offset: -100,
+	        reverse:true
+	    })
+		.setTween(fadeOut)
+		.addTo(controller);
+}); 
      
 //fade + enter left - scene 1
 

@@ -20,17 +20,6 @@ new Vivus('jaxx-multi-device', {
           function (obj) {
           obj.el.classList.add('finished');
         });
-     
-        
-//new Vivus('jaxx_heart_banner', {
-//        start: 'autostart',
-//        type: 'async',
-//        duration: 100,
-//        animTimingFunction: Vivus.EASE_IN
-//        },
-//          function (obj) {
-//          obj.el.classList.add('finished');
-//        });
 
 //downloads page banner animation
      
