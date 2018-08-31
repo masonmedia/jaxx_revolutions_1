@@ -152,7 +152,11 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
 .from("#home .banner-button", 0.5, {autoAlpha:0, ease: SlowMo.easeIn}, "-=0.25")
   
 //fade in arrow down
-.from("#home .icon", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25");
+.from("#home .icon", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25")
+     
+     //fade in bg image
+.to("#home .banner-img", 10, {scale:10, ease: Power1.easeIn}, "-=0.5"); 
+ 
          
      
 //page banner animation timeline
@@ -415,6 +419,10 @@ $(".content-tween").each(function() {
 });
       
     
+     
+//     filterizr 
+
+     
      
 // button explode 
 // https://codepen.io/ethanryan/pen/GjLdyJ

@@ -6,7 +6,6 @@ include 'includes/home-header.php';
 
 ?>   
     <main role="main">
-
         <!--jumbotron home timeline animation-->
         <div role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white fs p-5 m-0 content-tween rellax">
             <!--fade in navy bg div intro-->
@@ -240,11 +239,11 @@ include 'includes/home-header.php';
             
             <div class="row bg-light content-tween">
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 px-5 pt-5 pb-0 rellax">
-                   <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">You're in charge of your keys.</div>
+                   <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">You're in control of your keys.</div>
                     <h2 class="section-title font-weight-bold relative z-1 m-0 rellax">
                         <span class="content-stagger-up">You're</span>
                         <span class="content-stagger-up">in</span>
-                        <span class="content-stagger-up">charge</span>
+                        <span class="content-stagger-up">control</span>
                         <span class="content-stagger-up">of</span>
                         <span class="content-stagger-up">your</span>
                         <span class="content-stagger-up">Keys.</span>
@@ -339,7 +338,7 @@ include 'includes/home-header.php';
                 
                 <!--logos col-->
                 <div class="col-lg-7 d-flex justify-content-center align-items-center bg-img-partners min-100 p-5">
-                   <div class="container-fluid bg-white-op bg-dots rounded p-4 rellax" data-rellax-speed="-2">
+                   <div class="container-fluid bg-turq-angle bg-dots rounded p-4 rellax" data-rellax-speed="-2">
                        <div class="row d-flex p-3">
                           <div class="col-sm-4 d-flex justify-content-center align-items-center my-2 content-stagger-up">
                                 <img class="partner-logo" src="/img/partner-logos/partners-bitcoin.png" alt="Jaxx Liberty Partner Bitcoin">

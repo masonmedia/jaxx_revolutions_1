@@ -71,6 +71,8 @@
 <script src="/js/animsition.min.js"></script>
 <!--vivus js-->
 <script src="/js/vivus.min.js"></script>
+<!--shuffle js-->
+<script src="/js/shuffle.min.js"></script>
 <!--bootstrap-->
 <script src="/js/bootstrap.bundle.min.js"></script>
 <script src="/js/plugins.js"></script>

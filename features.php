@@ -32,7 +32,7 @@ include 'includes/features-header.php';
       <!--slide 2-->
       <div class="swiper-slide d-flex flex-column justify-content-end align-items-start bg-slide-1 p-5">
         <div class="text">
-            <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-hub-white.png" alt="Jaxx Liberty Unified Dashboard">
+            <img class="jaxx-logo-text text-white mb-2 content-stagger-up" src="/img/icons/jaxx-svg-icons/svg/001-wallet-1.svg" alt="Jaxx Liberty Unified Dashboard">
             <h2 class="section-sub-title x-bold content-stagger-up" data-swiper-parallax="-300">Unified Dashboard</h2>
             <p class="border-top pt-2 content-stagger-up" data-swiper-parallax="-200">Enjoy a unified view of your cryptocurrencies in a simple, streamlined, easy-to-use visual design.</p>
         </div>

@@ -16,26 +16,33 @@ include 'includes/home-header.php';
         </div>
         
         <!--main container-->
-        <div id="features-list" class="container-fluid p-0">
+        <div id="features-list" class="container-fluid bg-white bg-img-multidevice-outline p-0">
         
-<!--           bg-img-dashboard-->
             <!--row 1-->
-            <div id="row1" class="row d-flex bg-img-androids content-tween">
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-50 p-5-sm rellax">
-                <div class="wrap d-flex flex-column justify-content-center align-items-start bg-white bg-dots px-5 py-4  content-stagger-up rellax">
+            <div id="row1" class="row d-flex content-tween">
+                <!--bg section-title -->
+                <div class="d-flex align-self-center text-warning page-title display-1 absolute z-0 text-op rellax" data-rellax-speed="1">Unified Dashboard.</div>
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-50 p-5-sm rellax">
+                    <div class="img-full angle-ltr w-75 bg-turq absolute z-0 shadow-lg fade-in-slow rellax" data-rellax-speed="2"></div>
+                    <div class="wrap bg-turq-angle shadow-lg relative z-1 py-4 px-5">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-dash.png" alt="Jaxx Liberty Unified Dashboard">
                         <h2 class="section-sub-title x-bold w-100 content-stagger-up">Unified Dashboard</h2>
                         <p class="content-stagger-up">A single interface to help you create, track and manage your digital assets.</p>
                     </div>
+                    </div>
+                <div class="col-lg-5 p-0">
+                    <img class="img-full absolute z-1" src="/img/jaxx-android-fisheye.png" alt="">
                 </div>
-                <div class="offset-lg-5"></div>
             </div>
 
            <!--row 2-->
-            <div id="row2" class="row d-flex bg-white bg-img-multidevice-outline content-tween rellax">
-                <div class="offset-lg-5"></div>
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end min-50 p-5-sm rellax" data-rellax-speed="-2">
-                   <div class="wrap d-flex flex-column justify-content-center align-items-end text-right bg-white bg-dots px-5 py-4 content-stagger-up">
+            <div id="row2" class="row d-flex content-tween rellax">
+                <div class="col-lg-5 d-flex justify-content-end align-items-center">
+                    <img class="img-full w-50 relative z-2 rellax" src="/img/jaxx-2phone-crop.png" alt="">
+                </div>
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-50 p-5-sm rellax" data-rellax-speed="-2">
+                   <div class="img-full w-75 absolute right-0 border border-primary bg-purple bg-img-downloads z-0 shadow-lg fade-in-slow rellax" data-rellax-speed="2"></div>
+                    <div class="wrap bg-turq-angle d-flex flex-column justify-content-center align-items-start text-left bg-white bg-dots px-5 py-4 content-stagger-up">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-module.png" alt="Jaxx Liberty Module Based Approach">
                         <h2 class="section-sub-title x-bold w-100 content-stagger-up">Module-Based Approach</h2>
                         <p class="content-stagger-up">Provides information that people need to navigate the cryptocurrency ecosystem, which is part of the new digital age of value.</p>
@@ -44,15 +51,18 @@ include 'includes/home-header.php';
             </div>
 
             <!--row 3-->
-            <div id="row3" class="row d-flex bg-img-hand-device-2 content-tween rellax">
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-50 p-5-sm rellax" data-rellax-speed="-2">
-                <div class="wrap d-flex flex-column justify-content-center align-items-start bg-white bg-dots px-5 py-4  content-stagger-up">
+<!--            bg-img-hand-device-2-->
+            <div id="row3" class="row d-flex content-tween rellax">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-50 p-5-sm rellax" data-rellax-speed="-2">
+                    <div class="wrap d-flex flex-column justify-content-center align-items-end bg-white bg-dots px-5 py-4  content-stagger-up">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-port.png" alt="Jaxx Liberty Portfolio">
                         <h2 class="section-sub-title x-bold w-100 content-stagger-up">Portfolio</h2>
                         <p class="content-stagger-up">A single interface to help you create, track and manage your digital assets.</p>
                     </div>
                 </div>
-                <div class="offset-lg-5"></div>
+                <div class="col-lg-5 p-0 rellax">
+                    <img class="img absolute z-1" src="/img/jaxx-tablet-crop.png" alt="">
+                </div>
             </div>
             
             <!--row 4-->

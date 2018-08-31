@@ -70,6 +70,8 @@
 <script src="/js/animsition.min.js"></script>
 <!--swiper js-->
 <script src="/js/swiper.min.js"></script>
+<!--vivus js-->
+<script src="/js/vivus.min.js"></script>
 <!--bootstrap-->
 <script src="/js/bootstrap.bundle.min.js"></script>
 <script src="/js/plugins.js"></script>

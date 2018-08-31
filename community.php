@@ -74,34 +74,39 @@ include 'includes/header.php';
                        <div class="border-wrap border border-dark d-flex flex-column justify-content-center align-items-center p-4">                  
                             <h2 class="section-title x-bold w-100 orange bg-navy shadow-lg px-3 py-4 mb-4 skew content-stagger-up">Integrations and Network</h2>
                             <p class="border-top border-dark pt-4 pb-5 m-0 content-stagger-up">Our office hours are 9am to 5pm EST. You can reach our customer support team 24 hours a day.</p>
+                            
+<!--                            filterizr demo-->
+                    
+                            
+                            
                             <!--nest container-->
-                            <div class="container-fluid bg-dots rounded p-4 rellax">
+                            <div class="filtr-container container-fluid bg-dots rounded p-4 rellax">
                                <div class="row d-flex">
-                                   <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
+                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
                                         <img class="partner-logo" src="/img/partner-logos/partners-rootstock.png" alt="Jaxx Liberty Partner RSK">
                                    </div>
-                                   <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
+                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
                                        <img class="partner-logo" src="/img/partner-logos/partners-shapeshift.png" alt="Jaxx Liberty Partner Shapeshift">
                                    </div>
-                                   <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
+                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
                                        <img class="partner-logo" src="/img/partner-logos/partners-ledger.png" alt="Jaxx Liberty Partner Ledger">
                                    </div>
-                                   <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
+                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
                                        <img class="partner-logo" src="/img/partner-logos/partners-changelly.png" alt="Jaxx Liberty Partner Changelly">
                                    </div>
-                                   <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
+                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
                                        <img class="partner-logo" src="/img/partner-logos/partners-bittrex.png" alt="Jaxx Liberty Partner Bittrex">
                                    </div>
-                                   <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
+                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
                                        <img class="partner-logo" src="/img/partner-logos/partners-coinbase.png" alt="Jaxx Liberty Partner Coinbase">
                                    </div>
-                                   <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
+                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
                                        <img class="partner-logo partner-logo-sm" src="/img/partner-logos/partners-kraken-trans.png" alt="Jaxx Liberty Partner Kraken">
                                    </div>
-                                   <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
+                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
                                        <img class="partner-logo" src="/img/partner-logos/partners-trezor.png" alt="Jaxx Liberty Partner Trezor">
                                    </div>
-                                   <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
+                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
                                        <img class="partner-logo big-logo" src="/img/partner-logos/partners-atari.png" alt="Jaxx Liberty Partner Atari">
                                    </div>
                                    <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
@@ -115,6 +120,10 @@ include 'includes/header.php';
                                    </div>
                                </div><!--end row-->
                                </div><!--end nest container-->
+                               
+                               
+                               
+                               
                             
                             <div class="pt-5 content-stagger-up">
                                 <p class="pt-3 border-top">Get more information about the Jaxx Liberty community at Decentral.ca</p>
