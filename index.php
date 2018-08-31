@@ -95,11 +95,11 @@ include 'includes/home-header.php';
             <div class="orange-bg bg-orange min-100 w-100 h-100 absolute z-0"></div>
 <!--            <h1 class="site-title relative z-2 pb-2">A Digital Wallet for Everyone</h1>-->
             <h1 class="site-title relative z-2 pb-2">
-                <span class="banner-span">A</span>
-                <span class="banner-span">Digital</span>
-                <span class="banner-span">Wallet</span>
-                <span class="banner-span">for</span>
-                <span class="banner-span">Everyone.</span>
+                <span class="banner-span d-inline-block rellax">A</span>
+                <span class="banner-span d-inline-block rellax" data-rellax-speed="-1">Digital</span>
+                <span class="banner-span d-inline-block rellax" data-rellax-speed="0">Wallet</span>
+                <span class="banner-span d-inline-block rellax" data-rellax-speed="0">for</span>
+                <span class="banner-span d-inline-block rellax" data-rellax-speed="1">Everyone.</span>
             </h1>
             <h3 class="site-sub-title relative z-2 pb-3"><span class="sub-tagline-1">No registration.</span> <span class="sub-tagline-2">Use on any device.</span> <span class="sub-tagline-3">Download for free.</span></h3>
             <!--jaxx heart logo-->
@@ -143,7 +143,9 @@ include 'includes/home-header.php';
             
             <div id="features" class="row d-flex bg-light relative z-1 content-tween">
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5 rellax" data-rellax-speed="-2">
-                    <h2 class="section-title font-weight-bold m-0">
+                    <!--bg text heading-->
+                   <div class="page-title display-1 absolute z-0 text-op rellax" data-rellax-speed="1">Jaxx Liberty is Here.</div>
+                    <h2 class="section-title font-weight-bold m-0 rellax">
                         <span class="content-stagger-up">J</span><span class="content-stagger-up">a</span><span class="content-stagger-up">x</span><span class="content-stagger-up">x</span>
                         <span class="content-stagger-up">L</span><span class="content-stagger-up">i</span><span class="content-stagger-up">b</span><span class="content-stagger-up">e</span><span class="content-stagger-up">r</span><span class="content-stagger-up">t</span><span class="content-stagger-up">y</span>
                         <span class="content-stagger-up">i</span><span class="content-stagger-up">s</span>
@@ -164,14 +166,16 @@ include 'includes/home-header.php';
 
             <!--row 3 Use on any device + Download-->
             
-            <div id="download" class="row d-flex bg-white relative z-1 bg-img-downloads content-tween p-0">
+            <div id="download" class="row d-flex bg-white relative bg-img-downloads content-tween p-0">
                 <div class="col-lg-8 d-flex justify-content-center align-items-center min-100 p-5 o-12 rellax" data-rellax-speed="-2">
                     <!--<img class="img content-tween-up" src="/img/jaxx-multi-platform.png" alt="Use Jaxx Liberty on any Device">-->
+                    <!--orange bg angle div-->
                     <div class="bg-orange parallelo img-full w-75 min-50 absolute z-0 shadow-lg fade-in-slow rellax"></div>
                     <img class="jaxx-3-screens slide-in-left" src="/img/jaxx-3phone-light-orange.png" alt="Use Jaxx Liberty on any Device">
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start min-100 px-5 pt-5 pb-0 rellax" data-rellax-speed="2">
-                    <h2 class="section-title font-weight-bold m-0">
+                    <div class="page-title display-1 absolute z-0 text-op rellax" data-rellax-speed="1">Use on multiple devices.</div>
+                    <h2 class="section-title font-weight-bold m-0 rellax">
                         <span class="content-stagger-up">U</span><span class="content-stagger-up m-0">s</span><span class="content-stagger-up">e</span> 
                         <span class="content-stagger-up">o</span><span class="content-stagger-up">n</span>
                         <span class="content-stagger-up">M</span><span class="content-stagger-up">u</span><span class="content-stagger-up">l</span><span class="content-stagger-up">t</span><span class="content-stagger-up">i</span><span class="content-stagger-up">p</span><span class="content-stagger-up">l</span><span class="content-stagger-up">e</span>  
@@ -257,7 +261,8 @@ include 'includes/home-header.php';
             
             <div class="row bg-light content-tween">
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 px-5 pt-5 pb-0 rellax">
-                    <h2 class="section-title font-weight-bold m-0">
+                   <div class="page-title display-1 absolute z-0 text-op rellax" data-rellax-speed="1">You're in charge of your keys.</div>
+                    <h2 class="section-title font-weight-bold relative z-1 m-0 rellax">
                         <span class="content-stagger-up">You're</span>
                         <span class="content-stagger-up">in</span>
                         <span class="content-stagger-up">charge</span>
@@ -279,8 +284,8 @@ include 'includes/home-header.php';
             <!--row 4 Testimonials carousel-->
             
             <div id="socialProof" class="row d-flex content-tween">
-               <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left bg-img-park min-50 slide-in-right">
-                    <h2 class="section-title bg-white-op font-weight-bold p-3">
+               <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left bg-img-park min-100 slide-in-right">
+                    <h2 class="section-title bg-white-op font-weight-bold p-3 rellax" data-rellax-speed="-2">
                         <span class="content-stagger-up">What</span>
                         <span class="content-stagger-up">blockchain</span>
                         <span class="content-stagger-up">leaders</span>
@@ -293,6 +298,7 @@ include 'includes/home-header.php';
                 </div><!--end col-->
                 <!--carousel col-->
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center text-center min-100 bg-white bg-dots p-5 slide-in-left">
+                   <div class="page-title display-1 absolute z-0 text-op rellax" data-rellax-speed="1">What blockchain leaders are saying about Jaxx Liberty.</div>
                     <!--carousel-->
                     <div id="testimonials" class="carousel slide carousel-fade" data-ride="carousel">
                       <div class="carousel-inner">
@@ -334,35 +340,34 @@ include 'includes/home-header.php';
             <!--row 6 community-->
             
             <div id="community" class="row d-flex bg-light content-tween"> 
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left p-5">
-                    <div class="wrap rellax" data-rellax-speed="-1">
-                        <h2 class="section-title font-weight-bold m-0">
-                            <span class="content-stagger-up">O</span><span class="content-stagger-up">u</span><span class="content-stagger-up">r</span>
-                            <span class="content-stagger-up">C</span><span class="content-stagger-up">o</span><span class="content-stagger-up">m</span><span class="content-stagger-up">m</span><span class="content-stagger-up">u</span><span class="content-stagger-up">n</span><span class="content-stagger-up">i</span><span class="content-stagger-up">t</span><span class="content-stagger-up">y.</span>
-                        </h2>
-                        <hr class="w-25 content-tween-left">
-                        <p class="pb-3 pt-2 content-tween-right"><span class="orange font-weight-bold">Jaxx</span> has close to a million active monthly users, millions of downloads, 70+ digital assets/cryptocurrencies, and over 200 partners.</p>
-                        <div class="content-stagger-up">
-                            <a href="/community.php" class="btn btn-lg btn-dark text-white animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Learn More</a>
-                        </div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
+                    <div class="page-title display-1 absolute z-0 text-op rellax" data-rellax-speed="1">Our Commun<span class="d-table">ity.</span></div>
+                    <h2 class="section-title font-weight-bold m-0 rellax">
+                        <span class="content-stagger-up">O</span><span class="content-stagger-up">u</span><span class="content-stagger-up">r</span>
+                        <span class="content-stagger-up">C</span><span class="content-stagger-up">o</span><span class="content-stagger-up">m</span><span class="content-stagger-up">m</span><span class="content-stagger-up">u</span><span class="content-stagger-up">n</span><span class="content-stagger-up">i</span><span class="content-stagger-up">t</span><span class="content-stagger-up">y.</span>
+                    </h2>
+                    <hr class="w-25 content-tween-left">
+                    <p class="pb-3 pt-2 content-tween-right"><span class="orange font-weight-bold">Jaxx</span> has close to a million active monthly users, millions of downloads, 70+ digital assets/cryptocurrencies, and over 200 partners.</p>
+                    <div class="content-stagger-up">
+                        <a href="/community.php" class="btn btn-lg btn-dark text-white animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Learn More</a>
                     </div>
                 </div><!--end col-->
                 
-<!--                logos col-->
-<!--
-               Bitcoin
-Ethereum
-Bitcoin Cash ----
-Litecoin
-Ethereum Classic
-Dash
-Dogecoin
-Digibyte
-Bitcore
-Zcash
-Shapeshift ----
-Changelly ----
--->
+                <!--                logos col-->
+                <!--
+                               Bitcoin
+                Ethereum
+                Bitcoin Cash ----
+                Litecoin
+                Ethereum Classic
+                Dash
+                Dogecoin
+                Digibyte
+                Bitcore
+                Zcash
+                Shapeshift ----
+                Changelly ----
+                -->
                 <div class="col-lg-7 d-flex justify-content-center align-items-center bg-img-partners min-100 p-5">
                    <div class="container-fluid bg-light bg-dots rounded p-4">
                        <div class="row d-flex">
@@ -410,7 +415,8 @@ Changelly ----
            <!-- row 7 download reminder CTA-->
            <div id="cta" class="row bg-orange text-white min-70 content-tween relative z-0">
                <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center text-center bg-download-gradient p-4 circle-left slide-in-right">
-                  <div class="wrap w-75">
+                 <div class="page-title display-1 absolute z-0 text-op rellax" data-rellax-speed="1">Take control of your digital life.</div>
+                  <div class="wrap w-75 rellax">
                        <img class="jaxx-logo-text content-stagger-up" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="Jaxx Liberty">
                        <h2 class="font-weight-bold pt-0 pb-3 content-stagger-up">Take control of your digital life.</h2>
                        <div class="content-stagger-up">

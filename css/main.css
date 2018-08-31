@@ -185,14 +185,19 @@ footer a:hover {
 
 .site-title {
 /*    font-size: 10vmin;*/
+    
+    font-family: Oswald, Montserrat;
     font-size: 5vw;
-    font-weight: 900;
+    font-size: 8vw;
+    font-weight: 300;
     line-height: 110%;
     margin-top: 10px;
     margin-bottom: 0;
+    text-transform: uppercase;
 }
 .site-sub-title,
 .page-sub-title {
+    font-family: Oswald, Montserrat;
     font-size: 4vmin;
 }
 .page-title {
@@ -268,6 +273,10 @@ footer a:hover {
 
 .opacity {
     opacity: 0.8;
+}
+.text-op {
+    color: rgba(0,0,0,0.03);
+    font-size: 10vw;
 }
 .cursive {
     font-family: 'Mr Dafoe', cursive;
@@ -1132,11 +1141,12 @@ footer p {
     .nav-link:hover {
         color: #ff6902;
     }
-     div[class*="bg-img"] {
+    div[class*="bg-img"] {
         min-height: 50vh;
     }
+    /*  make all 100vh divs 70vh */
     div[class*="min-100"] {
-        min-height: 50vh;
+        min-height: 70vh;
     }
     /*  make all bg images scroll */
     div[class*="bg-img"] {
@@ -1153,20 +1163,18 @@ footer p {
     .o-12 {
         order: 12;
     }
-    /*front page downloads img*/
+    /* front page downloads img*/
     .downloads-img {
         height: auto;
         left: 0;
         width: 100%;  
     }
-     /* download buttons */
-/*
+     /* download buttons reduce size */
     #download .btn-lg {
         font-size: 18px;
         padding: .375rem .75rem;
         padding: 5px 10px;
     }
-*/
     
 }
 @media (max-width: 768px) {
@@ -1200,10 +1208,16 @@ footer p {
     .swiper-slide .text {
         width: 100%;
     }
+    /*  make all 100vh divs 50vh */
+    div[class*="min-100"] {
+        min-height: 50vh;
+    }
 }
 
 @media (max-width: 600px) {
     /* nav */
+    #home nav,
+    #home .navbar,
     nav,
     .navbar {
         background-color: rgba(38, 65, 118) !important;
