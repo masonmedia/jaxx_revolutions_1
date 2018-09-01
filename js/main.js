@@ -154,15 +154,14 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
 //fade in arrow down
 .from("#home .icon", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25")
      
-     //fade in bg image
-.to("#home .banner-img", 10, {scale:10, ease: Power1.easeIn}, "-=0.5"); 
+//zoom in bg image
+.to("#home .banner-img", 30, {scale:1.3, y:100, ease: Sine.easeInOut}, "-=0.5");
+  
  
-         
-     
 //page banner animation timeline
      
 var tl2 = new TimelineLite();
-    tl2.staggerFrom(".navbar-brand, .nav-item, .navbar-toggler", 0.2, {y:-10, autoAlpha:0, rotation:-20}, 0.1)
+    tl2.staggerFrom("#banner .navbar-brand, .nav-item, .navbar-toggler", 0.2, {y:-10, autoAlpha:0, rotation:-20}, 0.1)
        .staggerFrom("#banner h1 span", 0.5, {autoAlpha:0, x:-500, rotation: -100, ease: SlowMo.easeIn}, 0.1)
        .from("#banner .jaxx-navbar-brand", 0.5, {autoAlpha:0, y: -20, ease: SlowMo.easeIn})
        .staggerFrom("#banner h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, 0.1)
@@ -345,6 +344,24 @@ $(".fade-in-up").each(function() {
 	        reverse:true
 	    })
 		.setTween(fadeLeft)
+		.addTo(controller);
+}); 
+     
+     
+     //  device rotation animations ==> features og page    
+     
+     
+     $(".rotate").each(function() {
+
+ 	var rotate = TweenMax.from(this, 2, {autoAlpha:0, rotattionY:15, rotationX:45, rotationZ:-45, ease: Sine.easeInOut});
+         
+	var scene = new ScrollMagic.Scene({
+	        triggerElement: this,
+	        triggerHook: 'onEnter',
+	        offset: 0,
+	        reverse:true
+	    })
+		.setTween(rotate)
 		.addTo(controller);
 }); 
      

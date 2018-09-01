@@ -305,10 +305,15 @@ footer a:hover {
 .skew-l {
     transform: skew(0,4.7deg);
 }
-.bg-yellow {
+/*curerntly unused*/
+.highlight {
     background-color: yellow;
     height: 50px;
 }
+.perspective {
+    perspective: 400px;
+}
+
 
 /* position */
 
@@ -480,7 +485,7 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
     background-attachment: fixed;
 }
 .bg-orange-angle {
-    background: linear-gradient(140deg, #fff 60%, #ff6902 60%);
+    background: linear-gradient(300deg, #fff 60%, #ff6902 60%);
 }
 .bg-turq-angle {
     background: linear-gradient(300deg, rgba(255,255,255,0.9) 60%, rgb(64, 224, 208) 60%);
