@@ -153,6 +153,7 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
   
 //fade in arrow down
 .from("#home .icon", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25")
+.to("#home .icon", 2, {y:-10, ease: SlowMo.easeInOut, repeat:-1})
      
 //zoom in bg image
 .to("#home .banner-img", 30, {scale:1.3, y:100, ease: Sine.easeInOut}, "-=0.5");

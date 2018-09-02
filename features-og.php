@@ -21,7 +21,7 @@ include 'includes/home-header.php';
             <!--row 1-->
             <div id="row1" class="row d-flex content-tween">
                 <!--bg section-title -->
-                <div class="d-flex align-self-center text-warning page-title display-1 absolute z-0 text-op rellax" data-rellax-speed="1">Unified Dashboard.</div>
+                <div class="d-flex align-self-center stroke-t page-title absolute z-0 right-0 rellax" data-rellax-speed="1">Unified Dashboard.</div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-50 p-5-sm rellax">
                     <div class="img-full angle-ltr w-75 bg-light-grey absolute z-0 left-0 shadow-lg fade-in-slow rellax" data-rellax-speed="2"></div>
                     <div class="wrap bg-turq-angle shadow-lg relative z-1 py-4 px-5 w-100 content-stagger-up">
@@ -50,14 +50,12 @@ include 'includes/home-header.php';
                     </div>
                 </div>
                 <!--bg section-title -->
-                <div class="page-title d-flex align-self-center orange display-1 absolute z--1 rellax" data-rellax-speed="1">Module-based Approach.</div>
+                <div class="page-title d-flex align-self-center stroke-t absolute z--1 rellax" data-rellax-speed="1">Module-based Approach.</div>
             </div>
 
             <!--row 3-->
 <!--            bg-img-hand-device-2-->
             <div id="row3" class="row d-flex content-tween rellax">
-                <!--bg section-title -->
-                <div class="d-flex align-self-center page-title text-secondary display-1 absolute z--1 rellax" data-rellax-speed="1">Portfolio.</div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-50 p-5-sm rellax" data-rellax-speed="-2">
                     <!--color bg div-->
                     <div class="img-full w-75 absolute z-0 left-0 bg-light-grey shadow-lg fade-in-slow rellax" data-rellax-speed="2"></div>
@@ -70,6 +68,8 @@ include 'includes/home-header.php';
                 <div class="perspective col-lg-5 min-50 p-0 rellax">
                     <img class="rotate img w-50 absolute z-1" src="/img/jaxx-tablet-crop.png" alt="">
                 </div>
+                <!--bg section-title -->
+                <div class="d-flex align-self-center page-title stroke-t absolute z--1 right-0 rellax" data-rellax-speed="1">Portfolio.</div>
             </div>
             
             <!--row 4-->
@@ -86,13 +86,11 @@ include 'includes/home-header.php';
                     </div>
                 </div>
                 <!--bg section-title -->
-                <div class="page-title d-flex align-self-center text-warning display-1 absolute z--1 rellax" data-rellax-speed="1">Aggregated Headline News.</div>
+                <div class="page-title d-flex align-self-center stroke-t absolute z--1 rellax" data-rellax-speed="1">Aggregated Headline News.</div>
             </div>
             
             <!--row 5-->
              <div id="row5" class="row d-flex content-tween rellax">
-                <!--bg section-title -->
-                <div class="page-title d-flex align-self-center text-warning display-1 absolute z--1 rellax" data-rellax-speed="1">Market Data.</div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-50 p-5-sm rellax" data-rellax-speed="-2">
                     <!--color bg div-->
                     <div class="img-full w-75 absolute z-0 right-0 bg-light-grey shadow-lg fade-in-slow rellax" data-rellax-speed="2"></div>
@@ -105,6 +103,8 @@ include 'includes/home-header.php';
                 <div class="col-lg-5 d-flex justify-content-end align-items-center min-50 p-0">
                     <img class="rotate img absolute z-1" src="/img/jaxx-two-devices.png" alt="Jaxx Liberty">
                 </div>
+                <!--bg section-title -->
+                <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="1">Market Data.</div>
             </div>
             
             <!--row 6-->
