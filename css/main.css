@@ -485,12 +485,17 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
     background-attachment: fixed;
 }
 .bg-orange-angle {
-    background: linear-gradient(300deg, #fff 60%, #ff6902 60%);
+    background: linear-gradient(300deg, rgba(255,255,255,0.9) 60%, #ff6902 60%);
 }
 .bg-turq-angle {
     background: linear-gradient(300deg, rgba(255,255,255,0.9) 60%, rgb(64, 224, 208) 60%);
 }
-
+.bg-warning-angle {
+    background: linear-gradient(300deg, rgba(255,255,255,0.9) 60%, #ffc107 60%);
+}
+.bg-light-grey {
+    background-color: rgba(0,0,0,0.1);
+}
 /* images + logos ======================*/
 
 .img {

@@ -350,10 +350,9 @@ $(".fade-in-up").each(function() {
      
      //  device rotation animations ==> features og page    
      
-     
-     $(".rotate").each(function() {
+    $(".rotate").each(function() {
 
- 	var rotate = TweenMax.from(this, 2, {autoAlpha:0, rotattionY:15, rotationX:45, rotationZ:-45, ease: Sine.easeInOut});
+ 	var rotate = TweenMax.from(this, 2, {autoAlpha:0, rotationY:15, rotationX:45, rotationZ:-45, ease: Sine.easeInOut});
          
 	var scene = new ScrollMagic.Scene({
 	        triggerElement: this,
