@@ -388,6 +388,7 @@ clip-path: circle(50% at 50% 50%);
     -webkit-clip-path: circle(61.0% at 35% 68%);
     clip-path: circle(61.0% at 35% 68%);
 }
+/*top rtl angle*/
 .angle-right {
     -webkit-clip-path: polygon(0 14%, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0 14%, 100% 0%, 100% 100%, 0% 100%);
@@ -799,26 +800,21 @@ video {
     background: url(/img/jaxx-multidevice-outline-3.svg) center;
     background-size: contain;
 }
+/* feawures svg geometric shapes*/
 
-
-
-#features-list .modal-dialog {
-    height: 100%;
-    margin: 0;
+/*
+.bg-img-svg-shapes {
+    background: url(/img/jaxx-geo-shapes.svg) center;
+    background-size: cover;
 }
+*/
+.bg-img-svg-shapes {
+    background: url(/img/jaxx-geo-shapes-2.svg) center;
+    background-size: cover;
+}
+
 @media (min-width: 576px) {
-#features-list .modal .modal-dialog {
-    border: none;
-    max-width: 100%;
-    margin: 0 auto;
-    }
-}
-#features-list .modal-content { 
-    height: 100%;
-    border: none;
-    border-radius: 0;
-    margin: 0;
-}
+
 .bg-img-hand-device-2 {
     background: url(/img/jaxx-hand-device.jpg) center;
     background-size: cover;

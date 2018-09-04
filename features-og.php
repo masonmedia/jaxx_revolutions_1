@@ -66,117 +66,126 @@ include 'includes/home-header.php';
             <!--row 1-->
             <div id="row1" class="row d-flex content-tween">
                 <!--bg section-title -->
-                <div class="d-flex align-self-center stroke-t page-title absolute z-0 right-0 rellax" data-rellax-speed="1">Unified Dashboard.</div>
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-50 p-5-sm rellax">
+                <div class="d-flex align-self-center stroke-t page-title absolute z-0 right-0 rellax" data-rellax-speed="2">Unified Dashboard.</div>
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5">
                    <!--color bg div-->
-                    <div class="img-full w-75 bg-turq absolute z-0 left-0 shadow-lg fade-in-slow rellax" data-rellax-speed="2"></div>
-                    <div class="wrap bg-turq-angle shadow-lg relative z-1 py-4 px-5 w-100 content-stagger-up">
+                    <div class="img-full bg-turq absolute z-0 left-0 shadow-lg content-stagger-up" data-rellax-speed="2"></div>
+                    <div class="wrap rellax" data-rellax-speed="-2">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-dash.png" alt="Jaxx Liberty Unified Dashboard">
-                        <h2 class="section-sub-title x-bold w-100 content-stagger-up">Unified Dashboard</h2>
-                        <p class="content-stagger-up">A single interface to help you create, track and manage your digital assets.</p>
+                        <h2 class="page-title x-bold text-light content-stagger-up">Unified Dashboard</h2>
+                        <h5 class="content-stagger-up">A single interface to help you create, track and manage your digital assets.</h5>
                     </div>
                     </div>
-                <div class="perspective col-lg-5 min-50 p-0 slide-in-left rellax">
-                    <img class="rotate img-full absolute z-1" src="/img/jaxx-android-fisheye.png" alt="Jaxx Liberty">
+                <div class="perspective col-lg-5 d-flex flex-column justify-content-center align-items-center min-50 p-0 slide-in-left">
+                    <img class="rotate img-full h-auto absolute z-2 p-5 rellax" src="/img/jaxx-android-fisheye-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
                 </div>
             </div>
             
              <!--row 2-->
 <!--             bg-img-multidevice-outline-->
             <div id="row2" class="row d-flex content-tween rellax">
-                <div class="perspective col-lg-5 d-flex justify-content-end align-items-center min-50 p-0 o-12 slide-in-right">
-                    <img class="rotate img w-50 absolute z-1 rellax" src="/img/jaxx-2phone-crop.png" alt="Jaxx Liberty">
+                <div class="perspective col-lg-5 d-flex justify-content-end align-items-center min-50 relative z-1 p-0 o-12 slide-in-right">
+                    <img class="rotate img w-50 absolute p-5 rellax" src="/img/jaxx-2phone-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
                 </div>
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-50 p-5-sm rellax">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start relative z-0 min-70 p-5 rellax">
                    <!--color bg div-->
-                    <div class="img-full w-75 absolute z-0 right-0 bg-turq shadow-lg fade-in-slow rellax" data-rellax-speed="2"></div>
-                    <div class="wrap bg-turq-angle d-flex flex-column justify-content-center align-items-start text-left bg-white bg-dots w-100 px-5 py-4 content-stagger-up">
+                    <div class="img-full absolute z-0 right-0 bg-turq shadow-lg content-stagger-up" data-rellax-speed="2"></div>
+                    <div class="wrap rellax">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-module.png" alt="Jaxx Liberty Module Based Approach">
-                        <h2 class="section-sub-title x-bold w-100 content-stagger-up">Module-Based Approach</h2>
-                        <p class="content-stagger-up">Provides information that people need to navigate the cryptocurrency ecosystem, which is part of the new digital age of value.</p>
+                        <!--<h2 class="section-sub-title x-bold w-100 content-stagger-up">Module-Based Approach</h2>-->
+                        <h2 class="page-title x-bold text-light content-stagger-up">Module-Based Approach</h2>
+                        <h5 class="content-stagger-up">Provides information that people need to navigate the cryptocurrency ecosystem, which is part of the new digital age of value.</h5>
                     </div>
                 </div>
                 <!--bg section-title -->
-                <div class="page-title d-flex align-self-center stroke-t absolute z--1 rellax" data-rellax-speed="1">Module-based Approach.</div>
+                <div class="page-title d-flex align-self-center stroke-t absolute z--1 rellax" data-rellax-speed="2">Module-based Approach.</div>
             </div>
 
             <!--row 3-->
-<!--            bg-img-hand-device-2-->
             <div id="row3" class="row d-flex content-tween rellax">
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-50 p-5-sm rellax" data-rellax-speed="-2">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 rellax" data-rellax-speed="-2">
                     <!--color bg div-->
-                    <div class="img-full w-75 absolute z-0 left-0 bg-turq shadow-lg fade-in-slow rellax" data-rellax-speed="2"></div>
-                    <div class="wrap d-flex flex-column justify-content-center align-items-end bg-turq-angle bg-dots w-100 px-5 py-4 content-stagger-up">
-                        <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-port.png" alt="Jaxx Liberty Portfolio">
-                        <h2 class="section-sub-title x-bold w-100 content-stagger-up">Portfolio</h2>
-                        <p class="content-stagger-up">A single interface to help you create, track and manage your digital assets.</p>
+                    <div class="img-full absolute z--1 left-0 bg-turq shadow-lg content-stagger-up" data-rellax-speed="2"></div>
+                    <div class="wrap rellax">
+                        <img class="content-stagger-up" src="/img/icons/jaxx-port.png" alt="Jaxx Liberty Portfolio">
+                        <!--<h2 class="section-sub-title x-bold w-100 content-stagger-up">Portfolio</h2>-->
+                        <h2 class="page-title x-bold text-light content-stagger-up">Portfolio</h2>
+                        <h5 class="content-stagger-up">A single interface to help you create, track and manage your digital assets.</h5>
                     </div>
                 </div>
                 <div class="perspective col-lg-5 min-50 p-0 slide-in-left">
-                    <img class="rotate img w-50 absolute z-1 rellax" src="/img/jaxx-tablet-crop.png" alt="Jaxx Liberty">
+                    <img class="rotate img w-50 absolute z-1 rellax" src="/img/jaxx-tablet-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
                 </div>
                 <!--bg section-title -->
-                <div class="d-flex align-self-center page-title stroke-t absolute z--1 right-0 rellax" data-rellax-speed="1">Portfolio.</div>
+                <div class="d-flex align-self-center page-title stroke-t absolute z--1 right-0 rellax" data-rellax-speed="2">Portfolio.</div>
             </div>
             
             <!--row 4-->
             <div id="row4" class="row d-flex content-tween rellax">
-                <div class="perspective col-lg-5 d-flex justify-content-end align-items-center min-50 p-0 o-12 slide-in-right">
-                    <img class="rotate img absolute z-1 rellax" src="/img/jaxx-android-top.png" alt="Jaxx Liberty">
+                <div class="perspective col-lg-5 d-flex justify-content-end align-items-center relative z-1 min-70 p-0 o-12 slide-in-right">
+                    <img class="rotate img absolute z-2 rellax" src="/img/jaxx-android-top.png" alt="Jaxx Liberty" data-rellax-speed="1">
                 </div>
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-50 p-5-sm rellax">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-70 p-5 rellax">
                     <!--color bg div-->
-                    <div class="img-full w-75 bg-turq absolute z-0 right-0 shadow-lg fade-in-slow rellax" data-rellax-speed="2"></div>
-                    <div class="wrap d-flex flex-column justify-content-center align-items-start text-left bg-turq-angle w-100 px-5 py-4 content-stagger-up">
+                    <div class="img-full bg-turq absolute z-0 right-0 shadow-lg content-stagger-up" data-rellax-speed="2"></div>
+                    <div class="wrap rellax">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-data.png" alt="Jaxx Liberty Aggregated Headline News">
-                        <h2 class="section-sub-title x-bold w-100 content-stagger-up">Aggregated Headline News</h2>
-                        <p class="content-stagger-up">Stay up-to-date with the latest news.</p>
+                        <h2 class="page-title x-bold text-light content-stagger-up">Aggregated Headline News</h2>
+                        <h5 class="content-stagger-up">Stay up-to-date with the latest news.</h5>
                     </div>
                 </div>
                 <!--bg section-title -->
-                <div class="page-title d-flex align-self-center stroke-t absolute z--1 rellax" data-rellax-speed="1">Aggregated Headline News.</div>
+                <div class="page-title d-flex align-self-center stroke-t absolute z--1 rellax" data-rellax-speed="2">Aggregated Headline News.</div>
             </div>
             
             <!--row 5-->
              <div id="row5" class="row d-flex content-tween rellax">
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-50 p-5-sm rellax" data-rellax-speed="-2">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 rellax" data-rellax-speed="-2">
                     <!--color bg div-->
-                    <div class="img-full w-75 absolute z-0 left-0 bg-turq shadow-lg fade-in-slow rellax" data-rellax-speed="2"></div>
-                    <div class="wrap d-flex flex-column justify-content-center align-items-end text-right bg-turq-angle bg-dots px-5 py-4 content-stagger-up">
-                        <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-cog.png" alt="Jaxx Liberty Market Data">
-                        <h2 class="section-sub-title x-bold w-100 content-stagger-up">Market Data</h2>
-                        <p class="content-stagger-up">Quick and easy access to cryptocurrency price moves, market caps, and trends -- at your fingertips.</p>
+                    <div class="img-full absolute z-0 left-0 bg-turq shadow-lg fade-in-slow" data-rellax-speed="2"></div>
+                    <div class="wrap rellax">
+                        <img class="content-stagger-up" src="/img/icons/jaxx-cog.png" alt="Jaxx Liberty Market Data">
+                        <h2 class="page-title x-bold text-light content-stagger-up">Market Data</h2>
+                        <h5 class="content-stagger-up">Quick and easy access to cryptocurrency price moves, market caps, and trends -- at your fingertips.</h5>
                     </div>
                 </div>
                 <div class="col-lg-5 d-flex justify-content-end align-items-center min-50 p-0">
-                    <img class="rotate img absolute z-1" src="/img/jaxx-two-devices.png" alt="Jaxx Liberty">
+                    <img class="rotate h-auto w-100 absolute z-1" src="/img/jaxx-two-devices.png" alt="Jaxx Liberty" data-rellax-speed="1">
                 </div>
                 <!--bg section-title -->
-                <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="1">Market Data.</div>
+                <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="2">Market Data.</div>
             </div>
             
             <!--row 6-->
             <div id="row6" class="row d-flex bg-white bg-img-downloads content-tween rellax">
-                <div class="offset-lg-5"></div> 
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end min-50 p-5-sm rellax" data-rellax-speed="-2">
-                   <div class="wrap d-flex flex-column justify-content-center align-items-end text-right bg-white bg-dots px-5 py-4  content-stagger-up">
+                <div class="col-lg-5 d-flex justify-content-end align-items-center min-50 p-0 relative z-1 o-12">
+                    <img class="rotate img w-100 absolute z-2 p-5" src="/img/jaxx-3phone-light-orange.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                </div> 
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end min-70 p-5 rellax" data-rellax-speed="-2">
+                   <!--color bg div-->
+                    <div class="img-full absolute z-0 left-0 bg-turq shadow-lg fade-in-slow" data-rellax-speed="2"></div>
+                    <div class="wrap rellax">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-blockchain.png" alt="Jaxx Liberty Integrated Multi-Chain Block Explorer">
-                        <h2 class="section-sub-title x-bold w-100 content-stagger-up">Integrated multi-chain Block Explorer</h2>
-                        <p class="content-stagger-up">A convenient, powerful, and simple interface that allows you to track balance and transaction data without leaving Jaxx Liberty.</p>
+                        <h2 class="page-title x-bold text-light content-stagger-up">Integrated multi-chain Block Explorer</h2>
+                        <h5 class="content-stagger-up">A convenient, powerful, and simple interface that allows you to track balance and transaction data without leaving Jaxx Liberty.</h5>
                     </div>
                 </div>
+                 <!--bg section-title -->
+                <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="2">Integrated multi-chain Block Explorer.</div>
             </div>
             
             <!--row 7-->
             <div id="row7" class="row d-flex bg-img-jump content-tween rellax">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-50 p-5-sm rellax" data-rellax-speed="-2">
-                    <div class="wrap d-flex flex-column justify-content-center align-items-start bg-white bg-dots px-5 py-4  content-stagger-up">
+                    <div class="wrap rellax">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-transaction.png" alt="Jaxx Liberty Token Transaction History">
                         <h2 class="section-sub-title x-bold w-100 content-stagger-up">Token transaction history</h2>
                         <p class="content-stagger-up">See transaction history for all token transactions in the Block Explorer or the Wallet widgets.</p>
                     </div>
                 </div>
-                <div class="offset-lg-5"></div>
+                <div class="col-lg-5">
+                    <img src="" alt="">
+                </div>
            </div>
            
            <!--row 8-->
