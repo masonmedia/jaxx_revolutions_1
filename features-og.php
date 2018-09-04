@@ -65,8 +65,6 @@ include 'includes/home-header.php';
         
             <!--row 1-->
             <div id="row1" class="row d-flex content-tween">
-                <!--bg section-title -->
-                <div class="d-flex align-self-center stroke-t page-title absolute z-0 right-0 rellax" data-rellax-speed="2">Unified Dashboard.</div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5">
                    <!--color bg div-->
                     <div class="img-full bg-turq absolute z-0 left-0 shadow-lg content-stagger-up" data-rellax-speed="2"></div>
@@ -78,14 +76,18 @@ include 'includes/home-header.php';
                     </div>
                 <div class="perspective col-lg-5 d-flex flex-column justify-content-center align-items-center min-50 p-0 slide-in-left">
                     <img class="rotate img-full h-auto absolute z-2 p-5 rellax" src="/img/jaxx-android-fisheye-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    <!--bg section-title -->
+                    <div class="d-flex align-self-center stroke-t page-title absolute z-0 right-0 rellax" data-rellax-speed="3">Unified Dashboard.</div>
                 </div>
             </div>
             
              <!--row 2-->
 <!--             bg-img-multidevice-outline-->
-            <div id="row2" class="row d-flex content-tween rellax">
-                <div class="perspective col-lg-5 d-flex justify-content-end align-items-center min-50 relative z-1 p-0 o-12 slide-in-right">
-                    <img class="rotate img w-50 absolute p-5 rellax" src="/img/jaxx-2phone-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
+            <div id="row2" class="row d-flex content-tween">
+                <div class="col-lg-5 d-flex justify-content-end align-items-center min-50 bg-warning relative z-1 p-0 o-12 slide-in-right">
+                    <img class="img w-50 absolute pr-4 rellax" src="/img/jaxx-2phone-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    <!--bg section-title -->
+                    <div class="page-title d-flex align-self-center text-right stroke-t absolute z--1 rellax" data-rellax-speed="3">Module-based Approach.</div>
                 </div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start relative z-0 min-70 p-5 rellax">
                    <!--color bg div-->
@@ -97,8 +99,7 @@ include 'includes/home-header.php';
                         <h5 class="content-stagger-up">Provides information that people need to navigate the cryptocurrency ecosystem, which is part of the new digital age of value.</h5>
                     </div>
                 </div>
-                <!--bg section-title -->
-                <div class="page-title d-flex align-self-center stroke-t absolute z--1 rellax" data-rellax-speed="2">Module-based Approach.</div>
+                
             </div>
 
             <!--row 3-->
@@ -113,17 +114,19 @@ include 'includes/home-header.php';
                         <h5 class="content-stagger-up">A single interface to help you create, track and manage your digital assets.</h5>
                     </div>
                 </div>
-                <div class="perspective col-lg-5 min-50 p-0 slide-in-left">
+                <div class="perspective col-lg-5 d-flex justify-content-start align-items-center min-50 relative z-1 p-0 slide-in-left">
                     <img class="rotate img w-50 absolute z-1 rellax" src="/img/jaxx-tablet-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    <!--bg section-title -->
+                    <div class="d-flex align-self-center page-title stroke-t absolute z--1 right-0 rellax" data-rellax-speed="3">Portfolio.</div>
                 </div>
-                <!--bg section-title -->
-                <div class="d-flex align-self-center page-title stroke-t absolute z--1 right-0 rellax" data-rellax-speed="2">Portfolio.</div>
             </div>
             
             <!--row 4-->
             <div id="row4" class="row d-flex content-tween rellax">
                 <div class="perspective col-lg-5 d-flex justify-content-end align-items-center relative z-1 min-70 p-0 o-12 slide-in-right">
                     <img class="rotate img absolute z-2 rellax" src="/img/jaxx-android-top.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    <!--bg section-title -->
+                    <div class="page-title d-flex align-self-center text-right stroke-t absolute z--1 rellax" data-rellax-speed="2">Aggregated Headline News.</div>
                 </div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-70 p-5 rellax">
                     <!--color bg div-->
@@ -134,8 +137,7 @@ include 'includes/home-header.php';
                         <h5 class="content-stagger-up">Stay up-to-date with the latest news.</h5>
                     </div>
                 </div>
-                <!--bg section-title -->
-                <div class="page-title d-flex align-self-center stroke-t absolute z--1 rellax" data-rellax-speed="2">Aggregated Headline News.</div>
+                
             </div>
             
             <!--row 5-->
@@ -151,9 +153,10 @@ include 'includes/home-header.php';
                 </div>
                 <div class="col-lg-5 d-flex justify-content-end align-items-center min-50 p-0">
                     <img class="rotate h-auto w-100 absolute z-1" src="/img/jaxx-two-devices.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    <!--bg section-title -->
+                    <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="3">Market Data.</div>
                 </div>
-                <!--bg section-title -->
-                <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="2">Market Data.</div>
+                
             </div>
             
             <!--row 6-->
@@ -175,6 +178,30 @@ include 'includes/home-header.php';
             </div>
             
             <!--row 7-->
+
+             <div id="row7" class="row d-flex content-tween rellax">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 rellax" data-rellax-speed="-2">
+                    <!--color bg div-->
+                    <div class="img-full absolute z-0 left-0 bg-turq shadow-lg fade-in-slow" data-rellax-speed="2"></div>
+                    <div class="wrap rellax">
+                        <img class="content-stagger-up" src="/img/icons/jaxx-cog.png" alt="Jaxx Liberty Market Data">
+                        <h2 class="page-title x-bold text-light content-stagger-up">Token Transaction History</h2>
+                        <h5 class="content-stagger-up">See transaction history for all token transactions in the Block Explorer or the Wallet widgets.</h5>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-flex justify-content-end align-items-center min-50 p-0">
+                    <img class="rotate h-auto w-100 absolute z-1" src="/img/jaxx-two-devices.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    <!--bg section-title -->
+                    <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="2">Token Transaction History.</div>
+                </div>
+<!--
+                bg section-title 
+                <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="2">Token Transaction History.</div>
+-->
+            </div>
+            
+            
+            
             <div id="row7" class="row d-flex bg-img-jump content-tween rellax">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-50 p-5-sm rellax" data-rellax-speed="-2">
                     <div class="wrap rellax">

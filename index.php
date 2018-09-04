@@ -7,7 +7,7 @@ include 'includes/home-header.php';
 ?>   
     <main role="main">
         <!--jumbotron home timeline animation-->
-        <div role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white fs p-5 m-0 content-tween">
+        <div role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white fs p-5 m-0 content-tween rellax">
             <!--fade in navy bg div intro-->
             <div class="navy-bg bg-navy min-100 w-100 h-100 absolute z-0"></div>
             <!--multi device svg img-->
@@ -93,14 +93,14 @@ include 'includes/home-header.php';
             <img class="jaxx-icon jaxx-logo-text relative z-2 mb-4 rellax" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Heart">
             <div class="orange-bg bg-orange min-100 w-100 h-100 absolute z-0"></div>
             <!--<h1 class="site-title relative z-2 pb-2">A Digital Wallet for Everyone</h1>-->
-            <h1 class="site-title relative z-2 pb-2">
-                <span class="banner-span d-inline-block rellax" data-rellax-speed="-1">A</span>
-                <span class="banner-span d-inline-block rellax" data-rellax-speed="-1">Digital</span>
-                <span class="banner-span d-inline-block rellax" data-rellax-speed="-1">Wallet</span>
-                <span class="banner-span d-inline-block rellax" data-rellax-speed="-1">for</span>
-                <span class="banner-span d-inline-block rellax" data-rellax-speed="0">Everyone.</span>
+            <h1 class="site-title relative z-2 pb-2 rellax" data-rellax-speed="-1">
+                <span class="banner-span d-inline-block">A</span>
+                <span class="banner-span d-inline-block">Multi-platform,</span>
+                <span class="banner-span d-inline-block">Multi-Currency</span>
+                <span class="banner-span d-inline-block">Digital</span>
+                <span class="banner-span d-inline-block">Wallet.</span>
             </h1>
-            <h3 class="site-sub-title relative z-2 pb-3"><span class="sub-tagline-1">No registration.</span> <span class="sub-tagline-2">Use on any device.</span> <span class="sub-tagline-3">Download for free.</span></h3>
+            <h3 class="site-sub-title relative z-2 pb-3"><span class="sub-tagline-1">No registration.</span> <span class="sub-tagline-2">Download for free.</span> <span class="sub-tagline-3">Join millions of users.</span></h3>
             <!--download button: start your journey-->
             <div>
                 <a href="/downloads.php" class="animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">
@@ -119,7 +119,7 @@ include 'includes/home-header.php';
             <!--row 1 features-->
             
             <div class="row d-flex bg-light relative z-1 content-tween">
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5 rellax" data-rellax-speed="-2">
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5" data-rellax-speed="-2">
                     <!--bg text heading-->
                     <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">Jaxx Liberty is Here.</div>
                     <!--section title-->
@@ -135,19 +135,19 @@ include 'includes/home-header.php';
                         <button href="/features.php" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="800">Learn More</button>
                     </div>
                 </div><!--end col-->
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center min-100 p-5 o-12">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center o-12 rellax">
                     <!--navy bg div-->
-                    <div class="bg-navy angle-rtl img-full w-75 min-50 absolute z-0 shadow-lg fade-in-slow rellax" data-rellax-speed="3"></div>
-                    <img class="img absolute right-0 z-0 shadow-lg slide-in-right" src="/img/jaxx-app-homescreen.jpg" alt="Jaxx Liberty is Here">
+                    <div class="bg-navy parallelo h-100 w-100 absolute z-0 shadow-lg rellax"></div>
+                    <img class="img w-100 shadow-lg slide-in-right" src="/img/jaxx-app-homescreen.jpg" alt="Jaxx Liberty is Here">
                </div>
             </div><!--end row-->
 
             <!--row 3 Use on any device + Download-->
             
             <div id="download" class="row d-flex bg-white relative bg-img-downloads content-tween p-0">
-                <div class="col-lg-8 d-flex justify-content-center align-items-center min-100 p-5 o-12 rellax" data-rellax-speed="-2">
+                <div class="col-lg-8 d-flex justify-content-center align-items-center p-5 o-12">
                     <!--orange bg angle div-->
-                    <div class="bg-orange parallelo img-full w-75 min-50 absolute z-0 shadow-lg fade-in-slow rellax"></div>
+                    <div class="bg-orange parallelo h-100 w-100 absolute z-0 shadow-lg rellax" data-rellax-speed="2"></div>
                     <!--android img-->
                     <img class="jaxx-3-screens slide-in-left" src="/img/jaxx-3phone-light-orange.png" alt="Use Jaxx Liberty on any Device">
                 </div>
@@ -389,7 +389,15 @@ include 'includes/home-header.php';
                  <div class="page-title display-1 absolute z-0 text-op rellax" data-rellax-speed="1">Take control of your digital life.</div>
                   <div class="wrap w-75 rellax">
                        <img class="jaxx-logo-text content-stagger-up" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="Jaxx Liberty">
-                       <h2 class="font-weight-bold pt-0 pb-3 content-stagger-up">Take control of your digital life.</h2>
+                       <h2 class="font-weight-bold pt-0 pb-3 content-stagger-up">
+                            <span class="content-stagger-up">Take</span>
+                            <span class="content-stagger-up">control</span>
+                            <span class="content-stagger-up">of</span>
+                            <span class="content-stagger-up">your</span>
+                            <span class="content-stagger-up">digital</span>
+                            <span class="content-stagger-up">life.</span>
+                       </h2>
+                       
                        <div class="content-stagger-up">
                            <a href="downloads.php" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Download</a>
                       </div>

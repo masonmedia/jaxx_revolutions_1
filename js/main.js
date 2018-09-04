@@ -127,15 +127,8 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
 .from("#home .site-title", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5")
  
 // stagger in site tag line individual words
-//.staggerFrom("#home .banner-span", 0.5, {y:-100, rotation: -10, autoAlpha:0, ease: SlowMo.easeInOut}, 0.3, "-=0.5")
+.staggerFrom("#home .banner-span", 0.5, {y:-100, autoAlpha:0, ease: SlowMo.easeInOut}, 0.3, "-=0.5")
 
- //fade out liberty to make overlay text legible
-//tl.to("#banner .site-title-3", 1, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.5");
-    
-//use position parameter "-=0.5" to schedule next tween 0.25 seconds before previous tweens end.
-//fade in tag line sub title
-//tl.from("#banner .site-sub-title", 1, {left:100, autoAlpha:0, ease: Back.easeInOut}, "-=0.5");
-    
 //fade in tag line sub titles
 .staggerFrom(".sub-tagline-1, .sub-tagline-2, .sub-tagline-3", 0.2, {y:-20, autoAlpha:0, ease: SlowMo.easeInOut}, 0.5)
    
@@ -156,9 +149,9 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
 .to("#home .icon", 2, {y:-10, ease: SlowMo.easeInOut, repeat:-1})
      
 //zoom in bg image
-.to("#home .banner-img", 30, {scale:1.3, y:100, ease: Sine.easeInOut}, "-=0.5");
-  
- 
+//.to("#home .banner-img", 30, {scale:1.3, y:100, ease: Sine.easeInOut}, "-=0.5");
+//  
+// 
 //page banner animation timeline
      
 var tl2 = new TimelineLite();

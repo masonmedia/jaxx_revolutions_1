@@ -75,54 +75,313 @@ include 'includes/header.php';
                             <h2 class="section-title x-bold w-100 orange bg-navy shadow-lg px-3 py-4 mb-4 skew content-stagger-up">Integrations and Network</h2>
                             <p class="border-top border-dark pt-4 pb-5 m-0 content-stagger-up">Our office hours are 9am to 5pm EST. You can reach our customer support team 24 hours a day.</p>
                             
-<!--                            filterizr demo-->
+                            <!--carousel-->
+                    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <!--nest container-->
+                            <div class="container-fluid bg-dots rounded p-5">
+                               <div class="row d-flex">
+                                   <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                        <img class="partner-logo w-50 h-50" src="/img/coin-logos/BasicAttentionToken/BasicAttentionCoin.svg" alt="Jaxx Liberty Partner Basic Attention">
+                                        <h5>Basic Attention</h5>
+                                   </div>
+                                   <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                       <img class="partner-logo w-50 h-50" src="/img/coin-logos/Augur/Augur.svg" alt="Jaxx Liberty Partner Augur">
+                                       <h5>Augur</h5>
+                                   </div>
+                                   <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                       <img class="partner-logo w-50 h-50" src="/img/coin-logos/Golem/Golem.svg" alt="Jaxx Liberty Partner Golem">
+                                       <h5>Golem</h5>
+                                   </div>
+                                   <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                       <img class="partner-logo w-50 h-50" src="/img/coin-logos/Status/Status.svg" alt="Jaxx Liberty Partner Status">
+                                       <h5>Status</h5>
+                                   </div>
+                                   <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                       <img class="partner-logo w-50 h-50" src="/img/coin-logos/DigiX/DigiX.svg" alt="Jaxx Liberty Partner DigixDAO">
+                                       <h5>DigixDAO</h5>
+                                   </div>
+                                   <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                       <img class="partner-logo w-50 h-50" src="/img/coin-logos/Dentacoin/Dentacoin.svg" alt="Jaxx Liberty Partner Dentacoin">
+                                       <h5>Dentacoin</h5>
+                                   </div>
+                                   <div class="col-sm-6 col-sm-4 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                       <img class="partner-logo w-50 h-50" src="/img/coin-logos/Bancor/Bancor.svg" alt="Jaxx Liberty Partner Bancor">
+                                       <h5>Bancor</h5>
+                                   </div>
+                                   <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                       <img class="partner-logo w-50 h-50" src="/img/coin-logos/Monaco/Monaco.svg" alt="Jaxx Liberty Partner Monaco">
+                                       <h5>Monaco</h5>
+                                   </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                        <img class="partner-logo w-50 h-50" src="/img/coin-logos/TenX/TenX.svg" alt="Jaxx Liberty Partner TenX">
+                                        <h5>TenX</h5>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                       <img class="partner-logo w-50 h-50" src="/img/coin-logos/Wax/Wax.svg" alt="Jaxx Liberty Partner WAX">
+                                       <h5>WAX</h5>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                       <img class="partner-logo w-50 h-50" src="/img/coin-logos/Iconomi/Iconomi.svg" alt="Jaxx Liberty Partner Iconomi">
+                                       <h5>Iconomi</h5>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                       <img class="partner-logo w-50 h-50" src="/img/coin-logos/Civic/Civic.svg" alt="Jaxx Liberty Partner Civic">
+                                       <h5>Civic</h5>
+                                    </div>
+                                   </div><!--end row-->
+                               </div><!--end nest container-->
+                            </div>
+                            <!-- slide 2-->
+                            <div class="carousel-item">
+                                  <!--nest container-->
+                                <div class="container-fluid bg-dots rounded p-5">
+                                   <div class="row d-flex">
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Polymath/Polymath.svg" alt="Jaxx Liberty Partner Polymath">
+                                           <h5>Polymath</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Santiment/Santiment.svg" alt="Jaxx Liberty Partner Santiment">
+                                           <h5>Santiment</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-sm-4 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Gnosis/Gnosis.svg"Y alt="Jaxx Liberty Partner Gnosis">
+                                           <h5>Gnosis</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Aragon/Aragon.svg" alt="Jaxx Liberty Partner Aragon">
+                                           <h5>Aragon</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                            <img class="partner-logo w-50 h-50" src="/img/coin-logos/Storm/Storm.svg" alt="Jaxx Liberty Partner Storm">
+                                            <h5>Storm</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Salt/Salt.svg" alt="Jaxx Liberty Partner Salt">
+                                           <h5>Salt</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Enjin/Enjin.svg" alt="Jaxx Liberty Partner Engine Coin">
+                                           <h5>Engine Coin</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/iExec/iExec.svg" alt="Jaxx Liberty Partner iExec RLC">
+                                           <h5>iExec RLC</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                            <img class="partner-logo w-50 h-50" src="/img/coin-logos/Edgeless/Edgeless.svg" alt="Jaxx Liberty Partner Edgeless">
+                                            <h5>Edgeless</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Po.et/poet.svg" alt="Jaxx Liberty Partner Po.et">
+                                           <h5>Po.et</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Sonm/Sonm.svg" alt="Jaxx Liberty Partner SONM">
+                                           <h5>SONM</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Wings/Wings.svg" alt="Jaxx Liberty Partner Wings">
+                                           <h5>Wings</h5>
+                                       </div>
+                                    </div><!--end row-->
+                                </div><!--end nest container-->
+                            </div>
+                            <!--slide 3-->
+                            <div class="carousel-item">
+                                <!--nest container-->
+                                <div class="container-fluid bg-dots rounded p-5">
+                                   <div class="row d-flex">
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Viberate/Viberate.svg" alt="Jaxx Liberty Partner Viberate">
+                                           <h5>Viberate</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Cofound.it/Cofoundit.svg" alt="Jaxx Liberty Partner Cofound.it">
+                                           <h5>Cofound.it</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-sm-4 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Stox/Stox.svg"Y alt="Jaxx Liberty Partner STOX">
+                                           <h5>STOX</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Domraider/Domraider.svg" alt="Jaxx Liberty Partner Domraider">
+                                           <h5>Domraider</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                            <img class="partner-logo w-50 h-50" src="/img/coin-logos/Shivom/Shivom.svg" alt="Jaxx Liberty Partner Shivom">
+                                            <h5>Shivom</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/HBZ/HBZ.svg" alt="Jaxx Liberty Partner Hellbiz">
+                                           <h5>Hellbiz</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Presearch/Presearch.svg" alt="Jaxx Liberty Partner Presearch">
+                                           <h5>Presearch</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Bitclave/Bitclave.svg" alt="Jaxx Liberty Partner Bitclave">
+                                           <h5>Bitclave</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                            <img class="partner-logo w-50 h-50" src="/img/coin-logos/Creditbit/Creditbit.svg" alt="Jaxx Liberty Partner Creditbit">
+                                            <h5>Creditbit</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Paypie/Paypie.svg" alt="Jaxx Liberty Partner Paypie">
+                                           <h5>Paypie</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Musiconomi/Musiconomi.svg" alt="Jaxx Liberty Partner Musiconomi">
+                                           <h5>Musiconomi</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Brickblock/Brickblock.svg" alt="Jaxx Liberty Partner Brickblock">
+                                           <h5>Brickblock</h5>
+                                       </div>
+                                    </div><!--end row-->
+                                </div><!--end nest container-->
+                            </div><!--end slide-->
+                            <!--slide 4-->
+                            <div class="carousel-item">
+                                <!--nest container-->
+                                <div class="container-fluid bg-dots rounded p-5">
+                                   <div class="row d-flex">
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Blockmason/Blockmason.svg" alt="Jaxx Liberty Partner Blockmason">
+                                           <h5>Blockmason</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-sm-4 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Ripio/Ripio.svg"Y alt="Jaxx Liberty Partner >Ripio Credit Network">
+                                           <h5>Ripio Credit Network</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Swarm/Swarm.svg" alt="Jaxx Liberty Partner Swarm Fund">
+                                           <h5>Swarm Fund</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                            <img class="partner-logo w-50 h-50" src="/img/coin-logos/Ucash/Ucash.svg" alt="Jaxx Liberty Partner Ucash">
+                                            <h5>Ucash</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Unikoin/Unikoin.svg" alt="Jaxx Liberty Partner Unikoin">
+                                           <h5>Unikoin</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/EOS/EOS.svg" alt="Jaxx Liberty Partner EOS">
+                                           <h5>EOS</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Lisk/Lisk.svg" alt="Jaxx Liberty Partner Lisk">
+                                           <h5>Lisk</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                            <img class="partner-logo w-50 h-50" src="/img/coin-logos/WindingTree/WindingTree.svg" alt="Jaxx Liberty Partner Creditbit">
+                                            <h5>Winding Tree</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/zCash/zCash.svg" alt="Jaxx Liberty Partner Zcash">
+                                           <h5>Zcash</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Funfair/Funfair.svg" alt="Jaxx Liberty Partner FunFair">
+                                           <h5>FunFair</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Brickblock/Brickblock.svg" alt="Jaxx Liberty Partner Brickblock">
+                                           <h5>Brickblock</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Enigma/Enigma.svg" alt="Jaxx Liberty Partner Enigma">
+                                           <h5>Enigma</h5>
+                                       </div>
+                                    </div><!--end row-->
+                                </div><!--end nest container-->
+                            </div><!--end slide-->
+                            
+                             <!--slide 5--> 
+<!--                             to do start from -->
+                            <div class="carousel-item">
+                                <!--nest container-->
+                                <div class="container-fluid bg-dots rounded p-5">
+                                   <div class="row d-flex">
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Docai/Docai.svg" alt="Jaxx Liberty Partner Docai">
+                                           <h5>Docai</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-sm-4 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/xiExec.svg"Y alt="Jaxx Liberty Partner >Ripio Credit Network">
+                                           <h5>Ripio Credit Network</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Swarm/Swarm.svg" alt="Jaxx Liberty Partner Swarm Fund">
+                                           <h5>Swarm Fund</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                            <img class="partner-logo w-50 h-50" src="/img/coin-logos/Ucash/Ucash.svg" alt="Jaxx Liberty Partner Ucash">
+                                            <h5>Ucash</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Unikoin/Unikoin.svg" alt="Jaxx Liberty Partner Unikoin">
+                                           <h5>Unikoin</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/EOS/EOS.svg" alt="Jaxx Liberty Partner EOS">
+                                           <h5>EOS</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Lisk/Lisk.svg" alt="Jaxx Liberty Partner Lisk">
+                                           <h5>Lisk</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                            <img class="partner-logo w-50 h-50" src="/img/coin-logos/WindingTree/WindingTree.svg" alt="Jaxx Liberty Partner Creditbit">
+                                            <h5>Winding Tree</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/zCash/zCash.svg" alt="Jaxx Liberty Partner Zcash">
+                                           <h5>Zcash</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Funfair/Funfair.svg" alt="Jaxx Liberty Partner FunFair">
+                                           <h5>FunFair</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Brickblock/Brickblock.svg" alt="Jaxx Liberty Partner Brickblock">
+                                           <h5>Brickblock</h5>
+                                       </div>
+                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
+                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Enigma/Enigma.svg" alt="Jaxx Liberty Partner Enigma">
+                                           <h5>Enigma</h5>
+                                       </div>
+                                    </div><!--end row-->
+                                </div><!--end nest container-->
+                            </div><!--end slide-->
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div><!--end carousel-->
+                    
+                    
                     
                             
                             
-                            <!--nest container-->
-                            <div class="filtr-container container-fluid bg-dots rounded p-4 rellax">
-                               <div class="row d-flex">
-                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
-                                        <img class="partner-logo" src="/img/partner-logos/partners-rootstock.png" alt="Jaxx Liberty Partner RSK">
-                                   </div>
-                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
-                                       <img class="partner-logo" src="/img/partner-logos/partners-shapeshift.png" alt="Jaxx Liberty Partner Shapeshift">
-                                   </div>
-                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
-                                       <img class="partner-logo" src="/img/partner-logos/partners-ledger.png" alt="Jaxx Liberty Partner Ledger">
-                                   </div>
-                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
-                                       <img class="partner-logo" src="/img/partner-logos/partners-changelly.png" alt="Jaxx Liberty Partner Changelly">
-                                   </div>
-                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
-                                       <img class="partner-logo" src="/img/partner-logos/partners-bittrex.png" alt="Jaxx Liberty Partner Bittrex">
-                                   </div>
-                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
-                                       <img class="partner-logo" src="/img/partner-logos/partners-coinbase.png" alt="Jaxx Liberty Partner Coinbase">
-                                   </div>
-                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
-                                       <img class="partner-logo partner-logo-sm" src="/img/partner-logos/partners-kraken-trans.png" alt="Jaxx Liberty Partner Kraken">
-                                   </div>
-                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
-                                       <img class="partner-logo" src="/img/partner-logos/partners-trezor.png" alt="Jaxx Liberty Partner Trezor">
-                                   </div>
-                                   <div class="col-sm-4 filtr-item d-flex justify-content-center align-items-center content-stagger-up">
-                                       <img class="partner-logo big-logo" src="/img/partner-logos/partners-atari.png" alt="Jaxx Liberty Partner Atari">
-                                   </div>
-                                   <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
-                                       <img class="partner-logo" src="/img/partner-logos/partners-blockchain-capital.png" alt="Jaxx Liberty Partner Blockchain Capital">
-                                   </div>
-                                   <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
-                                       <img class="partner-logo" src="/img/partner-logos/partners-fenbushi.png" alt="Jaxx Liberty Partner Fenbushi Capital">
-                                   </div>
-                                   <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
-                                       <img class="partner-logo big-logo" src="/img/partner-logos/partners-bloq.png" alt="Jaxx Liberty Partner Bloq">
-                                   </div>
-                               </div><!--end row-->
-                               </div><!--end nest container-->
-                               
-                               
-                               
+                           
                                
                             
                             <div class="pt-5 content-stagger-up">
