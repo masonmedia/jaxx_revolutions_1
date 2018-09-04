@@ -85,7 +85,7 @@ include 'includes/home-header.php';
 <!--             bg-img-multidevice-outline-->
             <div id="row2" class="row d-flex content-tween rellax">
                 <div class="perspective col-lg-5 d-flex justify-content-end align-items-center min-50 p-0 o-12 slide-in-right">
-                    <img class="rotate img w-50 absolute z-1" src="/img/jaxx-2phone-crop.png" alt="Jaxx Liberty">
+                    <img class="rotate img w-50 absolute z-1 rellax" src="/img/jaxx-2phone-crop.png" alt="Jaxx Liberty">
                 </div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-50 p-5-sm rellax">
                    <!--color bg div-->
