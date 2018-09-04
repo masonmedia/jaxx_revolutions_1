@@ -21,16 +21,6 @@ new Vivus('jaxx-multi-device', {
           obj.el.classList.add('finished');
         });
      
-//     //banner multi device
-//new Vivus('features-icon-1', {
-//        start: 'inViewport',
-//        type: 'async',
-//        duration: 300,
-//        animTimingFunction: Vivus.EASE_IN
-//        },
-//          function (obj) {
-//          obj.el.classList.add('finished');
-//        });
 
 //downloads page banner animation
      

@@ -100,7 +100,7 @@ textarea {
 
 html,
 body {
-    font-family: Oswald, "Montserrat", Avenir, Helvetica, sans-serif;
+    font-family: 'Oswald', Montserrat, Avenir, Helvetica, sans-serif;
     overflow-x: hidden;
     width: 100%;
 }
@@ -183,10 +183,11 @@ footer a:hover {
 
 /* text */
 
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Oswald', Montserrat, Avenir, Helvetica, sans-serif;
+}
 .site-title {
 /*    font-size: 10vmin;*/
-    
-    font-family: Oswald, Montserrat;
     font-size: 5vw;
     font-size: 8vw;
     font-weight: 300;
@@ -197,7 +198,6 @@ footer a:hover {
 }
 .site-sub-title,
 .page-sub-title {
-    font-family: Oswald, Montserrat;
     font-size: 4vmin;
 }
 .page-title {
@@ -207,7 +207,6 @@ footer a:hover {
     line-height: 90%;
 }
 .section-title {
-/*    font-family: 'Oswald', Montserrat, sans-serif;*/
     font-size: 8vmin;
     font-size: 6vmin;
     text-transform: uppercase;
@@ -297,7 +296,7 @@ footer a:hover {
 }
 .stroke-t {
     color: transparent;
-    -webkit-text-stroke: 3px turquoise; 
+    -webkit-text-stroke: 1px turquoise; 
 }
 .stroke-w {
     color: transparent;
@@ -356,11 +355,15 @@ footer a:hover {
 /* shapes ==================*/
 
 .circle {
-/*    background: #D6D6D6;*/
+/*    background: transparent;*/
     border-radius: 100%;
-    height: 500px;
+    display: block;
+    height: 300px;
+    margin: 0 auto;
+    left: 0;
+    left: 0;
     position: absolute;
-    width: 500px;
+    width: 300px;
     z-index: 0;
 }
 .circle-clip {
@@ -683,9 +686,10 @@ video {
 }
 
 .bg-fs-img-banner-2 {
-    background: url(/img/jaxx-jump-2.jpg) center;    
-/*    people*/
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background-size: cover;
+    background-attachment: fixed;
+}
     
 /*    confetti*/
 /*    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;*/
@@ -698,9 +702,8 @@ video {
 	
 /*	rocks jump */
 /*	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/jaxx-jump-2.jpg) center;*/
-    background-size: cover;
-    background-attachment: fixed;
-}
+
+
 
 .bg-img-banner-home-3 {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1529307145738-af20ddbc9255?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=93fc4dea9a9d47dc5cebfc6ae4b3eb63&auto=format&fit=crop&w=925&q=80) center;
@@ -719,7 +722,7 @@ video {
 .bg-img-app-homepage {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-app-homescreen.jpg) center;
     background-size: cover;
-/*    background-attachment: fixed;*/
+    background-attachment: fixed;
 }
 
 .bg-img-1 {

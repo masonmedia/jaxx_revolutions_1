@@ -7,7 +7,7 @@ include 'includes/home-header.php';
 ?>   
     <main role="main">
         <!--jumbotron home timeline animation-->
-        <div role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white fs p-5 m-0 content-tween rellax">
+        <div role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white fs p-5 m-0 content-tween">
             <!--fade in navy bg div intro-->
             <div class="navy-bg bg-navy min-100 w-100 h-100 absolute z-0"></div>
             <!--multi device svg img-->
@@ -118,11 +118,11 @@ include 'includes/home-header.php';
         
             <!--row 1 features-->
             
-            <div id="features" class="row d-flex bg-light relative z-1 content-tween">
+            <div class="row d-flex bg-light relative z-1 content-tween">
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5 rellax" data-rellax-speed="-2">
                     <!--bg text heading-->
-                   <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">Jaxx Liberty is Here.</div>
-                   <!--section title-->
+                    <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">Jaxx Liberty is Here.</div>
+                    <!--section title-->
                     <h2 class="section-title font-weight-bold m-0 rellax">
                         <span class="content-stagger-up">J</span><span class="content-stagger-up">a</span><span class="content-stagger-up">x</span><span class="content-stagger-up">x</span>
                         <span class="content-stagger-up">L</span><span class="content-stagger-up">i</span><span class="content-stagger-up">b</span><span class="content-stagger-up">e</span><span class="content-stagger-up">r</span><span class="content-stagger-up">t</span><span class="content-stagger-up">y</span>
@@ -237,7 +237,7 @@ include 'includes/home-header.php';
             
             <!--security-->
             
-            <div class="row bg-light content-tween">
+            <div class="row bg-light relative z-0 content-tween">
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 px-5 pt-5 pb-0 rellax">
                    <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">You're in control of your keys.</div>
                     <h2 class="section-title font-weight-bold relative z-1 m-0 rellax">
@@ -261,9 +261,9 @@ include 'includes/home-header.php';
             
             <!--row 4 Testimonials carousel-->
             
-            <div id="socialProof" class="row d-flex bg-light content-tween">
+            <div id="socialProof" class="row d-flex bg-light relative z-0 content-tween">
                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left min-100">
-                    <!--orange bg angle div-->
+                    <!--turquoise bg angle div-->
                     <div class="img-full bg-turq w-75 min-50 absolute z-0 shadow-lg fade-in-slow rellax" data-rellax-speed="2"></div>
                     <img class="img absolute z-0 shadow-lg slide-in-right" src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80" alt="Jaxx Liberty Testimonials" data-rellax-speed="1">
                     <h2 class="section-title bg-white-op font-weight-bold p-3 rellax" data-rellax-speed="-2">
@@ -321,10 +321,10 @@ include 'includes/home-header.php';
            
             <!--row 6 community-->
             
-            <div id="community" class="row d-flex bg-light content-tween"> 
+            <div id="community" class="row d-flex bg-light relative z-0 content-tween"> 
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
                     <!--bg section-title text-->
-                    <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">Our <span class="word-break">Community.</span></div>                    
+                    <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="2">Our <span class="word-break">Community.</span></div>                    
                     <h2 class="section-title font-weight-bold m-0 rellax">
                         <span class="content-stagger-up">O</span><span class="content-stagger-up">u</span><span class="content-stagger-up">r</span>
                         <span class="content-stagger-up">C</span><span class="content-stagger-up">o</span><span class="content-stagger-up">m</span><span class="content-stagger-up">m</span><span class="content-stagger-up">u</span><span class="content-stagger-up">n</span><span class="content-stagger-up">i</span><span class="content-stagger-up">t</span><span class="content-stagger-up">y.</span>

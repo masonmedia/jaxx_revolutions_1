@@ -174,9 +174,17 @@ var tl3 = new TimelineLite();
     tl3.staggerFrom(".navbar-brand, .nav-item, .navbar-toggler", 0.2, {y:-10, autoAlpha:0, rotation:-20}, 0.1)
        .from("#security-banner .jaxx-shield", 1, {autoAlpha:0, y: -20, ease: SlowMo.easeIn}, "-=0.25")
        .staggerFrom("#security-banner .site-title span", 0.5, {autoAlpha:0, y:-50, ease: SlowMo.easeInOut}, 0.2)
-//       .staggerFrom("#security-banner h2 span", 0.3, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, 0.1);
        .from("#security-banner h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, "-=0.25");
         
+     
+//features banner animation timeline
+     
+var tl4 = new TimelineLite();
+    tl4.staggerFrom("#features bg-img-banner-features", 0.5, {y:-10, autoAlpha:0, rotation:-20}, 0.1)
+       .staggerFrom("#features .page-title span", 0.5, {autoAlpha:0, x:-500, rotation: -100, ease: SlowMo.easeIn}, 0.2)
+       .staggerFrom("#features h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, 0.2)
+       .from("#features .jaxx-navbar-brand", 0.5, {autoAlpha:0, y: -20, ease: SlowMo.easeIn}, "-=0.25");
+
      
 //features-list timelines
      
@@ -351,19 +359,20 @@ $(".fade-in-up").each(function() {
      
      //  device rotation animations ==> features og page    
      
-    $(".rotate").each(function() {
+//$(".rotate").each(function() {
+//
+// 	var rotate = TweenMax.from(this, 2, {autoAlpha:0, rotationY:15, rotationX:45, rotationZ:-45, ease: Power4.easeInOut});
+//         
+//	var scene = new ScrollMagic.Scene({
+//	        triggerElement: this,
+//	        triggerHook: 'onEnter',
+//	        offset: 0,
+//	        reverse:true
+//	    })
+//		.setTween(rotate)
+//		.addTo(controller);
+//});
 
- 	var rotate = TweenMax.from(this, 2, {autoAlpha:0, rotationY:15, rotationX:45, rotationZ:-45, ease: Sine.easeInOut});
-         
-	var scene = new ScrollMagic.Scene({
-	        triggerElement: this,
-	        triggerHook: 'onEnter',
-	        offset: 0,
-	        reverse:true
-	    })
-		.setTween(rotate)
-		.addTo(controller);
-}); 
      
   
     
