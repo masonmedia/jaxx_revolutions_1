@@ -137,8 +137,10 @@ include 'includes/home-header.php';
                 </div><!--end col-->
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center o-12 rellax">
                     <!--navy bg div-->
-                    <div class="bg-navy parallelo h-100 w-100 absolute z-0 shadow-lg rellax"></div>
-                    <img class="img w-100 shadow-lg slide-in-right" src="/img/jaxx-app-homescreen.jpg" alt="Jaxx Liberty is Here">
+                    <div class="bg-navy parallelo h-100 w-100 absolute z-0 shadow-lg rellax" data-rellax-speed="3"></div>
+                    <div class="slide-in-right">
+                        <img class="img w-100 shadow-lg rellax" src="/img/jaxx-app-homescreen.jpg" alt="Jaxx Liberty is Here">
+                    </div>
                </div>
             </div><!--end row-->
 
@@ -397,7 +399,6 @@ include 'includes/home-header.php';
                             <span class="content-stagger-up">digital</span>
                             <span class="content-stagger-up">life.</span>
                        </h2>
-                       
                        <div class="content-stagger-up">
                            <a href="downloads.php" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Download</a>
                       </div>
