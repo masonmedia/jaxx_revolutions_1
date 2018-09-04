@@ -151,7 +151,7 @@ include 'includes/home-header.php';
                         <h5 class="content-stagger-up">Quick and easy access to cryptocurrency price moves, market caps, and trends -- at your fingertips.</h5>
                     </div>
                 </div>
-                <div class="col-lg-5 d-flex justify-content-end align-items-center min-50 p-0">
+                <div class="col-lg-5 d-flex justify-content-end align-items-center min-70 p-0 slide-in-left">
                     <img class="rotate h-auto w-100 absolute z-1" src="/img/jaxx-two-devices.png" alt="Jaxx Liberty" data-rellax-speed="1">
                     <!--bg section-title -->
                     <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="3">Market Data.</div>
@@ -161,7 +161,7 @@ include 'includes/home-header.php';
             
             <!--row 6-->
             <div id="row6" class="row d-flex bg-white bg-img-downloads content-tween rellax">
-                <div class="col-lg-5 d-flex justify-content-end align-items-center min-50 p-0 relative z-1 o-12">
+                <div class="col-lg-5 d-flex justify-content-end align-items-center min-70 p-0 relative z-1 o-12 slide-in-right">
                     <img class="rotate img w-100 absolute z-2 p-5" src="/img/jaxx-3phone-light-orange.png" alt="Jaxx Liberty" data-rellax-speed="1">
                 </div> 
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end min-70 p-5 rellax" data-rellax-speed="-2">
@@ -184,7 +184,7 @@ include 'includes/home-header.php';
                     <!--color bg div-->
                     <div class="img-full absolute z-0 left-0 bg-turq shadow-lg fade-in-slow" data-rellax-speed="2"></div>
                     <div class="wrap rellax">
-                        <img class="content-stagger-up" src="/img/icons/jaxx-cog.png" alt="Jaxx Liberty Market Data">
+                        <img class="content-stagger-up" src="/img/icons/jaxx-cog.png" alt="Jaxx Liberty">
                         <h2 class="page-title x-bold text-light content-stagger-up">Token Transaction History</h2>
                         <h5 class="content-stagger-up">See transaction history for all token transactions in the Block Explorer or the Wallet widgets.</h5>
                     </div>
