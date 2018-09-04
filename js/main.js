@@ -150,8 +150,7 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
      
 //zoom in bg image
 //.to("#home .banner-img", 30, {scale:1.3, y:100, ease: Sine.easeInOut}, "-=0.5");
-//  
-// 
+
 //page banner animation timeline
      
 var tl2 = new TimelineLite();

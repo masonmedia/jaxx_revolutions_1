@@ -36,14 +36,14 @@ include 'includes/header.php';
         <div class="container-fluid p-0">
         
             <!--row 1 security intro-->
-            <div id="sec-features" class="row d-flex bg-white bg-dots border rounded m-4 p-4 shadow-lg content-tween">
-                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center min-50 p-3 rellax">
-                    <div class="wrap d-flex flex-column justify-content-center align-items-center px-3 py-5 w-100 h-100 border content-stagger-up">
+            <div id="sec-features" class="row d-flex bg-img-banner-security bg-dots p-4 shadow-lg content-tween">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center min-70 p-3 rellax" data-rellax-speed="-1">
+                    <div class="wrap d-flex flex-column justify-content-center align-items-center bg-white-op p-5 w-100 h-100 border rellax" data-rellax-speed="3">
                         <h2 class="section-title x-bold relative z-1 m-0 content-stagger-up">More than a million users trust Jaxx.</h2>
                         <p class="relative z-1 py-3 content-stagger-up">We take security seriously. From industry-standard encryption to key privacy and rigorous code review, our highest priority is ensuring the safety and privacy of our users. Explore some of the new and improved security features found in Jaxx Liberty below.</p>
                     <!--<img class="img-shield content-stagger-up" src="/img/jaxx-shield.png" alt="Jaxx Liberty Security">-->
                     </div>
-                    <img class="img-shield absolute z-0 content-stagger-up" src="/img/jaxx-shield.png" alt="Jaxx Liberty Security">
+                    <img class="img-shield absolute z-0 fade-in-slow" src="/img/Sheild_Navy.png" alt="Jaxx Liberty Security">
                 </div>
             </div><!--end row-->
 
@@ -99,7 +99,7 @@ include 'includes/header.php';
             </div><!--end row-->
             
            <!--row 3 additional features-->
-            <div id="features" class="row d-flex bg-white min-100 content-tween rellax">
+            <div class="row d-flex bg-white min-100 content-tween rellax">
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-dots min-50 p-5 o-12 rellax">
                     <img class="jaxx-navbar-brand content-stagger-up" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Security">
                     <h3 class="font-weight-bold p-3 bg-navy orange skew shadow-lg py-2 content-stagger-up">Jaxx never has access to your funds.</h3>
@@ -109,7 +109,7 @@ include 'includes/header.php';
             </div><!--end row-->
             
             <!--row 4 additional features-->
-            <div id="features" class="row d-flex bg-white min-100 content-tween">
+            <div class="row d-flex bg-white min-100 content-tween">
                 <div class="col-lg-6 bg-img-people-1 p-0"></div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-dots min-50 p-5 rellax">
                     <img class="jaxx-navbar-brand content-stagger-up" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Security">
