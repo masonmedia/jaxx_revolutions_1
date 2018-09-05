@@ -83,7 +83,7 @@ window.cookieconsent.initialise({
 </head>
 
 
-<body class="bg-navy-gradient animsition" data-animsition-in-class="fade-in" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
+<body class="animsition" data-animsition-in-class="fade-in" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
 
 <!--[if lte IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -100,7 +100,7 @@ window.cookieconsent.initialise({
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800" href="/features.php">Features</a>
+            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800" href="/features-og.php">Features</a>
           </li>
           <li class="nav-item">
             <a class="nav-link animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800" href="/downloads.php">Download</a>
@@ -109,7 +109,7 @@ window.cookieconsent.initialise({
             <a class="nav-link animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800" href="/security.php">Security</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link animsition-link" data-animsition-out-class="flip-out-y" data-animsition-out-duration="800" href="/community.php">Community</a>
+            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-right-lg" data-animsition-out-duration="800" href="/community.php">Community</a>
           </li>
           <li class="nav-item">
             <a class="nav-link animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800" href="/careers.php">Careers</a>

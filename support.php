@@ -11,16 +11,17 @@ include 'includes/header.php';
         <!--jumbotron-->
         <div id="banner" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center relative z-1 text-center bg-img-banner-support text-white min-70 p-5 m-0">
            <div class="row">
-               <div class="col-sm-12 pb-5">
-                   <div class="pb-3 rellax" data-rellax-speed="-2">
-                        <img class="jaxx-navbar-brand mt-5" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
+               <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center pb-5">
+                   <div class="d-flex flex-column justify-content-center align-items-center pb-3 rellax" data-rellax-speed="-2">
+                        <img class="jaxx-navbar-brand mt-5 mb-2" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
                         <h1 class="section-title x-bold m-0 mb-1">
                             <span class="d-inline-block">We're</span>
                             <span class="d-inline-block">Here</span>
                             <span class="d-inline-block">to</span>
                             <span class="d-inline-block">Help</span>
                         </h1>
-                        <h2 class="h4">
+                        <hr class="w-25 bg-white">
+                        <h2 class="site-sub-title">
                             <span class="d-inline-block">Welcome</span>
                             <span class="d-inline-block">to</span>
                             <span class="d-inline-block">the</span>
@@ -30,7 +31,7 @@ include 'includes/header.php';
                             <span class="d-inline-block">support</span>
                             <span class="d-inline-block">page</span>
                         </h2>
-                        <a class="btn btn-lg btn-orange font-weight-bold mt-2" href="https://support.decentral.ca/hc/en-us" target="_blank">How can we help?</a>
+                        <a class="btn btn-lg btn-orange font-weight-bold mt-3" href="https://support.decentral.ca/hc/en-us" target="_blank">How can we help?</a>
                     </div><!--end wrap-->
                </div><!--end col-->
             </div>

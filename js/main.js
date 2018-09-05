@@ -157,6 +157,7 @@ var tl2 = new TimelineLite();
     tl2.staggerFrom("#banner .navbar-brand, .nav-item, .navbar-toggler", 0.2, {y:-10, autoAlpha:0, rotation:-20}, 0.1)
        .staggerFrom("#banner h1 span", 0.5, {autoAlpha:0, x:-500, rotation: -100, ease: SlowMo.easeIn}, 0.1)
        .from("#banner .jaxx-navbar-brand", 0.5, {autoAlpha:0, y: -20, ease: SlowMo.easeIn})
+       .from("#banner hr", 0.5, {autoAlpha:0, x:500, rotation: -100, ease: SlowMo.easeIn}, "-=0.5")
        .staggerFrom("#banner h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, 0.1)
        .from("#banner .btn", 0.1, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, "-=0.25");
      
@@ -164,9 +165,10 @@ var tl2 = new TimelineLite();
      
 var tl3 = new TimelineLite();
     tl3.staggerFrom(".navbar-brand, .nav-item, .navbar-toggler", 0.2, {y:-10, autoAlpha:0, rotation:-20}, 0.1)
-       .from("#security-banner .jaxx-shield", 1, {autoAlpha:0, y: -20, ease: SlowMo.easeIn}, "-=0.25")
-       .staggerFrom("#security-banner .site-title span", 0.5, {autoAlpha:0, y:-50, ease: SlowMo.easeInOut}, 0.2)
-       .from("#security-banner h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, "-=0.25");
+       .from("#security .jaxx-shield", 1, {autoAlpha:0, y: -20, ease: SlowMo.easeIn}, "-=0.25")
+       .staggerFrom("#security .site-title span", 0.5, {autoAlpha:0, y:-50, ease: SlowMo.easeInOut}, 0.2)
+       .from("#security hr", 0.5, {autoAlpha:0, x:500, rotation: -100, ease: SlowMo.easeIn}, "-=0.5")
+       .from("#security h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, "-=0.25");
         
      
 //features banner animation timeline
@@ -174,14 +176,9 @@ var tl3 = new TimelineLite();
 var tl4 = new TimelineLite();
     tl4.staggerFrom("#features bg-img-banner-features", 0.5, {y:-10, autoAlpha:0, rotation:-20}, 0.1)
        .staggerFrom("#features .page-title span", 0.5, {autoAlpha:0, x:-500, rotation: -100, ease: SlowMo.easeIn}, 0.2)
+       .from("#features hr", 0.5, {autoAlpha:0, x:500, rotation: -100, ease: SlowMo.easeIn}, "-=0.5")
        .staggerFrom("#features h2 span", 0.5, {autoAlpha:0, y: 20, ease: SlowMo.easeIn}, 0.2)
        .from("#features .jaxx-navbar-brand", 0.5, {autoAlpha:0, y: -20, ease: SlowMo.easeIn}, "-=0.25");
-
-     
-//features-list timelines
-     
-
-//TweenLite.set(subhead, {visibility:"visible"})
 
      
 // individual tweens

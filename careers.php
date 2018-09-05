@@ -9,22 +9,15 @@ include 'includes/header.php';
     <main id="careers" role="main">
         
         <!--jumbotron-->
-        <div id="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white bg-img-office min-70 p-5 mb-0 content-tween">
-<!--
-            <div class="rellax">
-                <img class="jaxx-navbar-brand mb-2 mt-5 content-stagger-up" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
-                <h1 class="page-title mb-2 mt-0 content-stagger-up">Join Us</h1>
-                <h4 class="site-sub-title mb-5 content-stagger-up">Driven by design, our mission is to become the interface to the blockchain world.</h4>
-            </div>
--->
-            
-            <div class="pb-5 rellax" data-rellax-speed="-2">
-                <img class="jaxx-navbar-brand mt-5" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Community">
+        <div id="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white bg-img-office min-70 p-5 mb-0 content-tween">            
+            <div class="d-flex flex-column justify-content-center align-items-center pb-5 rellax" data-rellax-speed="-2">
+                <img class="jaxx-navbar-brand mt-5 mb-2" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Community">
                 <h1 class="page-title m-0 mb-1">
                     <span class="d-inline-block">J</span><span class="d-inline-block">o</span><span class="d-inline-block">i</span><span class="d-inline-block">n</span>
                     <span class="d-inline-block">U</span><span class="d-inline-block">s</span>
                 </h1>
-                <h2 class="h4">
+                <hr class="w-25 bg-white">
+                <h2 class="site-sub-title">
                     <span class="d-inline-block">Become</span>
                     <span class="d-inline-block">a</span>
                     <span class="d-inline-block">part</span>

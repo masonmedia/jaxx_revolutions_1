@@ -6,10 +6,10 @@ include 'includes/header.php';
 
 ?>
 
-    <main id="security" role="main" class="animsition" data-animsition-in-class="fade-in-left-sm" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
+    <main role="main" class="animsition" data-animsition-in-class="fade-in-left-sm" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
 
         <!--jumbotron-->
-        <div id="security-banner" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center bg-img-banner-security text-white min-70 p-5 mb-0 content-tween">
+        <div id="security" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center bg-img-banner-security text-white min-70 p-5 mb-0 content-tween">
             <img class="img jaxx-shield mt-5 rellax" style="top:0px; width: 500px;" src="/img/Sheild_Orange_Straight_Light_Blue.png" alt="Jaxx Liberty Security">
             <!--<h1 class="site-title relative z-1 pb-2">Your Security is Our Mission.</h1>-->
             <h1 class="site-title relative z-1 x-bold m-0 mb-1">
@@ -19,6 +19,7 @@ include 'includes/header.php';
                 <span class="d-inline-block">Our</span>
                 <span class="d-inline-block">Mission</span>
             </h1>
+            <hr class="w-25 bg-white">
             <h2 class="site-sub-title relative z-1 pt-1 pb-3">
                 <span class="d-inline-block">Jaxx</span>
                 <span class="d-inline-block">Liberty</span>

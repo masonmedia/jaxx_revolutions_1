@@ -18,6 +18,7 @@ include 'includes/header.php';
                         <h1 class="page-title m-0 mb-2">
                             <span class="d-inline-block">A</span><span class="d-inline-block">b</span><span class="d-inline-block">o</span><span class="d-inline-block">u</span><span class="d-inline-block">t</span>
                         </h1>
+                        <hr class="bg-white w-25">
                         <h2 class="site-sub-title">
                             <span class="d-inline-block">Find</span>
                             <span class="d-inline-block">out</span>

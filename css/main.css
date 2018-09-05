@@ -181,6 +181,18 @@ footer a:hover {
     color: #fff;
 }
 
+/* borders */
+
+.border-navy {
+    border-color: rgb(38, 66, 119) !important;
+}
+.border-orange {
+    border-color: #ff6902 !important;
+}
+.border-grey {
+    border-color: lightgrey !important;
+}
+
 /* text */
 
 h1, h2, h3, h4, h5, h6, p, button, .btn {
@@ -288,23 +300,19 @@ p {
 }
 .stroke-n {
     color: transparent;
-    -webkit-text-stroke: 3px rgb(38, 65, 118); 
+    -webkit-text-stroke: 1px rgb(38, 65, 118); 
 }
 .stroke-o {
     color: transparent;
-    -webkit-text-stroke: 3px #ff6902; 
+    -webkit-text-stroke: 1px #ff6902; 
 }
 .stroke-p {
     color: transparent;
-    -webkit-text-stroke: 3px #fb99f4; 
+    -webkit-text-stroke: 1px #fb99f4; 
 }
 .stroke-t {
     color: transparent;
     -webkit-text-stroke: 1px turquoise; 
-}
-.stroke-w {
-    color: transparent;
-    -webkit-text-stroke: 3px #fff; 
 }
 .skew {
     transform: skew(0,-4.7deg);
@@ -470,8 +478,8 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
     background-color: rgb(38, 66, 119);
 }
 .bg-turq {
-    background: rgb(64, 224, 208);
-    background-color: turquoise !important;
+    background-color: rgb(64, 224, 208);
+    background-color: #40e0d0 !important;
 }
 .bg-purple {
     background-color: #fb99f4 !important;
@@ -579,7 +587,7 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
 	width: 150px;	
 }
 .store-logo-2 {
-	width: 175px;
+	width: 210px;
 }
 
 video {
@@ -1233,8 +1241,8 @@ footer li a {
     .page-title {
         font-size: 15vmin;
         font-weight: 900;
-        letter-spacing: -4px;
-        line-height: 80%;
+        letter-spacing: -3px;
+        line-height: 85%;
     }
 
     /* partnerships logo resize for mobile*/

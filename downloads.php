@@ -9,13 +9,14 @@ include 'includes/header.php';
     <main role="main" class="animsition" data-animsition-in-class="zoom-in-sm" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
         
         <!--jumbotron-->
-        <div id="downloads" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white bg-img-banner-downloads min-70 p-5 mb-0 content-tween">
+        <div id="banner" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white bg-img-banner-downloads min-70 p-5 mb-0 content-tween">
            <div id="banner" class="row">
-               <div class="col-lg-12 py-5 rellax" data-rellax-speed="-2">
+               <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center py-5 rellax" data-rellax-speed="-2">
                    <img class="jaxx-navbar-brand" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
                    <h1 class="page-title mt-0 mb-1">
                         <span class="d-inline-block">D</span><span class="d-inline-block">o</span><span class="d-inline-block">w</span><span class="d-inline-block">n</span><span class="d-inline-block">l</span><span class="d-inline-block">o</span><span class="d-inline-block">a</span><span class="d-inline-block">d</span>
                    </h1>
+                   <hr class="w-25 bg-white">
                    <h2 class="site-sub-title">
                        <span class="d-inline-block">Try</span>
                        <span class="d-inline-block">Jaxx</span>
@@ -31,13 +32,13 @@ include 'includes/header.php';
            
             <!--download desktop-->
             <div id="desktop" class="row d-flex bg-white bg-img-downloads content-tween">
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange min-100 arrow-left o-12">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange bg-img-downloads min-100 arrow-left o-12">
 <!--                    <img class="img rellax" src="/img/jaxx-multiple-macbook.png" alt="Jaxx Liberty Desktop" data-rellax-speed="-2">-->
-                    <img class="img w-75 absolute z-1 rellax" src="/img/jaxx-Lapop_Shot_Top_1b.png" alt="Jaxx Liberty Desktop" data-rellax-speed="-2">
+                    <img class="img w-75 absolute z-1 rellax" src="/img/jaxx-samsung-laptop-top-home.png" alt="Jaxx Liberty Desktop" data-rellax-speed="-2">
                 </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
                     <h2 class="section-title x-bold p-3 bg-navy orange skew shadow-lg content-stagger-up">Download for Desktop</h2>
-                    <p class="border-top border-bottom py-4 content-stagger-up"><span class="orange font-weight-bold">Jaxx Liberty</span> will soon be available on desktop for Mac, Windows, and Linux operating systems.</p>
+                    <p class="border-top border-bottom border-grey py-4 content-stagger-up"><span class="orange font-weight-bold">Jaxx Liberty</span> will soon be available on desktop for Mac, Windows, and Linux operating systems.</p>
                     <!--nest row-->
 <!--
                     <div class="row px-3">
@@ -149,18 +150,20 @@ include 'includes/header.php';
             <div id="mobile" class="row d-flex bg-white bg-img-downloads content-tween">
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
                     <h2 class="section-title x-bold bg-navy orange p-3 skew shadow-lg content-stagger-up">Download for Mobile</h2>
-                    <p class="border-top border-bottom py-4 content-stagger-up"><span class="orange font-weight-bold">Lorem ipsum</span> dolor sit amet, consectetur adipisicing elit. Repudiandae ab, esse, labore minus odio dolor reiciendis, corrupti pariatur adipisci numquam ex! Quos ab, aperiam assumenda vitae aspernatur quas odit rem!</p>
+                    <p class="border-top border-bottom border-grey py-4 content-stagger-up"><span class="orange font-weight-bold">Lorem ipsum</span> dolor sit amet, consectetur adipisicing elit. Repudiandae ab, esse, labore minus odio dolor reiciendis, corrupti pariatur adipisci numquam ex! Quos ab, aperiam assumenda vitae aspernatur quas odit rem!</p>
 					<!--button nest row-->
 					<div class="row content-stagger-up">
+<!--
 						<div class="col-xs-6 mr-2">
 							<a onclick="googleAnalyticsTrigger('iOS', 'Banner')" href="https://itunes.apple.com/us/app/jaxx-bitcoin-ethereum-wallet/id1084514516?mt=8" target="_blank"><img title="iTunes Store Button" class="store-logo" src="img/appleStoreButton.png" alt="iTunes Store Button"/></a>
 						</div>
-						<div class="col-xs-6">
-							<a onclick="googleAnalyticsTrigger('Android', 'Banner')" href="https://play.google.com/store/apps/details?id=com.kryptokit.jaxx&hl=en" target="_blank"><img title="Play Store Button" class="store-logo" src="img/googleStoreButton.png" alt="Google Store Button"/></a>
+-->
+						<div class="col-xs-12">
+							<a onclick="googleAnalyticsTrigger('Android', 'Banner')" href="https://play.google.com/store/apps/details?id=com.kryptokit.jaxx&hl=en" target="_blank"><img title="Play Store Button" class="w-100" src="img/googleStoreButton.png" alt="Google Store Button"/></a>
 						</div>
 					</div><!--end button nest row-->                  
                 </div>
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange min-100 arrow-right">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange bg-img-downloads min-100 arrow-right">
                     <img class="img w-75 rellax" src="/img/jaxx-multiple-phones.png" alt="Jaxx Liberty Mobile" data-rellax-speed="-2">
                 </div>
             </div><!--end mobile row-->
@@ -168,12 +171,12 @@ include 'includes/header.php';
              <!--download google chrome ext-->
             <div id="chrome" class="row d-flex bg-orange bg-img-downloads content-tween">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-100 o-12">
-                    <img class="img rellax" src="/img/jaxx-samsung-laptop-side.png" alt="Jaxx Google Chrome">
+                    <img class="img rellax" src="/img/jaxx-samsung-laptop-side.png" alt="Jaxx Google Chrome" data-rellax-speed="-2">
                 </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
                     <h2 class="section-title x-bold pb-3 bg-navy orange p-3 skew shadow-lg content-stagger-up">Add to Chrome</h2>
                     <div class="w-100 p-2">
-                       <p class="py-3 border-top border-bottom border-dark content-stagger-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ab, esse, labore minus odio dolor reiciendis, corrupti pariatur adipisci numquam ex! Quos ab, aperiam assumenda vitae aspernatur quas odit rem!</p>
+                       <p class="py-3 border-top border-bottom border-grey content-stagger-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ab, esse, labore minus odio dolor reiciendis, corrupti pariatur adipisci numquam ex! Quos ab, aperiam assumenda vitae aspernatur quas odit rem!</p>
                         <a onclick="googleAnalyticsTrigger('Chrome Extension', 'Banner')" href="https://chrome.google.com/webstore/detail/jaxx-blockchain-wallet/ancbofgphhmhcchnaognahmjfajaecmo" target="_blank">
                             <img class="store-logo-2 pt-2 content-stagger-up" src="/img/jaxx-chrome.png" alt="Download Jaxx Liberty on Google Play">
                         </a>

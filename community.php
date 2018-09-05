@@ -6,16 +6,17 @@ include 'includes/header.php';
 
 ?>
 
-    <main id="features" role="main" class="animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
+    <main role="main" class="animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
     
        <!--jumbotron-->
         <div id="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white bg-img-community min-70 py-5 mb-0">
-            <div class="pb-5 rellax" data-rellax-speed="-2">
+            <div class="d-flex flex-column justify-content-center align-items-center text-center pb-5 mb-5 rellax" data-rellax-speed="-2">
                 <img class="jaxx-navbar-brand mt-5" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Community">
                 <h1 class="page-title m-0 mb-1">
                     <span class="d-inline-block">C</span><span class="d-inline-block">o</span><span class="d-inline-block">m</span><span class="d-inline-block">m</span><span class="d-inline-block">u</span><span class="d-inline-block">n</span><span class="d-inline-block">i</span><span class="d-inline-block">t</span><span class="d-inline-block">y</span>
                 </h1>
-                <h2 class="h3">
+                <hr class="w-25 bg-white">
+                <h2 class="site-sub-title">
                     <span class="d-inline-block">It's</span>
                     <span class="d-inline-block">in</span>
                     <span class="d-inline-block">our</span>
@@ -33,7 +34,7 @@ include 'includes/header.php';
                  min-50 bg-img-toronto-1 o-12 content-stagger-up"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left min-50 p-0 o-1">
                    <div class="wrap bg-white-op rounded-left p-5">
-                        <div class="border-wrap border border-dark p-4">
+                        <div class="border-wrap border border-dark p-4 rellax" data-rellax-speed="2">
                             <h2 class="section-title x-bold shadow-lg pt-4 pb-3 px-3 mb-3 navy bg-orange skew content-stagger-up">Where we started</h2>
                             <p class="border-top border-dark py-4 px-3 m-0 content-stagger-up">Jaxx Liberty is developed by Decentral Inc., Canada's leading blockchain company. Our founder created Jaxx in 2014 because he saw a change like Netscape for the Internet: that we are moving towards a world of value movement and that people need an easy way to manage their cryptocurrencies and digital lives.</p>
                        </div>
@@ -43,23 +44,23 @@ include 'includes/header.php';
 
            <!--row 2-->
             <div id="row2" class="row d-flex bg-orange content-tween">
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-end min-50 text-right p-0 rellax">
+                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-end min-50 text-right p-0">
                    <div class="wrap bg-white-op p-5 content-stagger-up">
-                       <div class="border-wrap border border-dark p-4">
+                       <div class="border-wrap border border-dark p-4 rellax" data-rellax-speed="2">
                             <h2 class="section-title x-bold orange bg-navy shadow-lg pt-4 pb-3 px-3 mb-3 skew content-stagger-up">Where we are</h2>
                             <p class="border-top border-dark py-4 px-3 m-0 rounded-right content-stagger-up">The founder of Decentral is Anthony Diiorio, widely known for co-founding Ethereum in 2014. Fast forward to today and Jaxx is a leading digital asset wallet that supports over 25 cryptocurrencies and tokens.</p>
                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center bg-img-jump min-50 angle-rtl"></div>
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center bg-img-jump min-50 angle-rtl rellax" data-rellax-speed="-1"></div>
             </div>
 
             <!--row 3-->
             <div id="row3" class="row d-flex bg-navy content-tween">
-                <div class="col-lg-7 bg-img-team min-50 o-12 angle-ltr rellax" data-rellax-speed="1"></div>
+                <div class="col-lg-7 bg-img-team min-50 o-12 angle-ltr rellax" data-rellax-speed="-1"></div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-50 p-0 o-1 rellax" data-rellax-speed="-1">
                    <div class="wrap bg-white-op rounded-left p-5 content-stagger-up">
-                        <div class="border-wrap border border-dark p-4">
+                        <div class="border-wrap border border-dark p-4 rellax" data-rellax-speed="2">
                             <h2 class="section-title x-bold bg-orange navy shadow-lg py-4 px-3 mb-3 skew content-stagger-up">Evolution</h2>
                             <p class="border-top border-dark py-4 px-3 m-0 content-stagger-up">Decentral is building a major new blockchain hub in Toronto: a new downtown corporate office. The new office will be online in 2018 and feature 5 floors of office space and community events. We are looking to hire a wide range of talented people to occupy our new office so please let us know if you'd like to join the team.</p>
                        </div>
