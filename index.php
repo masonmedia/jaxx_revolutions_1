@@ -135,7 +135,7 @@ include 'includes/home-header.php';
                         <button href="/features.php" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="800">Learn More</button>
                     </div>
                 </div><!--end col-->
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center o-12 rellax">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center min-100 o-12 rellax">
                     <!--navy bg div-->
                     <div class="bg-navy parallelo h-100 w-100 absolute z-0 shadow-lg rellax" data-rellax-speed="3"></div>
                     <div class="slide-in-right">
@@ -147,13 +147,13 @@ include 'includes/home-header.php';
             <!--row 3 Use on any device + Download-->
             
             <div id="download" class="row d-flex bg-white relative bg-img-downloads content-tween p-0">
-                <div class="col-lg-8 d-flex justify-content-center align-items-center p-5 o-12">
+                <div class="col-lg-7 d-flex justify-content-center align-items-center min-100 p-5 o-12">
                     <!--orange bg angle div-->
                     <div class="bg-orange parallelo h-100 w-100 absolute z-0 shadow-lg rellax" data-rellax-speed="2"></div>
                     <!--android img-->
                     <img class="jaxx-3-screens slide-in-left" src="/img/jaxx-3phone-light-orange.png" alt="Use Jaxx Liberty on any Device">
                 </div>
-                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-start min-100 px-5 pt-5 pb-0 rellax" data-rellax-speed="2">
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start min-100 px-5 pt-5 pb-0 rellax" data-rellax-speed="2">
                     <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">Use on multiple devices.</div>
                     <h2 class="section-title font-weight-bold m-0 rellax">
                         <span class="content-stagger-up">U</span><span class="content-stagger-up m-0">s</span><span class="content-stagger-up">e</span> 
@@ -257,8 +257,10 @@ include 'includes/home-header.php';
                     </div>
                 </div><!--end col-->
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center min-100 slide-in-right">
-                    <img class="img absolute z-1 shadow-lg rellax" src="/img/jaxx-security-gallery-bw.jpg" alt="Jaxx Liberty Security" data-rellax-speed="-3">
+                    <img class="img absolute z-1 shadow-lg rellax" src="/img/jaxx-security-gallery-bw.jpg" alt="Jaxx Liberty Security" data-rellax-speed="2">
                 </div>
+                <!--color bg angle div-->
+                <div class="bg-turq parallelo h-100 w-100 absolute z--1 shadow-lg fade-in-slow"></div>
             </div>
             
             <!--row 4 Testimonials carousel-->
@@ -266,7 +268,7 @@ include 'includes/home-header.php';
             <div id="socialProof" class="row d-flex bg-light relative z-0 content-tween">
                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left min-100">
                     <!--turquoise bg angle div-->
-                    <div class="img-full bg-turq w-75 min-50 absolute z-0 shadow-lg fade-in-slow rellax" data-rellax-speed="2"></div>
+                    <div class="img-full bg-warning w-75 min-50 absolute z-0 shadow-lg fade-in-slow rellax" data-rellax-speed="2"></div>
                     <img class="img absolute z-0 shadow-lg slide-in-right" src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80" alt="Jaxx Liberty Testimonials" data-rellax-speed="1">
                     <h2 class="section-title bg-white-op font-weight-bold p-3 rellax" data-rellax-speed="-2">
                         <span class="content-stagger-up">What</span>
@@ -342,40 +344,40 @@ include 'includes/home-header.php';
                 <div class="col-lg-7 d-flex justify-content-center align-items-center bg-img-partners min-100 p-5">
                    <div class="container-fluid bg-turq-angle bg-dots rounded p-4 rellax" data-rellax-speed="-2">
                        <div class="row d-flex p-3">
-                          <div class="col-sm-4 d-flex justify-content-center align-items-center my-2 content-stagger-up">
-                                <img class="partner-logo" src="/img/partner-logos/partners-bitcoin.png" alt="Jaxx Liberty Partner Bitcoin">
+                          <div class="col-sm-4 d-flex justify-content-center align-items-center pt-4 content-stagger-up">
+                                <img class="partner-logo" src="/img/partner-logos/partners-bitcoin-lg.png" alt="Jaxx Liberty Partner Bitcoin">
                            </div>
-                           <div class="col-sm-4 d-flex justify-content-center align-items-center my-2 content-stagger-up">
+                           <div class="col-sm-4 d-flex justify-content-center align-items-center pt-4 mb-0 pb-0 content-stagger-up">
                                 <img class="partner-logo" src="/img/partner-logos/partners-ethereum.png" alt="Jaxx Liberty Partner Ethereum">
                            </div>
-                           <div class="col-sm-4 d-flex justify-content-center align-items-center my-2 content-stagger-up">
+                           <div class="col-sm-4 d-flex justify-content-center align-items-center pt-4 content-stagger-up">
                                <img class="partner-logo" src="/img/partner-logos/partners-bitcoin-cash.png" alt="Jaxx Liberty Partner Bitcoin Cash">
                            </div>
-                           <div class="col-sm-4 d-flex justify-content-center align-items-center my-2 content-stagger-up">
+                           <div class="col-sm-4 d-flex justify-content-center align-items-center pt-4 content-stagger-up">
                                <img class="partner-logo" src="/img/partner-logos/partners-litecoin-crop.png" alt="Jaxx Liberty Partner Litecoin">
                            </div>
-                           <div class="col-sm-4 d-flex justify-content-center align-items-center my-2 content-stagger-up">
+                           <div class="col-sm-4 d-flex justify-content-center align-items-center pt-2 content-stagger-up">
                                <img class="partner-logo" src="/img/partner-logos/partners-ethereum-classic-trans-crop.png" alt="Jaxx Liberty Partner Ethereum Classic">
                            </div>
-                           <div class="col-sm-4 d-flex justify-content-center align-items-center my-2 content-stagger-up">
+                           <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
                                <img class="partner-logo" src="/img/partner-logos/partners-dash.png" alt="Jaxx Liberty Partner Dash">
                            </div>
-                           <div class="col-sm-4 d-flex justify-content-center align-items-center my-2 content-stagger-up">
+                           <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
                                <img class="partner-logo" src="/img/partner-logos/partners-dogecoin.png" alt="Jaxx Liberty Partner Dogecoin">
                            </div>
-                           <div class="col-sm-4 d-flex justify-content-center align-items-center my-2 content-stagger-up">
+                           <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
                                <img class="partner-logo" src="/img/partner-logos/partners-digibyte.png" alt="Jaxx Liberty Partner Digibyte">
                            </div>
-                           <div class="col-sm-4 d-flex justify-content-center align-items-center my-2 content-stagger-up">
+                           <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
                                <img class="partner-logo" src="/img/partner-logos/partners-bitcore.png" alt="Jaxx Liberty Partner Bitcore">
                            </div>
-                           <div class="col-sm-4 d-flex justify-content-center align-items-center my-2 content-stagger-up">
+                           <div class="col-sm-4 d-flex justify-content-center align-items-center content-stagger-up">
                                <img class="partner-logo" src="/img/partner-logos/partners-zcash.png" alt="Jaxx Liberty Partner Zcash">
                            </div>
                            <div class="col-sm-4 d-flex justify-content-center align-items-center my-2 content-stagger-up">
                                <img class="partner-logo" src="/img/partner-logos/partners-shapeshift.png" alt="Jaxx Liberty Partner Shapeshift">
                            </div>
-                           <div class="col-sm-4 d-flex justify-content-center align-items-center my-2 content-stagger-up">
+                           <div class="col-sm-4 d-flex justify-content-center align-items-center mt-2 content-stagger-up">
                                <img class="partner-logo" src="/img/partner-logos/partners-changelly-2.png" alt="Jaxx Liberty Partner Changelly">
                            </div>
                            

@@ -186,6 +186,9 @@ footer a:hover {
 h1, h2, h3, h4, h5, h6, p, button, .btn {
     font-family: 'Oswald', Montserrat, Avenir, Helvetica, sans-serif;
 }
+p {
+    font-size: 18px;
+}
 .site-title {
 /*    font-size: 10vmin;*/
     font-size: 5vw;
@@ -818,14 +821,6 @@ video {
     background-size: cover;
 }
 
-@media (min-width: 576px) {
-
-.bg-img-hand-device-2 {
-    background: url(/img/jaxx-hand-device.jpg) center;
-    background-size: cover;
-    }
-}
-
 
 /*  features page ======================*/
 
@@ -1139,10 +1134,7 @@ i {
 /*  footer ======================*/
 
 footer li a {
-/*    font-size: 18px;*/
-}
-footer p {
-    font-size: 16px;
+    font-size: 18px;
 }
 .footer-leaf {
     height: 40px;    
@@ -1186,6 +1178,10 @@ footer p {
     div[class*="bg-img"] {
         background-attachment: scroll;
     }
+     /*  make all 100vh divs 50vh */
+    div[class*="min-100"] {
+        min-height: 70vh;
+    }
     .page-title {
         font-size: 12vmin;
         letter-spacing: -5px;
@@ -1196,6 +1192,10 @@ footer p {
     }
     .o-12 {
         order: 12;
+    }
+    .partner-logo {
+        height: auto;
+        width: 70%;
     }
     /* front page downloads img*/
     .downloads-img {
@@ -1235,8 +1235,16 @@ footer p {
     }
 
     /* partnerships logo resize for mobile*/
+    
+/*
     .partner-logo-sm {
         width: 300px;
+    }
+*/
+           /* partner logo resize */
+      .partner-logo {
+        height: auto;
+        width: 70%;
     }
     /* features page */
     .swiper-slide .text {
@@ -1249,7 +1257,7 @@ footer p {
 }
     
     
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 601px) {
     /* nav */
     #home nav,
     #home .navbar,
@@ -1274,6 +1282,11 @@ footer p {
         border-width: 1px;
         width: 100%;
     }
+       /* partner logo resize */
+      .partner-logo {
+        height: auto;
+        width: 60%;
+    }
     /* download call to action heading text */
     #cta h2 {
         font-size: 22px;
@@ -1297,6 +1310,22 @@ footer p {
     }
     .footer-leaf {
         height: 35px;
+    }
+}
+
+@media (min-width: 576px) {
+
+.bg-img-hand-device-2 {
+    background: url(/img/jaxx-hand-device.jpg) center;
+    background-size: cover;
+    }
+}
+
+@media (max-width: 400px) {
+    /* partner logo resize */
+      .partner-logo {
+        height: auto;
+        width: 75%;
     }
 }
 
