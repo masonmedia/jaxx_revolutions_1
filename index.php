@@ -260,7 +260,7 @@ include 'includes/home-header.php';
                     <img class="img absolute z-1 shadow-lg rellax" src="/img/jaxx-security-gallery-bw.jpg" alt="Jaxx Liberty Security" data-rellax-speed="2">
                 </div>
                 <!--color bg angle div-->
-                <div class="bg-turq parallelo h-100 w-100 absolute z--1 shadow-lg fade-in-slow"></div>
+                <div class="bg-turq parallelo h-100 w-100 absolute z--1 shadow-lg fade-in-slow rellax" data-rellax-speed="-2"></div>
             </div>
             
             <!--row 4 Testimonials carousel-->
@@ -342,8 +342,8 @@ include 'includes/home-header.php';
                 
                 <!--logos col-->
                 <div class="col-lg-7 d-flex justify-content-center align-items-center bg-img-partners min-100 p-5">
-                   <div class="container-fluid bg-turq-angle bg-dots rounded p-4 rellax" data-rellax-speed="-2">
-                       <div class="row d-flex p-3">
+                   <div class="container-fluid bg-turq-angle bg-dots rounded p-4 content-tween" data-rellax-speed="-2">
+                       <div class="row d-flex p-3 rellax">
                           <div class="col-sm-4 d-flex justify-content-center align-items-center pt-4 content-stagger-up">
                                 <img class="partner-logo" src="/img/partner-logos/partners-bitcoin-lg.png" alt="Jaxx Liberty Partner Bitcoin">
                            </div>
@@ -389,8 +389,8 @@ include 'includes/home-header.php';
 
            <!-- row 7 download reminder CTA-->
            <div id="cta" class="row bg-orange text-white min-70 content-tween relative z-0">
-               <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center text-center bg-download-gradient p-4 circle-left slide-in-right">
-                 <div class="page-title display-1 absolute z-0 text-op rellax" data-rellax-speed="1">Take control of your digital life.</div>
+               <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center text-center min-100 bg-download-gradient p-4 parallelo slide-in-right">
+                 <div class="page-title absolute z-0 text-op rellax" data-rellax-speed="1">Take control of your digital life.</div>
                   <div class="wrap w-75 rellax">
                        <img class="jaxx-logo-text content-stagger-up" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="Jaxx Liberty">
                        <h2 class="font-weight-bold pt-0 pb-3 content-stagger-up">

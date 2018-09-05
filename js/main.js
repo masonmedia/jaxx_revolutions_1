@@ -288,40 +288,21 @@ $(".fade-in-up").each(function() {
      
      $(".slide-in-right").each(function() {
 
- 	var slideInRight = TweenMax.from(this, 2, {
-	        autoAlpha: 0,
-            x:-1000,
-	        delay: 0,
-	        ease: Power2.easeOut
-	    });
+ 	var slideInRight = TweenMax.from(this, 3, {autoAlpha: 0, x:-1000, delay: 0, ease: Expo.easeInOut});
 
-	var scene = new ScrollMagic.Scene({
-	        triggerElement: this,
-	        triggerHook: 'onEnter',
-	        offset: 0,
-	        reverse:true
-	    })
+	var scene = new ScrollMagic.Scene({triggerElement: this, triggerHook: 'onEnter', offset: 0, reverse:true})
 		.setTween(slideInRight)
 		.addTo(controller);
 }); 
+    
      
 //slide in from right
      
      $(".slide-in-left").each(function() {
 
- 	var slideInLeft = TweenMax.from(this, 1, {
-	        autoAlpha: 0,
-            x:1000,
-	        delay: 0,
-	        ease: Power2.easeOut
-	    }, 0.1);
+ 	var slideInLeft = TweenMax.from(this, 3, {autoAlpha: 0, x:1000, delay: 0, ease: Expo.easeInOut});
 
-	var scene = new ScrollMagic.Scene({
-	        triggerElement: this,
-	        triggerHook: 'onEnter',
-	        offset: 0,
-	        reverse:true
-	    })
+	var scene = new ScrollMagic.Scene({triggerElement: this, triggerHook: 'onEnter', offset: 0, reverse:true})
 		.setTween(slideInLeft)
 		.addTo(controller);
 }); 

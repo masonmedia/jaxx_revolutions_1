@@ -82,9 +82,8 @@ include 'includes/header.php';
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                       </ol>
-                      <div class="carousel-inner">
+                      <div class="carousel-inner bg-angle-turq">
                         <div class="carousel-item active">
                           <!--nest container-->
                             <div class="container-fluid bg-dots rounded p-5">
@@ -308,71 +307,13 @@ include 'includes/header.php';
                                     </div><!--end row-->
                                 </div><!--end nest container-->
                             </div><!--end slide-->
-                            
-                             <!--slide 5--> 
-<!--                             to do start from -->
-                            <div class="carousel-item">
-                                <!--nest container-->
-                                <div class="container-fluid bg-dots rounded p-5">
-                                   <div class="row d-flex">
-                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
-                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Docai/Docai.svg" alt="Jaxx Liberty Partner Docai">
-                                           <h5>Docai</h5>
-                                       </div>
-                                       <div class="col-sm-6 col-sm-4 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
-                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/xiExec.svg"Y alt="Jaxx Liberty Partner >Ripio Credit Network">
-                                           <h5>Ripio Credit Network</h5>
-                                       </div>
-                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
-                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Swarm/Swarm.svg" alt="Jaxx Liberty Partner Swarm Fund">
-                                           <h5>Swarm Fund</h5>
-                                       </div>
-                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
-                                            <img class="partner-logo w-50 h-50" src="/img/coin-logos/Ucash/Ucash.svg" alt="Jaxx Liberty Partner Ucash">
-                                            <h5>Ucash</h5>
-                                       </div>
-                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
-                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Unikoin/Unikoin.svg" alt="Jaxx Liberty Partner Unikoin">
-                                           <h5>Unikoin</h5>
-                                       </div>
-                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
-                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/EOS/EOS.svg" alt="Jaxx Liberty Partner EOS">
-                                           <h5>EOS</h5>
-                                       </div>
-                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
-                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Lisk/Lisk.svg" alt="Jaxx Liberty Partner Lisk">
-                                           <h5>Lisk</h5>
-                                       </div>
-                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
-                                            <img class="partner-logo w-50 h-50" src="/img/coin-logos/WindingTree/WindingTree.svg" alt="Jaxx Liberty Partner Creditbit">
-                                            <h5>Winding Tree</h5>
-                                       </div>
-                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
-                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/zCash/zCash.svg" alt="Jaxx Liberty Partner Zcash">
-                                           <h5>Zcash</h5>
-                                       </div>
-                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
-                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Funfair/Funfair.svg" alt="Jaxx Liberty Partner FunFair">
-                                           <h5>FunFair</h5>
-                                       </div>
-                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
-                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Brickblock/Brickblock.svg" alt="Jaxx Liberty Partner Brickblock">
-                                           <h5>Brickblock</h5>
-                                       </div>
-                                       <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center text-center content-stagger-up">
-                                           <img class="partner-logo w-50 h-50" src="/img/coin-logos/Enigma/Enigma.svg" alt="Jaxx Liberty Partner Enigma">
-                                           <h5>Enigma</h5>
-                                       </div>
-                                    </div><!--end row-->
-                                </div><!--end nest container-->
-                            </div><!--end slide-->
-                          </div>
+                          </div><!--end carousel inner-->
                           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                               <i class="fa fa-chevron-left text-dark mr-4" aria-hidden="true"></i>
                             <span class="sr-only">Previous</span>
                           </a>
                           <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <i class="fa fa-chevron-right text-dark ml-4" aria-hidden="true"></i>
                             <span class="sr-only">Next</span>
                           </a>
                         </div><!--end carousel-->
