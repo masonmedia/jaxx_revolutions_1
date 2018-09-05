@@ -46,10 +46,10 @@ include 'includes/home-header.php';
            
            
             <img class="jaxx-navbar-brand mt-5 pt-5" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Community">
-            <h1 class="page-title m-0 mb-1">
+            <h1 class="page-title m-0 mb-2">
                 <span class="d-inline-block">F</span><span class="d-inline-block">e</span><span class="d-inline-block">a</span><span class="d-inline-block">t</span><span class="d-inline-block">u</span><span class="d-inline-block">r</span><span class="d-inline-block">e</span><span class="d-inline-block">s</span><span class="d-inline-block">.</span>
             </h1>
-            <h2 class="site-sub- pb-5">
+            <h2 class="site-sub-title pb-5">
                 <span class="d-inline-block">Redesigned</span>
                 <span class="d-inline-block">and</span>
                 <span class="d-inline-block">reengineered</span>
@@ -120,7 +120,7 @@ include 'includes/home-header.php';
                 </div>
                 <div class="perspective col-lg-5 d-flex justify-content-start align-items-center min-50 relative z-1 p-0 slide-in-left">
                     <!--color bg div-->
-                    <div class="img-full h-100 parallelo absolute z--1 right-0 bg-success shadow-lg slide-in-right" data-rellax-speed="3"></div>
+<!--                    <div class="img-full h-100 parallelo absolute z--1 right-0 bg-success shadow-lg slide-in-right" data-rellax-speed="3"></div>-->
                     <img class="rotate img w-50 absolute z-1 rellax" src="/img/jaxx-tablet-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
                     <!--bg section-title -->
                     <div class="d-flex align-self-center page-title stroke-t absolute z--1 right-0 rellax" data-rellax-speed="3">Portfolio.</div>
@@ -131,8 +131,8 @@ include 'includes/home-header.php';
             <div id="row4" class="row d-flex content-tween rellax">
                 <div class="perspective col-lg-5 d-flex justify-content-end align-items-center relative z-1 min-70 p-0 o-12 slide-in-right">
                     <!--color bg div-->
-                    <div class="img-full h-100 parallelo absolute z--1 right-0 bg-navy shadow-lg slide-in-right" data-rellax-speed="3"></div>
-                    <img class="rotate img absolute z-2 rellax" src="/img/jaxx-android-top.png" alt="Jaxx Liberty" data-rellax-speed="1">
+<!--                    <div class="img-full h-100 parallelo absolute z--1 right-0 bg-navy shadow-lg slide-in-right" data-rellax-speed="3"></div>-->
+                    <img class="rotate img w-50 absolute z-2 rellax" src="/img/jaxx-android-top-angle.png" alt="Jaxx Liberty" data-rellax-speed="1">
                     <!--bg section-title -->
                     <div class="page-title d-flex align-self-center text-right stroke-t absolute z--1 rellax" data-rellax-speed="2">Aggregated Headline News.</div>
                 </div>
@@ -161,8 +161,8 @@ include 'includes/home-header.php';
                 </div>
                 <div class="col-lg-5 d-flex justify-content-end align-items-center min-70 p-0 slide-in-left">
                     <!--color bg div-->
-                    <div class="img-full h-100 parallelo absolute z--1 right-0 bg-orange shadow-lg slide-in-right"></div>
-                    <img class="rotate h-auto w-100 absolute z-1 rellax" src="/img/jaxx-two-devices.png" alt="Jaxx Liberty" data-rellax-speed="1">
+<!--                    <div class="img-full h-100 parallelo absolute z--1 right-0 bg-navy shadow-lg slide-in-right"></div>-->
+                    <img class="rotate img w-100 absolute z-1 rellax" src="/img/jaxx-Laptop_Shot_1b.png" alt="Jaxx Liberty" data-rellax-speed="1">
                     <!--bg section-title -->
                     <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="3">Market Data.</div>
                 </div>
@@ -173,8 +173,8 @@ include 'includes/home-header.php';
             <div id="row6" class="row d-flex bg-white bg-img-downloads content-tween rellax">
                 <div class="col-lg-5 d-flex justify-content-end align-items-center min-70 p-0 relative z-1 o-12 slide-in-right">
                     <!--color bg div-->
-                    <div class="img-full h-100 parallelo absolute z--1 right-0 bg-navy shadow-lg slide-in-right" data-rellax-speed="3"></div>
-                    <img class="rotate img w-100 absolute z-2 p-5" src="/img/jaxx-3phone-light-orange.png" alt="Jaxx Liberty" data-rellax-speed="1">
+<!--                    <div class="img-full h-100 parallelo absolute z--1 right-0 bg-navy shadow-lg slide-in-right" data-rellax-speed="3"></div>-->
+                    <img class="rotate img w-100 absolute z-2 p-5" src="/img/jaxx-3phone-light.png" alt="Jaxx Liberty" data-rellax-speed="1">
                 </div> 
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end min-70 p-5 rellax" data-rellax-speed="-2">
                    <!--color bg div-->

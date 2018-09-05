@@ -32,7 +32,8 @@ include 'includes/header.php';
             <!--download desktop-->
             <div id="desktop" class="row d-flex bg-white bg-img-downloads content-tween">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange min-100 arrow-left o-12">
-                    <img class="img rellax" src="/img/jaxx-multiple-macbook.png" alt="Jaxx Liberty Desktop" data-rellax-speed="-2">
+<!--                    <img class="img rellax" src="/img/jaxx-multiple-macbook.png" alt="Jaxx Liberty Desktop" data-rellax-speed="-2">-->
+                    <img class="img w-75 absolute z-1 rellax" src="/img/jaxx-Lapop_Shot_Top_1b.png" alt="Jaxx Liberty Desktop" data-rellax-speed="-2">
                 </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
                     <h2 class="section-title x-bold p-3 bg-navy orange skew shadow-lg content-stagger-up">Download for Desktop</h2>
@@ -160,14 +161,14 @@ include 'includes/header.php';
 					</div><!--end button nest row-->                  
                 </div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange min-100 arrow-right">
-                    <img class="img rellax" src="/img/jaxx-multiple-phones.png" alt="Jaxx Liberty Mobile" data-rellax-speed="-2">
+                    <img class="img w-75 rellax" src="/img/jaxx-multiple-phones.png" alt="Jaxx Liberty Mobile" data-rellax-speed="-2">
                 </div>
             </div><!--end mobile row-->
             
              <!--download google chrome ext-->
-            <div id="chrome" class="row d-flex bg-orange content-tween">
+            <div id="chrome" class="row d-flex bg-orange bg-img-downloads content-tween">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-100 o-12">
-                    <img class="img rellax" src="/img/jaxx-chrome-store-2.png" alt="Jaxx Google Chrome">
+                    <img class="img rellax" src="/img/jaxx-samsung-laptop-side.png" alt="Jaxx Google Chrome">
                 </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
                     <h2 class="section-title x-bold pb-3 bg-navy orange p-3 skew shadow-lg content-stagger-up">Add to Chrome</h2>

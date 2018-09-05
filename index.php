@@ -108,7 +108,7 @@ include 'includes/home-header.php';
                 </a>
             </div>
             <!--chevron down "more"-->
-            <i class="icon fas fa-angle-down relative z-1"></i>
+            <i class="icon fa fa-angle-down relative z-1"></i>
             <!--fade in bg image-->
             <div class="banner-img img-full bg-fs-img-banner-2 min-100 absolute z-0"></div>
         </div>
@@ -151,7 +151,7 @@ include 'includes/home-header.php';
                     <!--orange bg angle div-->
                     <div class="bg-orange parallelo h-100 w-100 absolute z-0 shadow-lg rellax" data-rellax-speed="2"></div>
                     <!--android img-->
-                    <img class="jaxx-3-screens slide-in-left" src="/img/jaxx-3phone-light-orange.png" alt="Use Jaxx Liberty on any Device">
+                    <img class="jaxx-3-screens slide-in-left" src="/img/jaxx-3phone-light.png" alt="Use Jaxx Liberty on any Device">
                 </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start min-100 px-5 pt-5 pb-0 rellax" data-rellax-speed="2">
                     <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">Use on multiple devices.</div>
@@ -289,7 +289,7 @@ include 'includes/home-header.php';
                     <div id="testimonials" class="carousel slide carousel-fade" data-ride="carousel">
                       <div class="carousel-inner">
                         <div class="carousel-item active px-3">
-                            <i class="fas fa-quote-right animated zoomIn"></i>
+                            <i class="fa fa-quote-right animated zoomIn"></i>
                             <p class="p-3 m-0">“I look forward to seeing the new Jaxx wallet, and look forward to the broader DigiByte community using it!”</p>
 <!--                            As a totally decentralized blockchain, I personally welcome any additional ways that users can look after their DigiByte. The more choices we give to our users in how they can send / receive their funds, the better for the security and decentralization of the DigiByte blockchain, and I think it's quite clear our community is keen to see DigiByte on Jaxx. -->
                             <p class="h5 font-weight-bold animated flipInX">Josiah Spackman</p>
@@ -299,7 +299,7 @@ include 'includes/home-header.php';
                             </div>
                         </div><!--end carousel item-->
                         <div class="carousel-item px-3">
-                            <i class="fas fa-quote-right animated slideInLeft"></i>
+                            <i class="fa fa-quote-right animated slideInLeft"></i>
                             <p class="p-3 m-0 animated zoomInRight">“We’re very happy to partner with Jaxx, a highly-secure and easy-to-use wallet that is the first to support RSK.”</p>
 <!--                            We’ve been working with them since the early days and are confident their large user base will help bring the dapps and more value to the Bitcoin Network, while RSK brings smart contract capabilities, higher scalability with 100 transactions per second and near instant payments.-->
                             <p class="h5 font-weight-bold animated slideInUp">Diego Gutierrez Zaldivar</p>
@@ -309,7 +309,7 @@ include 'includes/home-header.php';
                             </div>
                         </div><!--end carousel item-->
                         <div class="carousel-item px-3">
-                            <i class="fas fa-quote-right animated slideInRight"></i>
+                            <i class="fa fa-quote-right animated slideInRight"></i>
                             <p class="p-3 m-0 animated fadeInDown">“Jaxx has been with us from the beginning and is partner we rely on. We can be sure Jaxx will be there every step of the way to serve and support our expanding ecosystem.”</p>
 <!--                            As the creators of the Worldwide Asset eXchange (WAX) and OPSkins, we serve the 400+ million online players who collect, buy, and sell in-game digital items. Revolutionizing a $50 billion market means changing player buying behaviors and that requires partners who emphasize safety and security. -->
                             <p class="h5 font-weight-bold animated flipInX">Malcolm CasSelle</p>

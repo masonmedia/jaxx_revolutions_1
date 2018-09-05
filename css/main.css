@@ -460,14 +460,14 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
 /* bg colors ======================*/
 
 .bg-orange {
-    background: #ff6902 !important;
+    background-color: #ff6902 !important;
 }
 .bg-orange-op {
-    background: rgba(255, 105, 2, 0.5);
+    background-color: rgba(255, 105, 2, 0.5);
 }
 .bg-navy {
-    background: rgb(38, 65, 118);
-    background: rgb(38, 66, 119);
+    background-color: rgb(38, 65, 118);
+    background-color: rgb(38, 66, 119);
 }
 .bg-turq {
     background: rgb(64, 224, 208);
@@ -1053,6 +1053,9 @@ nav .active {
 i {
     font-size: 7vmin;
     padding: 20px 30px;
+}
+.icon {
+    font-size: 50px;
 }
 
 #socialProof i {

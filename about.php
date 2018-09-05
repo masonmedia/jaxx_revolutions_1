@@ -15,10 +15,10 @@ include 'includes/header.php';
                     <!--<h1 class="page-title m-0 mt-5">About</h1>-->
                     <div class="pb-5 rellax" data-rellax-speed="-2">
                         <img class="jaxx-navbar-brand mt-5 mb-0" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Community">
-                        <h1 class="page-title m-0 mb-1">
+                        <h1 class="page-title m-0 mb-2">
                             <span class="d-inline-block">A</span><span class="d-inline-block">b</span><span class="d-inline-block">o</span><span class="d-inline-block">u</span><span class="d-inline-block">t</span>
                         </h1>
-                        <h2 class="h4 site-sub-title">
+                        <h2 class="site-sub-title">
                             <span class="d-inline-block">Find</span>
                             <span class="d-inline-block">out</span>
                             <span class="d-inline-block">more</span>

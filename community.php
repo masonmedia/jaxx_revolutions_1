@@ -70,7 +70,7 @@ include 'includes/header.php';
             <!--row 4 Our Friends-->
             <div id="row4" class="row d-flex bg-img-office content-tween">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center min-50 text-center p-5">
-                   <div class="wrap bg-white-op rounded-right p-5"> 
+                   <div class="wrap bg-white-op rounded-right p-3"> 
                        <div class="border-wrap border border-dark d-flex flex-column justify-content-center align-items-center p-4">                  
                             <h2 class="section-title x-bold w-100 orange bg-navy shadow-lg px-3 py-4 mb-4 skew content-stagger-up">Integrations and Network</h2>
                             <p class="border-top border-dark pt-4 pb-5 m-0 content-stagger-up">Our office hours are 9am to 5pm EST. You can reach our customer support team 24 hours a day.</p>
@@ -83,7 +83,7 @@ include 'includes/header.php';
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                       </ol>
-                      <div class="carousel-inner bg-angle-turq">
+                      <div class="carousel-inner bg-turq-angle">
                         <div class="carousel-item active">
                           <!--nest container-->
                             <div class="container-fluid bg-dots rounded p-5">
