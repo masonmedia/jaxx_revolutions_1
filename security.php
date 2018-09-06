@@ -10,7 +10,7 @@ include 'includes/header.php';
 
         <!--jumbotron-->
         <div id="security" role="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center bg-img-banner-security text-white min-70 p-5 mb-0 content-tween">
-            <img class="img jaxx-shield mt-5 rellax" style="top:0px; width: 500px;" src="/img/Sheild_Orange_Straight_Light_Blue.png" alt="Jaxx Liberty Security">
+            <img class="security-shield mt-5 pt-5 mb-3 rellax" src="/img/jaxx-shield-orange.png" alt="Jaxx Liberty Security" data-rellax-speed="-2">
             <!--<h1 class="site-title relative z-1 pb-2">Your Security is Our Mission.</h1>-->
             <h1 class="site-title relative z-1 x-bold m-0 mb-1">
                 <span class="d-inline-block">Your</span>
@@ -121,7 +121,7 @@ include 'includes/header.php';
 
            <!-- row 5 download reminder CTA-->
            <div class="row bg-orange text-white min-70 content-tween">
-               <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center text-center bg-download-gradient p-4 circle-left">
+               <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center text-center bg-download-gradient p-4 parallelo">
                    <img class="jaxx-logo-text content-stagger-up" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="">
                    <h4 class="font-weight-bold w-75 pb-3 pt-2 content-stagger-up">Join more than a million others using Jaxx.</h4>
                    <div class="content-stagger-up">

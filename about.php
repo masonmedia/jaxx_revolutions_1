@@ -13,8 +13,8 @@ include 'includes/header.php';
             <div class="row">
                 <div class="col-lg-12 p-5">
                     <!--<h1 class="page-title m-0 mt-5">About</h1>-->
-                    <div class="pb-5 rellax" data-rellax-speed="-2">
-                        <img class="jaxx-navbar-brand mt-5 mb-0" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Community">
+                    <div class="d-flex flex-column justify-content-center align-items-center pb-5 rellax" data-rellax-speed="-2">
+                        <img class="jaxx-navbar-brand mt-5 mb-2" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Community">
                         <h1 class="page-title m-0 mb-2">
                             <span class="d-inline-block">A</span><span class="d-inline-block">b</span><span class="d-inline-block">o</span><span class="d-inline-block">u</span><span class="d-inline-block">t</span>
                         </h1>

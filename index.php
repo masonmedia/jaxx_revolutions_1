@@ -90,7 +90,7 @@ include 'includes/home-header.php';
                     C266,110.4,265.8,110.3,265.4,110.3z M235.2,123.1c-0.1-1.4,1.1-2.9,2.7-4.2c2.1-1.7,5.4-3.1,9.6-4.2
                     C242.8,120.6,238.8,123.1,235.2,123.1z"/>
             </svg>
-            <img class="jaxx-icon jaxx-logo-text relative z-2 mb-4 rellax" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Heart">
+            <img class="jaxx-icon jaxx-logo-heart relative z-2 mb-4 rellax" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Heart">
             <div class="orange-bg bg-orange min-100 w-100 h-100 absolute z-0"></div>
             <!--<h1 class="site-title relative z-2 pb-2">A Digital Wallet for Everyone</h1>-->
             <h1 class="site-title relative z-2 pb-2 rellax" data-rellax-speed="-1">
@@ -144,12 +144,12 @@ include 'includes/home-header.php';
                </div>
             </div><!--end row-->
 
-            <!--row 3 Use on any device + Download-->
+            <!--row 3 Use on multiple devices + Download-->
             
             <div id="download" class="row d-flex bg-white relative bg-img-downloads content-tween p-0">
                 <div class="col-lg-7 d-flex justify-content-center align-items-center min-100 p-5 o-12">
                     <!--orange bg angle div-->
-                    <div class="bg-orange parallelo h-100 w-100 absolute z-0 shadow-lg rellax" data-rellax-speed="2"></div>
+                    <div class="bg-orange bg-img-downloads parallelo h-100 w-100 absolute z-0 shadow-lg rellax" data-rellax-speed="2"></div>
                     <!--android img-->
                     <img class="jaxx-3-screens slide-in-left" src="/img/jaxx-3phone-light.png" alt="Use Jaxx Liberty on any Device">
                 </div>
@@ -380,8 +380,6 @@ include 'includes/home-header.php';
                            <div class="col-sm-4 d-flex justify-content-center align-items-center mt-2 content-stagger-up">
                                <img class="partner-logo" src="/img/partner-logos/partners-changelly-2.png" alt="Jaxx Liberty Partner Changelly">
                            </div>
-                           
-
                        </div><!--end row-->
                        </div><!--end nest container-->
                     </div><!--end col-->

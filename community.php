@@ -45,7 +45,7 @@ include 'includes/header.php';
            <!--row 2-->
             <div id="row2" class="row d-flex bg-orange content-tween">
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-end min-50 text-right p-0">
-                   <div class="wrap bg-white-op p-5 content-stagger-up">
+                   <div class="wrap bg-white-op p-5">
                        <div class="border-wrap border border-dark p-4 rellax" data-rellax-speed="2">
                             <h2 class="section-title x-bold orange bg-navy shadow-lg pt-4 pb-3 px-3 mb-3 skew content-stagger-up">Where we are</h2>
                             <p class="border-top border-dark py-4 px-3 m-0 rounded-right content-stagger-up">The founder of Decentral is Anthony Diiorio, widely known for co-founding Ethereum in 2014. Fast forward to today and Jaxx is a leading digital asset wallet that supports over 25 cryptocurrencies and tokens.</p>
@@ -57,9 +57,9 @@ include 'includes/header.php';
 
             <!--row 3-->
             <div id="row3" class="row d-flex bg-navy content-tween">
-                <div class="col-lg-7 bg-img-team min-50 o-12 angle-ltr rellax" data-rellax-speed="-1"></div>
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-50 p-0 o-1 rellax" data-rellax-speed="-1">
-                   <div class="wrap bg-white-op rounded-left p-5 content-stagger-up">
+                <div class="col-lg-4 bg-img-team min-50 o-12 angle-ltr rellax" data-rellax-speed="-1"></div>
+                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left min-50 p-0 o-1 rellax" data-rellax-speed="-1">
+                   <div class="wrap bg-white-op rounded-left p-5">
                         <div class="border-wrap border border-dark p-4 rellax" data-rellax-speed="2">
                             <h2 class="section-title x-bold bg-orange navy shadow-lg py-4 px-3 mb-3 skew content-stagger-up">Evolution</h2>
                             <p class="border-top border-dark py-4 px-3 m-0 content-stagger-up">Decentral is building a major new blockchain hub in Toronto: a new downtown corporate office. The new office will be online in 2018 and feature 5 floors of office space and community events. We are looking to hire a wide range of talented people to occupy our new office so please let us know if you'd like to join the team.</p>

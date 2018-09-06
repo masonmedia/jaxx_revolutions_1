@@ -554,7 +554,8 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
     height: auto;
     width: 500px;
 }
-.jaxx-logo-text {
+.jaxx-logo-text,
+.jaxx-logo-heart {
     height: auto;
     width: 20vmin;
     margin-top: 30px;
@@ -932,6 +933,10 @@ video {
     background-size: cover;
     background-attachment: fixed;
 }
+.security-shield {
+    top: 0px; 
+    width: 300px;
+}
 .img-shield {
 /*    filter: grayscale(100);*/
     opacity: 0.2;
@@ -1282,6 +1287,9 @@ footer li a {
     }
     .jaxx-logo-text {
         width: 120px;
+    }
+    .jaxx-logo-heart {
+        width: 100px;
     }
     /*homepage site title */
     .site-title {

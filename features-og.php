@@ -6,10 +6,10 @@ include 'includes/home-header.php';
 
 ?> 
 
-    <main id="features" class="animsition" data-animsition-in-class="fade-in-right-sm" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
+    <main class="animsition" data-animsition-in-class="fade-in-right-sm" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
     
        <!--jumbotron-->
-        <div class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center bg-img-banner-features text-white min-70 p-5 mb-0 content-tween">
+        <div id="features" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center bg-img-banner-features text-white min-70 p-5 mb-0">
             <!--multi device svg img-->
             <!--      
             <svg id="features-device-img" class="absolute z-0" width="80%" height="auto" viewBox="0 0 897 452" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
@@ -201,8 +201,8 @@ include 'includes/home-header.php';
                         <h4 class="content-stagger-up">Jaxx Liberty incorporates extensive, industry leading security features to maintain user privacy and protection.</h4>
                     </div>
                 </div>
-                <div class="col-lg-5 d-flex justify-content-end align-items-center min-70 p-0">
-                    <img class="rotate img w-100 absolute z-1" src="/img/jaxx-two-devices.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                <div class="col-lg-5 d-flex justify-content-end align-items-center min-70 p-0 slide-in-left">
+                    <img class="img w-100 absolute z-1 rellax" src="/img/jaxx-two-devices.png" alt="Jaxx Liberty" data-rellax-speed="1">
                     <!--bg section-title -->
                     <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="2">Security.</div>
                 </div>
