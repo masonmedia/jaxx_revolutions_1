@@ -104,7 +104,7 @@ include 'includes/home-header.php';
             <!--download button: start your journey-->
             <div>
                 <a href="/downloads.php" class="animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">
-                    <button role="button" class="banner-button btn btn-lg btn-orange relative z-1">Start Your Journey</button>
+                    <button role="button" class="banner-button btn btn-lg btn-orange relative z-1">Start Exploring</button>
                 </a>
             </div>
             <!--chevron down "more"-->
@@ -122,18 +122,25 @@ include 'includes/home-header.php';
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5" data-rellax-speed="-2">
                     <!--bg text heading-->
                     <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">Jaxx Liberty is Here.</div>
-                    <!--section title-->
-                    <h2 class="section-title font-weight-bold m-0 rellax">
-                        <span class="content-stagger-up">J</span><span class="content-stagger-up">a</span><span class="content-stagger-up">x</span><span class="content-stagger-up">x</span>
-                        <span class="content-stagger-up">L</span><span class="content-stagger-up">i</span><span class="content-stagger-up">b</span><span class="content-stagger-up">e</span><span class="content-stagger-up">r</span><span class="content-stagger-up">t</span><span class="content-stagger-up">y</span>
-                        <span class="content-stagger-up">i</span><span class="content-stagger-up">s</span>
-                        <span class="content-stagger-up">Here.</span>
-                    </h2>
-                    <hr class="w-25 content-stagger-up">
-                    <p class="pb-3 pt-2 content-stagger-up"><span class="orange font-weight-bold">Jaxx Liberty</span> builds on the success of Jaxx, one of the most popular blockchain and cryptocurrency wallets, downloaded by millions. With this release we've made major updates we think you'll love.</p>
-                    <div class="m-0 content-stagger-up">
-                        <button href="/features.php" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="800">Learn More</button>
-                    </div>
+                        <!--section title-->
+                        <h2 class="section-title font-weight-bold m-0 rellax" data-rellax-speed="-1">
+                            <span class="content-stagger-up">J</span><span class="content-stagger-up">a</span><span class="content-stagger-up">x</span><span class="content-stagger-up">x</span>
+                            <span class="content-stagger-up">L</span><span class="content-stagger-up">i</span><span class="content-stagger-up">b</span><span class="content-stagger-up">e</span><span class="content-stagger-up">r</span><span class="content-stagger-up">t</span><span class="content-stagger-up">y</span>
+                            <span class="content-stagger-up">i</span><span class="content-stagger-up">s</span>
+                            <span class="content-stagger-up">Here.</span>
+                        </h2>
+                        <hr class="w-25 content-stagger-up">
+                        <p class="py-2 m-0 content-stagger-up"><span class="orange font-weight-bold">Jaxx Liberty</span> builds on the success of Jaxx, one of the most popular blockchain and digital asset wallets, with millions of users. With this release, we've made major updates we think you'll love.</p>
+                        <hr class="w-25 pb-2 content-stagger-up">
+                        <!--button wrap-->
+                        <div class="wrap d-flex">
+                            <div class="mr-3 content-stagger-up">
+                                <button href="/features.php" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="800">Learn More</button>
+                            </div>
+                            <div class="m-0 content-stagger-up">
+                                <button href="/downloads.php" class="btn btn-lg btn-outline-orange animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="800">Download Now</button>
+                            </div>
+                        </div>
                 </div><!--end col-->
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center min-100 o-12 rellax">
                     <!--navy bg div-->
@@ -160,8 +167,9 @@ include 'includes/home-header.php';
                         <span class="content-stagger-up">o</span><span class="content-stagger-up">n</span>
                         <span class="content-stagger-up">M</span><span class="content-stagger-up">u</span><span class="content-stagger-up">l</span><span class="content-stagger-up">t</span><span class="content-stagger-up">i</span><span class="content-stagger-up">p</span><span class="content-stagger-up">l</span><span class="content-stagger-up">e</span>  
                         <span class="content-stagger-up">devices.</span></h2>
-                    <hr class="w-25 border-0 bg-dark content-stagger-up">
-                    <p class="pb-3 pt-2 content-stagger-up"><span class="orange font-weight-bold"><a class="font-weight-bold animsition-link" href="/downloads.php" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800">Jaxx Liberty</a></span> is available on Mac, Windows, and Linux desktop, iPad and Tablet, iPhone and Android, and as an extension for Google Chrome. <a class="font-weight-bold animsition-link" href="/downloads.php" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800"><span class="orange">Download</span></a> it for free.</p>
+                    <hr class="w-25 content-stagger-up">
+                    <p class="py-2 m-0 content-stagger-up"><span class="orange font-weight-bold"><a class="font-weight-bold animsition-link" href="/downloads.php" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800">Jaxx Liberty</a></span> is now available on Android and Google Chrome. iOS and desktop versions are coming soon. <a class="font-weight-bold animsition-link" href="/downloads.php" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800"><span class="orange">Download</span></a> it for free.</p>
+                    <hr class="w-25 pb-2 content-stagger-up">
                     <div class="content-stagger-up">
                         <a class="btn btn-orange" role="button" onclick="googleAnalyticsTrigger('Android', 'Banner')" href="https://play.google.com/store/apps/details?id=com.liberty.beta" target="_blank">Tablet</a>
                         <a class="btn btn-orange" role="button" onclick="googleAnalyticsTrigger('Android', 'Banner')" href="https://play.google.com/store/apps/details?id=com.liberty.beta" target="_blank">Android</a>
@@ -250,8 +258,9 @@ include 'includes/home-header.php';
                         <span class="content-stagger-up">your</span>
                         <span class="content-stagger-up">Keys.</span>
                     </h2>
-                    <hr class="w-25 border-0 bg-dark content-stagger-up">
-                    <p class="pb-3 pt-2 content-stagger-up"><span class="orange font-weight-bold"><a class="font-weight-bold animsition-link" href="/downloads.php" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800">Jaxx Liberty</a></span> is the most secure cryptocurrency wallet available. Join more than a million users who trust Jaxx with their digital assets. Find out more about Jaxx Liberty security features.</p>
+                    <hr class="w-25 content-stagger-up">
+                    <p class="py-2 m-0 content-stagger-up"><span class="orange font-weight-bold"><a class="font-weight-bold animsition-link" href="/downloads.php" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800">Jaxx Liberty</a></span> is the most secure cryptocurrency wallet available. Join more than a million users who trust Jaxx with their digital assets. Find out more about Jaxx Liberty security features.</p>
+                    <hr class="w-25 pb-2 content-stagger-up">
                     <div class="m-0 content-stagger-up">
                         <button href="/security.php" class="btn btn-lg btn-dark text-white animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="800">Learn More</button>
                     </div>
@@ -275,10 +284,7 @@ include 'includes/home-header.php';
                         <span class="content-stagger-up">blockchain</span>
                         <span class="content-stagger-up">leaders</span>
                         <span class="content-stagger-up">are</span>
-                        <span class="content-stagger-up">saying</span>
-                        <span class="content-stagger-up">about</span>
-                        <span class="content-stagger-up">Jaxx</span>
-                        <span class="content-stagger-up">Liberty</span><span class="content-stagger-up">.</span>
+                        <span class="content-stagger-up">saying</span><span class="content-stagger-up">.</span>
                     </h2>
                 </div><!--end col-->
                 <!--carousel col-->
@@ -287,31 +293,37 @@ include 'includes/home-header.php';
                    <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">What blockchain leaders are saying about Jaxx Liberty.</div>
                     <!--carousel-->
                     <div id="testimonials" class="carousel slide carousel-fade" data-ride="carousel">
-                      <div class="carousel-inner">
+                      <div class="carousel-inner rellax">
                         <div class="carousel-item active px-3">
                             <i class="fa fa-quote-right animated zoomIn"></i>
-                            <p class="p-3 m-0">“I look forward to seeing the new Jaxx wallet, and look forward to the broader DigiByte community using it!”</p>
-<!--                            As a totally decentralized blockchain, I personally welcome any additional ways that users can look after their DigiByte. The more choices we give to our users in how they can send / receive their funds, the better for the security and decentralization of the DigiByte blockchain, and I think it's quite clear our community is keen to see DigiByte on Jaxx. -->
+                            <p class="p-3 m-0">"I look forward to seeing the new Jaxx Liberty and how the broader DigiByte community will use it."</p>
                             <p class="h5 font-weight-bold animated flipInX">Josiah Spackman</p>
-                            <footer class="blockquote-footer orange animated fadeInLeft">DigiByte Foundation Ambassador</footer>
+                            <footer class="blockquote-footer orange animated fadeInLeft">Ambassador, DigiByte Foundation</footer>
                             <div class="px-5 py-4 m-0">
                                 <button class="btn btn-lg btn-outline-dark" href="#testimonials" role="button" data-slide="next">Read More</button>
                             </div>
                         </div><!--end carousel item-->
                         <div class="carousel-item px-3">
                             <i class="fa fa-quote-right animated slideInLeft"></i>
-                            <p class="p-3 m-0 animated zoomInRight">“We’re very happy to partner with Jaxx, a highly-secure and easy-to-use wallet that is the first to support RSK.”</p>
-<!--                            We’ve been working with them since the early days and are confident their large user base will help bring the dapps and more value to the Bitcoin Network, while RSK brings smart contract capabilities, higher scalability with 100 transactions per second and near instant payments.-->
+                            <p class="p-3 m-0 animated zoomInRight">"Polymath welcomes the exciting launch of Decentral’s Jaxx blockchain interface, Jaxx Liberty. We chose Jaxx Liberty as our go-to wallet for the POLY token community."</p>
+                            <p class="h5 font-weight-bold animated slideInUp">Trevor Koverko</p>
+                            <footer class="blockquote-footer orange animated fadeInRight">Co-Founder & CEO, Polymath</footer>
+                            <div class="px-5 py-4 m-0 animated slideInUpBig">
+                                <button class="btn btn-lg btn-outline-dark" href="#testimonials" role="button" data-slide="next">Read More</button>
+                            </div>
+                        </div><!--end carousel item-->
+                        <div class="carousel-item px-3">
+                            <i class="fa fa-quote-right animated slideInLeft"></i>
+                            <p class="p-3 m-0 animated zoomInRight">"We’re very happy to partner with Jaxx, a highly-secure and very easy-to-use wallet that is the first to support RSK"</p>
                             <p class="h5 font-weight-bold animated slideInUp">Diego Gutierrez Zaldivar</p>
-                            <footer class="blockquote-footer orange animated fadeInRight">RSK CEO & Co-Founder</footer>
+                            <footer class="blockquote-footer orange animated fadeInRight">CEO & Co-Founder, RSK Labs</footer>
                             <div class="px-5 py-4 m-0 animated slideInUpBig">
                                 <button class="btn btn-lg btn-outline-dark" href="#testimonials" role="button" data-slide="next">Read More</button>
                             </div>
                         </div><!--end carousel item-->
                         <div class="carousel-item px-3">
                             <i class="fa fa-quote-right animated slideInRight"></i>
-                            <p class="p-3 m-0 animated fadeInDown">“Jaxx has been with us from the beginning and is partner we rely on. We can be sure Jaxx will be there every step of the way to serve and support our expanding ecosystem.”</p>
-<!--                            As the creators of the Worldwide Asset eXchange (WAX) and OPSkins, we serve the 400+ million online players who collect, buy, and sell in-game digital items. Revolutionizing a $50 billion market means changing player buying behaviors and that requires partners who emphasize safety and security. -->
+                            <p class="p-3 m-0 animated fadeInDown">“Jaxx has been with us from the beginning and is a partner we rely on. We can be sure Jaxx Liberty will be there every step of the way to serve and support our expanding ecosystem.”</p>
                             <p class="h5 font-weight-bold animated flipInX">Malcolm CasSelle</p>
                             <footer class="blockquote-footer orange animated zoomIn">President, WAX / CIO, OPSkins</footer>
                             <div class="px-5 py-4 m-0 animated fadeInUp">
@@ -330,11 +342,12 @@ include 'includes/home-header.php';
                     <!--bg section-title text-->
                     <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="2">Our <span class="word-break">Community.</span></div>                    
                     <h2 class="section-title font-weight-bold m-0 rellax">
-                        <span class="content-stagger-up">O</span><span class="content-stagger-up">u</span><span class="content-stagger-up">r</span>
-                        <span class="content-stagger-up">C</span><span class="content-stagger-up">o</span><span class="content-stagger-up">m</span><span class="content-stagger-up">m</span><span class="content-stagger-up">u</span><span class="content-stagger-up">n</span><span class="content-stagger-up">i</span><span class="content-stagger-up">t</span><span class="content-stagger-up">y.</span>
+                        <span class="content-stagger-up">Our</span>
+                        <span class="content-stagger-up">Community</span><span class="content-stagger-up">.</span>
                     </h2>
                     <hr class="w-25 content-stagger-up">
-                    <p class="pb-3 pt-2 content-stagger-up"><span class="orange font-weight-bold">Jaxx</span> has close to a million active monthly users, millions of downloads, 70+ digital assets/cryptocurrencies, and over 200 partners.</p>
+                    <p class="py-2 m-0 content-stagger-up">Jaxx has touched the lives of millions of users around the world. It is the interface connecting and uniting 70+ digital assets. <span class="orange font-weight-bold">Jaxx Liberty</span> and its provider Decentral Inc. have the support of hundreds of partners and friends across a range of industries.</p>
+                    <hr class="w-25 pb-2 content-stagger-up">
                     <div class="content-stagger-up">
                         <a href="/community.php" class="btn btn-lg btn-dark text-white animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Learn More</a>
                     </div>

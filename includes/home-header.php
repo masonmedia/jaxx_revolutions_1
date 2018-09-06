@@ -44,11 +44,10 @@ else {
 <meta name="twitter:image" content="">
 
 <!--google fonts-->
-<!--<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700,900" rel="stylesheet">-->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700,900|Oswald:300,500,700" rel="stylesheet">
 
 <!--styles-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/css/animsition.min.css">
 <link rel="stylesheet" href="/css/animate.min.css">
 <link rel="stylesheet" href="/css/bootstrap.min.css">

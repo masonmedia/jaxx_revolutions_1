@@ -15,14 +15,15 @@ include 'includes/home-header.php';
                 <span class="d-inline-block">F</span><span class="d-inline-block">e</span><span class="d-inline-block">a</span><span class="d-inline-block">t</span><span class="d-inline-block">u</span><span class="d-inline-block">r</span><span class="d-inline-block">e</span><span class="d-inline-block">s</span><span class="d-inline-block">.</span>
             </h1>
             <hr class="bg-white w-25">
-            <h2 class="site-sub-title pb-5">
-                <span class="d-inline-block">Redesigned</span>
-                <span class="d-inline-block">and</span>
-                <span class="d-inline-block">reengineered</span>
-                <span class="d-inline-block">from</span>
-                <span class="d-inline-block">the</span>
-                <span class="d-inline-block">ground</span>
-                <span class="d-inline-block">up</span>
+            <h2 class="site-sub-title pb-5">               
+                <span class="d-inline-block">Explore</span>
+                <span class="d-inline-block">Jaxx</span>
+                <span class="d-inline-block">Jaxx Liberty’s</span>
+                <span class="d-inline-block">extensive</span>
+                <span class="d-inline-block">range</span>
+                <span class="d-inline-block">of</span>
+                <span class="d-inline-block">new</span>
+                <span class="d-inline-block">features.</span>
             </h2>
         </div>
         
@@ -42,10 +43,9 @@ include 'includes/home-header.php';
                     </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center min-50 p-4 slide-in-left">
                     <!--color bg div-->
-                    <!--<div class="img-full h-100 parallelo absolute z--1 right-0 bg-dark shadow-lg slide-in-right" data-rellax-speed="3"></div>-->
                     <img class="rotate img w-100 absolute z-2 p-5 rellax" src="/img/jaxx-android-fisheye-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
                     <!--bg section-title -->
-                    <div class="d-flex align-self-center stroke-o page-title absolute z-0 p-5 rellax" data-rellax-speed="3">Unified Dashboard.</div>
+                    <div class="d-flex align-self-center stroke-o page-title absolute z-0 p-5" data-rellax-speed="3">Unified Dashboard.</div>
                 </div>
             </div>
             
@@ -181,97 +181,97 @@ include 'includes/home-header.php';
                                   <li class="media mb-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">It's one of the world's most popular cryptocurrency wallets</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">It's one of the world's most popular cryptocurrency wallets</h5>
                                     </div>
                                   </li>
                                   <li class="media my-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">Downloaded by millions, with a proven track record</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">Downloaded by millions, with a proven track record</h5>
                                     </div>
                                   </li>
                                   <li class="media my-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">Cross-platform compatible</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">Cross-platform compatible</h5>
                                     </div>
                                   </li>
                                   <li class="media my-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">Users are not required to provide personal information to interact with their digital assets</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">Users are not required to provide personal information to interact with their digital assets</h5>
                                     </div>
                                   </li>
                                   <li class="media my-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">Sensitive information (XPub, Private Keys and Seed) is securely stored client side and never leaves the device</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">Sensitive information (XPub, Private Keys and Seed) is securely stored client side and never leaves the device</h5>
                                     </div>
                                   </li>
                                   <li class="media my-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">Supports more than 70 digital assets and cryptocurrencies</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">Supports more than 70 digital assets and cryptocurrencies</h5>
                                     </div>
                                   </li>
                                   <li class="media my-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">Seamless peer-to-peer exchange between supported currencies using ShapeShift</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">Seamless peer-to-peer exchange between supported currencies using ShapeShift</h5>
                                     </div>
                                   </li>
                                   <li class="media my-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">Customized mining fee for all digital assets</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">Customized mining fee for all digital assets</h5>
                                     </div>
                                   </li>
                                   <li class="media my-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">Free world-class support from our User Success team, available around the clock by email and social media</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">Free world-class support from our User Success team, available around the clock by email and social media</h5>
                                     </div>
                                   </li>
                                   <li class="media my-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">Supports more than 70 digital assets and cryptocurrencies</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">Supports more than 70 digital assets and cryptocurrencies</h5>
                                     </div>
                                   </li>
                                   <li class="media my-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">HD wallet support for select assets</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">HD wallet support for select assets</h5>
                                     </div>
                                   </li>
                                   <li class="media my-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">Single master seed backup (this will be the only seed you will ever need for integrated coins)</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">Single master seed backup (this will be the only seed you will ever need for integrated coins)</h5>
                                     </div>
                                   </li>
                                   <li class="media my-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">Native camera scanning (images scanned are not transmitted off-device, broadcast or even stored)</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">Native camera scanning (images scanned are not transmitted off-device, broadcast or even stored)</h5>
                                     </div>
                                   </li>
                                   <li class="media my-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">QR code generation for mnemonic and public address</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">QR code generation for mnemonic and public address</h5>
                                     </div>
                                   </li>
                                   <li class="media my-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">Support for more than 100 native currencies--not just USD or EUR</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">Support for more than 100 native currencies--not just USD or EUR</h5>
                                     </div>
                                   </li>
                                   <li class="media my-4 pb-2">
                                     <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
                                     <div class="media-body">
-                                      <h5 class="mt-0 mb-1">Support for Ethereum contracts, custom data, and gas limits</h5>
+                                      <h5 class="font-italic font-weight-light mt-0 mb-1">Support for Ethereum contracts, custom data, and gas limits</h5>
                                     </div>
                                   </li>
                                 </ul><!--end features list ul-->

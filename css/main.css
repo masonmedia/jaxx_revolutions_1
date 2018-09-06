@@ -199,7 +199,8 @@ h1, h2, h3, h4, h5, h6, p, button, .btn {
     font-family: 'Oswald', Montserrat, Avenir, Helvetica, sans-serif;
 }
 p {
-    font-size: 18px;
+    font-size: 19px;
+    font-weight: 300;
 }
 .site-title {
 /*    font-size: 10vmin;*/
@@ -1040,6 +1041,7 @@ nav,
 .nav-link,
 .nav-item {
     color: #fff;
+    font-size: 19px;
     font-weight: bold;
     padding-left: 15px;
     padding-right: 15px;

@@ -234,15 +234,15 @@ $(".fade-in-left").each(function() {
 		.addTo(controller);
 });
      
-//fade in up 
-     
-$(".fade-in-up").each(function() {
+     //fade + enter left - scene 1
 
- 	var fadeLeft = TweenMax.from(this, 1, {
-	        y: 100,
+$(".fade-in-right").each(function() {
+
+ 	var fadeRight = TweenMax.from(this, 1, {
+	        x: -100,
 	        autoAlpha: 0,
 	        delay: 0,
-	        ease: Power2.easeOut
+	        ease: Power4.easeOut
 	    }, .1);
 
 	var scene1 = new ScrollMagic.Scene({
@@ -250,7 +250,48 @@ $(".fade-in-up").each(function() {
 	        offset: -100,
 	        reverse:true
 	    })
-		.setTween(fadeLeft)
+		.setTween(fadeRight)
+		.addTo(controller);
+});
+     
+//fade in up 
+     
+$(".fade-in-up").each(function() {
+
+ 	var fadeUp = TweenMax.from(this, 1, {
+	        y: 100,
+	        autoAlpha: 0,
+	        delay: 0,
+	        ease: Power4.easeOut
+	    }, .1);
+
+	var scene1 = new ScrollMagic.Scene({
+	        triggerElement: this,
+	        offset: -100,
+	        reverse:true
+	    })
+		.setTween(fadeUp)
+		.addTo(controller);
+});
+     
+     
+//fade in down 
+     
+$(".fade-in-down").each(function() {
+
+ 	var fadeDown = TweenMax.from(this, 1, {
+	        y: -100,
+	        autoAlpha: 0,
+	        delay: 0,
+	        ease: Power4.easeInOut
+	    }, .1);
+
+	var scene1 = new ScrollMagic.Scene({
+	        triggerElement: this,
+	        offset: -100,
+	        reverse:true
+	    })
+		.setTween(fadeDown)
 		.addTo(controller);
 });
      
@@ -323,19 +364,7 @@ $(".fade-in-up").each(function() {
      
      //  device rotation animations ==> features og page    
      
-//$(".rotate").each(function() {
-//
-// 	var rotate = TweenMax.from(this, 2, {autoAlpha:0, rotationY:15, rotationX:45, rotationZ:-45, ease: Power4.easeInOut});
-//         
-//	var scene = new ScrollMagic.Scene({
-//	        triggerElement: this,
-//	        triggerHook: 'onEnter',
-//	        offset: 0,
-//	        reverse:true
-//	    })
-//		.setTween(rotate)
-//		.addTo(controller);
-//});
+
 
      
   

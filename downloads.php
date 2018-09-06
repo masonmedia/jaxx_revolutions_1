@@ -41,7 +41,7 @@ include 'includes/header.php';
                             <span class="d-inline-block content-stagger-up">Mobile</span>
                         </h2>
                         <div class="px-5 py-3">
-                            <p class="border-top border-bottom border-grey py-4 content-stagger-up">Download <span class="orange font-weight-bold">Jaxx Liberty</span> for Android and Tablet.</p>
+                            <h4 class="border-top border-bottom border-grey py-4 content-stagger-up">Download <span class="orange font-weight-bold">Jaxx Liberty</span> for Android and Tablet.</h4>
                         </div>
                         <!--button nest row-->
                         <div class="row pl-5 content-stagger-up">
@@ -78,7 +78,7 @@ include 'includes/header.php';
                             <span class="d-inline-block content-stagger-up">Desktop</span>
                         </h2>
                         <div class="px-5 py-3">
-                            <p class="border-top border-bottom border-grey py-4 content-stagger-up"><span class="orange font-weight-bold">Jaxx Liberty</span> will soon be available on desktop for Mac, Windows, and Linux operating systems.</p>
+                            <h4 class="border-top border-bottom border-grey py-4 content-stagger-up"><span class="orange font-weight-bold">Jaxx Liberty</span> will soon be available on desktop for Mac, Windows, and Linux operating systems.</h4>
                         </div>
                     </div><!--end wrap-->
                     <!--nest row-->
@@ -202,7 +202,7 @@ include 'includes/header.php';
                             <span class="d-inline-block content-stagger-up">Chrome</span>
                         </h2>
                         <div class="px-5 py-3">
-                            <p class="py-3 border-top border-bottom border-grey content-stagger-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ab, esse, labore minus odio dolor reiciendis, corrupti pariatur adipisci numquam ex! Quos ab, aperiam assumenda vitae aspernatur quas odit rem!</p>
+                            <h4 class="py-4 border-top border-bottom border-grey content-stagger-up">Add Jaxx Liberty to your Google Chrome web browser.</h4>
                             <a onclick="googleAnalyticsTrigger('Chrome Extension', 'Banner')" href="https://chrome.google.com/webstore/detail/jaxx-blockchain-wallet/ancbofgphhmhcchnaognahmjfajaecmo" target="_blank">
                             <img class="store-logo-2 pt-2 content-stagger-up" src="/img/jaxx-chrome.png" alt="Download Jaxx Liberty on Google Play">
                             </a>
