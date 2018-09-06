@@ -208,17 +208,48 @@ include 'includes/home-header.php';
                 </div>
             </div>
             
-            <!--row 8-->
+            <!--row 8 all features list-->
             
-            <div id="row8" class="row pb-4 d-flex content-tween rellax">
+            <div id="row8" class="row pb-4 d-flex bg-turq bg-img-downloads">
                 <div class="col-lg-5 d-flex justify-content-center align-items-center min-50 p-0 o-12">
-                    <img class="rotate img w-75 absolute z-1" src="/img/jaxx-samsung-laptop-top-home.png" alt="Jaxx Liberty" data-rellax-speed="1">
-                    <!--bg section-title -->
-                    <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="2">Download Jaxx Liberty.</div>
+                    <img class="rotate img w-75 absolute z-1" src="/img/jaxx-samsung-laptop-top-home.png" alt="Jaxx Liberty" >
                 </div>
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left min-70 p-5 rellax" data-rellax-speed="-2">
-                    <!--color bg div-->
-                    <div class="img-full absolute z-0 left-0 bg-turq shadow-lg fade-in-slow" data-rellax-speed="2"></div>
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left min-70 p-5">
+                    <img class="content-stagger-up" src="/img/icons/jaxx-hub.png" alt="Jaxx Liberty">
+                    <h2 class="page-title x-bold text-light">Explore our full list of features.</h2>
+                    <h4 class="">Jaxx Liberty is a free service which requires no sign up, registration, or personal information.</h4>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-lg btn-primary my-3" data-toggle="modal" data-target="#exampleModalCenter">
+                      Learn more
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            ...
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!--end modal-->
+                </div>
+            </div><!--end row-->
+            
+            <!--row 9 Download-->
+            
+            <div id="row9" class="row pb-4 d-flex bg-orange bg-img-downloads rellax" data-rellax-speed="-2">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 slide-in-right">
                     <div class="wrap rellax">
                         <img class="content-stagger-up" src="/img/icons/jaxx-download.png" alt="Jaxx Liberty">
                         <h2 class="page-title x-bold text-light content-stagger-up">Download Jaxx Liberty for Free</h2>
@@ -228,7 +259,12 @@ include 'includes/home-header.php';
                         </a>
                     </div>
                 </div>
-            </div>
+                <div class="col-lg-5 d-flex justify-content-center align-items-center min-50 p-0 o-12 slide-in-left">
+                    <img class="rotate img-full absolute z-1" src="/img/jaxx-app-homescreen.jpg" alt="Jaxx Liberty">
+                    <!--bg section-title -->
+                    <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0">Download Jaxx Liberty.</div>
+                </div>
+            </div><!--end row-->
             
             <!--footer-->
         
