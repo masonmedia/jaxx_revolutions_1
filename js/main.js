@@ -187,11 +187,7 @@ var tl4 = new TimelineLite();
 
 $(".fade-in-slow").each(function() {
 
- 	var fadeIn = TweenMax.from(this, 3, {
-	        autoAlpha: 0,
-	        delay: 0,
-	        ease: Power2.easeOut
-	    }, .5);
+ 	var fadeIn = TweenMax.from(this, 3, {autoAlpha: 0, delay: 0, ease: SlowMo.easeInOut}, .5);
 
 	var scene0 = new ScrollMagic.Scene({
 	        triggerElement: this,
@@ -201,14 +197,12 @@ $(".fade-in-slow").each(function() {
 		.setTween(fadeIn)
 		.addTo(controller);
 }); 
+   
+//fade out
      
 $(".fade-out").each(function() {
 
- 	var fadeOut = TweenMax.to(this, 1, {
-	        autoAlpha: 0,
-	        delay: 0,
-	        ease: Power2.easeOut
-	    }, .5);
+ 	var fadeOut = TweenMax.to(this, 2, {autoAlpha: 0, delay: 0, ease: SlowMo.easeOut}, .5);
 
 	var scene0 = new ScrollMagic.Scene({
 	        triggerElement: this,

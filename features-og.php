@@ -75,43 +75,26 @@ include 'includes/home-header.php';
                         <h4 class="content-stagger-up">A single interface to help you create, track and manage your digital assets.</h4>
                     </div>
                     </div>
-                <div class="perspective col-lg-5 d-flex flex-column justify-content-center align-items-center min-50 p-0 slide-in-left">
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center min-50 p-4 slide-in-left">
                     <!--color bg div-->
-<!--                    <div class="img-full h-100 parallelo absolute z--1 right-0 bg-dark shadow-lg slide-in-right" data-rellax-speed="3"></div>-->
-                    <img class="rotate img w-100 absolute z-2 p-5 rellax" src="/img/jaxx-android-fisheye-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    <!--<div class="img-full h-100 parallelo absolute z--1 right-0 bg-dark shadow-lg slide-in-right" data-rellax-speed="3"></div>-->
+                    <img class="rotate img w-75 absolute z-2 p-5 rellax" src="/img/jaxx-android-fisheye-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
                     <!--bg section-title -->
-                    <div class="d-flex align-self-center stroke-o page-title absolute z-0 right-0 rellax" data-rellax-speed="3">Unified Dashboard.</div>
+                    <div class="d-flex align-self-center stroke-o page-title absolute z-0 p-5 rellax" data-rellax-speed="3">Unified Dashboard.</div>
                 </div>
             </div>
             
              <!--row 2-->
-<!--             bg-img-multidevice-outline-->
             <div id="row2" class="row d-flex content-tween">
-                <div class="col-lg-5 d-flex justify-content-end align-items-center min-50 relative z-1 p-0 o-12 slide-in-right">
-                    <!--color bg div-->
-<!--                    <div class="img-full h-100 parallelo absolute z--1 right-0 bg-primary shadow-lg slide-in-right" data-rellax-speed="3"></div>-->
-                    <img class="img w-50 absolute pr-4 rellax" src="/img/jaxx-android-top-angle.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                <div class="col-lg-5 d-flex justify-content-end align-items-center min-50 relative z-1 p-4 o-12 slide-in-right">
+                    <!--device-->
+                    <img class="img w-50 absolute rellax" src="/img/jaxx-android-top-angle.png" alt="Jaxx Liberty" data-rellax-speed="1">
                     <!--bg section-title -->
-                    <div class="page-title d-flex align-self-center text-right stroke-t absolute z--1 rellax" data-rellax-speed="3">Module-based Approach.</div>
+                    <div class="page-title d-flex align-self-center stroke-t absolute z--1 left-0 p-5 rellax" data-rellax-speed="3">Portfolio.</div>
                 </div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start relative z-0 min-70 p-5 rellax">
                     <!--color bg div-->
                     <div class="img-full absolute z-0 right-0 bg-turq shadow-lg content-stagger-up" data-rellax-speed="2"></div>
-                    <div class="wrap rellax">
-                        <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-module.png" alt="Jaxx Liberty Module Based Approach">
-                        <!--<h2 class="section-sub-title x-bold w-100 content-stagger-up">Module-Based Approach</h2>-->
-                        <h2 class="page-title x-bold text-light content-stagger-up">Module-Based Approach</h2>
-                        <h4 class="content-stagger-up">Provides information that people need to navigate the cryptocurrency ecosystem, which is part of the new digital age of value.</h4>
-                    </div>
-                </div>
-                
-            </div>
-
-            <!--row 3-->
-            <div id="row3" class="row d-flex content-tween rellax">
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 rellax" data-rellax-speed="-2">
-                    <!--color bg div-->
-                    <div class="img-full absolute z--1 left-0 bg-orange bg-img-downloads shadow-lg content-stagger-up" data-rellax-speed="2"></div>
                     <div class="wrap rellax">
                         <img class="content-stagger-up" src="/img/icons/jaxx-port.png" alt="Jaxx Liberty Portfolio">
                         <!--<h2 class="section-sub-title x-bold w-100 content-stagger-up">Portfolio</h2>-->
@@ -119,94 +102,85 @@ include 'includes/home-header.php';
                         <h4 class="content-stagger-up">A single interface to help you create, track and manage your digital assets.</h4>
                     </div>
                 </div>
-                <div class="perspective col-lg-5 d-flex justify-content-start align-items-center min-50 relative z-1 p-0 slide-in-left">
-                    <!--color bg div-->
-<!--                    <div class="img-full h-100 parallelo absolute z--1 right-0 bg-success shadow-lg slide-in-right" data-rellax-speed="3"></div>-->
-                    <img class="rotate img w-50 absolute z-1 rellax" src="/img/jaxx-tablet-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
-                    <!--bg section-title -->
-                    <div class="d-flex align-self-center page-title stroke-o absolute z--1 right-0 rellax" data-rellax-speed="3">Portfolio.</div>
-                </div>
+                
             </div>
-            
-            <!--row 4-->
-            <div id="row4" class="row d-flex content-tween rellax">
-                <div class="perspective col-lg-5 d-flex justify-content-end align-items-center relative z-1 min-70 p-0 o-12 slide-in-right">
+
+            <!--row 3 News-->
+            <div id="row3" class="row d-flex content-tween rellax">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 rellax" data-rellax-speed="-2">
                     <!--color bg div-->
-<!--                    <div class="img-full h-100 parallelo absolute z--1 right-0 bg-navy shadow-lg slide-in-right" data-rellax-speed="3"></div>-->
-                    <img class="rotate img w-50 absolute z-2 rellax" src="/img/jaxx-2phone-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
-                    <!--bg section-title -->
-                    <div class="page-title d-flex align-self-center text-right stroke-t absolute z--1 rellax" data-rellax-speed="2">Aggregated Headline News.</div>
-                </div>
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-70 p-5 rellax">
-                    <!--color bg div-->
-                    <div class="img-full bg-turq absolute z-0 right-0 shadow-lg content-stagger-up" data-rellax-speed="2"></div>
+                    <div class="img-full absolute z--1 left-0 bg-orange bg-img-downloads shadow-lg content-stagger-up" data-rellax-speed="2"></div>
                     <div class="wrap rellax">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-data.png" alt="Jaxx Liberty Aggregated Headline News">
                         <h2 class="page-title x-bold text-light content-stagger-up">Aggregated Headline News</h2>
                         <h4 class="content-stagger-up">Stay up-to-date with the latest news.</h4>
                     </div>
                 </div>
-                
+                <div class="col-lg-5 d-flex justify-content-start align-items-center min-50 relative z-1 p-4 slide-in-left">
+                    <!--device-->
+                    <img class="img w-50 absolute z-2 rellax" src="/img/jaxx-2phone-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    <!--bg section-title -->
+                    <div class="page-title d-flex align-self-center text-right stroke-o absolute z--1 p-5 rellax" data-rellax-speed="2">Aggregated Headline News.</div>
+                </div>
             </div>
             
-            <!--row 5-->
-             <div id="row5" class="row d-flex content-tween rellax">
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 rellax" data-rellax-speed="-2">
+            <!--row 4 Market Data-->
+            <div id="row4" class="row d-flex content-tween rellax">
+                <div class="perspective col-lg-5 d-flex justify-content-end align-items-center relative z-1 min-70 p-4 o-12 slide-in-right">
+                    <!--device-->
+                    <img class="rotate img w-50 absolute z-1 rellax" src="/img/jaxx-tablet-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    <!--bg section-title -->
+                    <div class="page-title stroke-t absolute z--1 p-4 left-0 rellax" data-rellax-speed="3">Market Data.</div>
+                </div>
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-70 p-5 rellax">
                     <!--color bg div-->
-                    <div class="img-full absolute z-0 left-0 bg-orange bg-img-downloads shadow-lg fade-in-slow" data-rellax-speed="2"></div>
+                    <div class="img-full bg-turq absolute z-0 right-0 shadow-lg content-stagger-up" data-rellax-speed="2"></div>
                     <div class="wrap rellax">
                         <img class="content-stagger-up" src="/img/icons/jaxx-news.png" alt="Jaxx Liberty Market Data">
                         <h2 class="page-title x-bold text-light content-stagger-up">Market Data</h2>
                         <h4 class="content-stagger-up">Quick and easy access to cryptocurrency price moves, market caps, and trends -- at your fingertips.</h4>
                     </div>
                 </div>
-                <div class="col-lg-5 d-flex justify-content-center align-items-center min-70 p-0 slide-in-left">
-                    <!--color bg div-->
-<!--                    <div class="img-full h-100 parallelo absolute z--1 right-0 bg-navy shadow-lg slide-in-right"></div>-->
-                    <img class="rotate img w-75 absolute z-1 rellax" src="/img/jaxx-samsung-laptop-chrome-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
-                    <!--bg section-title -->
-                    <div class="page-title stroke-o absolute z--1 right-0 rellax" data-rellax-speed="3">Market Data.</div>
-                </div>
             </div>
             
-            <!--row 6-->
-            <div id="row6" class="row d-flex bg-white bg-img-downloads content-tween rellax">
-                <div class="col-lg-5 d-flex justify-content-end align-items-center min-70 p-0 relative z-1 o-12 slide-in-right">
+            <!--row 5 Block Explorer-->
+             <div id="row5" class="row d-flex content-tween rellax fade-out">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 rellax" data-rellax-speed="-2">
                     <!--color bg div-->
-<!--                    <div class="img-full h-100 parallelo absolute z--1 right-0 bg-navy shadow-lg slide-in-right" data-rellax-speed="3"></div>-->
-                    <img class="rotate img w-100 absolute z-2 p-5" src="/img/jaxx-3phone-light.png" alt="Jaxx Liberty" data-rellax-speed="1">
-                </div> 
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end min-70 p-5 rellax" data-rellax-speed="-2">
-                   <!--color bg div-->
-                    <div class="img-full absolute z-0 left-0 bg-turq shadow-lg fade-in-slow" data-rellax-speed="2"></div>
+                    <div class="img-full absolute z-0 left-0 bg-orange bg-img-downloads shadow-lg fade-in-slow" data-rellax-speed="2"></div>
                     <div class="wrap rellax">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-blockchain.png" alt="Jaxx Liberty Integrated Multi-Chain Block Explorer">
                         <h2 class="page-title x-bold text-light content-stagger-up">Integrated multi-chain Block Explorer</h2>
                         <h4 class="content-stagger-up">A convenient, powerful, and simple interface that allows you to track balance and transaction data without leaving Jaxx Liberty.</h4>
                     </div>
                 </div>
-                 <!--bg section-title -->
-                <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="2">Integrated multi-chain Block Explorer.</div>
+                <div class="col-lg-5 d-flex justify-content-center align-items-center min-70 p-4 slide-in-left">
+                    <!--device-->
+                    <img class="img w-100 absolute z-2 p-5" src="/img/jaxx-3phone-light.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    <!--bg section-title -->
+                    <div class="page-title d-flex align-self-center stroke-o absolute z--1 right-0 p-4 rellax" data-rellax-speed="2">Integrated multi-chain Block Explorer.</div>
+                </div>
             </div>
             
-            <!--row 7-->
-
-             <div id="row7" class="row d-flex bg-dots content-tween rellax">
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 rellax" data-rellax-speed="-2">
-                    <!--color bg div-->
-                    <div class="img-full absolute z-0 left-0 bg-orange bg-img-downloads shadow-lg fade-in-slow" data-rellax-speed="2"></div>
+            <!--row 6 Security???? not using -->
+            <!--
+            <div id="row6" class="row d-flex bg-white bg-img-downloads content-tween rellax">
+                <div class="col-lg-5 d-flex justify-content-end align-items-center min-70 p-0 relative z-1 o-12 slide-in-right">
+                    <img class="img w-100 absolute z-1 rellax" src="/img/jaxx-two-devices.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    bg section-title 
+                    <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="2">Security.</div>
+                </div> 
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end min-70 p-5 rellax" data-rellax-speed="-2">
+                   color bg div
+                    <div class="img-full absolute z-0 left-0 bg-turq shadow-lg fade-in-slow" data-rellax-speed="2"></div>
                     <div class="wrap rellax">
-                        <img class="content-stagger-up" src="/img/icons/jaxx-security.png" alt="Jaxx Liberty">
+                        <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-security.png" alt="Jaxx Liberty Security">
                         <h2 class="page-title x-bold text-light content-stagger-up">Security</h2>
                         <h4 class="content-stagger-up">Jaxx Liberty incorporates extensive, industry leading security features to maintain user privacy and protection.</h4>
                     </div>
                 </div>
-                <div class="col-lg-5 d-flex justify-content-end align-items-center min-70 p-0 slide-in-left">
-                    <img class="img w-100 absolute z-1 rellax" src="/img/jaxx-two-devices.png" alt="Jaxx Liberty" data-rellax-speed="1">
-                    <!--bg section-title -->
-                    <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="2">Security.</div>
-                </div>
             </div>
+            -->
             
             <!--row 8 all features list-->
             
@@ -225,20 +199,21 @@ include 'includes/home-header.php';
 
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                      <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                            <h5 class="modal-title" id="exampleModalCenterTitle">
+                                <img class="jaxx-navbar-brand" src="/img/JaxxLiberty_Logo_RGB_Screen.png" alt="Jaxx Liberty Features">
+                            </h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
+                              <span aria-hidden="true">X</span>
                             </button>
                           </div>
                           <div class="modal-body">
                             ...
                           </div>
                           <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-orange" data-dismiss="modal">Close</button>
                           </div>
                         </div>
                       </div>
@@ -248,7 +223,7 @@ include 'includes/home-header.php';
             
             <!--row 9 Download-->
             
-            <div id="row9" class="row pb-4 d-flex bg-orange bg-img-downloads rellax" data-rellax-speed="-2">
+            <div id="row9" class="row pb-4 d-flex bg-orange bg-img-downloads fade-in-slow rellax" data-rellax-speed="-2">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 slide-in-right">
                     <div class="wrap rellax">
                         <img class="content-stagger-up" src="/img/icons/jaxx-download.png" alt="Jaxx Liberty">
@@ -265,6 +240,11 @@ include 'includes/home-header.php';
                     <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0">Download Jaxx Liberty.</div>
                 </div>
             </div><!--end row-->
+            
+            
+            
+            
+            
             
             <!--footer-->
         

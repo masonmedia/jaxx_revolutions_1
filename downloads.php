@@ -33,7 +33,6 @@ include 'includes/header.php';
             <!--download desktop-->
             <div id="desktop" class="row d-flex bg-white bg-img-downloads content-tween">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange bg-img-downloads min-100 arrow-left o-12">
-<!--                    <img class="img rellax" src="/img/jaxx-multiple-macbook.png" alt="Jaxx Liberty Desktop" data-rellax-speed="-2">-->
                     <img class="img w-75 absolute z-1 rellax" src="/img/jaxx-samsung-laptop-top-home.png" alt="Jaxx Liberty Desktop" data-rellax-speed="-2">
                 </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 py-5 px-0 rellax">
@@ -48,7 +47,7 @@ include 'includes/header.php';
                         </div>
                     </div><!--end wrap-->
                     <!--nest row-->
-<!--
+                    <!--
                     <div class="row px-3">
                         <div class="col-xs-4 mr-2">
                              Button trigger modal 
@@ -149,7 +148,7 @@ include 'includes/header.php';
                           </div>
                         </div>end linux modal
                     </div>end button group nest cols
--->
+                -->
                 </div><!--end nest row-->
             </div><!--end col-->
             </div><!--end row-->
