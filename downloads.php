@@ -36,12 +36,11 @@ include 'includes/header.php';
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 py-5 slide-in-right">
                     <div class="wrap w-100 rellax" data-rellax-speed="-3">
                         <h2 class="section-title x-bold bg-navy orange p-5 shadow-lg slide-in-right skew">
-                            <span class="d-inline-block content-stagger-up">Download</span>
-                            <span class="d-inline-block content-stagger-up">for</span>
                             <span class="d-inline-block content-stagger-up">Mobile</span>
+                            <span class="d-inline-block content-stagger-up">Download</span>
                         </h2>
                         <div class="px-5 py-3">
-                            <h4 class="border-top border-bottom border-grey py-4 content-stagger-up">Download <span class="orange font-weight-bold">Jaxx Liberty</span> for Android and Tablet.</h4>
+                            <h5 class="border-top border-bottom border-grey py-4 content-stagger-up">Have <span class="orange font-weight-bold">Jaxx Liberty</span> at your fingertips and take it anywhere you go.</h5>
                         </div>
                         <!--button nest row-->
                         <div class="row pl-5 content-stagger-up">
@@ -73,12 +72,11 @@ include 'includes/header.php';
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 py-5 px-0 slide-in-left">
                     <div class="wrap w-100 rellax" data-rellax-speed="-1">
                         <h2 class="section-title x-bold bg-navy orange p-5 shadow-lg skew">
-                            <span class="d-inline-block content-stagger-up">Download</span>
-                            <span class="d-inline-block content-stagger-up">for</span>
                             <span class="d-inline-block content-stagger-up">Desktop</span>
+                            <span class="d-inline-block content-stagger-up">Download</span>
                         </h2>
                         <div class="px-5 py-3">
-                            <h4 class="border-top border-bottom border-grey py-4 content-stagger-up"><span class="orange font-weight-bold">Jaxx Liberty</span> will soon be available on desktop for Mac, Windows, and Linux operating systems.</h4>
+                            <h5 class="border-top border-bottom border-grey py-4 content-stagger-up"><span class="orange font-weight-bold">Jaxx Liberty</span> will soon be available on desktop for Mac, Windows, and Linux operating systems.</h5>
                         </div>
                     </div><!--end wrap-->
                     <!--nest row-->
@@ -191,24 +189,23 @@ include 'includes/header.php';
              <!--download google chrome ext-->
              
             <div id="chrome" class="row d-flex bg-orange bg-img-downloads content-tween">
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-100 o-12 slide-in-right">
-                    <img class="img rellax" src="/img/jaxx-samsung-laptop-side.png" alt="Jaxx Google Chrome" data-rellax-speed="-2">
-                </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 py-5 slide-in-left">
                    <div class="wrap w-100 rellax" data-rellax-speed="-1">
                         <h2 class="section-title x-bold bg-navy orange p-5 shadow-lg slide-in-left skew">
-                            <span class="d-inline-block content-stagger-up">Add</span>
-                            <span class="d-inline-block content-stagger-up">to</span>
                             <span class="d-inline-block content-stagger-up">Chrome</span>
+                            <span class="d-inline-block content-stagger-up">Extension</span>
                         </h2>
                         <div class="px-5 py-3">
-                            <h4 class="py-4 border-top border-bottom border-grey content-stagger-up">Add Jaxx Liberty to your Google Chrome web browser.</h4>
+                            <h5 class="py-4 border-top border-bottom border-grey content-stagger-up">Download our Google Chrome extension and use it on your computer of choice.</h5>
                             <a onclick="googleAnalyticsTrigger('Chrome Extension', 'Banner')" href="https://chrome.google.com/webstore/detail/jaxx-blockchain-wallet/ancbofgphhmhcchnaognahmjfajaecmo" target="_blank">
                             <img class="store-logo-2 pt-2 content-stagger-up" src="/img/jaxx-chrome.png" alt="Download Jaxx Liberty on Google Play">
                             </a>
                         </div>
                     </div>
 				</div>
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-100 p-4 o-12 slide-in-right">
+                    <img class="img rellax" src="/img/jaxx-samsung-laptop-side.png" alt="Jaxx Google Chrome" data-rellax-speed="-2">
+                </div>
             </div><!--end chrome ext row-->
             
             <!--footer-->

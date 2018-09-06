@@ -124,9 +124,15 @@ include 'includes/home-header.php';
                     <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">Jaxx Liberty is Here.</div>
                         <!--section title-->
                         <h2 class="section-title font-weight-bold m-0 rellax" data-rellax-speed="-1">
+<!--
                             <span class="content-stagger-up">J</span><span class="content-stagger-up">a</span><span class="content-stagger-up">x</span><span class="content-stagger-up">x</span>
                             <span class="content-stagger-up">L</span><span class="content-stagger-up">i</span><span class="content-stagger-up">b</span><span class="content-stagger-up">e</span><span class="content-stagger-up">r</span><span class="content-stagger-up">t</span><span class="content-stagger-up">y</span>
                             <span class="content-stagger-up">i</span><span class="content-stagger-up">s</span>
+                            <span class="content-stagger-up">Here.</span>
+-->
+                            <span class="content-stagger-up">Jaxx</span>
+                            <span class="content-stagger-up m-0">Liberty</span>
+                            <span class="content-stagger-up">is</span> 
                             <span class="content-stagger-up">Here.</span>
                         </h2>
                         <hr class="w-25 content-stagger-up">
@@ -163,10 +169,11 @@ include 'includes/home-header.php';
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start min-100 px-5 pt-5 pb-0 rellax" data-rellax-speed="2">
                     <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">Use on multiple devices.</div>
                     <h2 class="section-title font-weight-bold m-0 rellax">
-                        <span class="content-stagger-up">U</span><span class="content-stagger-up m-0">s</span><span class="content-stagger-up">e</span> 
-                        <span class="content-stagger-up">o</span><span class="content-stagger-up">n</span>
-                        <span class="content-stagger-up">M</span><span class="content-stagger-up">u</span><span class="content-stagger-up">l</span><span class="content-stagger-up">t</span><span class="content-stagger-up">i</span><span class="content-stagger-up">p</span><span class="content-stagger-up">l</span><span class="content-stagger-up">e</span>  
-                        <span class="content-stagger-up">devices.</span></h2>
+                        <span class="content-stagger-up">Use</span>
+                        <span class="content-stagger-up m-0">on</span>
+                        <span class="content-stagger-up">Multiple</span> 
+                        <span class="content-stagger-up">Devices.</span>
+                    </h2>
                     <hr class="w-25 content-stagger-up">
                     <p class="py-2 m-0 content-stagger-up"><span class="orange font-weight-bold"><a class="font-weight-bold animsition-link" href="/downloads.php" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800">Jaxx Liberty</a></span> is now available on Android and Google Chrome. iOS and desktop versions are coming soon. <a class="font-weight-bold animsition-link" href="/downloads.php" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800"><span class="orange">Download</span></a> it for free.</p>
                     <hr class="w-25 pb-2 content-stagger-up">

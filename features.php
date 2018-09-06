@@ -17,13 +17,12 @@ include 'includes/home-header.php';
             <hr class="bg-white w-25">
             <h2 class="site-sub-title pb-5">               
                 <span class="d-inline-block">Explore</span>
-                <span class="d-inline-block">Jaxx</span>
                 <span class="d-inline-block">Jaxx Liberty’s</span>
                 <span class="d-inline-block">extensive</span>
                 <span class="d-inline-block">range</span>
                 <span class="d-inline-block">of</span>
                 <span class="d-inline-block">new</span>
-                <span class="d-inline-block">features.</span>
+                <span class="d-inline-block">features</span>
             </h2>
         </div>
         
