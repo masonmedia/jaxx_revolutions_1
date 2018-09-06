@@ -72,11 +72,9 @@ include 'includes/header.php';
             <div id="row4" class="row d-flex bg-img-office content-tween">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center min-50 text-center p-5">
                    <div class="wrap bg-white-op rounded-right p-3"> 
-                       <div class="border-wrap border border-dark d-flex flex-column justify-content-center align-items-center p-4">                  
-                            <h2 class="section-title x-bold w-100 orange bg-navy shadow-lg px-3 py-4 mb-4 skew content-stagger-up">Integrations and Network</h2>
+                       <div class="border-wrap border border-dark d-flex flex-column justify-content-center align-items-center p-4">     <h2 class="section-title x-bold w-100 orange bg-navy shadow-lg px-3 py-4 my-4 skew content-stagger-up">Integrations and Network</h2>
                             <p class="border-top border-dark pt-4 pb-5 m-0 content-stagger-up">Our office hours are 9am to 5pm EST. You can reach our customer support team 24 hours a day.</p>
-                            
-                            <!--carousel-->
+                <!--carousel-->
                     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
                       <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -318,16 +316,10 @@ include 'includes/header.php';
                             <span class="sr-only">Next</span>
                           </a>
                         </div><!--end carousel-->
-                    
-                    
-                    
-                            
-                            
-                           
                                
                             
-                            <div class="pt-5 content-stagger-up">
-                                <p class="pt-3 border-top">Get more information about the Jaxx Liberty community at Decentral.ca</p>
+                            <div class="py-5 single-tween-item">
+                                <h4 class="py-3 border-top">Get more information about the Jaxx Liberty community at Decentral.ca</h4>
                                 <a href="https://www.decentral.ca" target="_blank" class="btn btn-lg btn-orange">Visit Decentral</a>
                             </div>
                         </div>
