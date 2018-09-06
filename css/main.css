@@ -1211,6 +1211,15 @@ footer li a {
     .o-1 {
         order: -1;
     }
+    .o-2 {
+        order: 2;
+    }
+    .o-3 {
+        order: 3;
+    }
+    .o-4 {
+        order: 4;
+    }
     .o-12 {
         order: 12;
     }
