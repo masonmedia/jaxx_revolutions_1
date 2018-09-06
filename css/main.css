@@ -423,7 +423,7 @@ clip-path: circle(50% at 50% 50%);
 }
 .arrow-right {
     -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 .arrow-down {
 	-webkit-clip-path: polygon(50% 100%, 100% 75%, 100% 0, 0 0, 0 75%);
@@ -828,6 +828,9 @@ video {
 .bg-img-svg-shapes {
     background: url(/img/jaxx-geo-shapes-2.svg) center;
     background-size: cover;
+}
+.heart-list-icon {
+    width: 40px;
 }
 
 

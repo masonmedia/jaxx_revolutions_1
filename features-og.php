@@ -10,41 +10,6 @@ include 'includes/home-header.php';
     
        <!--jumbotron-->
         <div id="features" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center bg-img-banner-features text-white min-70 p-5 mb-0">
-            <!--multi device svg img-->
-            <!--      
-            <svg id="features-device-img" class="absolute z-0" width="80%" height="auto" viewBox="0 0 897 452" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-                <title>IPAD 2</title>
-                <defs></defs>
-                <g id="Page-1" stroke="#444" stroke-width="1" fill="none" fill-rule="evenodd" class="lines">
-                    <g id="IPAD" sketch:type="MSLayerGroup" transform="translate(681.000000, 55.000000)" stroke="#7E89A3">
-                        <path d="M202.986,317 L12.097,317 C5.462,317 0.083,311.623 0.083,304.99 L0.083,12.093 C0.083,5.46 5.461,0.083 12.097,0.083 L202.986,0.083 C209.622,0.083 215,5.46 215,12.093 L215,304.99 C215,311.623 209.622,317 202.986,317 Z" id="bezel" stroke-width="2" fill="#FDFDFD" sketch:type="MSShapeGroup"></path>
-                        <path d="M202.986,317 L12.097,317 C5.462,317 0.083,311.623 0.083,304.99 L0.083,12.093 C0.083,5.46 5.461,0.083 12.097,0.083 L202.986,0.083 C209.622,0.083 215,5.46 215,12.093 L215,304.99 C215,311.623 209.622,317 202.986,317 Z" id="bezel-2" stroke-width="2" fill="#FDFDFD" sketch:type="MSShapeGroup"></path>
-                        <rect id="screen" fill="#FFFFFF" sketch:type="MSShapeGroup" x="17" y="32" width="181.999" height="252.917"></rect>
-                        <circle id="lock" sketch:type="MSShapeGroup" cx="108.021" cy="300.021" r="8.021"></circle>
-                        <circle id="camera" sketch:type="MSShapeGroup" cx="106.99" cy="16.99" r="2.99"></circle>
-                    </g>
-                    <g id="Laptop" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)" stroke="#8492A5">
-                        <path d="M594,0 L98,0 C84.50415,0 73,11.0738184 73,24.7901127 L73,351.027995 L619,351.027985 L619,24.7901127 C618.999971,11.0728209 607.537479,0 594,0 Z" id="bezel" stroke-width="2" fill="#FEFEFE" sketch:type="MSShapeGroup"></path>
-                        <circle id="webcam" stroke-width="2" sketch:type="MSShapeGroup" cx="347" cy="19" r="4"></circle>
-                        <g id="bottom" transform="translate(0.000000, 351.000000)" sketch:type="MSShapeGroup">
-                            <path d="M640.812,31.01 L51.288,31.01 C20.641,31.01 0,20.494 0,16.022 L0,2.428 C0,1.084 1.335,0 2.995,0 L689.104,0 C690.766,0 692.103,1.084 692.103,2.428 L692.103,16.557 C692.096,20.092 676.112,31.01 640.812,31.01 Z" id="Shape" stroke-width="2" fill="#FDFDFD"></path>
-                            <path d="M0.5,14.5 L690.242676,14.5" id="Line" stroke-linecap="square"></path>
-                        </g>
-                        <rect id="screen" fill="#FFFFFF" sketch:type="MSShapeGroup" x="95" y="39" width="501.073853" height="292.009"></rect>
-                        <path d="M421,352 L421,355.087 C421,357.288 416.666719,357.952714 413.386719,357.952714 L278.815286,357.952714 C275.364286,357.952714 271,357.289 271,355.087 L271,352" id="touchpad" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-                    </g>
-                    <g id="iphone" sketch:type="MSLayerGroup" transform="translate(576.000000, 177.000000)" stroke="#7E89A3">
-                        <path d="M130,257.964 C130,266.797 122.809,273.956 113.938,273.956 L16.063,273.956 C7.192,273.956 0.001,266.797 0.001,257.964 L0.001,16.073 C0.001,7.24 7.192,0.081 16.063,0.081 L113.938,0.081 C122.809,0.081 130,7.24 130,16.073 L130,257.964 L130,257.964 Z" id="bezel" stroke-width="2" fill="#FDFDFD" sketch:type="MSShapeGroup"></path>
-                        <rect id="screen" fill="#FFFFFF" sketch:type="MSShapeGroup" x="9" y="36" width="111.93" height="199.084"></rect>
-                        <path d="M77,25.746 C77,26.381 76.561,26.893 76.02,26.893 L55.918,26.893 C55.376,26.893 54.938,26.38 54.938,25.746 L54.938,23.166 C54.938,22.531 55.377,22.019 55.918,22.019 L76.02,22.019 C76.561,22.019 77,22.532 77,23.166 L77,25.746 L77,25.746 Z" id="speaker" sketch:type="MSShapeGroup"></path>
-                        <circle id="camera" sketch:type="MSShapeGroup" cx="66" cy="12" r="3"></circle>
-                        <ellipse id="lock" sketch:type="MSShapeGroup" cx="65.04" cy="254.001" rx="10.04" ry="10.001"></ellipse>
-                    </g>
-                </g>
-            </svg>
-            -->
-           
-           
             <img class="jaxx-navbar-brand mt-5 pt-5 pb-2" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Community">
             <h1 class="page-title m-0 mb-2">
                 <span class="d-inline-block">F</span><span class="d-inline-block">e</span><span class="d-inline-block">a</span><span class="d-inline-block">t</span><span class="d-inline-block">u</span><span class="d-inline-block">r</span><span class="d-inline-block">e</span><span class="d-inline-block">s</span><span class="d-inline-block">.</span>
@@ -72,13 +37,13 @@ include 'includes/home-header.php';
                     <div class="wrap rellax" data-rellax-speed="-2">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-dash.png" alt="Jaxx Liberty Unified Dashboard">
                         <h2 class="page-title x-bold text-light content-stagger-up">Unified Dashboard</h2>
-                        <h4 class="content-stagger-up">A single interface to help you create, track and manage your digital assets.</h4>
+                        <h4 class="content-stagger-up">Enjoy a simple, streamlined and easy-to-use interface to view your digital assets.</h4>
                     </div>
                     </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center min-50 p-4 slide-in-left">
                     <!--color bg div-->
                     <!--<div class="img-full h-100 parallelo absolute z--1 right-0 bg-dark shadow-lg slide-in-right" data-rellax-speed="3"></div>-->
-                    <img class="rotate img w-75 absolute z-2 p-5 rellax" src="/img/jaxx-android-fisheye-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    <img class="rotate img w-100 absolute z-2 p-5 rellax" src="/img/jaxx-android-fisheye-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
                     <!--bg section-title -->
                     <div class="d-flex align-self-center stroke-o page-title absolute z-0 p-5 rellax" data-rellax-speed="3">Unified Dashboard.</div>
                 </div>
@@ -112,15 +77,15 @@ include 'includes/home-header.php';
                     <div class="img-full absolute z--1 left-0 bg-orange bg-img-downloads shadow-lg content-stagger-up" data-rellax-speed="2"></div>
                     <div class="wrap rellax">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-data.png" alt="Jaxx Liberty Aggregated Headline News">
-                        <h2 class="page-title x-bold text-light content-stagger-up">Aggregated Headline News</h2>
-                        <h4 class="content-stagger-up">Stay up-to-date with the latest news.</h4>
+                        <h2 class="page-title x-bold text-light content-stagger-up">Blockchain News</h2>
+                        <h4 class="content-stagger-up">Stay up-to-date with the latest aggregated news.</h4>
                     </div>
                 </div>
                 <div class="col-lg-5 d-flex justify-content-start align-items-center min-50 relative z-1 p-4 slide-in-left">
                     <!--device-->
                     <img class="img w-50 absolute z-2 rellax" src="/img/jaxx-2phone-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
                     <!--bg section-title -->
-                    <div class="page-title d-flex align-self-center text-right stroke-o absolute z--1 p-5 rellax" data-rellax-speed="2">Aggregated Headline News.</div>
+                    <div class="page-title d-flex align-self-center text-right stroke-o absolute z--1 p-5 rellax" data-rellax-speed="2">Blockchain News.</div>
                 </div>
             </div>
             
@@ -138,7 +103,7 @@ include 'includes/home-header.php';
                     <div class="wrap rellax">
                         <img class="content-stagger-up" src="/img/icons/jaxx-news.png" alt="Jaxx Liberty Market Data">
                         <h2 class="page-title x-bold text-light content-stagger-up">Market Data</h2>
-                        <h4 class="content-stagger-up">Quick and easy access to cryptocurrency price moves, market caps, and trends -- at your fingertips.</h4>
+                        <h4 class="content-stagger-up">Quick and easy access to digital asset price moves, market caps and trends - at your fingertips.</h4>
                     </div>
                 </div>
             </div>
@@ -150,8 +115,8 @@ include 'includes/home-header.php';
                     <div class="img-full absolute z-0 left-0 bg-orange bg-img-downloads shadow-lg fade-in-slow" data-rellax-speed="2"></div>
                     <div class="wrap rellax">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-blockchain.png" alt="Jaxx Liberty Integrated Multi-Chain Block Explorer">
-                        <h2 class="page-title x-bold text-light content-stagger-up">Integrated multi-chain Block Explorer</h2>
-                        <h4 class="content-stagger-up">A convenient, powerful, and simple interface that allows you to track balance and transaction data without leaving Jaxx Liberty.</h4>
+                        <h2 class="page-title x-bold text-light content-stagger-up">Integrated Multi-Chain Block Explorer</h2>
+                        <h4 class="content-stagger-up">Now you can easily track balance and transaction data without leaving Jaxx Liberty.</h4>
                     </div>
                 </div>
                 <div class="col-lg-5 d-flex justify-content-center align-items-center min-70 p-4 slide-in-left">
@@ -200,7 +165,7 @@ include 'includes/home-header.php';
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                       <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                        <div class="modal-content">
+                        <div class="modal-content bg-turq-angle">
                           <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalCenterTitle">
                                 <img class="jaxx-navbar-brand" src="/img/JaxxLiberty_Logo_RGB_Screen.png" alt="Jaxx Liberty Features">
@@ -210,8 +175,111 @@ include 'includes/home-header.php';
                             </button>
                           </div>
                           <div class="modal-body">
-                            ...
-                          </div>
+                              <h3 class="site-sub-title p-4 mb-5 font-weight-bold bg-navy orange shadow-lg skew">WHY USE JAXX LIBERTY</h3>
+                            <!--features list-->
+                              <ul class="list-unstyled border-top pt-4">
+                                  <li class="media mb-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">It's one of the world's most popular cryptocurrency wallets</h5>
+                                    </div>
+                                  </li>
+                                  <li class="media my-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">Downloaded by millions, with a proven track record</h5>
+                                    </div>
+                                  </li>
+                                  <li class="media my-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">Cross-platform compatible</h5>
+                                    </div>
+                                  </li>
+                                  <li class="media my-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">Users are not required to provide personal information to interact with their digital assets</h5>
+                                    </div>
+                                  </li>
+                                  <li class="media my-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">Sensitive information (XPub, Private Keys and Seed) is securely stored client side and never leaves the device</h5>
+                                    </div>
+                                  </li>
+                                  <li class="media my-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">Supports more than 70 digital assets and cryptocurrencies</h5>
+                                    </div>
+                                  </li>
+                                  <li class="media my-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">Seamless peer-to-peer exchange between supported currencies using ShapeShift</h5>
+                                    </div>
+                                  </li>
+                                  <li class="media my-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">Customized mining fee for all digital assets</h5>
+                                    </div>
+                                  </li>
+                                  <li class="media my-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">Free world-class support from our User Success team, available around the clock by email and social media</h5>
+                                    </div>
+                                  </li>
+                                  <li class="media my-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">Supports more than 70 digital assets and cryptocurrencies</h5>
+                                    </div>
+                                  </li>
+                                  <li class="media my-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">HD wallet support for select assets</h5>
+                                    </div>
+                                  </li>
+                                  <li class="media my-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">Single master seed backup (this will be the only seed you will ever need for integrated coins)</h5>
+                                    </div>
+                                  </li>
+                                  <li class="media my-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">Native camera scanning (images scanned are not transmitted off-device, broadcast or even stored)</h5>
+                                    </div>
+                                  </li>
+                                  <li class="media my-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">QR code generation for mnemonic and public address</h5>
+                                    </div>
+                                  </li>
+                                  <li class="media my-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">Support for more than 100 native currencies--not just USD or EUR</h5>
+                                    </div>
+                                  </li>
+                                  <li class="media my-4 pb-2">
+                                    <img class="heart-list-icon align-self-center mr-3" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty Features">
+                                    <div class="media-body">
+                                      <h5 class="mt-0 mb-1">Support for Ethereum contracts, custom data, and gas limits</h5>
+                                    </div>
+                                  </li>
+                                </ul><!--end features list ul-->
+                                <!--download button-->
+                                <a href="/downloads.php" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">
+                                    <button class="btn btn-lg btn-orange my-3 content-stagger-up">Download Jaxx Liberty</button>
+                                </a>
+                          </div><!--end modal content-->
                           <div class="modal-footer">
                             <button type="button" class="btn btn-orange" data-dismiss="modal">Close</button>
                           </div>
@@ -227,8 +295,8 @@ include 'includes/home-header.php';
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 slide-in-right">
                     <div class="wrap rellax">
                         <img class="content-stagger-up" src="/img/icons/jaxx-download.png" alt="Jaxx Liberty">
-                        <h2 class="page-title x-bold text-light content-stagger-up">Download Jaxx Liberty for Free</h2>
-                        <h4 class="content-stagger-up">Jaxx Liberty is a free service which requires no sign up, registration, or personal information.</h4>
+                        <h2 class="page-title x-bold text-light content-stagger-up">Reclaim Your Liberty</h2>
+                        <h4 class="content-stagger-up">You’re in control. Download Jaxx Liberty. It’s free.</h4>
                         <a href="/downloads.php" class="animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">
                             <button class="btn btn-lg btn-dark my-3 content-stagger-up">Download</button>
                         </a>
@@ -240,11 +308,6 @@ include 'includes/home-header.php';
                     <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0">Download Jaxx Liberty.</div>
                 </div>
             </div><!--end row-->
-            
-            
-            
-            
-            
             
             <!--footer-->
         

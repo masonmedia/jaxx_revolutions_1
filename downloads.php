@@ -30,14 +30,49 @@ include 'includes/header.php';
        <!--container-->
         <div class="container-fluid p-0">
            
+           <!--download mobile-->
+            
+            <div id="mobile" class="row d-flex bg-white bg-img-downloads content-tween">
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 py-5 slide-in-right">
+                    <div class="wrap w-100 rellax" data-rellax-speed="-3">
+                        <h2 class="section-title x-bold bg-navy orange p-5 shadow-lg slide-in-right skew">
+                            <span class="d-inline-block content-stagger-up">Download</span>
+                            <span class="d-inline-block content-stagger-up">for</span>
+                            <span class="d-inline-block content-stagger-up">Mobile</span>
+                        </h2>
+                        <div class="px-5 py-3">
+                            <p class="border-top border-bottom border-grey py-4 content-stagger-up">Download <span class="orange font-weight-bold">Jaxx Liberty</span> for Android and Tablet.</p>
+                        </div>
+                        <!--button nest row-->
+                        <div class="row pl-5 content-stagger-up">
+                        <!--future apple store button-->
+                        <!--
+                            <div class="col-xs-6 mr-2">
+                                <a onclick="googleAnalyticsTrigger('iOS', 'Banner')" href="https://itunes.apple.com/us/app/jaxx-bitcoin-ethereum-wallet/id1084514516?mt=8" target="_blank"><img title="iTunes Store Button" class="store-logo" src="img/appleStoreButton.png" alt="iTunes Store Button"/></a>
+                            </div>
+                        -->
+                        <!--google store button-->
+                            <div class="col-xs-12">
+                                <a onclick="googleAnalyticsTrigger('Android', 'Banner')" href="https://play.google.com/store/apps/details?id=com.kryptokit.jaxx&hl=en" target="_blank"><img title="Play Store Button" class="w-100" src="img/googleStoreButton.png" alt="Google Store Button"/></a>
+                            </div>
+                        </div><!--end button nest row-->  
+                    </div><!--end wrap-->                
+                </div>
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange bg-img-downloads min-100 arrow-right">
+                    <img class="img w-100 rellax" src="/img/jaxx-multiple-phones.png" alt="Jaxx Liberty Mobile" data-rellax-speed="-2">
+                </div>
+            </div><!--end mobile row-->
+           
+           
             <!--download desktop-->
+            
             <div id="desktop" class="row d-flex bg-white bg-img-downloads content-tween">
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange bg-img-downloads min-100 arrow-left o-12">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange bg-img-downloads min-100 arrow-left o-12 slide-in-right">
                     <img class="img w-75 absolute z-1 rellax" src="/img/jaxx-samsung-laptop-top-home.png" alt="Jaxx Liberty Desktop" data-rellax-speed="-2">
                 </div>
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 py-5 px-0 rellax">
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 py-5 px-0 slide-in-left">
                     <div class="wrap w-100 rellax" data-rellax-speed="-1">
-                        <h2 class="section-title x-bold bg-navy orange p-5 shadow-lg slide-in-left skew">
+                        <h2 class="section-title x-bold bg-navy orange p-5 shadow-lg skew">
                             <span class="d-inline-block content-stagger-up">Download</span>
                             <span class="d-inline-block content-stagger-up">for</span>
                             <span class="d-inline-block content-stagger-up">Desktop</span>
@@ -153,46 +188,13 @@ include 'includes/header.php';
             </div><!--end col-->
             </div><!--end row-->
             
-            <!--download mobile-->
-            
-            <div id="mobile" class="row d-flex bg-white bg-img-downloads content-tween">
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 py-5">
-                    <div class="wrap w-100 rellax" data-rellax-speed="-3">
-                        <h2 class="section-title x-bold bg-navy orange p-5 shadow-lg slide-in-right skew">
-                            <span class="d-inline-block content-stagger-up">Download</span>
-                            <span class="d-inline-block content-stagger-up">for</span>
-                            <span class="d-inline-block content-stagger-up">Mobile</span>
-                        </h2>
-                        <div class="px-5 py-3">
-                            <p class="border-top border-bottom border-grey py-4 content-stagger-up">Download <span class="orange font-weight-bold">Jaxx Liberty</span> for Android and Tablet.</p>
-                        </div>
-                        <!--button nest row-->
-                        <div class="row pl-5 content-stagger-up">
-                        <!--future apple store button-->
-                        <!--
-                            <div class="col-xs-6 mr-2">
-                                <a onclick="googleAnalyticsTrigger('iOS', 'Banner')" href="https://itunes.apple.com/us/app/jaxx-bitcoin-ethereum-wallet/id1084514516?mt=8" target="_blank"><img title="iTunes Store Button" class="store-logo" src="img/appleStoreButton.png" alt="iTunes Store Button"/></a>
-                            </div>
-                        -->
-                        <!--google store button-->
-                            <div class="col-xs-12">
-                                <a onclick="googleAnalyticsTrigger('Android', 'Banner')" href="https://play.google.com/store/apps/details?id=com.kryptokit.jaxx&hl=en" target="_blank"><img title="Play Store Button" class="w-100" src="img/googleStoreButton.png" alt="Google Store Button"/></a>
-                            </div>
-                        </div><!--end button nest row-->  
-                    </div><!--end wrap-->                
-                </div>
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange bg-img-downloads min-100 arrow-right">
-                    <img class="img w-75 rellax" src="/img/jaxx-multiple-phones.png" alt="Jaxx Liberty Mobile" data-rellax-speed="-2">
-                </div>
-            </div><!--end mobile row-->
-            
              <!--download google chrome ext-->
              
             <div id="chrome" class="row d-flex bg-orange bg-img-downloads content-tween">
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-100 o-12">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-100 o-12 slide-in-right">
                     <img class="img rellax" src="/img/jaxx-samsung-laptop-side.png" alt="Jaxx Google Chrome" data-rellax-speed="-2">
                 </div>
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 py-5">
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 py-5 slide-in-left">
                    <div class="wrap w-100 rellax" data-rellax-speed="-1">
                         <h2 class="section-title x-bold bg-navy orange p-5 shadow-lg slide-in-left skew">
                             <span class="d-inline-block content-stagger-up">Add</span>

@@ -66,6 +66,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                              
+<!--
                 <div class="col-xl-4 col-md-6 d-flex flex-column justify-content-start align-items-start min-50 bg-orange text-light p-5 rellax">
                     <div class="wrap p-4 border border-light min-50 content-stagger-up">
                         <img class="jaxx-navbar-brand content-stagger-up" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty Security">
@@ -73,6 +74,7 @@ include 'includes/header.php';
                         <p class="border-top border-light py-3 content-stagger-up">Wallet generated addresses are periodically checked in terms of integrity to reduce risk of malicious modification of addresses.</p>
                     </div>
                 </div>
+-->
                 
                <div class="col-xl-4 col-md-6 d-flex flex-column justify-content-start align-items-start min-50 bg-white-op p-5">
                     <div class="wrap p-4 border border-dark min-50 content-stagger-up">
