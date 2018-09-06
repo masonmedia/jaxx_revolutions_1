@@ -407,11 +407,7 @@ $(".content-tween").each(function() {
 		.setTween(contentTween)
 		.addTo(controller);
 });
-      
     
-     
-//     filterizr 
-
      
      
 // button explode 

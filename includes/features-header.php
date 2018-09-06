@@ -97,7 +97,7 @@ window.cookieconsent.initialise({
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800" href="/features-og.php">Features</a>
+            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800" href="/features.php">Features</a>
           </li>
           <li class="nav-item">
             <a class="nav-link animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800" href="/downloads.php">Download</a>
