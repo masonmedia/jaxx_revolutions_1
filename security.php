@@ -41,7 +41,7 @@ include 'includes/header.php';
                         <p class="font-weight-bold relative z-1 py-3 content-stagger-up">We take security seriously. <span class="orange">Jaxx Liberty</span> does not require users to provide personal information to interact with their digital assets. Explore the enhanced security features found in <span class="orange">Jaxx Liberty</span> below.</p>
                         <i class="fa fa-angle-double-down p-0 display-4 content-stagger-up"></i>
                     </div>
-                    <img class="img-shield absolute z-0 fade-in-slow" src="/img/Sheild_Navy.png" alt="Jaxx Liberty Security">
+                    <img class="img-shield absolute z-0 fade-in-slow" src="/img/jaxx-shield-navy.png" alt="Jaxx Liberty Security">
                 </div>
             </div><!--end row-->
 
@@ -90,7 +90,7 @@ include 'includes/header.php';
                 <div class="col-lg-12 d-flex flex-column justify-content-start align-items-start bg-white-op p-5">
                     <div class="wrap w-100 p-4 border border-dark min-50 content-stagger-up">
                         <img class="jaxx-navbar-brand content-stagger-up" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty Security">
-                        <h2 class="font-weight-bold bg-navy orange skew shadow-lg p-3 mb-4 content-stagger-up">Secure across platforms</h2>
+                        <h2 class="font-weight-bold bg-navy orange p-3 mb-4 shadow-lg relative z-1 skew content-stagger-up">Secure across platforms</h2>
                         <p class="border-top border-dark py-3 content-stagger-up">Use your 12-word phrase to view your wallet on iOS, Android, Chrome Extension, Windows, Mac and Linux systems.</p>
                     </div>
                 </div>

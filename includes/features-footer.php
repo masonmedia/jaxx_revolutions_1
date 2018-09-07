@@ -3,7 +3,7 @@
         
         <footer>
             <div class="container-fluid bg-orange">
-               <div class="row d-flex justify-content-center align-items-center bg-img-toronto-1 min-50 rellax">
+               <div class="row d-flex justify-content-center align-items-center bg-img-footer min-50 rellax">
                    <img class="jaxx-logo-text rellax" src="/img/Jaxx_Primary_Icon_RGB_Screeen.svg" alt="Jaxx Liberty">
                </div>
                 <div class="row d-flex d-flex justify-content-center align-items-end text-white bg-orange px-3 pt-5">

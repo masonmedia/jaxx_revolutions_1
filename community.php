@@ -9,7 +9,7 @@ include 'includes/header.php';
     <main role="main" class="animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
     
        <!--jumbotron-->
-        <div id="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white bg-img-community min-70 py-5 mb-0">
+        <div id="banner" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center text-white bg-img-banner-community min-70 py-5 mb-0">
             <div class="d-flex flex-column justify-content-center align-items-center text-center pb-5 mb-5 rellax" data-rellax-speed="-2">
                 <img class="jaxx-navbar-brand mt-5" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Community">
                 <h1 class="page-title m-0 mb-1">
@@ -31,8 +31,8 @@ include 'includes/header.php';
             <!--row 1-->
             <div class="row d-flex bg-navy rellax content-tween">
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center
-                 min-50 bg-img-toronto-1 o-12 content-stagger-up"></div>
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left min-50 p-0 o-1">
+                 min-50 bg-img-street-pano o-12 content-stagger-up"></div>
+                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left min-50 p-0 o-1 slide-in-left">
                    <div class="wrap bg-white-op rounded-left p-5">
                         <div class="border-wrap border border-dark p-4 rellax" data-rellax-speed="2">
                             <h2 class="section-title x-bold shadow-lg pt-4 pb-3 px-3 mb-3 navy bg-orange skew content-stagger-up">Connecting, informing, sharing</h2>

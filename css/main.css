@@ -515,16 +515,6 @@ clip-path: circle(50% at 50% 50%);
 .bg-navy-gradient {
      background: linear-gradient(to bottom right, rgb(38, 65, 118, 0.8), rgb(5, 117, 230, 0.8));
 }
-.bg-download-gradient {
-    background: rgb(38, 65, 118);  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgb(38, 65, 118, 0.8), rgb(5, 117, 230, 0.8)
-), url(/img/jaxx-people-1.jpeg) center; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, rgb(38, 65, 118, 0.8), rgb(5, 117, 230, 0.8)
-), url(https://images.unsplash.com/photo-1527153907022-465ee4752fdc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ed05c707f6cb2dd027a718a8797d02f6&auto=format&fit=crop&w=1000&q=80) center; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-attachment: fixed;
-}
 .bg-orange-angle {
     background: linear-gradient(300deg, rgba(255,255,255,0.9) 60%, #ff6902 60%);
 }
@@ -586,13 +576,6 @@ clip-path: circle(50% at 50% 50%);
     margin: 10px 0;
     max-width: 100%;
 }
-/*
-.coin-logo {
-    height: 50%;
-    width: 50%;
-    margin: 10px 0;
-}
-*/
 .big-logo {
     width: 110px;
 }
@@ -609,42 +592,15 @@ clip-path: circle(50% at 50% 50%);
 	width: 210px;
 }
 
-video {
-    height: 100%;
-/*    object-fit: cover;*/
-    position: absolute;
-    width: 100%;
-    z-index: 0;
-}
-
 /* bg images ======================*/
 
 .bg-img-body {
     background: url(/img/jaxx-slanted-gradient.svg) center; 
     background-size: cover; 
 }
-.bg-img-5 {
-    background: url(https://thumbs.mic.com/MzRlMTE0ODRlMSMvLTgtVUN5LUJoTzJJbWVGcFV5N3ppWTdsaHljPS9maXQtaW4vNzYweDAvZmlsdGVyczpub191cHNjYWxlKCk6cXVhbGl0eSg4MCk6bm9fdXBzY2FsZSgpOmZvcm1hdChqcGVnKS9odHRwOi8vaW1hZ2VzLm1pYy5jb20vYXF2YXJrenVudGdnZHl2ZXJza2sxYXp3bXl6a2NhcXV6a202dGY5emVlb293OG9pd3RsbzV2bGl3Z2pwZnB4ay5naWY.gif) center;
-    background-size: contain;
-}
-.bg-img-6 {
-    background: url(https://images.pexels.com/photos/1117256/pexels-photo-1117256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.bg-img-toronto-1 {
-    background: url(https://images.pexels.com/photos/137090/pexels-photo-137090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background: url(/img/jaxx-toronto-2.jpeg) center;
-    background-size: cover;
-}
 
 /* devices */
 
-.bg-img-laptop {
-    background: url(/img/jaxx-laptop.jpeg) center;
-    background-attachment: fixed;
-    background-size: cover;
-}
 .bg-img-multi-platform {
     background: url(/img/jaxx-multi-platform.png) right no-repeat;
     background-size: contain;
@@ -661,45 +617,16 @@ video {
     background: url(/img/jaxx-two-devices.png) center no-repeat;
     background-size: 100%;
 }
-.bg-img-iphone-1 {
-    background: url(/img/jaxx-iphone-1.gif) center;
-    background-size: contain;
-}
-.bg-img-iphone-2 {
-    background: url(/img/iphone-black.gif) center;
-    background-size: 50%;
-}
-.bg-img-iphone-3 {
-    background: url(/img/jaxx-iphone-3.gif) center;
-    background-size: cover;
-}
-.bg-img-iphone-4 {
-    background: url(/img/jaxx-iphone-4.gif) center;
-    background-size: cover;
-}
-.bg-img-iphone-5 {
-    background: url(/img/jaxx-iphone-5.jpg) center;
-    background-size: cover;
-}
-.bg-img-iphone-white {
-    background: url(/img/jaxx-iphone-white.jpeg) center;
-    background-size: cover;
-}
+/*
 .bg-img-android {
-    background: url(http://www.innjoo.com/Public/images/max3/max3_c_4-1.png) center top;
     background: url(/img/jaxx-android.png) left bottom no-repeat;
     background-size: cover;
 }
+*/
 .bg-img-dashboard {
     background: url(https://images.pexels.com/photos/1124066/pexels-photo-1124066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-/*    background: url(https://images.pexels.com/photos/1253646/pexels-photo-1253646.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;*/
     background: url(/img/jaxx-android.png) right;
     background-size: cover;
-}
-.bg-img-data {
-    background: url(https://images.pexels.com/photos/241544/pexels-photo-241544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
-    background-size: cover;
-/*    pexels*/
 }
 
 /* page/section images */
@@ -720,13 +647,11 @@ video {
     fill-opacity: 1;
     transition: all 1s ease-in-out;
 }
-
 .bg-img-banner-home {
     background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/jaxx-jump-2.jpg) center;
     background-size: cover;
     background-attachment: fixed;
 }
-
 .bg-fs-img-banner-2 {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
     background-size: cover;
@@ -738,20 +663,7 @@ video {
     
 /*    mountains*/
 /*    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05cc20d5b0bde7ae0d12f916c11aa18e&auto=format&fit=crop&w=1078&q=80) center;*/
-	
-/*	jumper crotch */
-/*	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1529307145738-af20ddbc9255?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=93fc4dea9a9d47dc5cebfc6ae4b3eb63&auto=format&fit=crop&w=925&q=80) center;*/
-	
-/*	rocks jump */
-/*	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/jaxx-jump-2.jpg) center;*/
 
-
-
-.bg-img-banner-home-3 {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1529307145738-af20ddbc9255?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=93fc4dea9a9d47dc5cebfc6ae4b3eb63&auto=format&fit=crop&w=925&q=80) center;
-    background-size: cover;
-    background-attachment: fixed;
-}
 .bg-img-mountains {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05cc20d5b0bde7ae0d12f916c11aa18e&auto=format&fit=crop&w=1078&q=80) center;
     background-size: cover;
@@ -792,6 +704,14 @@ video {
     background-size: cover;
     background-attachment: fixed;
 }
+/*download section image + gradient*/
+/*Photo by rawpixel on Unsplash*/
+.bg-download-gradient {
+    background: rgb(38, 65, 118);  /* fallback for old browsers */
+    background: linear-gradient(to right, rgba(38, 65, 118, 0.8), rgba(5, 117, 230, 0.8)), url(/img/jaxx-group-circle.jpg) center; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-blend-mode: multiply;
+    background-size: cover;
+}
 
 /* cookies consent banner ======================*/
 
@@ -806,6 +726,7 @@ video {
 
 /*  about page ======================*/
 
+/*about banner:  Photo by Sammie Vasquez on Unsplash*/
 .bg-img-about {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/jaxx-people-2.jpeg) center 20%;
     background-size: cover;
@@ -824,8 +745,7 @@ video {
     background-size: cover;
 }
 .bg-img-office {
-    background: url(/img/careers-update.jpg) center;
-/*    background: url(/img/office-70.jpg) center;*/
+    background: url(/img/jaxx-careers-office.jpg) center;
     background-size: cover;
 }
 
@@ -939,6 +859,7 @@ video {
 
 /* downloads ======================*/
 
+/* img from pexels */
 .bg-img-banner-downloads {
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/jaxx-jump-2.jpg) center;
     background-size: cover;
@@ -947,7 +868,6 @@ video {
 /* security ======================*/
 
 .bg-img-banner-security {
-    background: linear-gradient(rgb(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://thumb9.shutterstock.com/display_pic_with_logo/257323/286532618/stock-photo-collection-of-different-caucasian-women-and-men-ranging-from-to-years-286532618.jpg) center; /* ivan */
     /*gallery b&w */
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-security-gallery-bw.jpg) center; /*tvs b&w */
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-security-tvs.jpg) center top;
@@ -982,23 +902,25 @@ video {
 
 /* community ======================*/
     
-.bg-img-team {
-    background: url(/img/decentral-team.JPG) center;
+/*Photo by Jack Finnigan on Unsplash*/
+.bg-img-street-pano {
+    background: url(/img/jaxx-street-pano-redux.jpg) center;
     background-size: cover;
-} 
+}
 /* support ======================*/
 
 #support h1 {
     font-size: 8vmin; 
 }
-
+/* img from pexels */
 .bg-img-banner-support {
-    background: linear-gradient(rgb(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/6552/nature-person-red-woman.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background: linear-gradient(rgb(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/jaxx-support-banner.jpg) center;
     background-size: cover;
     background-attachment: fixed;
 }
+/*Photo by Anthony DELANOIX on Unsplash*/
 .bg-img-support-welcome {
-    background: url(https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b5ecaef0464fc50a866e74a6176c3fdc&auto=format&fit=crop&w=1050&q=80) center;
+    background: url(/img/jaxx-support-welcome-redux.jpg) center;
     background-size: cover;
 }
 
@@ -1041,14 +963,15 @@ video {
     background-attachment: fixed;
 }
 .bg-img-testimonials {
-    background: url(https://images.unsplash.com/photo-1527153907022-465ee4752fdc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ed05c707f6cb2dd027a718a8797d02f6&auto=format&fit=crop&w=1000&q=80) center;
     background: url(https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80) center;
     background-size: cover;
     background-attachment: fixed;
 }
-.bg-img-community {
-    background: linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+/* pexels */
+.bg-img-banner-community {
+    background: linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-community-banner.jpg) center;
     background-size: cover;
+/*    background: url(/img/jaxx-community-banner-redux.jpg);*/
 }
 
 /* section styles ======================*/
@@ -1183,6 +1106,12 @@ i {
 
 
 /*  footer ======================*/
+
+/* pexels */
+.bg-img-footer {
+    background: url(/img/jaxx-footer.jpeg) center;
+    background-size: cover;
+}
 
 footer li a {
     font-size: 18px;
