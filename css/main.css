@@ -1032,7 +1032,7 @@ nav .active {
     color: #ff6902;
 }
 /* for navbar change color on scroll */
-#home nav.scrolled,
+#home navbar.fixed-top.scrolled,
 .navbar.fixed-top.scrolled {
     border-bottom: 1px solid rgba(38, 65, 118);
     border-bottom: none;
