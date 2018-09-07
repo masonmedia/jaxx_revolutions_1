@@ -1017,6 +1017,19 @@ video {
     background-attachment: fixed;
 }
 
+/* legal page sticky navbar */
+
+/*sticky header position*/
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 20px;
+    z-index: 1000;
+    width: 100%;
+}
+
+
 /* features phone slider ======================*/
 
 .bg-img-banner-features {

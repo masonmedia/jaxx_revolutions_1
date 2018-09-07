@@ -509,8 +509,7 @@ $(".content-tween").each(function() {
     document.querySelector('#community .btn').addEventListener('click', e => explode(e.pageX, e.pageY));
 //    document.querySelector('#download .btn').addEventListener('mouseover', e => explode(e.pageX, e.pageY));
      
-     
-     
+    
 //end doc ready
 });
 
