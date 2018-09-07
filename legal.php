@@ -36,8 +36,17 @@ include 'includes/header.php';
                 </div>
 -->
                
+                <!--last updated-->
+                <div id="contents" class="col-xl-12 d-flex flex-column justify-content-center align-items-center px-5 pt-5 pb-2">
+                    <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 border rounded bg-dots p-4">
+                        <h2 class="section-title x-bold border-bottom pb-3">Last updated</h2>
+                        <!--1 basics-->
+                        <h5 class="font-weight-bold font-italic pt-2">July 1, 2018</h5>
+                    </div>
+               </div>
+                
                 <!--table of contents-->
-                <div id="contents" class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 px-5 pt-5 pb-4">
+                <div class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 px-5 pt-3 pb-4">
                     <div class="wrap d-flex flex-column justify-content-center align-items-start text-left n w-100 h-100 border rounded bg-dots p-5">
                         <h2 class="section-title x-bold py-3">Table of Contents</h2>
                         <!--1 basics-->
@@ -177,7 +186,7 @@ include 'includes/header.php';
                <div id="interpretation" class="col-xl-12 col-md-12 d-flex flex-column justify-content-center align-items-center min-50 px-5 pt-4 pb-5 mb-4">
                     <div class="wrap d-flex flex-column justify-content-center align-items-start border rounded w-100 h-100 border rounded bg-dots p-5">
                         <h2 class="section-title x-bold">5. Interpretation</h2>
-                        <h5 id="interpretation" style="font-weight-bold; padding: 1rem 0; border-bottom: 1px solid lightgrey">5. INTERPRETATION</h5>    
+                        <!--<h5 id="interpretation" style="font-weight-bold; padding: 1rem 0; border-bottom: 1px solid lightgrey">5. INTERPRETATION</h5>    -->
                         <!--5.1-->
                         <h6 style="font-weight: bold; padding: 5px 0">5.1. Enforcing Selectively</h6>
                         <p>Failing to assert a right under this agreement doesn’t waive the right to assert another right, or the same right next time.</p>
