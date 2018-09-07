@@ -45,9 +45,9 @@ include 'includes/header.php';
                 <div class="offset-lg-1"></div>
                     <div class="col-lg-10 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5 rellax">
                         <div class="wrap rounded bg-white-op shadow-lg p-5 p-5 content-stagger-up">
-                            <h2 class="section-title font-weight-bold relative z-1 m-0 content-stagger-up">Welcome.</h2>
+                            <h2 class="section-title font-weight-bold relative z-1 m-0 content-stagger-up">Hello, and welcome.</h2>
                             <hr class="w-25 bg-secondary border-0 content-stagger-up">
-                            <p class="relative z-2 pt-2 mb=0 content-stagger-up">We're here to help and to answer all your questions. Maintained by The Customer Success Team at Jaxx Liberty & Decentral, the Jaxx Liberty User Success team offers 24-hour free support through our written channels. Depending on ticket volume, our average response time is 2 hours. See below for details and more information.</p>
+                            <p class="relative z-2 pt-2 mb=0 content-stagger-up">We are here, willing  and ready to answer all your questions. Our User Success Team offer 24-hour free support through our written channels. Our average response time is 2 hours (a high ticket volume may impact that). See below for details and more information. </p>
                         </div>
                     </div><!--end col-->
                     <div class="offset-lg-1"></div>
@@ -59,34 +59,34 @@ include 'includes/header.php';
                     <div class="wrap p-5 border border-light w-100 min-50">
                         <img class="jaxx-navbar-brand m-0" src="/img/icons/Twitter_Social_Icon_Circle_Color.png" alt="Jaxx Liberty Support">
                         <h3 class="font-weight-bold p-3 mb-4 bg-orange navy skew shadow-lg">@Jaxx_Support</h3>
-                        <p class="border-top border-light py-3">Get to know Jaxx Liberty and what it can do.</p>
-                        <a class="btn btn-outline-light" href="https://twitter.com/Jaxx_Support" target="_blank">Get information</a>   
+                        <p class="border-top border-light py-3">Need help? Our User Success Team is available to answer all of your questions.</p>
+                        <a class="btn btn-lg btn-outline-light" href="https://twitter.com/Jaxx_Support" target="_blank">Tweet Us</a>   
                    </div>                 
                 </div>
-                <div class="col-xl-4 d-flex flex-column justify-content-start align-items-start bg-orange min-50 p-4 rellax">
+                <div class="col-xl-4 d-flex flex-column justify-content-start align-items-start bg-orange min-50 p-4 text-light rellax">
                     <div class="wrap p-5 border w-100 min-50">
                         <img class="jaxx-navbar-brand m-0" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty Support">
                         <h3 class="font-weight-bold p-3 mb-4 bg-navy orange skew shadow-lg">User Success Team</h3>
-                        <p class="border-top border-dark py-3">In-depth instructions for all your questions.</p>
-                        <a class="btn btn-lg btn-outline-light text-light" href="https://support.decentral.ca/hc/en-us/sections/115000045134-How-tos" target="_blank">Submit a Ticket</a>
+                        <p class="border-top py-3">Have a technical support question? Submit a request, and someone will get back to you within 24 hours.</p>
+                        <a class="btn btn-lg btn-navy" href="https://support.decentral.ca/hc/en-us/sections/115000045134-How-tos" target="_blank">Submit a Request</a>
                     </div>     
                 </div>
                 <div class="col-xl-4 d-flex flex-column justify-content-start align-items-start bg-navy text-light min-50 p-4">
                     <div class="wrap p-5 border border-light w-100 min-50">
                         <img class="jaxx-navbar-brand m-0" src="/img/icons/jaxx-reddit.png" alt="Jaxx Liberty Support">
-                        <h3 class="font-weight-bold p-3 mb-4 bg-orange navy skew shadow-lg">Subreddit</h3>
-                        <p class="border-top border-light py-3">Contact us to help you with your inquiries.</p>
-                        <a class="btn btn-outline-light" href="https://www.reddit.com/r/jaxx/" target="_blank">Post here</a>
+                        <h3 class="font-weight-bold p-3 mb-4 bg-orange navy skew shadow-lg">Reddit</h3>
+                        <p class="border-top border-light py-3">Join our community and conversations around Jaxx Liberty.</p>
+                        <a class="btn btn-lg btn-outline-light" href="https://www.reddit.com/r/jaxx/" target="_blank">Join the Discussion</a>
                     </div>
                 </div>
             </div><!--end row-->
 
            <!-- row 5 download reminder CTA-->
            <div class="row bg-orange text-white min-50 content-tween">
-               <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center text-center bg-download-gradient p-4 circle-left">
+               <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center text-center min-70 bg-download-gradient p-4 parallelo">
                    <img class="jaxx-logo-text" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="">
                    <h4 class="font-weight-bold w-75 pb-3 pt-2">Join more than a million others using Jaxx.</h4>
-                   <a href="downloads.html" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Download</a>
+                   <a href="downloads.php" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800">Download</a>
                </div>
            </div><!--end row-->
        

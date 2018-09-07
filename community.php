@@ -36,7 +36,7 @@ include 'includes/header.php';
                    <div class="wrap bg-white-op rounded-left p-5">
                         <div class="border-wrap border border-dark p-4 rellax" data-rellax-speed="2">
                             <h2 class="section-title x-bold shadow-lg pt-4 pb-3 px-3 mb-3 navy bg-orange skew content-stagger-up">Where we started</h2>
-                            <p class="border-top border-dark py-4 px-3 m-0 content-stagger-up">Jaxx Liberty is developed by Decentral Inc., Canada's leading blockchain company. Our founder created Jaxx in 2014 because he saw a change like Netscape for the Internet: that we are moving towards a world of value movement and that people need an easy way to manage their cryptocurrencies and digital lives.</p>
+                            <p class="border-top border-dark py-4 px-3 m-0 content-stagger-up"><span class="orange">Jaxx Liberty</span> connects more than 70 partners and friends — all working together to inform and empower people to take control of their digital lives and move toward the age of value.</p>
                        </div>
                     </div>
                 </div>

@@ -181,6 +181,21 @@ footer a:hover {
     color: #fff;
 }
 
+.btn-navy,
+.btn-navy:active,
+.btn-navy:focus,
+.btn-navy:visited {
+    background: rgb(38, 66, 119);
+    border: 1px solid rgb(38, 66, 119);
+    color: white;
+    font-weight: bold;
+}
+.btn-navy:hover {
+    background: transparent;
+    border: 1px solid rgb(38, 66, 119);
+    color: rgb(38, 66, 119);
+}
+
 /* borders */
 
 .border-navy {
