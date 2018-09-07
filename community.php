@@ -320,7 +320,7 @@ include 'includes/header.php';
                             
                             <div class="py-5 single-tween-item">
                                 <h4 class="py-3 border-top">Get more information about the Jaxx Liberty community at Decentral.ca</h4>
-                                <a href="https://www.decentral.ca" target="_blank" class="btn btn-lg btn-orange">Visit Decentral</a>
+                                <a href="https://www.decentral.ca" target="_blank" class="btn btn-lg btn-orange">Visit Decentral.ca</a>
                             </div>
                         </div>
                     </div>
