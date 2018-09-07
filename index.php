@@ -363,7 +363,7 @@ include 'includes/home-header.php';
                 <!--logos col-->
                 <div class="col-lg-7 d-flex justify-content-center align-items-center bg-img-partners min-100 p-5">
                    <div class="container-fluid bg-turq-angle bg-dots rounded p-4">
-                       <div class="row d-flex p-3 content-tween">
+                       <div class="row d-flex p-3">
                           <div class="col-sm-4 d-flex justify-content-center align-items-center pt-4 content-stagger-up">
                                 <img class="partner-logo" src="/img/partner-logos/partners-bitcoin-lg.png" alt="Jaxx Liberty Partner Bitcoin">
                            </div>
