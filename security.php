@@ -91,7 +91,7 @@ include 'includes/header.php';
                 <div class="col-lg-12 d-flex flex-column justify-content-start align-items-start bg-white-op p-5">
                     <div class="wrap w-100 p-4 border border-dark min-50 content-stagger-up">
                         <img class="jaxx-navbar-brand content-stagger-up" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty Security">
-                        <h2 class="font-weight-bold p-3 bg-navy orange skew shadow-lg py-2 mb-4 content-stagger-up">Secure across platforms</h2>
+                        <h2 class="font-weight-bold bg-navy orange skew shadow-lg py-2 mb-4 content-stagger-up">Secure across platforms</h2>
                         <p class="border-top border-dark py-3 content-stagger-up">Use your 12-word phrase to view your wallet on iOS, Android, Chrome Extension, Windows, Mac and Linux systems.</p>
                     </div>
                 </div>

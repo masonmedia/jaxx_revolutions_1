@@ -413,11 +413,11 @@ $(".content-tween").each(function() {
     repeat:0,
   });
   
-  var contentTween = contentTweenTL.from($(this).find(".content-tween-left"), 1, {x: -200, autoAlpha: 0, delay: 0, ease: Power2.easeOut}, .1)
-  .from($(this).find(".content-tween-right"), 1, {x: 200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1)
-  .from($(this).find(".content-tween-up"), 1, {y: 200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1)
-  .from($(this).find(".content-tween-down"), 1, {y: -200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1)
-  .staggerFrom($(this).find(".content-stagger-up"), 1, {y: 200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1);
+  var contentTween = contentTweenTL.from($(this).find(".content-tween-left"), 0.5, {x: -200, autoAlpha: 0, delay: 0, ease: Power4.easeInOut}, .1)
+  .from($(this).find(".content-tween-right"), 0.5, {x: 200, autoAlpha: 0, delay: 0, ease: Power4.easeInOut}, .1)
+  .from($(this).find(".content-tween-up"), 0.5, {y: 200, autoAlpha: 0, delay: 0, ease: Power4.easeInOut}, .1)
+  .from($(this).find(".content-tween-down"), 0.5, {y: -200, autoAlpha: 0, delay: 0, ease: Power4.easeInOut}, .1)
+  .staggerFrom($(this).find(".content-stagger-up"), 0.8, {y: 200, autoAlpha: 0, delay: 0, ease: Back.easeInOut.config(1.7)}, .1);
 
 	var scene4 = new ScrollMagic.Scene({
 	        triggerElement: this,

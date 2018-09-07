@@ -276,7 +276,7 @@ include 'includes/home-header.php';
                     <img class="img absolute z-1 shadow-lg rellax" src="/img/jaxx-security-gallery-bw.jpg" alt="Jaxx Liberty Security" data-rellax-speed="2">
                 </div>
                 <!--color bg angle div-->
-                <div class="bg-turq parallelo h-100 w-100 absolute z--1 shadow-lg fade-in-slow rellax" data-rellax-speed="-2"></div>
+                <div class="bg-turq parallelo h-100 w-100 absolute z--1 shadow-lg rellax" data-rellax-speed="-2"></div>
             </div>
             
             <!--row 4 Testimonials carousel-->
@@ -362,7 +362,7 @@ include 'includes/home-header.php';
                 
                 <!--logos col-->
                 <div class="col-lg-7 d-flex justify-content-center align-items-center bg-img-partners min-100 p-5">
-                   <div class="container-fluid bg-turq-angle bg-dots rounded p-4" data-rellax-speed="-2">
+                   <div class="container-fluid bg-turq-angle bg-dots rounded p-4">
                        <div class="row d-flex p-3 content-tween">
                           <div class="col-sm-4 d-flex justify-content-center align-items-center pt-4 content-stagger-up">
                                 <img class="partner-logo" src="/img/partner-logos/partners-bitcoin-lg.png" alt="Jaxx Liberty Partner Bitcoin">
