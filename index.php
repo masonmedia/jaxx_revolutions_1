@@ -283,8 +283,8 @@ include 'includes/home-header.php';
             
             <div id="socialProof" class="row d-flex bg-light relative z-0 content-tween">
                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left min-100">
-                    <!--turquoise bg angle div-->
-                    <div class="img-full bg-warning w-75 min-50 absolute z-0 shadow-lg fade-in-slow rellax" data-rellax-speed="2"></div>
+                    <!--yellow bg angle div-->
+                    <div class="img-full bg-warning w-75 min-50 absolute z-0 shadow-lg rellax" data-rellax-speed="2"></div>
                     <img class="img absolute z-0 shadow-lg slide-in-right" src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=07bcd69444b1da123c309e5f4485371b&auto=format&fit=crop&w=1050&q=80" alt="Jaxx Liberty Testimonials" data-rellax-speed="1">
                     <h2 class="section-title bg-white-op font-weight-bold p-3 rellax" data-rellax-speed="-2">
                         <span class="content-stagger-up">What</span>
@@ -362,8 +362,8 @@ include 'includes/home-header.php';
                 
                 <!--logos col-->
                 <div class="col-lg-7 d-flex justify-content-center align-items-center bg-img-partners min-100 p-5">
-                   <div class="container-fluid bg-turq-angle bg-dots rounded p-4 content-tween" data-rellax-speed="-2">
-                       <div class="row d-flex p-3 rellax">
+                   <div class="container-fluid bg-turq-angle bg-dots rounded p-4" data-rellax-speed="-2">
+                       <div class="row d-flex p-3 content-tween">
                           <div class="col-sm-4 d-flex justify-content-center align-items-center pt-4 content-stagger-up">
                                 <img class="partner-logo" src="/img/partner-logos/partners-bitcoin-lg.png" alt="Jaxx Liberty Partner Bitcoin">
                            </div>

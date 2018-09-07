@@ -1254,6 +1254,11 @@ footer li a {
         padding: .375rem .75rem;
         padding: 5px 10px;
     } 
+    .btn-lg {
+        font-size: 18px;
+        padding: .375rem .75rem;
+        padding: 5px 10px;
+    } 
 }
     
 @media (max-width: 768px) {
