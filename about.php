@@ -46,7 +46,7 @@ include 'includes/header.php';
                    <div class="wrap bg-white-op rounded-left p-5 content-stagger-up">
                         <div class="border-wrap border border-dark p-4">
                             <h2 class="section-title x-bold pt-4 pb-3 px-5 m-0 navy bg-orange skew content-stagger-up">Redefining</h2>
-                            <p class="border-top border-dark py-4 px-3 m-0 content-stagger-up"><span class="font-weight-bold orange">Jaxx Liberty</span> was developed by Anthony Di Iorio, Co-Founder of Ethereum, and Founder and CEO of Decentral and Jaxx. Anthony created Jaxx in 2015 because he saw that we are moving toward an age of value in which people need an easy way to manage their digital assets and virtual lives — much like the way they needed browsers, such as Netscape or Chrome, to navigate the Internet during the age of information. </p>
+                            <p class="border-top border-dark py-4 px-3 m-0 content-stagger-up"><span class="font-weight-bold orange">Jaxx Liberty</span> was developed by Anthony Di Iorio, Co-Founder of Ethereum, and Founder and CEO of Decentral and Jaxx. Anthony created Jaxx in 2015 because he saw that we are moving toward an age of value in which people need an easy way to manage their digital assets and virtual lives — much like the way they needed browsers, such as Netscape or Chrome, to navigate the Internet during the age of information.</p>
                        </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ include 'includes/header.php';
                    <div class="wrap bg-white-op p-5 content-stagger-up">
                        <div class="border-wrap border border-dark p-4">
                             <h2 class="section-title x-bold orange bg-navy pt-4 pb-3 px-5 m-0 skew content-stagger-up">Built on Success</h2>
-                            <p class="border-top border-dark py-4 px-3 m-0 rounded-right content-stagger-up">Jaxx is a leading multi-platform wallet that supports over 70 digital assets and tokens, and has about a million active monthly users.</p>
+                            <p class="border-top border-dark py-4 px-3 m-0 rounded-right content-stagger-up">Jaxx is a leading multi-platform wallet that supports over 70 digital assets and tokens, and has nearly a million active monthly users.</p>
                        </div>
                     </div>
                 </div>

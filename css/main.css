@@ -957,11 +957,11 @@ video {
     width: 300px;
 }
 .img-shield {
-/*    filter: grayscale(100);*/
     opacity: 0.2;
     height: auto;
+    margin: 0 auto;
     position: absolute;
-    width: 500px;
+    width: 400px;
     z-index: 0;
 }
 .bg-img-jaxx-hand {
@@ -1283,15 +1283,7 @@ footer li a {
         letter-spacing: -3px;
         line-height: 85%;
     }
-
-    /* partnerships logo resize for mobile*/
-    
-/*
-    .partner-logo-sm {
-        width: 300px;
-    }
-*/
-           /* partner logo resize */
+    /* partner logo resize */
       .partner-logo {
         height: auto;
         width: 70%;
@@ -1299,6 +1291,10 @@ footer li a {
     /* features page */
     .swiper-slide .text {
         width: 100%;
+    }
+    /* security page*/
+    .img-shield {
+        width: 300px;
     }
     /*  make all 100vh divs 50vh */
     div[class*="min-100"] {
