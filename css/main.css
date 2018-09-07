@@ -158,7 +158,9 @@ footer a:hover {
 .btn-orange:focus,
 .btn-orange:visited {
     background: #ff6902;
+/*    background: linear-gradient(to right,#eb5e57 0%,#f4cc54 100%);*/
     border: 1px solid #ff6902;
+/*    border-color: linear-gradient(to right,#eb5e57 0%,#f4cc54 100%);*/
     color: white;
     font-weight: bold;
 }
