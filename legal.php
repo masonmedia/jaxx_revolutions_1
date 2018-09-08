@@ -37,7 +37,7 @@ include 'includes/header.php';
 -->
                
                 <!--last updated-->
-                <div id="contents" class="col-xl-12 d-flex flex-column justify-content-center align-items-center px-5 pt-5 pb-2">
+                <div id="intro" class="col-xl-12 d-flex flex-column justify-content-center align-items-center px-5 pt-5 pb-2">
                     <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 border rounded bg-dots p-4">
                         <h2 class="section-title x-bold border-bottom pb-3">Last updated</h2>
                         <!--1 basics-->
@@ -46,7 +46,7 @@ include 'includes/header.php';
                </div>
                 
                 <!--table of contents-->
-                <div class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 px-5 pt-3 pb-4">
+                <div id="contents" class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 px-5 pt-3 pb-4">
                     <div class="wrap d-flex flex-column justify-content-center align-items-start text-left n w-100 h-100 border rounded bg-dots p-5">
                         <h2 class="section-title x-bold py-3">Table of Contents</h2>
                         <!--1 basics-->
@@ -82,14 +82,15 @@ include 'includes/header.php';
                          <!--1.4-->
                          <h6 class="font-weight-bold text-secondary py-2 border-bottom">1.4. Updates</h6>
                          <p>When we update this agreement, we’ll push it to Jaxx, identify it in the release, show the change date, and archive the previous version online. Unless the change is immaterial or to your clear advantage, we’ll propose it 30 days in advance, so you have time to reject the change by ceasing use.</p>
-                   </div>
+                         <h6 style="font-weight: bold; padding: 5px 0"><a href="#contents">Return to table of contents</a></h6>
+                   </div><!--end wrap-->
                 </div><!--end col-->
                 
                 <!--col 2-->
                 <div id="obligations" class="col-xl-12 d-flex flex-column justify-content-center align-items-center min-50 px-5 py-4">
                     <div class="wrap d-flex flex-column justify-content-center align-items-start text-left w-100 h-100 border rounded bg-dots p-5">
                         <h2 class="section-title x-bold">2. Obligations</h2>
-<!--                          <h5 class="font-weight-bold border-bottom pb-3">2. OBLIGATIONS</h5>-->
+                            <!--<h5 class="font-weight-bold border-bottom pb-3">2. OBLIGATIONS</h5>-->
                             <!--2.1-->
                             <h6 class="font-weight-bold text-secondary py-2 border-bottom">2.1. Take Responsibility</h6>
                             <p>We provide Jaxx without charge. Our ability to do that depends partly on your taking responsibility for how you use Jaxx. The following three items are therefore fundamental to our agreement:
@@ -119,7 +120,8 @@ include 'includes/header.php';
                             <p>We licence Jaxx to you, royalty-free, on a non-exclusive, worldwide, but personal and non-transferable basis. We don’t licence the right to re-distribute Jaxx, modify its code, or use its content or Decentral’s trademarks in other software or projects. Those require Decentral’s written permission first. </p>
                             <p>You may, yourself, choose to provide feedback on Jaxx. We’ll assume you’ve allowed us to use and keep your feedback, incorporate it, and hold a non-exclusive perpetual licence in it without royalty or obligation.</p>
                             <p>Third parties provide information, software libraries, and services that Jaxx uses or is partly built on. We assert no copyright in the RSS feeds we pass through. We do not own third-party software libraries. We make use of <a href="hjttps://www.jaxx.io/thirdparties-current.html">third-party platforms</a>. Please refer to and respect relevant third-party licenses.</p>
-                      </div>
+                            <h6 style="font-weight: bold; padding: 5px 0"><a href="#contents">Return to table of contents</a></h6>
+                      </div><!--end wrap-->
                 </div><!--end col-->
                    
                 <!--col 3-->
@@ -149,6 +151,7 @@ include 'includes/header.php';
                         <p>The only authentic record of Digital Assets transactions is the applicable blockchain. We can’t guarantee that the transfer instructions will be acted on and your transactions stored on a blockchain, nor that once stored, they remain on the blockchain. </p>
                         <p>Many Digital Asset systems require transaction fees, like mining fees. If the transaction fees are set too low or too high, you may incur losses. We can’t be responsible for them.</p>
                         <p>Jaxx’s market information about Digital Assets reflects a point in time for underlying data fluctuating constantly. The sending and execution of transfer instructions necessarily involves a longer period than that point in time, and the data values reflected in your transactions will differ accordingly. We’re not responsible for that difference.</p>
+                        <h6 style="font-weight: bold; padding: 5px 0"><a href="#contents">Return to table of contents</a></h6>
                    </div><!--end wrap-->
                 </div><!--end col-->
                 
@@ -179,6 +182,7 @@ include 'includes/header.php';
                         <p>Decentral does retain some aggregated, anonymized Jaxx usage information in order to improve its functionality and user interface. This information is not stored at the individual user level or in conjunction with any device-specific or persistent identifier.</p>
                         <h6 class="font-weight-bold text-secondary py-2 border-bottom">4.5. App Permissions</h6>
                         <p>The Jaxx mobile app seeks camera permissions. These permissions are used only to read a QR code and store it on-device, to pair another Jaxx instance; and only at your prompting. Jaxx does not receive any other camera input and does not otherwise access your camera.</p>
+                        <h6 style="font-weight: bold; padding: 5px 0"><a href="#contents">Return to table of contents</a></h6>
                    </div><!--end wrap-->
                 </div><!--end col-->
                 
@@ -199,6 +203,7 @@ include 'includes/header.php';
                          <!--5.4-->
                         <h6 style="font-weight: bold; padding: 5px 0">5.4. Restructuring our Business</h6>
                         <p>Decentral may assign this agreement upon 15 days’ notice.</p>
+                        <h6 style="font-weight: bold; padding: 5px 0"><a href="#contents">Return to table of contents</a></h6>
                    </div><!--end wrap-->
                 </div><!--end col-->
             </div><!--end row-->
