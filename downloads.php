@@ -57,21 +57,20 @@ include 'includes/header.php';
                         </div><!--end button nest row-->  
                     </div><!--end wrap-->                
                 </div>
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange bg-img-downloads min-100 arrow-right">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange bg-img-downloads min-100 arrow-right slide-in-left">
                     <img class="img w-100 rellax" src="/img/jaxx-multiple-phones.png" alt="Jaxx Liberty Mobile" data-rellax-speed="-2">
                 </div>
             </div><!--end mobile row-->
            
-           
             <!--download desktop-->
             
             <div id="desktop" class="row d-flex bg-white bg-img-downloads content-tween">
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange bg-img-downloads min-100 arrow-left o-12 slide-in-right">
-                    <img class="img w-75 absolute z-1 rellax" src="/img/jaxx-samsung-laptop-top-home.png" alt="Jaxx Liberty Desktop" data-rellax-speed="-2">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center bg-orange bg-img-downloads min-100 arrow-left o-12 rellax">
+                    <img class="img w-75 absolute z-1 slide-in-right" src="/img/jaxx-samsung-laptop-top-home.png" alt="Jaxx Liberty Desktop">
                 </div>
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 py-5 px-0 slide-in-left">
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 py-5 px-0">
                     <div class="wrap w-100 rellax" data-rellax-speed="-1">
-                        <h2 class="section-title x-bold bg-navy orange p-5 shadow-lg skew">
+                        <h2 class="section-title x-bold bg-navy orange p-5 shadow-lg skew slide-in-left">
                             <span class="d-inline-block content-stagger-up">Desktop</span>
                             <span class="d-inline-block content-stagger-up">Download</span>
                         </h2>

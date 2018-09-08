@@ -24,7 +24,7 @@ $(".animsition").animsition({
     overlayParentElement : 'body',
     transition: function(url){ window.location.href = url; }
   });
-     
+
      
 //nav change color on scroll 
      

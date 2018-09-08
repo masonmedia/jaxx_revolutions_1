@@ -691,12 +691,10 @@ clip-path: circle(50% at 50% 50%);
     background-size: 50%;
     background-attachment: fixed;
 }
-/* community section bg img */
+/* community section bg img -- from unsplash */
 .bg-img-partners {
-    background: url(/img/partner-logos/banner.jpg) center;
-    background: url(https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d3a9ac2b411e58b72bc6170216bccad2&auto=format&fit=crop&w=1050&q=80) center;
+    background: url(/img/jaxx-partners.jpeg) center;
     background-size: cover;
-    background-attachment: fixed;
 }
 /*download section image + gradient*/
 /*Photo by rawpixel on Unsplash*/

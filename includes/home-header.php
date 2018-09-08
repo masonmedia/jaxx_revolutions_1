@@ -108,7 +108,7 @@ window.cookieconsent.initialise({
             <a class="nav-link animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800" href="/security.php">Security</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link animsition-link" data-animsition-out-class="flip-out-y" data-animsition-out-duration="800" href="/community.php">Community</a>
+            <a class="nav-link animsition-link" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800" href="/community.php">Community</a>
           </li>
           <li class="nav-item">
             <a class="nav-link animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="800" href="/careers.php">Careers</a>

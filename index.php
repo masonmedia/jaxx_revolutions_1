@@ -338,7 +338,7 @@ include 'includes/home-header.php';
            
             <!--row 6 community-->
             
-            <div id="community" class="row d-flex bg-light relative z-0 content-tween"> 
+            <div id="community" class="row d-flex bg-turq relative z-0 content-tween"> 
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
                     <!--bg section-title text-->
                     <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="2">Our <span class="word-break">Community.</span></div>                    
@@ -354,7 +354,7 @@ include 'includes/home-header.php';
                     </div>
                 </div><!--end col-->
                 <!--logos col-->
-                <div class="col-lg-7 d-flex justify-content-center align-items-center bg-img-partners min-100 p-5">
+                <div class="col-lg-7 d-flex justify-content-center align-items-center bg-img-partners min-100 p-5 rellax" data-rellax-speed="2">
                    <div class="container-fluid bg-turq-angle bg-dots rounded p-4 slide-in-right">
                        <div class="row d-flex p-3 slide-in-left">
                           <div class="col-sm-4 d-flex justify-content-center align-items-center pt-4">
