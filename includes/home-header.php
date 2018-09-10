@@ -55,8 +55,12 @@ else {
 <link rel="stylesheet" href="/css/main.css">
    
 <!--cookies banner-->
+<link rel="stylesheet" href="/js/cookieconsent.min.css">
+<script src="/js/cookieconsent.min.js"></script>
+<!--
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+-->
 <script>
 window.addEventListener("load", function(){
 window.cookieconsent.initialise({

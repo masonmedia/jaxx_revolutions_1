@@ -655,8 +655,9 @@ clip-path: circle(50% at 50% 50%);
     background-size: cover;
     background-attachment: fixed;
 }
+/*Photo by Helena Lopes on Unsplash*/
 .bg-fs-img-banner-2 {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-home-banner.jpg) center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -667,10 +668,12 @@ clip-path: circle(50% at 50% 50%);
 /*    mountains*/
 /*    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05cc20d5b0bde7ae0d12f916c11aa18e&auto=format&fit=crop&w=1078&q=80) center;*/
 
+/*
 .bg-img-mountains {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05cc20d5b0bde7ae0d12f916c11aa18e&auto=format&fit=crop&w=1078&q=80) center;
     background-size: cover;
 }
+*/
 
 .jaxx-3-screens {
     height: auto;
@@ -694,7 +697,7 @@ clip-path: circle(50% at 50% 50%);
     background-size: 50%;
     background-attachment: fixed;
 }
-/* community section bg img -- from unsplash */
+/* community section bg img -- Photo by Nicholas Green on Unsplash */
 .bg-img-partners {
     background: url(/img/jaxx-partners.jpeg) center;
     background-size: cover;
@@ -903,10 +906,13 @@ transition:opacity .5s linear, top .5s ease-out;
 
 /* security ======================*/
 
+/* img-jaxx-security on homepage source = pixabay */
+/* security page banner source = pixabay */
 .bg-img-banner-security {
     /*gallery b&w */
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-security-gallery-bw.jpg) center; /*tvs b&w */
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-security-tvs.jpg) center top;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/jaxx-security-tvs-redux.jpg) center top;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -930,8 +936,14 @@ transition:opacity .5s linear, top .5s ease-out;
     background: url(/img/jaxx-hand-device.jpg) center;
     background-size: cover;
 }
+/*Photo by Helena Lopes on Unsplash*/
 .bg-img-people-1 {
     background: url(/img/jaxx-four-people.jpeg) center;
+    background-size: cover;
+}
+/* pexels */
+.bg-img-encryption {
+    background: url(/img/jaxx-encryption.jpg) center;
     background-size: cover;
 }
 
@@ -1000,6 +1012,7 @@ transition:opacity .5s linear, top .5s ease-out;
 
 /* features phone slider ======================*/
 
+/* pexels */
 .bg-img-banner-features {
     background: linear-gradient(rgb(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-features-banner.jpg) center;
     background-size: cover;
@@ -1097,8 +1110,8 @@ i {
 */
 
 
-.carousel-indicators li {
 /*
+.carousel-indicators li {
     position: relative;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
@@ -1107,10 +1120,10 @@ i {
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
-*/
     cursor: pointer;
     background-color: rgba(0,0,0,.5);
 }
+*/
 
 
 /* careers */
