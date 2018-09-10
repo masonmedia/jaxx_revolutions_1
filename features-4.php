@@ -85,7 +85,7 @@ include 'includes/home-header.php';
             <div id="row4" class="row d-flex bg-turq bg-img-downloads">
                 <div class="col-lg-5 d-flex justify-content-end align-items-center relative z-1 min-70 p-4 o-12 slide-in-right">
                     <!--device-->
-                    <img class="rotate img w-50 absolute z-1 rellax" src="/img/jaxx-tablet-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    <img class="rotate img w-75 absolute z-1 rellax" src="/img/jaxx-android-markets-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
                 </div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-70 p-5 slide-in-left">
                     <div class="wrap rellax" data-rellax-speed="-2">
@@ -105,35 +105,15 @@ include 'includes/home-header.php';
                         <h4>Track raw balance and transaction data across multiple blockchains.</h4>
                     </div>
                 </div>
-                <div class="col-lg-5 d-flex justify-content-center align-items-center min-70 p-4 slide-in-left">
+                <div class="col-lg-5 d-flex justify-content-start align-items-center min-70 p-4 slide-in-left">
                     <!--device-->
-                    <img class="img w-100 absolute z-2 p-5" src="/img/jaxx-3phone-light.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    <img class="img w-50 absolute z-2 p-5 rellax" src="/img/jaxx-android-block-explorer.png" alt="Jaxx Liberty" data-rellax-speed="1">
                 </div>
             </div>
             
-            <!--row 6 Security???? not using -->
-            <!--
-            <div id="row6" class="row d-flex bg-white bg-img-downloads content-tween rellax">
-                <div class="col-lg-5 d-flex justify-content-end align-items-center min-70 p-0 relative z-1 o-12 slide-in-right">
-                    <img class="img w-100 absolute z-1 rellax" src="/img/jaxx-two-devices.png" alt="Jaxx Liberty" data-rellax-speed="1">
-                    bg section-title 
-                    <div class="page-title d-flex align-self-center stroke-t absolute z--1 right-0 rellax" data-rellax-speed="2">Security.</div>
-                </div> 
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end min-70 p-5 rellax" data-rellax-speed="-2">
-                   color bg div
-                    <div class="img-full absolute z-0 left-0 bg-turq shadow-lg fade-in-slow" data-rellax-speed="2"></div>
-                    <div class="wrap rellax">
-                        <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-security.png" alt="Jaxx Liberty Security">
-                        <h2 class="page-title x-bold text-light content-stagger-up">Security</h2>
-                        <h4 class="content-stagger-up">Jaxx Liberty incorporates extensive, industry leading security features to maintain user privacy and protection.</h4>
-                    </div>
-                </div>
-            </div>
-            -->
+            <!--row 6 all features list-->
             
-            <!--row 8 all features list-->
-            
-            <div id="row8" class="row pb-4 d-flex bg-turq bg-img-downloads">
+            <div id="row6" class="row pb-4 d-flex bg-turq bg-img-downloads">
                 <div class="col-lg-5 d-flex justify-content-center align-items-center min-50 p-0 o-12">
                     <img class="rotate img w-75 absolute z-1" src="/img/jaxx-samsung-laptop-top-home.png" alt="Jaxx Liberty" >
                 </div>
@@ -273,9 +253,9 @@ include 'includes/home-header.php';
                 </div>
             </div><!--end row-->
             
-            <!--row 9 Download-->
+            <!--row 7 Download-->
             
-            <div id="row9" class="row pb-4 d-flex bg-orange bg-img-downloads rellax">
+            <div id="row7" class="row pb-4 d-flex bg-orange bg-img-downloads rellax">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 slide-in-right">
                     <div class="wrap rellax">
                         <img class="content-stagger-up" src="/img/icons/jaxx-download.png" alt="Jaxx Liberty">

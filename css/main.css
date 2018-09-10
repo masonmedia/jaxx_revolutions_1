@@ -782,16 +782,6 @@ transition:opacity .5s linear, top .5s ease-out;
     height: auto;
     width: 100%;
 }
-/* features 4 column count styles */
-
-/*
-.column-count {
-    column-count: 3;
-    column-gap: 20px;
-    margin: 15px;
-}
-*/
-
 .bg-img-androids {
     background: url(/img/jaxx-multiple-phones.png) center no-repeat;
     background-size: contain;
@@ -1338,6 +1328,13 @@ footer li a {
     }
     .footer-leaf {
         height: 35px;
+    }
+}
+
+/* make features page modal 80% width */
+@media (min-width: 576px) {
+.modal-dialog {
+    max-width: 80%;
     }
 }
 

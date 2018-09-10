@@ -91,7 +91,7 @@ include 'includes/home-header.php';
             <div id="row4" class="row d-flex bg-turq-angle-right content-tween rellax">
                 <div class="col-lg-5 d-flex justify-content-end align-items-center bg-img-downloads relative z-1 min-70 p-4 o-12 slide-in-right">
                     <!--device-->
-                    <img class="img w-50 absolute z-1 rellax" src="/img/jaxx-tablet-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    <img class="img w-75 absolute z-1 rellax" src="/img/jaxx-android-markets-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
                     <!--bg section-title -->
                     <div class="page-title stroke-t absolute z--1 p-4 left-0 rellax" data-rellax-speed="3">Market Data.</div>
                 </div>
@@ -117,9 +117,9 @@ include 'includes/home-header.php';
                         <h4 class="content-stagger-up">Track raw balance and transaction data across multiple blockchains.</h4>
                     </div>
                 </div>
-                <div class="col-lg-5 d-flex justify-content-center align-items-center bg-img-downloads min-70 p-4 slide-in-left">
+                <div class="col-lg-5 d-flex justify-content-start align-items-center bg-img-downloads min-70 p-4 slide-in-left">
                     <!--device-->
-                    <img class="img w-100 absolute z-2 p-5" src="/img/jaxx-3phone-light.png" alt="Jaxx Liberty" data-rellax-speed="1">
+                    <img class="img w-50 absolute z-2 p-5 rellax" src="/img/jaxx-android-block-explorer.png" alt="Jaxx Liberty" data-rellax-speed="1">
                     <!--bg section-title -->
                     <div class="page-title d-flex align-self-center stroke-o absolute z--1 right-0 p-4 rellax" data-rellax-speed="2">Block Explorer.</div>
                 </div>
