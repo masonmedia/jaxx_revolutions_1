@@ -58,7 +58,7 @@ include 'includes/header.php';
             </div><!--end row-->
                
             <div class="row d-flex bg-img-banner-security relative z-1 content-tween">
-                <div class="col-lg-6 bg-img-people-1 p-0 o-12"></div>
+                <div class="col-lg-6 bg-img-people-1 p-0 o-12 content-stagger-up"></div>
                 <div class="col-lg-6 d-flex flex-column justify-content-start align-items-start min-50 bg-orange text-light p-5 o-3">
                     <div class="wrap p-4 border border-light min-50 content-stagger-up">
                         <img class="jaxx-navbar-brand content-stagger-up" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty Security">
@@ -84,13 +84,13 @@ include 'includes/header.php';
                         <p class="border-top border-light py-3 content-stagger-up">Users' secret 12-word backup phrase is stored on-device only. It isn’t exposed to anyone, even Decentral employees. That’s why you’ll want to back up your backup phrase — and why, until you do, Jaxx Liberty will remind you often.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg-orange-angle p-4 o-12 content-stagger-up">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg-orange-angle p-4 o-12 slide-in-left">
                     <img class="img w-50 rellax" src="/img/jaxx-2phone-crop.png" alt="Jaxx Liberty Security">
                 </div>
             </div><!--end row-->
                 
             <div class="row d-flex bg-img-banner-security bg-dots shadow-lg content-tween">
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg-orange-angle px-4 o-12 content-stagger-up">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg-orange-angle p-0 o-12 content-stagger-up">
 <!--                    <img class="img-full rellax" src="https://images.pexels.com/photos/1118328/pexels-photo-1118328.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Jaxx Liberty Security">-->
 <!--                    <img class="img-full rellax" src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3a748e7b25651211d3092e562247c860&auto=format&fit=crop&w=1650&q=80" alt="Jaxx Liberty Security">-->
                     <img class="img-full rellax" src="https://images.pexels.com/photos/1118328/pexels-photo-1118328.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Jaxx Liberty Security">

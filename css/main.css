@@ -521,6 +521,9 @@ clip-path: circle(50% at 50% 50%);
 .bg-turq-angle {
     background: linear-gradient(300deg, rgba(255,255,255,0.9) 60%, rgb(64, 224, 208) 60%);
 }
+.bg-turq-angle-right {
+    background: linear-gradient(120deg, rgba(255,255,255,0.9) 60%, rgb(64, 224, 208) 60%);
+}
 .bg-warning-angle {
     background: linear-gradient(300deg, rgba(255,255,255,0.9) 60%, #ffc107 60%);
 }
@@ -770,6 +773,11 @@ transition:opacity .5s linear, top .5s ease-out;
   transform: scale(1);
 }
 
+/*features device styles*/
+.features-device {
+    height: auto;
+    width: 100%;
+}
 
 .bg-img-androids {
     background: url(/img/jaxx-multiple-phones.png) center no-repeat;
@@ -1193,6 +1201,11 @@ footer li a {
         font-size: 12vmin;
         letter-spacing: -5px;
     }
+    /*features device styles*/
+    .features-device {
+        height: auto;
+        width: 75%;
+    }
     /* flex order */
     .o-1 {
         order: -1;
@@ -1302,7 +1315,7 @@ footer li a {
         border-width: 1px;
         width: 100%;
     }
-       /* partner logo resize */
+    /* partner logo resize */
       .partner-logo {
         height: auto;
         width: 60%;
@@ -1314,6 +1327,12 @@ footer li a {
     .p-5-sm {
       padding: 3rem;  
     }
+    /*features device styles*/
+    .features-device {
+        height: auto;
+        width: 100%;
+    }
+    
     /* support banner title */
     #support h1 {
         font-size: 9vmin;
