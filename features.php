@@ -9,7 +9,7 @@ include 'includes/home-header.php';
     <main class="animsition" data-animsition-in-class="fade-in-right-sm" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1500">
     
        <!--jumbotron-->
-        <div id="features" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center bg-img-banner-features text-white min-70 p-5 mb-0">
+        <div id="features" class="jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center text-center bg-img-banner-features text-white relative z-1 min-70 p-5 mb-0">
             <img class="jaxx-navbar-brand mt-5 pt-5 pb-2" src="/img/Jaxx_Reversed_Icon_Orange_Large_RGB_Screen.png" alt="Jaxx Liberty Community">
             <h1 class="page-title m-0 mb-2">
                 <span class="d-inline-block">F</span><span class="d-inline-block">e</span><span class="d-inline-block">a</span><span class="d-inline-block">t</span><span class="d-inline-block">u</span><span class="d-inline-block">r</span><span class="d-inline-block">e</span><span class="d-inline-block">s</span><span class="d-inline-block">.</span>
@@ -30,7 +30,7 @@ include 'includes/home-header.php';
         <div class="container-fluid bg-white p-0">
         
             <!--row 1-->
-            <div id="row1" class="row d-flex bg-img-downloads">
+            <div id="row1" class="row d-flex bg-img-downloads rellax">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 shadow-lg slide-in-right">
                    <!--color bg div-->
                     <div class="img-full bg-orange bg-img-downloads absolute z-0 left-0 content-stagger-up" data-rellax-speed="2"></div>
@@ -42,19 +42,15 @@ include 'includes/home-header.php';
                     </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center min-50 slide-in-left">
                     <!--color bg div-->
-                    <img class="features-device absolute z-2 px-4 pb-4 rellax" src="/img/jaxx-android-fisheye-crop.png" alt="Jaxx Liberty" data-rellax-speed="-1">
-                    <!--bg section-title -->
-                    <div class="d-flex align-self-center stroke-o page-title absolute z-0 p-5" data-rellax-speed="3">Unified Dashboard.</div>
+                    <img class="img w-75 absolute z-2 px-4 pb-4 rellax" src="/img/jaxx-android-fisheye-crop.png" alt="Jaxx Liberty" data-rellax-speed="-1">
                 </div>
             </div><!--end row-->
             
              <!--row 2-->
-            <div id="row2" class="row d-flex bg-img-downloads">
+            <div id="row2" class="row d-flex bg-img-downloads rellax">
                 <div class="col-lg-5 d-flex justify-content-end align-items-center min-50 relative z-1 o-12 slide-in-right">
                     <!--device-->
                     <img class="w-50 absolute px-4 pb-4 rellax" src="/img/jaxx-android-top-angle.png" alt="Jaxx Liberty" data-rellax-speed="-1">
-                    <!--bg section-title -->
-                    <div class="page-title d-flex align-self-center stroke-t absolute z--1 left-0 p-5 rellax" data-rellax-speed="3">Portfolio.</div>
                 </div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start relative z-0 min-70 p-5 shadow-lg  slide-in-left">
                     <!--color bg div-->
@@ -68,7 +64,7 @@ include 'includes/home-header.php';
             </div><!--end row-->
 
             <!--row 3 News-->
-            <div id="row3" class="row d-flex bg-img-downloads">
+            <div id="row3" class="row d-flex bg-img-downloads rellax">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 shadow-lg slide-in-right">
                     <!--color bg div-->
                     <div class="img-full absolute z--1 left-0 bg-orange bg-img-downloads shadow-lg content-stagger-up" data-rellax-speed="2"></div>
@@ -81,18 +77,14 @@ include 'includes/home-header.php';
                 <div class="col-lg-5 d-flex justify-content-start align-items-center min-50 relative z-1 p-4 slide-in-left">
                     <!--device-->
                     <img class="img w-50 absolute z-2 rellax" src="/img/jaxx-2phone-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
-                    <!--bg section-title -->
-                    <div class="page-title d-flex align-self-center text-right stroke-o absolute z--1 p-5 rellax" data-rellax-speed="2">Blockchain News.</div>
                 </div>
             </div>
             
             <!--row 4 Market Data-->
-            <div id="row4" class="row d-flex bg-img-downloads">
+            <div id="row4" class="row d-flex bg-img-downloads rellax">
                 <div class="col-lg-5 d-flex justify-content-end align-items-center relative z-1 min-70 p-4 o-12 slide-in-right">
                     <!--device-->
                     <img class="img w-75 absolute z-1 rellax" src="/img/jaxx-android-markets-crop.png" alt="Jaxx Liberty" data-rellax-speed="1">
-                    <!--bg section-title -->
-                    <div class="page-title stroke-t absolute z--1 p-4 left-0 rellax" data-rellax-speed="3">Market Data.</div>
                 </div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-70 p-5 shadow-lg  slide-in-left">
                     <!--color bg div-->
@@ -106,7 +98,7 @@ include 'includes/home-header.php';
             </div>
             
             <!--row 5 Block Explorer-->
-             <div id="row5" class="row d-flex bg-img-downloads">
+             <div id="row5" class="row d-flex bg-img-downloads rellax">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 shadow-lg slide-in-right">
                     <!--color bg div-->
                     <div class="img-full absolute z-0 left-0 bg-orange bg-img-downloads shadow-lg" data-rellax-speed="2"></div>
@@ -116,11 +108,9 @@ include 'includes/home-header.php';
                         <h4>Track raw balance and transaction data across multiple blockchains.</h4>
                     </div>
                 </div>
-                <div class="col-lg-5 d-flex justify-content-start align-items-center min-70 p-4 slide-in-left">
+                <div class="col-lg-5 d-flex justify-content-start align-items-center min-70 p-4 slide-in-left fade-out">
                     <!--device-->
                     <img class="img w-50 absolute z-2 p-4 rellax" src="/img/jaxx-android-block-explorer.png" alt="Jaxx Liberty" data-rellax-speed="1">
-                    <!--bg section-title -->
-                    <div class="page-title d-flex align-self-center stroke-o absolute z--1 right-0 p-4 rellax" data-rellax-speed="2">Block Explorer.</div>
                 </div>
             </div>
     

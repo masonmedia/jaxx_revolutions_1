@@ -322,7 +322,8 @@ p {
 }
 .stroke-o {
     color: transparent;
-    -webkit-text-stroke: 1px #ff6902; 
+    -webkit-text-stroke: 0.5px #ff6902; 
+    -webkit-text-stroke: 0.5px rgba(255, 105, 2, 0.5); 
 }
 .stroke-p {
     color: transparent;
@@ -331,6 +332,7 @@ p {
 .stroke-t {
     color: transparent;
     -webkit-text-stroke: 1px turquoise; 
+    -webkit-text-stroke: 1px rgba(64, 224, 208, 0.3); 
 }
 .skew {
     transform: skew(0,-4.7deg);
@@ -778,12 +780,6 @@ transition:opacity .5s linear, top .5s ease-out;
   transform: scale(1);
 }
 
-/*features device styles*/
-
-.features-device {
-    height: auto;
-    width: 100%;
-}
 .bg-img-androids {
     background: url(/img/jaxx-multiple-phones.png) center no-repeat;
     background-size: contain;
@@ -1102,26 +1098,6 @@ i {
 .carousel-inner{height:100%;}
 */
 
-
-/*
-.carousel-indicators li {
-    position: relative;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    width: 30px;
-    height: 3px;
-    margin-right: 3px;
-    margin-left: 3px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: rgba(0,0,0,.5);
-}
-*/
-
-
-/* careers */
-
-
 /*  footer ======================*/
 
 /* pexels */
@@ -1186,8 +1162,9 @@ footer li a {
     /*features device styles*/
     .features-device {
         height: auto;
-        width: 75%;
+        width: 35%;
     }
+    
     /* flex order */
     .o-1 {
         order: -1;
@@ -1254,7 +1231,15 @@ footer li a {
         height: auto;
         width: 70%;
     }
-    /* features page */
+
+   /*features device styles*/
+    .features-device {
+        height: auto;
+        width: 40%;
+    }
+
+    /* features page: not using =====*/
+    
     .swiper-slide .text {
         width: 100%;
     }
@@ -1312,7 +1297,7 @@ footer li a {
     /*features device styles*/
     .features-device {
         height: auto;
-        width: 100%;
+        width: 50%;
     }
     
     /* support banner title */
