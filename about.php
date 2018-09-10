@@ -41,7 +41,7 @@ include 'includes/header.php';
             <!--row 1-->
             <div class="row d-flex bg-navy content-tween rellax">
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center
-                 min-50 bg-img-about-2 o-12 content-stagger-up" data-rellax-speed="0"></div>
+                 min-50 bg-img-about-passion o-12 content-stagger-up" data-rellax-speed="0"></div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left min-50 p-0 o-1 rellax">
                    <div class="wrap bg-white-op rounded-left p-5 content-stagger-up">
                         <div class="border-wrap border border-dark p-4">

@@ -40,8 +40,8 @@ include 'includes/header.php';
             </div>
 
             <!--position 1-->
-            <div class="row d-flex py-4 bg-dots content-tween">
-                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-end text-right min-50 p-5 rellax">
+            <div class="row d-flex py-4 bg-light bg-dots bg-img-downloads content-tween">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5 rellax">
                     <h3 class="site-sub-title font-weight-bold bg-navy orange shadow-lg rounded p-3 mb-3 content-stagger-up">Angular Developer</h3>
                     <h5 class="content-stagger-up">Full Time - Toronto, Ontario</h5>
                     <p class="pt-3 border-top content-stagger-up">We seek a Angular Developer to take us through the second phase of our journey. You will be pivotal in developing, implementing, and optimizing a new product Decentral is bringing to market. This product will be used by millions around the globe and we will be counting on you to launch brand new features, create really cool visual elements, work with backend APIs, all while keeping customer security top of mind.</p>
@@ -52,28 +52,59 @@ include 'includes/header.php';
             </div>
 
             <!--position 2-->
-            <div class="row d-flex py-4 bg-dots content-tween">
+            <div class="row d-flex py-4 bg-dots bg-img-downloads content-tween">
                 <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left p-5 rellax">
-                    <h3 class="site-sub-title font-weight-bold bg-navy orange shadow-lg rounded p-3 mb-3 content-stagger-up">SEO Specialist</h3>
+                    <h3 class="site-sub-title font-weight-bold bg-navy orange shadow-lg rounded p-3 mb-3 content-stagger-up">Backend Software Engineer</h3>
                     <h5 class="content-stagger-up">Full Time - Toronto, Ontario</h5>
-                    <p class="pt-3 border-top content-stagger-up">Our mission includes providing world-class content and education in an unbiased and easily-understood fashion. The goal is to become the most trustworthy source in the blockchain, cryptocurrency and financial technology space. The challenge is to build out SEO strategy in a meaningful, purposeful way that is true to our brand and values--including a pro-privacy, low-friction experience that respects our users and our readers. Are you interested in creating a new path for SEO? If so, this role is for you.</p>
-                    <p class="pb-3 border-bottom content-stagger-up">The ideal candidate would build SEO capabilities and work with our marketing, social media, content and legal teams. You will develop a plan for SEO internationally, testing new strategies, monitoring performance, and identifying opportunities.</p>
+                    <p class="pt-3 border-top content-stagger-up">We seek a Backend Software Engineer to be counted on for the reliability and security of our application, which will touch millions of users around the world.</p>
                     <div class="content-stagger-up">
-                        <p class="font-weight-bold">To be successful:</p> 
-                        <ul>
-                            <li>You will bring expert knowledge in defining requirements, tasks, and resources associated to SEO strategy</li>
-                            <li>Manage and execute implementation of SEO strategy, collaborating with stakeholders</li>
-                            <li>Keep pace with SEO, search engine, social media, and Internet marketing industry trends and development</li>
+                        <p class="font-weight-bold">To be successful you must have:</p> 
+                        <ul class="font-weight-light">
+                            <li>At least 3 years of professional experience in software engineering, working on server side applications/databases in an environment where quick access times are important</li>
+                            <li>Expert knowledge of AWS, including an understanding of EC2, ELB, auto-scaling groups and server monitoring (Cloudwatch, etc.), etc. </li>
+                            <li>Solid understanding of containers (where appropriate), knowledge of microservice architecture and the ability to implement this approach in a scalable way</li>
+                            <li>Understanding of how to properly manage and route client connections, use and create bash/sh scripts, and understand processes, daemons and services. </li>
+                            <li>Knowledge of how to properly log server activities and find different uses of git for effective development</li>
+                            <li>API design experience</li>
+                            <li>An enthusiasm for new technologies and cryptocurrencies (although actual programming experience with blockchains isn't required)</li>
+                            <li>The ability to communicate effectively with the team about ongoing challenges, solutions and approaches, etc.</li>
                         </ul>
-                        <p class="font-weight-bold">More about you:</p>
-                        <ul>
-                            <li>You bring a minimum of 5 years experience in Search Engine Optimization (SEO)</li>
-                            <li>Strong understanding of Search Engine Optimization (SEO) process</li>
-                            <li>Experience and knowledge with respect to HTML and Javascript development</li>
-                            <li>Experience working with popular keyword tools (WordTracker, Keyword Discovery, etc)</li>
-                            <li>High-level proficiency in Google Docs</li>
-                            <li>Experience with website analysis using a variety of analytics tools, including Google Analytics, as well as internal reporting tools</li>
-                            <li>Experience with Google Search Console, Screaming Frog, and SEO platforms such as MOZ, Conductor Searchlight, SEO Clarity</li>
+                        <p class="font-weight-bold">What we offer:</p>
+                        <ul class="font-weight-light">
+                            <li>Amazing startup culture and supportive learning experience</li>
+                            <li>Opportunities to impact millions of users around the world </li>
+                            <li>Work with a team of incredible colleagues</li>
+                            <li>Opportunities to share your ideas and have your voice be heard </li>
+                            <li>Competitive salary, cryptocurrency trading incentive bonus, company paid benefits, free company lunches and more</li>
+                        </ul>
+                        <a href="mailto:careers@decentral.ca?subject=Applying to Position: SEO Specialist" class="btn btn-lg btn-orange my-3" target="_blank">Apply Now</a>
+                    </div>
+                </div>
+            </div><!--end row-->
+            
+            <!--position 3-->
+            <div class="row d-flex py-4 bg-light bg-dots bg-img-downloads content-tween">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left p-5 rellax">
+                    <h3 class="site-sub-title font-weight-bold bg-navy orange shadow-lg rounded p-3 mb-3 content-stagger-up">Javascript Developer</h3>
+                    <h5 class="content-stagger-up">Full Time - Toronto, Ontario</h5>
+                    <p class="pt-3 border-top content-stagger-up">Decentral is looking for a Javascript Developer to join our tight-knit Jaxx Development Team. You will create applications as part of our 60+ server backend infrastructure on AWS. You will create new strategies and write robust code. You will be responsible for testing strategies to ensure accuracy, in partnership with our QA lead.</p>
+                    <div class="content-stagger-up">
+                        <p class="font-weight-bold">To be successful you must have:</p> 
+                        <ul class="font-weight-light">
+                            <li>At least 3 years of professional experience in software engineering</li>
+                            <li>Expert knowledge and experience designing persistent applications</li>
+                            <li>Familiarity with common software design patterns & algorithms</li>
+                            <li>API design experience</li>
+                            <li>An enthusiasm for new technologies and cryptocurrencies (although actual programming experience with blockchains isn't required)</li>
+                            <li>The ability to communicate effectively with the team about ongoing challenges, solutions and approaches, etc.</li>
+                        </ul>
+                        <p class="font-weight-bold">What we offer:</p>
+                        <ul class="font-weight-light">
+                            <li>Amazing startup culture and supportive learning experience</li>
+                            <li>Opportunities to impact millions of users around the world </li>
+                            <li>Work with a team of incredible colleagues</li>
+                            <li>Opportunities to share your ideas and have your voice be heard </li>
+                            <li>Competitive salary, cryptocurrency trading incentive bonus, company paid benefits, free company lunches and more</li>
                         </ul>
                         <a href="mailto:careers@decentral.ca?subject=Applying to Position: SEO Specialist" class="btn btn-lg btn-orange my-3" target="_blank">Apply Now</a>
                     </div>
@@ -81,13 +112,15 @@ include 'includes/header.php';
             </div><!--end row-->
 
             <!--about decentral-->
-           <div class="row d-flex py-4 bg-dots content-tween">
-                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-end text-right bg-dots p-5 rellax">
+           <div class="row d-flex py-4 bg-orange bg-dots bg-img-downloads text-light content-tween">
+                <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left bg-dots p-5 rellax">
                     <h2 class="site-sub-title font-weight-bold bg-navy orange shadow-lg rounded p-3 mb-3 content-stagger-up">About Decentral</h2>
-                    <p class="pt-3 border-top content-stagger-up">Located in the heart of downtown Toronto and home to hundreds of blockchain community events, Decentral spawned Ethereum. Decentral’s strategic approach means Jaxx Liberty neither holds nor has access to customer funds. Driven by design and user experience and built with simplicity in mind, Jaxx’s mission is to become the interface to the blockchain world. Learn more about Decentral Project at <a href="https://decentralproject.org/" target="_blank">decentralproject.org</a>.</p>
-                    <p class="content-stagger-up">We engage in inclusive hiring. We encourage people from all backgrounds, cultures, life experiences, etc., to apply. Decentral serves catered food, which includes vegan options, at company lunches, our team embraces its members’  deep diversity as a strength and we encourage everyone to bring their whole selves to the workplace. Our dress code is that there is no dress code. Decentral hires based on technical talent and will happily accommodate candidates taking part in any aspect of the selection process: just let us know what you need.</p>                   
-                    <p class="pb-3 border-bottom content-stagger-up">Our company makes software that millions of people depend on, so at time of offer, all applicants are asked to undergo a criminal background check.  If we don’t make an offer, we will keep your application on file for future opportunities - let us know if you’d prefer we delete it.</p>
-                    <a href="mailto:careers@decentral.ca?subject=Applying to Position: We'd love to hear from you!" class="btn btn-lg btn-orange my-3 content-stagger-up" target="_blank">Contact Us!</a>
+                    <p class="pt-3 border-top content-stagger-up">Decentral is leading the blockchain movement in Canada and around the world. We create the Jaxx blockchain interface, a digital asset wallet used by more than a million users.</p>
+                    <p class="pb-3 border-bottom content-stagger-up">We engage in inclusive hiring. We encourage people from all backgrounds, cultures and life experiences, etc., to apply. Decentral serves company lunches with vegan food options, and our development team has diverse cultural backgrounds. Our dress code is that there is no dress code. We embrace diversity, in all its forms, as a strength. Decentral hires based on technical talent and will happily accommodate (on request) candidates taking part in any aspect of the selection process.</p>                   
+                    <p class="pb-3 border-bottom content-stagger-up">At time of offer, all applicants are asked to undergo a criminal background check.</p>
+                    <p class="pb-3 border-bottom content-stagger-up">Decentral's working language is English, but fluency is not required.</p>
+                    <p class="pb-3 border-bottom content-stagger-up">Decentral maintains resumes and applications in our ATS. If you would like us to delete your file, please let us know.</p>
+                    <a href="mailto:careers@decentral.ca?subject=Applying to Position: We'd love to hear from you!" class="btn btn-lg btn-navy my-3 content-stagger-up" target="_blank">Contact Us!</a>
                 </div>
             </div><!--end row-->
             

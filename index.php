@@ -111,7 +111,7 @@ include 'includes/home-header.php';
             <!--chevron down "more"-->
             <i class="icon fa fa-angle-down relative z-1"></i>
             <!--fade in bg image-->
-            <div class="banner-img img-full bg-fs-img-banner-2 min-100 absolute z-0"></div>
+            <div class="banner-img img-full bg-fs-img-banner-home min-100 absolute z-0"></div>
         </div>
         
         <!--container-->
