@@ -20,20 +20,7 @@ new Vivus('jaxx-multi-device', {
           function (obj) {
           obj.el.classList.add('finished');
         });
-     
-
-//downloads page banner animation
-     
-//new Vivus('downloads-slanted-gradient', {
-//    start: 'autostart',
-//    type: 'async',
-//    duration: 75,
-//    animTimingFunction: Vivus.EASE_IN
-//    },
-//      function (obj) {
-//      obj.el.classList.add('finished');
-//    });
-//  
+  
       
 //end doc ready
  });

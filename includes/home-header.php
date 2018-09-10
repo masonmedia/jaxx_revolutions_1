@@ -25,8 +25,7 @@ else {
 <!-- Place favicon.ico in the root directory -->
 
 <!-- Open Graph Meta Data -->
-<meta property="og:description" content="The leading Multi-Platform Wallet created by Anthony Di Iorio, Co-Founder of Ethereum and Founder and CEO of Decentral and Jaxx
-">
+<meta property="og:description" content="The leading Multi-Platform Wallet created by Anthony Di Iorio, Co-Founder of Ethereum and Founder and CEO of Decentral and Jaxx">
 <meta property="og:image" content="">
 <meta property="og:site_name" content="jaxx.io">
 <meta property="og:title" content="jaxx.io">

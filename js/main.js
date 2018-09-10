@@ -146,11 +146,43 @@ tl.from(".navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
   
 //fade in arrow down
 .from("#home .icon", 0.5, {autoAlpha:0, y:-10, ease: SlowMo.easeIn}, "-=0.25")
-.to("#home .icon", 2, {y:-10, ease: SlowMo.easeInOut, repeat:-1})
+.to("#home .icon", 2, {y:-10, ease: SlowMo.easeInOut, repeat:-1});
      
-//zoom in bg image
-//.to("#home .banner-img", 30, {scale:1.3, y:100, ease: Sine.easeInOut}, "-=0.5");
+     
+//404 page timeline 
+     
+     var tl404 = new TimelineLite();
 
+//add a from() tween at the beginning of the timline
+tl404.from("#404Banner .navy-bg", 0.5, {autoAlpha:0, ease: SlowMo.easeIn})
+ 
+//slide down navbar     
+.from("nav", 0.3, {autoAlpha:0, y:-100})
+//fade in navbar logo + nav links
+.staggerFrom(".navbar-brand, .nav-item", 0.3, {autoAlpha:0, y:-10, rotation:-20}, 0.1)
+//fade in toggler
+.from(".navbar-toggler", 0.3, {autoAlpha:0, y:-10, rotation:-30}, "-=0.25")
+   
+//fade in Jaxx Liberty Logo
+//tl.from("#banner .site-title-2", 1.5, {autoAlpha:0, ease: SlowMo.easeInOut});
+.from("#404Banner .jaxx-logo", 2, {autoAlpha:0, ease: SlowMo.easeInOut}, "-=0.75")
+         
+//fade out Jaxx Logo
+//tl.to("#banner .jaxx-logo", 2, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut});
+
+//fade out multi device bg
+.to("#404Banner #jaxx-multi-device", 1, {autoAlpha:0, display: "none", ease: SlowMo.easeInOut})
+
+// fade in logo fill 
+.to("#404Banner .jaxx-logo .st1", 1, {fill:"#ff6902", ease: SlowMo.easeIn})
+     
+// fade in logo fill 
+.to("#404Banner .jaxx-logo .st0", 1, {fill:"#fff", ease: SlowMo.easeIn}, "-=0.5");
+     
+     
+     
+     
+     
 //page banner animation timeline
      
 var tl2 = new TimelineLite();
