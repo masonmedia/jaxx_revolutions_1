@@ -13,8 +13,7 @@ else {
 } ?></title>
 
 <!--core meta data-->
-<meta name="description" content="The leading Multi-Platform Wallet created by Anthony Di Iorio, Co-Founder of Ethereum and Founder and CEO of Decentral and Jaxx
-">
+<meta name="description" content="The leading Multi-Platform Wallet created by Anthony Di Iorio, Co-Founder of Ethereum and Founder and CEO of Decentral and Jaxx">
 <meta name="keywords" content="jaxx liberty,jaxx,decentral">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="manifest" href="site.webmanifest">
@@ -26,7 +25,7 @@ else {
 
 <!-- Open Graph Meta Data -->
 <meta property="og:description" content="The leading Multi-Platform Wallet created by Anthony Di Iorio, Co-Founder of Ethereum and Founder and CEO of Decentral and Jaxx">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.jaxx.io/img/jaxx-banner-ss.jpg">
 <meta property="og:site_name" content="jaxx.io">
 <meta property="og:title" content="jaxx.io">
 <meta property="og:type" content="website">
@@ -38,10 +37,10 @@ else {
 <meta name="twitter:creator" content="Decentral">
 <meta name="twitter:title" content="jaxx.io">
 <meta name="twitter:description" content="The leading Multi-Platform Wallet created by Anthony Di Iorio, Co-Founder of Ethereum and Founder and CEO of Decentral and Jaxx">
-<meta name="twitter:image" content="">
+<meta name="twitter:image" content="https://www.jaxx.io/img/jaxx-banner-ss.jpg">
 
 <!--google fonts-->
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700,900|Oswald:300,500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,500,700" rel="stylesheet">
 
 <!--styles-->
 <link rel="stylesheet" href="/css/font-awesome-4.7.0/css/font-awesome.min.css">

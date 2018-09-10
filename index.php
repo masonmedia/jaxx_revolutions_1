@@ -103,13 +103,15 @@ include 'includes/home-header.php';
             </h1>
             <h3 class="site-sub-title relative z-2 pb-3"><span class="sub-tagline-1">No registration.</span> <span class="sub-tagline-2">Download for free.</span> <span class="sub-tagline-3">Join millions of users.</span></h3>
             <!--download button-->
+<!--
             <div>
                 <a href="/downloads.php" class="animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">
                     <button role="button" class="banner-button btn btn-lg btn-orange relative z-1">Start Exploring</button>
                 </a>
             </div>
+-->
             <!--chevron down "more"-->
-            <i class="icon fa fa-angle-down relative z-1"></i>
+<!--            <i class="icon fa fa-angle-down relative z-1"></i>-->
             <!--fade in bg image-->
             <div class="banner-img img-full bg-fs-img-banner-home min-100 absolute z-0"></div>
         </div>
