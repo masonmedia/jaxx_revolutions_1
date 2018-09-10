@@ -19,7 +19,7 @@ include 'includes/header.php';
                 <span class="d-inline-block">Security</span>
             </h1>
             <hr class="w-25 bg-white">
-            <h2 class="site-sub-title relative z-1 pt-1 pb-3">
+            <h2 class="site-sub-title relative z-1 pt-1 pb-3 mb-5">
                 <span class="d-inline-block">Explore</span>
                 <span class="d-inline-block">our</span>
                 <span class="d-inline-block">new</span>

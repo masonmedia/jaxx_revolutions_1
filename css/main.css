@@ -732,6 +732,7 @@ clip-path: circle(50% at 50% 50%);
 /* pexels */
 .bg-img-jump {
     background: url(/img/jaxx-jump-2.jpg) center;
+    background: url(/img/jaxx-jump-2-redux.jpg) center;
     background-size: cover;
 }
 /* pexels */
@@ -741,6 +742,10 @@ clip-path: circle(50% at 50% 50%);
 }
 .bg-img-office {
     background: url(/img/jaxx-careers-office.jpg) center;
+    background-size: cover;
+}
+.bg-img-office-2 {
+    background: url(/img/decentral-office-original-redux.jpg) center;
     background-size: cover;
 }
 
@@ -896,8 +901,7 @@ transition:opacity .5s linear, top .5s ease-out;
 /* img-jaxx-security on homepage source = pixabay */
 /* security page banner source = pixabay */
 .bg-img-banner-security {
-    /*gallery b&w */
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-security-gallery-bw.jpg) center; /*tvs b&w */
+    /*tvs b&w */
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jaxx-security-tvs.jpg) center top;
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/jaxx-security-tvs-redux.jpg) center top;
     background-size: cover;

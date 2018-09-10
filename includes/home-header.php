@@ -4,9 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<!--    <title>Jaxx Liberty | Home</title>-->
-    
-    <title><?php 
+<title><?php 
 if(isset($title) && !empty($title)) { 
    echo $title; 
 } 

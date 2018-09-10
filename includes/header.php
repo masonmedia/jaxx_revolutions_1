@@ -4,15 +4,14 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<!--    <title>Jaxx Liberty | Home</title>-->
-    
-    <title><?php 
+<title><?php 
 if(isset($title) && !empty($title)) { 
    echo $title; 
 } 
 else { 
    echo "Jaxx Liberty | Home"; 
-} ?></title>
+} ?>
+</title>
 
 <!--core meta data-->
 <meta name="description" content="The leading Multi-Platform Wallet created by Anthony Di Iorio, Co-Founder of Ethereum and Founder and CEO of Decentral and Jaxx

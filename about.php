@@ -39,10 +39,10 @@ include 'includes/header.php';
         <div class="container-fluid p-0">
         
             <!--row 1-->
-            <div class="row d-flex bg-navy content-tween rellax">
+            <div class="row d-flex bg-navy content-tween rellax" data-rellax-speed="-2">
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center
-                 min-50 bg-img-about-passion o-12 content-stagger-up" data-rellax-speed="0"></div>
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left min-50 p-0 o-1 rellax">
+                 min-50 bg-img-about-passion o-12 content-stagger-up"></div>
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left min-50 p-0 o-1">
                    <div class="wrap bg-white-op rounded-left p-5 content-stagger-up">
                         <div class="border-wrap border border-dark p-4">
                             <h2 class="section-title x-bold pt-4 pb-3 px-5 m-0 navy bg-orange skew content-stagger-up">Redefining</h2>
@@ -62,12 +62,12 @@ include 'includes/header.php';
                        </div>
                     </div>
                 </div>
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center bg-img-jump min-50 angle-rtl"></div>
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center bg-img-jump min-50 content-stagger-up"></div>
             </div>
 
             <!--row 3-->
             <div id="row3" class="row d-flex bg-navy content-tween">
-                <div class="col-lg-5 bg-img-heart min-50 o-12 angle-ltr"></div>
+                <div class="col-lg-5 bg-img-heart min-50 o-12 content-stagger-up"></div>
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start text-left min-50 p-0 o-1 rellax" data-rellax-speed="-1">
                    <div class="wrap bg-white-op rounded-left p-5 content-stagger-up">
                         <div class="border-wrap border border-dark p-4">
@@ -80,8 +80,8 @@ include 'includes/header.php';
             </div>
             
             <!--row 4 company-->
-            <div id="row4" class="row d-flex bg-img-office content-tween">
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start min-50 text-left py-5">
+            <div id="row4" class="row d-flex bg-orange content-tween">
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-start min-50 text-left p-0 rellax" data-rellax-speed="-1">
                    <div class="wrap bg-white-op p-5 content-stagger-up"> 
                        <div class="border-wrap border border-dark p-4">                  
                             <h2 class="section-title x-bold orange bg-navy py-4 px-5 m-0 skew content-stagger-up">Decentral Inc.</h2>
@@ -90,7 +90,7 @@ include 'includes/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7"></div>
+                <div class="col-lg-5 bg-img-office min-50 content-stagger-up"></div>
             </div>
             
             <!--footer-->
