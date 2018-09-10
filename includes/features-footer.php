@@ -64,14 +64,11 @@
 <!--gsap-->
 <script src="/js/gsap/TweenMax.min.js"></script>
 <script src="/js/gsap/TimelineLite.min.js"></script>
-<script src="/js/gsap/plugins/TextPlugin.min.js"></script>
 <script src="/js/gsap/plugins/CSSPlugin.min.js"></script>
 <!--animisation-->
 <script src="/js/animsition.min.js"></script>
 <!--swiper js-->
 <script src="/js/swiper.min.js"></script>
-<!--vivus js-->
-<script src="/js/vivus.min.js"></script>
 <!--bootstrap-->
 <script src="/js/bootstrap.bundle.min.js"></script>
 <script src="/js/plugins.js"></script>

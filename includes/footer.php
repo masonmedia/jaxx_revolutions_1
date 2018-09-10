@@ -63,7 +63,6 @@
 <!--gsap-->
 <script src="/js/gsap/TweenMax.min.js"></script>
 <script src="/js/gsap/TimelineLite.min.js"></script>
-<script src="/js/gsap/plugins/TextPlugin.min.js"></script>
 <script src="/js/gsap/plugins/CSSPlugin.min.js"></script>
 <!--rellax.js-->
 <script src="/js/rellax.min.js"></script>
