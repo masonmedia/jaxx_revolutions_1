@@ -49,11 +49,11 @@ include 'includes/header.php';
 
            <!--row 2 security features-->
             <div class="row d-flex bg-img-banner-security relative z-1 content-tween">
-                <div class="col-lg-6 d-flex flex-column justify-content-start align-items-start min-50 bg-white-op p-5 content-stagger-up">
-                    <div class="wrap d-flex flex-column justify-content-center align-items-start p-4 border border-dark min-50 content-stagger-up">
+                <div class="col-lg-6 d-flex flex-column justify-content-start align-items-start min-50 text-light bg-orange p-5 content-stagger-up">
+                    <div class="wrap d-flex flex-column justify-content-center align-items-start p-4 border border-light min-50 content-stagger-up">
                         <img class="jaxx-navbar-brand content-stagger-up" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty Security">
                         <h2 class="font-weight-bold bg-navy orange skew shadow-lg p-3 mb-4 relative z-1 content-stagger-up">Verified before you start</h2>
-                        <p class="border-top border-dark py-3 content-stagger-up">Even before you launch Jaxx Liberty, we’re hard at work making sure you haven’t been compromised. Before publication we use state-of-the-art static and dynamic analysis code inspection tools to check for security vulnerabilities. Afterwards, software integrity checksums and code signing help prevent man-in-the-middle attacks The code we publish is signed to prevent it from being changed or corrupted. the alteration and corruption of code, while checksums further ensure the integrity of data during transmission.</p>
+                        <p class="border-top border-light py-3 content-stagger-up">Even before you launch Jaxx Liberty, we’re hard at work making sure you haven’t been compromised. Before publication we use state-of-the-art static and dynamic analysis code inspection tools to check for security vulnerabilities. Afterwards, software integrity checksums and code signing help prevent man-in-the-middle attacks The code we publish is signed to prevent it from being changed or corrupted. the alteration and corruption of code, while checksums further ensure the integrity of data during transmission.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 bg-img-hand-device p-0 slide-in-left"></div>
@@ -61,11 +61,11 @@ include 'includes/header.php';
                
             <div class="row d-flex bg-img-banner-security relative z-1 content-tween">
                 <div class="col-lg-6 bg-img-people-1 p-0 o-12 content-stagger-up"></div>
-                <div class="col-lg-6 d-flex flex-column justify-content-start align-items-start min-50 bg-orange text-light p-5 o-3 content-stagger-up">
-                    <div class="wrap d-flex flex-column justify-content-center align-items-start p-4 border border-light min-50 content-stagger-up">
+                <div class="col-lg-6 d-flex flex-column justify-content-start align-items-start min-50 bg-white-op p-5 o-3 content-stagger-up">
+                    <div class="wrap d-flex flex-column justify-content-center align-items-start p-4 border border-dark min-50 content-stagger-up">
                         <img class="jaxx-navbar-brand content-stagger-up" src="/img/Jaxx_Icon_Reversed_Large_RGB_Screen.png" alt="Jaxx Liberty Security">
                         <h2 class="font-weight-bold bg-navy orange skew shadow-lg p-3 mb-4 relative z-1 content-stagger-up">It starts with a seed</h2>
-                        <p class="border-top border-light py-3 content-stagger-up">Jaxx Liberty creates a 12-word phrase, then applies one-way encryption to generate private keys from it. Those private keys are the basis to managing your digital assets, and can be derived from your backup phrase. But it only works one way. Your backup phrase can’t feasibly be derived from the private keys.</p>
+                        <p class="border-top border-dark py-3 content-stagger-up">Jaxx Liberty creates a 12-word phrase, then applies one-way encryption to generate private keys from it. Those private keys are the basis to managing your digital assets, and can be derived from your backup phrase. But it only works one way. Your backup phrase can’t feasibly be derived from the private keys.</p>
                     </div>
                 </div>
             </div><!--end row-->
@@ -103,14 +103,14 @@ include 'includes/header.php';
                         <p class="border-top border-light py-3 content-stagger-up">When we say Jaxx Liberty is multi-platform, we mean it. Use the same 12-word phrase to manage your digital assets from iOS, Android, Chrome Extension, Windows, Mac, and Linux installs in parallel. Each builds in the same level of security, interacting directly with your digital assets.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg-orange-angle p-0 o-12 content-stagger-up">
-                    <img class="img-full rellax" src="/img/jaxx-multi-platform.png" alt="Jaxx Liberty Security">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg-orange-angle min-50 p-0 o-12 content-stagger-up">
+                    <img class="img absolute z-1 rellax" src="/img/jaxx-multi-platform.png" alt="Jaxx Liberty Security">
                 </div>
             </div><!--end row-->
 
            <!-- row 5 download reminder CTA-->
            <div class="row bg-orange text-white min-70 content-tween">
-               <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center text-center bg-download-gradient p-4 parallelo">
+               <div class="col-sm-12 d-flex flex-column justify-content-center align-items-center text-center bg-download-gradient p-4 parallelo slide-in-right">
                    <img class="jaxx-logo-text content-stagger-up" src="/img/JaxxLiberty_Logo_RGB_Screen%20(white%20Liberty%20white%20X).svg" alt="">
                    <h4 class="font-weight-bold w-75 pb-3 pt-2 content-stagger-up">Jaxx. Used by millions. Join now.</h4>
                    <div class="content-stagger-up">

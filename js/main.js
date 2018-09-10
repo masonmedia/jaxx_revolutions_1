@@ -320,7 +320,7 @@ $(".fade-in-down").each(function() {
      
      $(".slide-in-right").each(function() {
 
- 	var slideInRight = TweenMax.from(this, 3, {autoAlpha: 0, x:-1000, delay: 0, ease: Expo.easeInOut});
+ 	var slideInRight = TweenMax.from(this, 2, {autoAlpha: 0, x:-1000, delay: 0, ease: Expo.easeInOut});
 
 	var scene = new ScrollMagic.Scene({triggerElement: this, triggerHook: 'onEnter', offset: 0, reverse:true})
 		.setTween(slideInRight)
@@ -332,7 +332,7 @@ $(".fade-in-down").each(function() {
      
      $(".slide-in-left").each(function() {
 
- 	var slideInLeft = TweenMax.from(this, 3, {autoAlpha: 0, x:1000, delay: 0, ease: Expo.easeInOut});
+ 	var slideInLeft = TweenMax.from(this, 2, {autoAlpha: 0, x:1000, delay: 0, ease: Expo.easeInOut});
 
 	var scene = new ScrollMagic.Scene({triggerElement: this, triggerHook: 'onEnter', offset: 0, reverse:true})
 		.setTween(slideInLeft)
