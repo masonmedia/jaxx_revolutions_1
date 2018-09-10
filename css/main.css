@@ -774,10 +774,20 @@ transition:opacity .5s linear, top .5s ease-out;
 }
 
 /*features device styles*/
+
 .features-device {
     height: auto;
     width: 100%;
 }
+/* features 4 column count styles */
+
+/*
+.column-count {
+    column-count: 3;
+    column-gap: 20px;
+    margin: 15px;
+}
+*/
 
 .bg-img-androids {
     background: url(/img/jaxx-multiple-phones.png) center no-repeat;
