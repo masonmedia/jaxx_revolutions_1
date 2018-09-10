@@ -37,7 +37,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 px-4 py-3 skew">
                         <ul class="list-unstyled w-100">
-                            <li class="h4 font-weight-bold border-bottom pb-3">Contact</li>
+                            <li class="h4 font-weight-bold border-bottom pb-3">Connect</li>
                             <li> <a href="https://decentral.zendesk.com/hc/en-us" target="_blank">Support</a></li>
                             <li> <a href="https://www.facebook.com/JaxxWallet" target="_blank">Facebook</a></li>
                             <li> <a href="twitter.com/jaxx_io" target="_blank">Twitter</a> / <a href="https://twitter.com/Jaxx_Support" target="_blank">Twitter Support</a> </li>

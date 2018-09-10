@@ -518,7 +518,7 @@ $(".content-tween").each(function() {
 
 $(document).ready(function() {
 // Select all links with hashes
-$('a[href*="#"]')
+$('#contents a')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')

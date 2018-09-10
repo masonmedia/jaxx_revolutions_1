@@ -1098,6 +1098,7 @@ i {
 
 
 .carousel-indicators li {
+/*
     position: relative;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
@@ -1106,44 +1107,9 @@ i {
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
+*/
     cursor: pointer;
-    background-color: rgba(255,255,255,.5);
-}
-.carousel-indicators > li.active {
-    background: black;
-}
-
-/* stock styles */
-.carousel-indicators-2 {
-    position: absolute;
-    right: 0;
-    bottom: 10px;
-    left: 0;
-    z-index: 15;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding-left: 0;
-    margin-right: 15%;
-    margin-left: 15%;
-    list-style: none;    
-}
-
-.carousel-indicators-2 > li,
-.carousel-indicators-2 > li.active{
-    width: 100px;
-    height: 25px;
-    border-radius: 0;
-    border: solid 1px grey;
-    border: 0;
-    background: lightgrey;
-/*    background: transparent;*/
-    text-indent: 0;
-}
-.carousel-indicators-2 > li.active {
-    background: white;
-/*    background: transparent;*/
+    background-color: rgba(0,0,0,.5);
 }
 
 

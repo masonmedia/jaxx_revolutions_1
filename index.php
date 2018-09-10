@@ -98,6 +98,7 @@ include 'includes/home-header.php';
                 <span class="banner-span d-inline-block">Multi-platform,</span>
                 <span class="banner-span d-inline-block">Multi-Currency</span>
                 <span class="banner-span d-inline-block">Digital</span>
+                <span class="banner-span d-inline-block">Asset</span>
                 <span class="banner-span d-inline-block">Wallet.</span>
             </h1>
             <h3 class="site-sub-title relative z-2 pb-3"><span class="sub-tagline-1">No registration.</span> <span class="sub-tagline-2">Download for free.</span> <span class="sub-tagline-3">Join millions of users.</span></h3>
@@ -119,11 +120,11 @@ include 'includes/home-header.php';
             <!--row 1 features-->
             
             <div class="row d-flex bg-light relative z-1 content-tween">
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5" data-rellax-speed="-2">
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5 rellax" data-rellax-speed="-5">
                     <!--bg text heading-->
                     <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">Jaxx Liberty is Here.</div>
                         <!--section title-->
-                        <h2 class="section-title font-weight-bold m-0 rellax" data-rellax-speed="-1">
+                        <h2 class="section-title font-weight-bold m-0">
                             <span class="content-stagger-up">Jaxx</span>
                             <span class="content-stagger-up m-0">Liberty</span>
                             <span class="content-stagger-up">is</span> 
@@ -138,7 +139,7 @@ include 'includes/home-header.php';
                                 <button href="/features.php" class="btn btn-lg btn-orange animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Learn More</button>
                             </div>
                             <div class="m-0 content-stagger-up">
-                                <button href="/downloads.php" class="btn btn-lg btn-outline-orange animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">Download Now</button>
+                                <button href="/downloads.php" class="btn btn-lg btn-outline-orange animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="800">Download</button>
                             </div>
                         </div>
                 </div><!--end col-->
@@ -160,20 +161,20 @@ include 'includes/home-header.php';
                     <!--android img-->
                     <img class="jaxx-3-screens slide-in-left" src="/img/jaxx-3phone-light.png" alt="Use Jaxx Liberty on any Device">
                 </div>
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start min-100 px-5 pt-5 pb-0 rellax" data-rellax-speed="2">
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start min-100 px-5 pt-5 pb-0 rellax" data-rellax-speed="-5">
                     <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">Use on multiple devices.</div>
-                    <h2 class="section-title font-weight-bold m-0 rellax">
+                    <h2 class="section-title font-weight-bold m-0">
                         <span class="content-stagger-up">Use</span>
                         <span class="content-stagger-up m-0">on</span>
                         <span class="content-stagger-up">Multiple</span> 
                         <span class="content-stagger-up">Devices.</span>
                     </h2>
                     <hr class="w-25 content-stagger-up">
-                    <p class="py-2 m-0 content-stagger-up"><span class="orange font-weight-bold"><a class="font-weight-bold animsition-link" href="/downloads.php" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800">Jaxx Liberty</a></span> is now available on Android and Google Chrome. iOS and desktop versions are coming soon. <a class="font-weight-bold animsition-link" href="/downloads.php" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800"><span class="orange">Download</span></a> it for free.</p>
+                    <p class="py-2 m-0 content-stagger-up"><span class="orange font-weight-bold"><a class="font-weight-bold animsition-link" href="/downloads.php" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800">Jaxx Liberty</a></span> is now available on Android Mobile, Android Tablet, and Google Chrome. iOS and desktop (Mac, Windows and Linux) versions are coming soon. Download Jaxx Liberty for free.
                     <hr class="w-25 pb-2 content-stagger-up">
                     <div class="content-stagger-up">
-                        <a class="btn btn-orange" role="button" onclick="googleAnalyticsTrigger('Android', 'Banner')" href="https://play.google.com/store/apps/details?id=com.liberty.beta" target="_blank">Tablet</a>
-                        <a class="btn btn-orange" role="button" onclick="googleAnalyticsTrigger('Android', 'Banner')" href="https://play.google.com/store/apps/details?id=com.liberty.beta" target="_blank">Android</a>
+                        <a class="btn btn-orange" role="button" onclick="googleAnalyticsTrigger('Android', 'Banner')" href="https://play.google.com/store/apps/details?id=com.liberty.beta" target="_blank">Android Mobile</a>
+                        <a class="btn btn-orange" role="button" onclick="googleAnalyticsTrigger('Android', 'Banner')" href="https://play.google.com/store/apps/details?id=com.liberty.beta" target="_blank">Android Tablet</a>
                         <a class="btn btn-orange" href="https://chrome.google.com/webstore/detail/jaxx-blockchain-wallet/ancbofgphhmhcchnaognahmjfajaecmo" target="_blank">Chrome</a>
                 
 <!--
@@ -249,9 +250,9 @@ include 'includes/home-header.php';
             <!--security-->
             
             <div class="row bg-light relative z-0 content-tween">
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 px-5 pt-5 pb-0 rellax">
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 px-5 pt-5 pb-0 rellax" data-rellax-speed="-5">
                    <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">You're in control of your keys.</div>
-                    <h2 class="section-title font-weight-bold relative z-1 m-0 rellax">
+                    <h2 class="section-title font-weight-bold relative z-1 m-0">
                         <span class="content-stagger-up">You're</span>
                         <span class="content-stagger-up">in</span>
                         <span class="content-stagger-up">control</span>
@@ -260,7 +261,7 @@ include 'includes/home-header.php';
                         <span class="content-stagger-up">Keys.</span>
                     </h2>
                     <hr class="w-25 content-stagger-up">
-                    <p class="py-2 m-0 content-stagger-up"><span class="orange font-weight-bold"><a class="font-weight-bold animsition-link" href="/downloads.php" data-animsition-out-class="fade-out-down" data-animsition-out-duration="800">Jaxx Liberty</a></span> is the most secure cryptocurrency wallet available. Join more than a million users who trust Jaxx with their digital assets. Find out more about Jaxx Liberty security features.</p>
+                    <p class="py-2 m-0 content-stagger-up"><span class="orange font-weight-bold">Jaxx Liberty</span> is the most secure cryptocurrency wallet available. Join more than a million users who trust Jaxx with their digital assets. Find out more about Jaxx Liberty security features.</p>
                     <hr class="w-25 pb-2 content-stagger-up">
                     <div class="m-0 content-stagger-up">
                         <button href="/security.php" class="btn btn-lg btn-dark text-white animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="800">Learn More</button>
@@ -294,67 +295,86 @@ include 'includes/home-header.php';
                    <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="1">What blockchain leaders are saying about Jaxx Liberty.</div>
                     <!--carousel-->
                     <div id="testimonials" class="carousel slide carousel-fade" data-ride="carousel">
-                      <div class="carousel-inner rellax">
-                        <div class="carousel-item active px-3">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
                             <i class="fa fa-quote-right animated zoomIn"></i>
-                            <p class="p-3 m-0">"I look forward to seeing the new Jaxx Liberty and how the broader DigiByte community will use it."</p>
+                            <p class="mx-5 animated bounceInDown">"I look forward to seeing the new Jaxx Liberty and how the broader DigiByte community will use it."</p>
                             <p class="h5 font-weight-bold animated flipInX">Josiah Spackman</p>
                             <footer class="blockquote-footer orange animated fadeInLeft">Ambassador, DigiByte Foundation</footer>
+<!--
                             <div class="px-5 py-4 m-0">
                                 <button class="btn btn-lg btn-outline-dark" href="#testimonials" role="button" data-slide="next">Read More</button>
                             </div>
+-->
                         </div><!--end carousel item-->
-                        <div class="carousel-item px-3">
+                        <div class="carousel-item">
                             <i class="fa fa-quote-right animated slideInLeft"></i>
-                            <p class="p-3 m-0 animated zoomInRight">"Polymath welcomes the exciting launch of Decentral’s Jaxx blockchain interface, Jaxx Liberty. We chose Jaxx Liberty as our go-to wallet for the POLY token community."</p>
+                            <p class="mx-5 animated zoomInRight">"Polymath welcomes the exciting launch of Decentral’s Jaxx blockchain interface, Jaxx Liberty. We chose Jaxx Liberty as our go-to wallet for the POLY token community."</p>
                             <p class="h5 font-weight-bold animated slideInUp">Trevor Koverko</p>
                             <footer class="blockquote-footer orange animated fadeInRight">Co-Founder & CEO, Polymath</footer>
+<!--
                             <div class="px-5 py-4 m-0 animated slideInUpBig">
                                 <button class="btn btn-lg btn-outline-dark" href="#testimonials" role="button" data-slide="next">Read More</button>
                             </div>
+-->
                         </div><!--end carousel item-->
-                        <div class="carousel-item px-3">
+                        <div class="carousel-item">
                             <i class="fa fa-quote-right animated slideInLeft"></i>
-                            <p class="p-3 m-0 animated zoomInRight">"We’re very happy to partner with Jaxx, a highly-secure and very easy-to-use wallet that is the first to support RSK"</p>
+                            <p class="mx-5 animated slideInDown">"We’re very happy to partner with Jaxx, a highly-secure and very easy-to-use wallet that is the first to support RSK"</p>
                             <p class="h5 font-weight-bold animated slideInUp">Diego Gutierrez Zaldivar</p>
                             <footer class="blockquote-footer orange animated fadeInRight">CEO & Co-Founder, RSK Labs</footer>
+<!--
                             <div class="px-5 py-4 m-0 animated slideInUpBig">
                                 <button class="btn btn-lg btn-outline-dark" href="#testimonials" role="button" data-slide="next">Read More</button>
                             </div>
+-->
                         </div><!--end carousel item-->
-                        <div class="carousel-item px-3">
+                        <div class="carousel-item">
                             <i class="fa fa-quote-right animated slideInRight"></i>
-                            <p class="p-3 m-0 animated fadeInDown">“Jaxx has been with us from the beginning and is a partner we rely on. We can be sure Jaxx Liberty will be there every step of the way to serve and support our expanding ecosystem.”</p>
+                            <p class="mx-5 animated lightSpeedIn">“Jaxx has been with us from the beginning and is a partner we rely on. We can be sure Jaxx Liberty will be there every step of the way to serve and support our expanding ecosystem.”</p>
                             <p class="h5 font-weight-bold animated flipInX">Malcolm CasSelle</p>
                             <footer class="blockquote-footer orange animated zoomIn">President, WAX / CIO, OPSkins</footer>
+<!--
                             <div class="px-5 py-4 m-0 animated fadeInUp">
                                 <button class="btn btn-lg btn-outline-dark" href="#testimonials" role="button" data-slide="next">Read More</button>
                             </div>
+-->
                         </div><!--end carousel item-->
                       </div><!--end carousel inner-->
                     </div><!--end carousel-->
+                    <!--carousel controls-->
+                    <div class="control-wrap">
+                        <a class="carousel-control-prev pl-2" href="#testimonials" role="button" data-slide="prev">
+                            <i class="fa fa-chevron-left stroke-n" aria-hidden="true"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next pr-2" href="#testimonials" role="button" data-slide="next">
+                            <i class="fa fa-chevron-right stroke-n" aria-hidden="true"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div><!--end col-->
             </div><!--end row-->  
            
             <!--row 6 community-->
             
             <div id="community" class="row d-flex bg-turq relative z-0 content-tween"> 
-                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
+                <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5 rellax" data-rellax-speed="-5">
                     <!--bg section-title text-->
-                    <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="2">Our <span class="word-break">Community.</span></div>                    
-                    <h2 class="section-title font-weight-bold m-0 rellax">
+                    <div class="page-title display-1 absolute z-0 text-op rellax fade-out" data-rellax-speed="-1">Our <span class="word-break">Community.</span></div>                    
+                    <h2 class="section-title font-weight-bold m-0">
                         <span class="content-stagger-up">Our</span>
                         <span class="content-stagger-up">Community</span><span class="content-stagger-up">.</span>
                     </h2>
                     <hr class="w-25 content-stagger-up">
-                    <p class="py-2 m-0 content-stagger-up">Jaxx has touched the lives of millions of users around the world. It is the interface connecting and uniting 70+ digital assets. <span class="orange font-weight-bold">Jaxx Liberty</span> and its provider Decentral Inc. have the support of hundreds of partners and friends across a range of industries.</p>
+                    <p class="py-2 m-0 content-stagger-up"><span class="orange font-weight-bold">Jaxx</span> has been downloaded millions of times around the world, uniting 70+ digital assets and communities.</p>
                     <hr class="w-25 pb-2 content-stagger-up">
                     <div class="content-stagger-up">
                         <a href="/community.php" class="btn btn-lg btn-dark text-white animsition-link" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="800">Learn More</a>
                     </div>
                 </div><!--end col-->
                 <!--logos col-->
-                <div class="col-lg-7 d-flex justify-content-center align-items-center bg-img-partners min-100 p-5 rellax" data-rellax-speed="2">
+                <div class="col-lg-7 d-flex justify-content-center align-items-center bg-img-partners min-100 p-5 rellax" data-rellax-speed="-1">
                    <div class="container-fluid bg-turq-angle bg-dots rounded p-4 slide-in-right">
                        <div class="row d-flex p-3 slide-in-left">
                           <div class="col-sm-4 d-flex justify-content-center align-items-center pt-4">
