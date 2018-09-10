@@ -37,7 +37,7 @@ include 'includes/home-header.php';
                     <div class="wrap rellax" data-rellax-speed="-2">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-dash.png" alt="Jaxx Liberty Unified Dashboard">
                         <h2 class="page-title x-bold content-stagger-up">Unified Dashboard</h2>
-                        <h4 class="content-stagger-up">Enjoy a simple, streamlined and easy-to-use interface to view your digital assets.</h4>
+                        <h4 class="content-stagger-up">View your digital assets in a streamlined and easy-to-use interface.</h4>
                     </div>
                     </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center bg-img-downloads min-50 slide-in-left">
@@ -62,7 +62,7 @@ include 'includes/home-header.php';
                     <div class="wrap rellax" data-rellax-speed="-2">
                         <img class="content-stagger-up" src="/img/icons/jaxx-port.png" alt="Jaxx Liberty Portfolio">
                         <h2 class="page-title x-bold content-stagger-up">Portfolio</h2>
-                        <h4 class="content-stagger-up">Track and manage your digital assets in one convenient place.</h4>
+                        <h4 class="content-stagger-up">Stay on top of your digital asset value with our new Portfolio module.</h4>
                     </div>
                 </div>
                 
@@ -76,7 +76,7 @@ include 'includes/home-header.php';
                     <div class="wrap rellax" data-rellax-speed="-2">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-data.png" alt="Jaxx Liberty Aggregated Headline News">
                         <h2 class="page-title x-bold content-stagger-up">Blockchain News</h2>
-                        <h4 class="content-stagger-up">Stay up-to-date with the latest aggregated news.</h4>
+                        <h4 class="content-stagger-up">Your launchpad to the latest aggregated news.</h4>
                     </div>
                 </div>
                 <div class="col-lg-5 d-flex justify-content-start align-items-center bg-img-downloads min-50 relative z-1 p-4 slide-in-left">
@@ -101,7 +101,7 @@ include 'includes/home-header.php';
                     <div class="wrap rellax" data-rellax-speed="-2">
                         <img class="content-stagger-up" src="/img/icons/jaxx-news.png" alt="Jaxx Liberty Market Data">
                         <h2 class="page-title x-bold content-stagger-up">Market Data</h2>
-                        <h4 class="content-stagger-up">Quick and easy access to digital asset price moves, market caps and trends - at your fingertips.</h4>
+                        <h4 class="content-stagger-up">Price moves, market caps and trends at your fingertips.</h4>
                     </div>
                 </div>
             </div>
@@ -113,15 +113,15 @@ include 'includes/home-header.php';
                     <div class="img-full bg-orange-angle absolute z-0 left-0 content-stagger-up" data-rellax-speed="2"></div>
                     <div class="wrap rellax" data-rellax-speed="1">
                         <img class="mb-2 content-stagger-up" src="/img/icons/jaxx-blockchain.png" alt="Jaxx Liberty Integrated Multi-Chain Block Explorer">
-                        <h2 class="page-title x-bold content-stagger-up">Integrated Multi-Chain Block Explorer</h2>
-                        <h4 class="content-stagger-up">Now you can easily track balance and transaction data without leaving Jaxx Liberty.</h4>
+                        <h2 class="page-title x-bold content-stagger-up">Block Explorer</h2>
+                        <h4 class="content-stagger-up">Track raw balance and transaction data across multiple blockchains.</h4>
                     </div>
                 </div>
                 <div class="col-lg-5 d-flex justify-content-center align-items-center bg-img-downloads min-70 p-4 slide-in-left">
                     <!--device-->
                     <img class="img w-100 absolute z-2 p-5" src="/img/jaxx-3phone-light.png" alt="Jaxx Liberty" data-rellax-speed="1">
                     <!--bg section-title -->
-                    <div class="page-title d-flex align-self-center stroke-o absolute z--1 right-0 p-4 rellax" data-rellax-speed="2">Integrated multi-chain Block Explorer.</div>
+                    <div class="page-title d-flex align-self-center stroke-o absolute z--1 right-0 p-4 rellax" data-rellax-speed="2">Block Explorer.</div>
                 </div>
             </div>
             

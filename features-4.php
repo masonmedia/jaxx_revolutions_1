@@ -30,7 +30,7 @@ include 'includes/home-header.php';
         <div class="container-fluid bg-orange bg-img-multidevice-outline p-0">
         
             <!--row 1-->
-            <div id="row1" class="row d-flex bg-orange bg-img-downloads content-tween">
+            <div id="row1" class="row d-flex bg-orange bg-img-downloads">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 slide-in-right">
                     <div class="wrap rellax" data-rellax-speed="-2">
                         <img class="mb-2 " src="/img/icons/jaxx-dash.png" alt="Jaxx Liberty Unified Dashboard">
@@ -275,7 +275,7 @@ include 'includes/home-header.php';
             
             <!--row 9 Download-->
             
-            <div id="row9" class="row pb-4 d-flex bg-orange bg-img-downloads fade-in-slow rellax" data-rellax-speed="-2">
+            <div id="row9" class="row pb-4 d-flex bg-orange bg-img-downloads rellax">
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end text-right min-70 p-5 slide-in-right">
                     <div class="wrap rellax">
                         <img class="content-stagger-up" src="/img/icons/jaxx-download.png" alt="Jaxx Liberty">

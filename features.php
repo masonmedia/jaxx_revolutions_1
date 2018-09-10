@@ -120,7 +120,7 @@ include 'includes/home-header.php';
                     <!--device-->
                     <img class="img w-100 absolute z-2 p-5" src="/img/jaxx-3phone-light.png" alt="Jaxx Liberty" data-rellax-speed="1">
                     <!--bg section-title -->
-                    <div class="page-title d-flex align-self-center stroke-o absolute z--1 right-0 p-4 rellax" data-rellax-speed="2">Integrated multi-chain Block Explorer.</div>
+                    <div class="page-title d-flex align-self-center stroke-o absolute z--1 right-0 p-4 rellax" data-rellax-speed="2">Block Explorer.</div>
                 </div>
             </div>
             
