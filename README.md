@@ -40,3 +40,5 @@ The site uses Bootstrap 4.1. Layout uses native Bootstrap classes, flexbox, and 
 
 4. Rellax.js: A Parallax plugin allowing for muliple layering of parallax elements.
     - a `rellax` class is added to hmtl tags in addition to js init and options
+
+5. Vivus.js: a js library that animates svg shapes/images, particularly svg stroke, giving the illusion of "drawing" a word. I used it to animate the 'Jaxx Liberty' logo in the opening banner animation timeline.  
