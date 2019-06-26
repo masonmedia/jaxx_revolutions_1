@@ -1,6 +1,6 @@
 # **Jaxx Revolutions**
 
-A repo for the original version 1.0 of jaxx.io, the official website for Jaxx Liberty, a cryptocurrency app made by Anthony Di Iorio and Decentral Inc. Includes original banner GSAP timeline animation, Vivus.js svg logo stroke animation, parallax, and scroll magic scroll animations. Designed and coded by Andrew Mason.
+A repo for the original version 1.0 of jaxx.io (the previous website being for the beta version of Liberty), the official website for Jaxx Liberty, a cryptocurrency app made by Anthony Di Iorio and Decentral Inc. Includes original banner GSAP timeline animation, Vivus.js svg logo stroke animation, parallax, and scroll magic scroll animations. Designed and coded by Andrew Mason.
 
 For more information see [jaxx.io](https://jaxx.io) and [decentral.ca](https://decentral.ca).
 
