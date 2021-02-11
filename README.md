@@ -1,12 +1,16 @@
-# **Jaxx Revolutions**
+# Jaxx Revolutions: Jaxx Liberty V1 Production Website
 
-A repo for the original version 1.0 of jaxx.io (the previous website being for the beta version of Liberty), the official website for Jaxx Liberty, a cryptocurrency app made by Anthony Di Iorio and Decentral Inc. Includes original banner GSAP timeline animation, Vivus.js svg logo stroke animation, parallax, and scroll magic scroll animations. Designed and coded by Andrew Mason.
+<img src="img/jaxx_browser_social.png"
+     alt="Jaxx Liberty homepage banner photo"
+     style="width: 100%; float: left; margin: 0 auto;" />
+
+Repo for the original version 1.0 of jaxx.io, the official website of Jaxx Liberty, a cryptocurrency wallet app made by Decentral Inc. This version was the most unique in terms of animation, typography, and layout. It includes a banner timeline animation using GSAP and Vivus.js for svg logo stroke animation, parallax animation with rellax.js, and scroll animation susing scroll magic & GSAP. UI/UX design, visual design and image asset creation, and coding/development by Andrew Mason.
 
 For more information see [jaxx.io](https://jaxx.io) and [decentral.ca](https://decentral.ca).
 
 ## **Layout and Frameworks**
 
-The site uses Bootstrap 4.1. Layout uses native Bootstrap classes, flexbox, and 'functional' css.
+The site uses Bootstrap 4.1. Layout uses native Bootstrap classes, flexbox, and functional css.
 
 ## **CSS**
 
@@ -36,7 +40,7 @@ The site uses Bootstrap 4.1. Layout uses native Bootstrap classes, flexbox, and 
 
 2. Scroll Magic: adds effects that are activated based on scroll position.
 
-3. GSAP (Greensock): Tweening and timeline animation in combination with Scroll Magic.
+3. GSAP (GreenSock): Tweening and timeline animation in combination with Scroll Magic.
 
 4. Rellax.js: A Parallax plugin allowing for muliple layering of parallax elements.
     - a `rellax` class is added to hmtl tags in addition to js init and options
